@@ -11,5 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ARScene.unity
     guid: 9d5030d5044853b4bb5c6991b82fd907
+  - enabled: 0
+    path: Assets/Scenes/MarkerlessScene.unity
+    guid: d7d7c8d3420d3a54fbee488de639ddf1
+  - enabled: 1
+    path: Assets/Samples/EasyAR Sense Unity Plugin/4.6.2+3022.b15d4240/__All Handheld
+      AR__/WorldSensing/MotionTracking_ImageTarget/Scenes/MotionTracking_ImageTarget.unity
+    guid: 912896bece7b41e4391e7147ec5b24ab
   m_configObjects:
     EasyAR.Settings: {fileID: 11400000, guid: 4f4df0206c61a7642b5f1b07c8d58daf, type: 2}

@@ -16,6 +16,7 @@ public class APPManager : MonoBehaviour
     public GameObject mainMenuPanel;
 
     public GameObject background;
+    public GameObject dolpin;
     private bool _isPlay = false;
     private bool _isSkip = false;
 
@@ -80,6 +81,7 @@ public class APPManager : MonoBehaviour
                 mainMenuPanel.SetActive(true);
                 thisPanel.SetActive(false);
                 background.SetActive(true);
+                dolpin.SetActive(true);
                 /*GameObject.Find("SoundManager").GetComponent<SoundManager>().SetPlay();*/
             }
         }

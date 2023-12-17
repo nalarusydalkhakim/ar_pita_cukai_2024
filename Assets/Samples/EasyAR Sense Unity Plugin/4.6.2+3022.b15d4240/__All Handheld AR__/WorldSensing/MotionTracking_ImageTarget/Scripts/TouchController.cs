@@ -9,11 +9,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Common
 {
     public class TouchController : MonoBehaviour
     {
+        public Text infoText;
         private const float rotateSpeed = 270;
         private const float gestureEnableDistanceThreshold = 10;
 
@@ -46,10 +48,18 @@ namespace Common
                 if (touch.phase == TouchPhase.Began)
                 {
                     originalPosition[touch.fingerId] = touch.position;
+                    if (infoText != null)
+                    {
+                        infoText.text = "Mulai";
+                    }
                 }
                 else if (touch.phase == TouchPhase.Ended)
                 {
                     originalPosition.Remove(touch.fingerId);
+                    if (infoText != null)
+                    {
+                        infoText.text = "Berakhir";
+                    }
                 }
             }
 
@@ -59,6 +69,10 @@ namespace Common
                 {
                     StopAllCoroutines();
                     curGesture = GestureControl.NoTouch;
+                    if (infoText != null)
+                    {
+                        infoText.text = "No Touch";
+                    }
                 }
             }
             else if (curGesture == GestureControl.TwoMove || curGesture == GestureControl.TwoRotate || curGesture == GestureControl.TwoScale)
@@ -94,6 +108,10 @@ namespace Common
                                 if (isTwoFingerRotatable)
                                 {
                                     StartCoroutine(OnTwoRotate());
+                                    if (infoText != null)
+                                    {
+                                        infoText.text = "Rotate";
+                                    }
                                 }
                             }
                             else
@@ -102,6 +120,10 @@ namespace Common
                                 if (isTwoFingerDraggable)
                                 {
                                     StartCoroutine(OnTwoMove());
+                                    if (infoText != null)
+                                    {
+                                        infoText.text = "Move";
+                                    }
                                 }
                             }
                         }
@@ -111,6 +133,10 @@ namespace Common
                             if (isTwoFingerScalable)
                             {
                                 StartCoroutine(OnTwoScale());
+                                if (infoText != null)
+                                {
+                                    infoText.text = "Scale";
+                                }
                             }
                         }
                     }

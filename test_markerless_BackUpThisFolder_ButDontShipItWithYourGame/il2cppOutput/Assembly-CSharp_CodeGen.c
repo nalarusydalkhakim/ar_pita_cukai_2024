@@ -236,97 +236,173 @@ extern void PinchToZoom_Initiate_m0C8E88F187F38CD97C2FEA3297197F95A8D9981C (void
 extern void PinchToZoom_Update_mB4BC507D991CE15AAA377F5D28CED2A977B96E86 (void);
 // 0x00000070 System.Void PinchToZoom::.ctor()
 extern void PinchToZoom__ctor_m2C779E28C2EA3412FCEAD4A14C147FEFC578FA12 (void);
-// 0x00000071 System.Void RotateObjectController::Update()
+// 0x00000071 System.Void InterdimensionalTransport::Start()
+extern void InterdimensionalTransport_Start_m1D02B39EC66DC605275619E4F164142D7681F338 (void);
+// 0x00000072 System.Void InterdimensionalTransport::OnTriggerStay(UnityEngine.Collider)
+extern void InterdimensionalTransport_OnTriggerStay_mB711643362210415ABA63EC4DBD80B059493B6F6 (void);
+// 0x00000073 System.Void InterdimensionalTransport::OnDestroy()
+extern void InterdimensionalTransport_OnDestroy_mC154D23272A0DE0B738D2E117FA4F0A25C262648 (void);
+// 0x00000074 System.Void InterdimensionalTransport::Update()
+extern void InterdimensionalTransport_Update_m0E534D921A945093CA06E596184E30C8BD8E5D21 (void);
+// 0x00000075 System.Void InterdimensionalTransport::.ctor()
+extern void InterdimensionalTransport__ctor_m3330B55711A805CBB804966D79A73E14B01E0827 (void);
+// 0x00000076 System.Void RotateObjectController::Update()
 extern void RotateObjectController_Update_m9C65D33052DC1DA9908387DE7641EB6CCFE759A4 (void);
-// 0x00000072 System.Void RotateObjectController::RotateObject(System.Single)
+// 0x00000077 System.Void RotateObjectController::RotateObject(System.Single)
 extern void RotateObjectController_RotateObject_m26E1A4762F4B0E957E7694E1C4FDB788B7082977 (void);
-// 0x00000073 System.Void RotateObjectController::.ctor()
+// 0x00000078 System.Void RotateObjectController::.ctor()
 extern void RotateObjectController__ctor_m80D1915507CDD04688AA9ADDDC8BC2E7A7CAE0B2 (void);
-// 0x00000074 System.Void Rotator::Start()
+// 0x00000079 System.Void Rotator::Start()
 extern void Rotator_Start_mE4B0451C7D2FC5AF3258D1E24B0A0CF1C58379C2 (void);
-// 0x00000075 System.Void Rotator::OnMouseDrag()
+// 0x0000007A System.Void Rotator::OnMouseDrag()
 extern void Rotator_OnMouseDrag_m920530CD685405687E1449A6C4BDAE642199E39B (void);
-// 0x00000076 System.Void Rotator::Update()
+// 0x0000007B System.Void Rotator::Update()
 extern void Rotator_Update_mEDB0F4729DEB6075BDB3177DB5A90104D8020D68 (void);
-// 0x00000077 System.Void Rotator::FixedUpdate()
+// 0x0000007C System.Void Rotator::FixedUpdate()
 extern void Rotator_FixedUpdate_mA0DC7DAAA26DB6C3F1A7A91E7FD12A4560C8E687 (void);
-// 0x00000078 System.Void Rotator::.ctor()
+// 0x0000007D System.Void Rotator::.ctor()
 extern void Rotator__ctor_m6DD9F22CD049D079A6246125410EFE63DE76FAF2 (void);
-// 0x00000079 System.Void SoundController::SetOnOffSound()
+// 0x0000007E System.Void SoundController::SetOnOffSound()
 extern void SoundController_SetOnOffSound_m7A4E3F298EA6A508E14091F5C86B0A405DD9C450 (void);
-// 0x0000007A System.Void SoundController::SetPlay()
+// 0x0000007F System.Void SoundController::SetPlay()
 extern void SoundController_SetPlay_m78F44B39FEC55BE37C93ED12BC83F911A1578083 (void);
-// 0x0000007B System.Void SoundController::SetOn()
+// 0x00000080 System.Void SoundController::SetOn()
 extern void SoundController_SetOn_mB4EA80C8F7FD510D91BFCB824A741EB159B9A3D0 (void);
-// 0x0000007C System.Void SoundController::SetOff()
+// 0x00000081 System.Void SoundController::SetOff()
 extern void SoundController_SetOff_m640FF1B18308CACD6EE30097E01D8B9B3E344F97 (void);
-// 0x0000007D System.Void SoundController::Start()
+// 0x00000082 System.Void SoundController::Start()
 extern void SoundController_Start_mBA4C6FF0D121F3625B0AA199C8DFBDA4E583BBD7 (void);
-// 0x0000007E System.Void SoundController::preLoad()
+// 0x00000083 System.Void SoundController::preLoad()
 extern void SoundController_preLoad_mCDB80A57BBD280964025414B9513635BB21C4598 (void);
-// 0x0000007F System.Void SoundController::Load()
+// 0x00000084 System.Void SoundController::Load()
 extern void SoundController_Load_m0313BE674BA82B46B4E2CA61209FF22DBF4042AE (void);
-// 0x00000080 System.Void SoundController::Update()
+// 0x00000085 System.Void SoundController::Update()
 extern void SoundController_Update_mC395C5B781CC9EEBE5879A1664341515825F6611 (void);
-// 0x00000081 System.Void SoundController::.ctor()
+// 0x00000086 System.Void SoundController::.ctor()
 extern void SoundController__ctor_mC458393260F108EF7CD72146FBC7623A50767BC1 (void);
-// 0x00000082 System.Void SwipeController::Start()
+// 0x00000087 System.Void SwipeController::Start()
 extern void SwipeController_Start_m7D86D88925B0F99827309223C963A2DE50172CF3 (void);
-// 0x00000083 System.Void SwipeController::choose(System.Int32)
+// 0x00000088 System.Void SwipeController::choose(System.Int32)
 extern void SwipeController_choose_mCE1D7C00A42EE9D212F067FCFAE92FF274DD8D71 (void);
-// 0x00000084 System.Void SwipeController::next()
+// 0x00000089 System.Void SwipeController::next()
 extern void SwipeController_next_m2B7CB04171B993C843F1B25DA307573CDBC234E4 (void);
-// 0x00000085 System.Void SwipeController::prev()
+// 0x0000008A System.Void SwipeController::prev()
 extern void SwipeController_prev_mD82CD03AB49A0F3837BB2F65BDBFE65B8ABE16B2 (void);
-// 0x00000086 System.Void SwipeController::Update()
+// 0x0000008B System.Void SwipeController::Update()
 extern void SwipeController_Update_m12B28C4B3574A5ACC278D1ADF3986E8702AB0367 (void);
-// 0x00000087 System.Void SwipeController::.ctor()
+// 0x0000008C System.Void SwipeController::.ctor()
 extern void SwipeController__ctor_mA2DC401F0B6485BEC04CD3FCE9ACF13ED6FBAE49 (void);
-// 0x00000088 System.Void TimerController::Start()
+// 0x0000008D System.Void TimerController::Start()
 extern void TimerController_Start_mD7798153ED6F16DE9DC3F9AC4A04A77C3FB01F35 (void);
-// 0x00000089 System.Void TimerController::Update()
+// 0x0000008E System.Void TimerController::Update()
 extern void TimerController_Update_m2358B4DAF3AED5C67A533BC862458DC060CAC893 (void);
-// 0x0000008A System.Void TimerController::setVideoButton(System.Boolean)
+// 0x0000008F System.Void TimerController::setVideoButton(System.Boolean)
 extern void TimerController_setVideoButton_m8750AF0B7154822D1E6220603BE00AED5F7D14C3 (void);
-// 0x0000008B System.Void TimerController::.ctor()
+// 0x00000090 System.Void TimerController::.ctor()
 extern void TimerController__ctor_m3AF5CE75E6D75C346AB26EBB3B74675EB80CE27A (void);
-// 0x0000008C System.Void TnC::SetIsAgree()
+// 0x00000091 System.Void TnC::SetIsAgree()
 extern void TnC_SetIsAgree_mE1F4FC8C3AC202551E6827E28D5AA832FCF9D393 (void);
-// 0x0000008D System.Void TnC::Start()
+// 0x00000092 System.Void TnC::Start()
 extern void TnC_Start_mD493CF25BB5BE8EE8EBEDD2261C6874603AADFBC (void);
-// 0x0000008E System.Void TnC::Update()
+// 0x00000093 System.Void TnC::Update()
 extern void TnC_Update_m64480748EB0D4022CB07A36B781263723EAA8DD7 (void);
-// 0x0000008F System.Void TnC::Save()
+// 0x00000094 System.Void TnC::Save()
 extern void TnC_Save_mF006C9D2A7C5911518E290B6F8533D452614CC5B (void);
-// 0x00000090 System.Void TnC::.ctor()
+// 0x00000095 System.Void TnC::.ctor()
 extern void TnC__ctor_m1CAE4BF73DE070107AE8DE9CA37D9CB0F27FA2B9 (void);
-// 0x00000091 System.Void VideController::PlayPauseVideo()
+// 0x00000096 System.Void TouchController::Update()
+extern void TouchController_Update_m8492E30F38475D13AB7D335282E88150B936EBD6 (void);
+// 0x00000097 System.Void TouchController::TurnOn(UnityEngine.Transform,UnityEngine.Camera,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+extern void TouchController_TurnOn_m7A0F66B4EBFDF6B3C6FDCAC420061D2F39B5D51E (void);
+// 0x00000098 System.Void TouchController::TurnOff()
+extern void TouchController_TurnOff_m97058F338F77EB6D05C292C88F9D1E64B6198B4D (void);
+// 0x00000099 System.Collections.IEnumerator TouchController::OnOneMove()
+extern void TouchController_OnOneMove_m873B943FC4F488500D985AC944B7AB358D893E17 (void);
+// 0x0000009A System.Collections.IEnumerator TouchController::OnTwoMove()
+extern void TouchController_OnTwoMove_m310DE35EBD59FB314A2964C820FF17E23CFF2C55 (void);
+// 0x0000009B System.Collections.IEnumerator TouchController::OnTwoRotate()
+extern void TouchController_OnTwoRotate_m3592816D51244E7E9BC34461289D8FED5BDC53A9 (void);
+// 0x0000009C System.Collections.IEnumerator TouchController::OnTwoScale()
+extern void TouchController_OnTwoScale_m3CAC18051CF9EC4B6AB2CFE712D99FF5D553D863 (void);
+// 0x0000009D System.Void TouchController::GetRelativeTouch(UnityEngine.Vector2,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern void TouchController_GetRelativeTouch_m1349350A37508CCFB039AB381EAC19B70A55B252 (void);
+// 0x0000009E System.Void TouchController::.ctor()
+extern void TouchController__ctor_m80AA79A757F5594B7FC0C24167AF815F5B2E7C73 (void);
+// 0x0000009F System.Void TouchController/<OnOneMove>d__15::.ctor(System.Int32)
+extern void U3COnOneMoveU3Ed__15__ctor_m1EC0DBA0B39EBCFB36D4B2EA7D61EF9A3728D726 (void);
+// 0x000000A0 System.Void TouchController/<OnOneMove>d__15::System.IDisposable.Dispose()
+extern void U3COnOneMoveU3Ed__15_System_IDisposable_Dispose_m6787F44A4891ECA20F19537D112503CA54ABB625 (void);
+// 0x000000A1 System.Boolean TouchController/<OnOneMove>d__15::MoveNext()
+extern void U3COnOneMoveU3Ed__15_MoveNext_mADAF16D80B2F9BFEC912DAAA2711A30BC69A18D8 (void);
+// 0x000000A2 System.Object TouchController/<OnOneMove>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnOneMoveU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m816C27C6CF82FF1FBA23F2CBC522A4A9276C9460 (void);
+// 0x000000A3 System.Void TouchController/<OnOneMove>d__15::System.Collections.IEnumerator.Reset()
+extern void U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m0A644DE3DE0583EA6A9D34DAE704CB85C50A774A (void);
+// 0x000000A4 System.Object TouchController/<OnOneMove>d__15::System.Collections.IEnumerator.get_Current()
+extern void U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_get_Current_mC1040388D52D39569502ABCB29661E1F839F2AC8 (void);
+// 0x000000A5 System.Void TouchController/<OnTwoMove>d__16::.ctor(System.Int32)
+extern void U3COnTwoMoveU3Ed__16__ctor_mB561C6FF98CCE5EA0E5EB1882BCAAC4540388585 (void);
+// 0x000000A6 System.Void TouchController/<OnTwoMove>d__16::System.IDisposable.Dispose()
+extern void U3COnTwoMoveU3Ed__16_System_IDisposable_Dispose_mEB13E9685C9890B5C0ECE56CE34A338A3B31978F (void);
+// 0x000000A7 System.Boolean TouchController/<OnTwoMove>d__16::MoveNext()
+extern void U3COnTwoMoveU3Ed__16_MoveNext_m630F10AFB3FB5E8FC9B110325F4FF97F9A009DD3 (void);
+// 0x000000A8 System.Object TouchController/<OnTwoMove>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnTwoMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCCC429F1D41D1EB8C8212530D582FA9E51AF0C4D (void);
+// 0x000000A9 System.Void TouchController/<OnTwoMove>d__16::System.Collections.IEnumerator.Reset()
+extern void U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_mF82ECE52A5E502F0135C1166EF468375AEC4EE15 (void);
+// 0x000000AA System.Object TouchController/<OnTwoMove>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_get_Current_m68DD863A92A288180FB0DFFE2FE72CE51A71DFDD (void);
+// 0x000000AB System.Void TouchController/<OnTwoRotate>d__17::.ctor(System.Int32)
+extern void U3COnTwoRotateU3Ed__17__ctor_m99B52D5479111C91965BBC53D96F0651F9355C3D (void);
+// 0x000000AC System.Void TouchController/<OnTwoRotate>d__17::System.IDisposable.Dispose()
+extern void U3COnTwoRotateU3Ed__17_System_IDisposable_Dispose_m95479448A53B0A44FE1FA76F5AA437F134A8CBA3 (void);
+// 0x000000AD System.Boolean TouchController/<OnTwoRotate>d__17::MoveNext()
+extern void U3COnTwoRotateU3Ed__17_MoveNext_m8DF3CD4653F7132DEE84FCF0D5C4C93DD4C0B213 (void);
+// 0x000000AE System.Object TouchController/<OnTwoRotate>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnTwoRotateU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m90EAA7DFACA216C526D7A01D0C2A65AD4FA1D431 (void);
+// 0x000000AF System.Void TouchController/<OnTwoRotate>d__17::System.Collections.IEnumerator.Reset()
+extern void U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m8D2D34F9F6C8E5CA2333A34E1496508646F6A2C3 (void);
+// 0x000000B0 System.Object TouchController/<OnTwoRotate>d__17::System.Collections.IEnumerator.get_Current()
+extern void U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_get_Current_m8B6ECA0C5E35FC244FE927713429907753DDCE8D (void);
+// 0x000000B1 System.Void TouchController/<OnTwoScale>d__18::.ctor(System.Int32)
+extern void U3COnTwoScaleU3Ed__18__ctor_m144FFC19816BE590ECABCD3E35950EE41A3A729B (void);
+// 0x000000B2 System.Void TouchController/<OnTwoScale>d__18::System.IDisposable.Dispose()
+extern void U3COnTwoScaleU3Ed__18_System_IDisposable_Dispose_mDFB69BC953FACD7130190B2F913887881B965DE2 (void);
+// 0x000000B3 System.Boolean TouchController/<OnTwoScale>d__18::MoveNext()
+extern void U3COnTwoScaleU3Ed__18_MoveNext_m2A64DE86D4BD039A5182646CEBCAAB71C3C173E0 (void);
+// 0x000000B4 System.Object TouchController/<OnTwoScale>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnTwoScaleU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D430D652D55C693A2DBB1ADF1453C65BCD1DADC (void);
+// 0x000000B5 System.Void TouchController/<OnTwoScale>d__18::System.Collections.IEnumerator.Reset()
+extern void U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_m82DA85781F9B798D02D14336ED9DD570997316E7 (void);
+// 0x000000B6 System.Object TouchController/<OnTwoScale>d__18::System.Collections.IEnumerator.get_Current()
+extern void U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_get_Current_m152D1CFCAD519F5980C1109282065F18F08E3053 (void);
+// 0x000000B7 System.Void VideController::PlayPauseVideo()
 extern void VideController_PlayPauseVideo_m0E7381310E1DDF4D1B780F361B1C812AEBB30D62 (void);
-// 0x00000092 System.Void VideController::FullScreen()
+// 0x000000B8 System.Void VideController::FullScreen()
 extern void VideController_FullScreen_mBA3E3676D90880DF334B9AFFF6FD5C749643EFE7 (void);
-// 0x00000093 System.Void VideController::Start()
+// 0x000000B9 System.Void VideController::Start()
 extern void VideController_Start_m3031715A55C2904A4ADA4FF2EA4842AED7161F08 (void);
-// 0x00000094 System.Void VideController::SetVideo()
+// 0x000000BA System.Void VideController::SetVideo()
 extern void VideController_SetVideo_mEA3FCB843FE1031270D3EC68129C5189EF5C3057 (void);
-// 0x00000095 System.Collections.IEnumerator VideController::PlayVideo()
+// 0x000000BB System.Collections.IEnumerator VideController::PlayVideo()
 extern void VideController_PlayVideo_mD505C4512286F8C503BDBEB0D75E94D09A6BE776 (void);
-// 0x00000096 System.Void VideController::Update()
+// 0x000000BC System.Void VideController::Update()
 extern void VideController_Update_mF681614313E25CC6D80A82F80F3CC2DDD8EE3002 (void);
-// 0x00000097 System.Void VideController::.ctor()
+// 0x000000BD System.Void VideController::.ctor()
 extern void VideController__ctor_m299E5355D6C205F4C7E0D6019B42A787609EB132 (void);
-// 0x00000098 System.Void VideController/<PlayVideo>d__14::.ctor(System.Int32)
+// 0x000000BE System.Void VideController/<PlayVideo>d__14::.ctor(System.Int32)
 extern void U3CPlayVideoU3Ed__14__ctor_m977FD08B359D50FA5C152F8AB37E62EED847FC8C (void);
-// 0x00000099 System.Void VideController/<PlayVideo>d__14::System.IDisposable.Dispose()
+// 0x000000BF System.Void VideController/<PlayVideo>d__14::System.IDisposable.Dispose()
 extern void U3CPlayVideoU3Ed__14_System_IDisposable_Dispose_mA48979AED9E8970E1E678BCFB9E6AB527CE13218 (void);
-// 0x0000009A System.Boolean VideController/<PlayVideo>d__14::MoveNext()
+// 0x000000C0 System.Boolean VideController/<PlayVideo>d__14::MoveNext()
 extern void U3CPlayVideoU3Ed__14_MoveNext_mC5CE1B873DAC9E95219CA19C168C9D64EAB820A6 (void);
-// 0x0000009B System.Object VideController/<PlayVideo>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000C1 System.Object VideController/<PlayVideo>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPlayVideoU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m194778C923AD387FB26A9A8812FADDCABF3D46CC (void);
-// 0x0000009C System.Void VideController/<PlayVideo>d__14::System.Collections.IEnumerator.Reset()
+// 0x000000C2 System.Void VideController/<PlayVideo>d__14::System.Collections.IEnumerator.Reset()
 extern void U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_Reset_m067A8C7F28D780C4B4CF8435BD9567A374B8DBBD (void);
-// 0x0000009D System.Object VideController/<PlayVideo>d__14::System.Collections.IEnumerator.get_Current()
+// 0x000000C3 System.Object VideController/<PlayVideo>d__14::System.Collections.IEnumerator.get_Current()
 extern void U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_get_Current_m54DF8919BDA4A54B305E14D2F24E2A77BA2B17F0 (void);
-static Il2CppMethodPointer s_methodPointers[157] = 
+static Il2CppMethodPointer s_methodPointers[195] = 
 {
 	APPManager_Awake_m29CF3127D0C1D4048EC4F89FF279CF6C3985AA5F,
 	APPManager_Start_m1B7A9598820D25915A477294FF02459A1B111BF4,
@@ -440,6 +516,11 @@ static Il2CppMethodPointer s_methodPointers[157] =
 	PinchToZoom_Initiate_m0C8E88F187F38CD97C2FEA3297197F95A8D9981C,
 	PinchToZoom_Update_mB4BC507D991CE15AAA377F5D28CED2A977B96E86,
 	PinchToZoom__ctor_m2C779E28C2EA3412FCEAD4A14C147FEFC578FA12,
+	InterdimensionalTransport_Start_m1D02B39EC66DC605275619E4F164142D7681F338,
+	InterdimensionalTransport_OnTriggerStay_mB711643362210415ABA63EC4DBD80B059493B6F6,
+	InterdimensionalTransport_OnDestroy_mC154D23272A0DE0B738D2E117FA4F0A25C262648,
+	InterdimensionalTransport_Update_m0E534D921A945093CA06E596184E30C8BD8E5D21,
+	InterdimensionalTransport__ctor_m3330B55711A805CBB804966D79A73E14B01E0827,
 	RotateObjectController_Update_m9C65D33052DC1DA9908387DE7641EB6CCFE759A4,
 	RotateObjectController_RotateObject_m26E1A4762F4B0E957E7694E1C4FDB788B7082977,
 	RotateObjectController__ctor_m80D1915507CDD04688AA9ADDDC8BC2E7A7CAE0B2,
@@ -472,6 +553,39 @@ static Il2CppMethodPointer s_methodPointers[157] =
 	TnC_Update_m64480748EB0D4022CB07A36B781263723EAA8DD7,
 	TnC_Save_mF006C9D2A7C5911518E290B6F8533D452614CC5B,
 	TnC__ctor_m1CAE4BF73DE070107AE8DE9CA37D9CB0F27FA2B9,
+	TouchController_Update_m8492E30F38475D13AB7D335282E88150B936EBD6,
+	TouchController_TurnOn_m7A0F66B4EBFDF6B3C6FDCAC420061D2F39B5D51E,
+	TouchController_TurnOff_m97058F338F77EB6D05C292C88F9D1E64B6198B4D,
+	TouchController_OnOneMove_m873B943FC4F488500D985AC944B7AB358D893E17,
+	TouchController_OnTwoMove_m310DE35EBD59FB314A2964C820FF17E23CFF2C55,
+	TouchController_OnTwoRotate_m3592816D51244E7E9BC34461289D8FED5BDC53A9,
+	TouchController_OnTwoScale_m3CAC18051CF9EC4B6AB2CFE712D99FF5D553D863,
+	TouchController_GetRelativeTouch_m1349350A37508CCFB039AB381EAC19B70A55B252,
+	TouchController__ctor_m80AA79A757F5594B7FC0C24167AF815F5B2E7C73,
+	U3COnOneMoveU3Ed__15__ctor_m1EC0DBA0B39EBCFB36D4B2EA7D61EF9A3728D726,
+	U3COnOneMoveU3Ed__15_System_IDisposable_Dispose_m6787F44A4891ECA20F19537D112503CA54ABB625,
+	U3COnOneMoveU3Ed__15_MoveNext_mADAF16D80B2F9BFEC912DAAA2711A30BC69A18D8,
+	U3COnOneMoveU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m816C27C6CF82FF1FBA23F2CBC522A4A9276C9460,
+	U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m0A644DE3DE0583EA6A9D34DAE704CB85C50A774A,
+	U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_get_Current_mC1040388D52D39569502ABCB29661E1F839F2AC8,
+	U3COnTwoMoveU3Ed__16__ctor_mB561C6FF98CCE5EA0E5EB1882BCAAC4540388585,
+	U3COnTwoMoveU3Ed__16_System_IDisposable_Dispose_mEB13E9685C9890B5C0ECE56CE34A338A3B31978F,
+	U3COnTwoMoveU3Ed__16_MoveNext_m630F10AFB3FB5E8FC9B110325F4FF97F9A009DD3,
+	U3COnTwoMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCCC429F1D41D1EB8C8212530D582FA9E51AF0C4D,
+	U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_mF82ECE52A5E502F0135C1166EF468375AEC4EE15,
+	U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_get_Current_m68DD863A92A288180FB0DFFE2FE72CE51A71DFDD,
+	U3COnTwoRotateU3Ed__17__ctor_m99B52D5479111C91965BBC53D96F0651F9355C3D,
+	U3COnTwoRotateU3Ed__17_System_IDisposable_Dispose_m95479448A53B0A44FE1FA76F5AA437F134A8CBA3,
+	U3COnTwoRotateU3Ed__17_MoveNext_m8DF3CD4653F7132DEE84FCF0D5C4C93DD4C0B213,
+	U3COnTwoRotateU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m90EAA7DFACA216C526D7A01D0C2A65AD4FA1D431,
+	U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m8D2D34F9F6C8E5CA2333A34E1496508646F6A2C3,
+	U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_get_Current_m8B6ECA0C5E35FC244FE927713429907753DDCE8D,
+	U3COnTwoScaleU3Ed__18__ctor_m144FFC19816BE590ECABCD3E35950EE41A3A729B,
+	U3COnTwoScaleU3Ed__18_System_IDisposable_Dispose_mDFB69BC953FACD7130190B2F913887881B965DE2,
+	U3COnTwoScaleU3Ed__18_MoveNext_m2A64DE86D4BD039A5182646CEBCAAB71C3C173E0,
+	U3COnTwoScaleU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D430D652D55C693A2DBB1ADF1453C65BCD1DADC,
+	U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_m82DA85781F9B798D02D14336ED9DD570997316E7,
+	U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_get_Current_m152D1CFCAD519F5980C1109282065F18F08E3053,
 	VideController_PlayPauseVideo_m0E7381310E1DDF4D1B780F361B1C812AEBB30D62,
 	VideController_FullScreen_mBA3E3676D90880DF334B9AFFF6FD5C749643EFE7,
 	VideController_Start_m3031715A55C2904A4ADA4FF2EA4842AED7161F08,
@@ -486,7 +600,7 @@ static Il2CppMethodPointer s_methodPointers[157] =
 	U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_Reset_m067A8C7F28D780C4B4CF8435BD9567A374B8DBBD,
 	U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_get_Current_m54DF8919BDA4A54B305E14D2F24E2A77BA2B17F0,
 };
-static const int32_t s_InvokerIndices[157] = 
+static const int32_t s_InvokerIndices[195] = 
 {
 	3776,
 	3776,
@@ -601,6 +715,11 @@ static const int32_t s_InvokerIndices[157] =
 	3776,
 	3776,
 	3776,
+	3038,
+	3776,
+	3776,
+	3776,
+	3776,
 	3071,
 	3776,
 	3776,
@@ -633,6 +752,39 @@ static const int32_t s_InvokerIndices[157] =
 	3776,
 	3776,
 	3776,
+	182,
+	3776,
+	3687,
+	3687,
+	3687,
+	3687,
+	959,
+	3776,
+	3020,
+	3776,
+	3627,
+	3687,
+	3776,
+	3687,
+	3020,
+	3776,
+	3627,
+	3687,
+	3776,
+	3687,
+	3020,
+	3776,
+	3627,
+	3687,
+	3776,
+	3687,
+	3020,
+	3776,
+	3627,
+	3687,
+	3776,
+	3687,
+	3776,
 	3776,
 	3776,
 	3776,
@@ -650,7 +802,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	157,
+	195,
 	s_methodPointers,
 	0,
 	NULL,
