@@ -44,54 +44,54 @@ extern void TouchController_OnTwoScale_mA23A92B57942FE77A0A1A2A1933F308D5C3C5810
 extern void TouchController_GetRelativeTouch_m28CF8C7CFF39378F3AF52AB7961051940B21BF39 (void);
 // 0x00000010 System.Void Common.TouchController::.ctor()
 extern void TouchController__ctor_m6BE6CE527C888393971A22B707FEE3090E3BA234 (void);
-// 0x00000011 System.Void Common.TouchController/<OnOneMove>d__15::.ctor(System.Int32)
-extern void U3COnOneMoveU3Ed__15__ctor_m6602B09413A527E268CEF7422BCEF3F87D093B5A (void);
-// 0x00000012 System.Void Common.TouchController/<OnOneMove>d__15::System.IDisposable.Dispose()
-extern void U3COnOneMoveU3Ed__15_System_IDisposable_Dispose_m3A5911CA3481FA2D0F80EE0EB2EB501114F0207B (void);
-// 0x00000013 System.Boolean Common.TouchController/<OnOneMove>d__15::MoveNext()
-extern void U3COnOneMoveU3Ed__15_MoveNext_m02CD76DEDB29EB461B3E50E25E97D7224FF414D6 (void);
-// 0x00000014 System.Object Common.TouchController/<OnOneMove>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3COnOneMoveU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m617CF20B828F44AF0C1E9A319CAE686CF497CAC8 (void);
-// 0x00000015 System.Void Common.TouchController/<OnOneMove>d__15::System.Collections.IEnumerator.Reset()
-extern void U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m98C0E17389AA0AD207641374BB6A0983AA290916 (void);
-// 0x00000016 System.Object Common.TouchController/<OnOneMove>d__15::System.Collections.IEnumerator.get_Current()
-extern void U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_get_Current_mCA535DA57D9EBFED1DB7089FE53727352D500624 (void);
-// 0x00000017 System.Void Common.TouchController/<OnTwoMove>d__16::.ctor(System.Int32)
-extern void U3COnTwoMoveU3Ed__16__ctor_m76C1F143CB5A91A3EDF9754821A660F1EF618F41 (void);
-// 0x00000018 System.Void Common.TouchController/<OnTwoMove>d__16::System.IDisposable.Dispose()
-extern void U3COnTwoMoveU3Ed__16_System_IDisposable_Dispose_m30B3908E8BA42C11953E6A1E19CC0CAD7C478AEE (void);
-// 0x00000019 System.Boolean Common.TouchController/<OnTwoMove>d__16::MoveNext()
-extern void U3COnTwoMoveU3Ed__16_MoveNext_m1D73647501C320BDCB65AF6B0CCF95A894FDC1A7 (void);
-// 0x0000001A System.Object Common.TouchController/<OnTwoMove>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3COnTwoMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m559A485FE95FAADBADB6A00E490FE1BCC321C2F1 (void);
-// 0x0000001B System.Void Common.TouchController/<OnTwoMove>d__16::System.Collections.IEnumerator.Reset()
-extern void U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_m46718D6DD5B44689E52F27236E78E51AB06DC966 (void);
-// 0x0000001C System.Object Common.TouchController/<OnTwoMove>d__16::System.Collections.IEnumerator.get_Current()
-extern void U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_get_Current_mA04F505AE479314309D5F3735CDEEE0A04BF7A37 (void);
-// 0x0000001D System.Void Common.TouchController/<OnTwoRotate>d__17::.ctor(System.Int32)
-extern void U3COnTwoRotateU3Ed__17__ctor_m55F4D82B043FF6E61C73CCF700E03A8958B2B54A (void);
-// 0x0000001E System.Void Common.TouchController/<OnTwoRotate>d__17::System.IDisposable.Dispose()
-extern void U3COnTwoRotateU3Ed__17_System_IDisposable_Dispose_m7BE2CD1F5163FD012443C845B139C9D99BE1C1E9 (void);
-// 0x0000001F System.Boolean Common.TouchController/<OnTwoRotate>d__17::MoveNext()
-extern void U3COnTwoRotateU3Ed__17_MoveNext_mFCB5B529AE76E34AA56AB7F9AEC4CACBFD0C358E (void);
-// 0x00000020 System.Object Common.TouchController/<OnTwoRotate>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3COnTwoRotateU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m761AE76D8C10E359E3745A15A1A5C19BBFF343A0 (void);
-// 0x00000021 System.Void Common.TouchController/<OnTwoRotate>d__17::System.Collections.IEnumerator.Reset()
-extern void U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m2395074D108A68D5ECC153CEDB02F12D10C9C041 (void);
-// 0x00000022 System.Object Common.TouchController/<OnTwoRotate>d__17::System.Collections.IEnumerator.get_Current()
-extern void U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_get_Current_m21F159E60A583F5B0FE615000EC0FA324CCB4F01 (void);
-// 0x00000023 System.Void Common.TouchController/<OnTwoScale>d__18::.ctor(System.Int32)
-extern void U3COnTwoScaleU3Ed__18__ctor_mEE8CF15649C84832B298257EBE15C4FE0905835C (void);
-// 0x00000024 System.Void Common.TouchController/<OnTwoScale>d__18::System.IDisposable.Dispose()
-extern void U3COnTwoScaleU3Ed__18_System_IDisposable_Dispose_mE0590D781AE248A185A7DA04B9ADC5A57EA8474A (void);
-// 0x00000025 System.Boolean Common.TouchController/<OnTwoScale>d__18::MoveNext()
-extern void U3COnTwoScaleU3Ed__18_MoveNext_m3DFEF4DABD2ED9DB33A7F967F67CBEA811EA321A (void);
-// 0x00000026 System.Object Common.TouchController/<OnTwoScale>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3COnTwoScaleU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9417B21A14EC0680DED93A20C760C936DABE68A7 (void);
-// 0x00000027 System.Void Common.TouchController/<OnTwoScale>d__18::System.Collections.IEnumerator.Reset()
-extern void U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_mC856F8C72C977635994CDDC6C71C6A6567065D83 (void);
-// 0x00000028 System.Object Common.TouchController/<OnTwoScale>d__18::System.Collections.IEnumerator.get_Current()
-extern void U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_get_Current_m373F9CCF108D705426019ACD6FF288CF314F4ADA (void);
+// 0x00000011 System.Void Common.TouchController/<OnOneMove>d__16::.ctor(System.Int32)
+extern void U3COnOneMoveU3Ed__16__ctor_m4D3E79792CFE946E6A23B8A6D5C156261E597AFC (void);
+// 0x00000012 System.Void Common.TouchController/<OnOneMove>d__16::System.IDisposable.Dispose()
+extern void U3COnOneMoveU3Ed__16_System_IDisposable_Dispose_m7CA00B38BAAA0D0F7019785F07273AA09497AD58 (void);
+// 0x00000013 System.Boolean Common.TouchController/<OnOneMove>d__16::MoveNext()
+extern void U3COnOneMoveU3Ed__16_MoveNext_m23189FB67D279EFF7E16C9085314F5C213DBD0AD (void);
+// 0x00000014 System.Object Common.TouchController/<OnOneMove>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnOneMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m487D0B093B19F8D1773214FC92921AF3080DCD50 (void);
+// 0x00000015 System.Void Common.TouchController/<OnOneMove>d__16::System.Collections.IEnumerator.Reset()
+extern void U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_Reset_m9830B3F2DCDC6C372F53EB104DE139D69D08458C (void);
+// 0x00000016 System.Object Common.TouchController/<OnOneMove>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_get_Current_mA16C215BED729DDF1B4845E08DBAC72BDD2554E0 (void);
+// 0x00000017 System.Void Common.TouchController/<OnTwoMove>d__17::.ctor(System.Int32)
+extern void U3COnTwoMoveU3Ed__17__ctor_mD1B1371D95297E03658D80A27F709ED112381485 (void);
+// 0x00000018 System.Void Common.TouchController/<OnTwoMove>d__17::System.IDisposable.Dispose()
+extern void U3COnTwoMoveU3Ed__17_System_IDisposable_Dispose_m972E280D51BCA3D750F58C7FF523016989C761D0 (void);
+// 0x00000019 System.Boolean Common.TouchController/<OnTwoMove>d__17::MoveNext()
+extern void U3COnTwoMoveU3Ed__17_MoveNext_mECA3563D37254E07D26CBFDB21737675E670ECE2 (void);
+// 0x0000001A System.Object Common.TouchController/<OnTwoMove>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnTwoMoveU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m721E18E2895E01A91BCD06515C6DFDC9B10095EA (void);
+// 0x0000001B System.Void Common.TouchController/<OnTwoMove>d__17::System.Collections.IEnumerator.Reset()
+extern void U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_Reset_m1ED6219A1E70DC8D5A684AA160488E0BC7C85600 (void);
+// 0x0000001C System.Object Common.TouchController/<OnTwoMove>d__17::System.Collections.IEnumerator.get_Current()
+extern void U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_get_Current_m5100A84BF32C9208BA4A9B47844C5A86A3DCAA82 (void);
+// 0x0000001D System.Void Common.TouchController/<OnTwoRotate>d__18::.ctor(System.Int32)
+extern void U3COnTwoRotateU3Ed__18__ctor_mD068360929BE3C7CBF371F6D7D235419F7447793 (void);
+// 0x0000001E System.Void Common.TouchController/<OnTwoRotate>d__18::System.IDisposable.Dispose()
+extern void U3COnTwoRotateU3Ed__18_System_IDisposable_Dispose_m1BBBE5D5BE54A81683264CD9EDF1220CF7206AF8 (void);
+// 0x0000001F System.Boolean Common.TouchController/<OnTwoRotate>d__18::MoveNext()
+extern void U3COnTwoRotateU3Ed__18_MoveNext_mEA0086D95D068C6CECE850559B2CFD53BB400DF6 (void);
+// 0x00000020 System.Object Common.TouchController/<OnTwoRotate>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnTwoRotateU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m250132544BF1EFA81E0F3FD1F2F0652CA8722EC3 (void);
+// 0x00000021 System.Void Common.TouchController/<OnTwoRotate>d__18::System.Collections.IEnumerator.Reset()
+extern void U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_Reset_m00C4FFD6FAA5933488D04F345017A83AD61079A7 (void);
+// 0x00000022 System.Object Common.TouchController/<OnTwoRotate>d__18::System.Collections.IEnumerator.get_Current()
+extern void U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_get_Current_mD56BFCC7CEA204D2C46866CFEA43086E3A765E42 (void);
+// 0x00000023 System.Void Common.TouchController/<OnTwoScale>d__19::.ctor(System.Int32)
+extern void U3COnTwoScaleU3Ed__19__ctor_mA395156252539B3E5027AA42CD252C71BA86059F (void);
+// 0x00000024 System.Void Common.TouchController/<OnTwoScale>d__19::System.IDisposable.Dispose()
+extern void U3COnTwoScaleU3Ed__19_System_IDisposable_Dispose_m8E15749E3CB48AE4D2307BA6E527569F72F1A8E0 (void);
+// 0x00000025 System.Boolean Common.TouchController/<OnTwoScale>d__19::MoveNext()
+extern void U3COnTwoScaleU3Ed__19_MoveNext_m27A6505E92FF83FCB08EC2ABB7FB71E51F5E1842 (void);
+// 0x00000026 System.Object Common.TouchController/<OnTwoScale>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnTwoScaleU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m019C31244FFD80FAD105FCFBCBF79C65C31EBC4B (void);
+// 0x00000027 System.Void Common.TouchController/<OnTwoScale>d__19::System.Collections.IEnumerator.Reset()
+extern void U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_Reset_m2AB168CF545547A24D2AD58D3A7A682029B5BC04 (void);
+// 0x00000028 System.Object Common.TouchController/<OnTwoScale>d__19::System.Collections.IEnumerator.get_Current()
+extern void U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_get_Current_m8B1D28C36DB8772A2C647F99B3D962E2F183A011 (void);
 static Il2CppMethodPointer s_methodPointers[40] = 
 {
 	UIController_Awake_m9D91A6ED462E9DA9DF80A02400658DB1A75BD165,
@@ -110,72 +110,72 @@ static Il2CppMethodPointer s_methodPointers[40] =
 	TouchController_OnTwoScale_mA23A92B57942FE77A0A1A2A1933F308D5C3C5810,
 	TouchController_GetRelativeTouch_m28CF8C7CFF39378F3AF52AB7961051940B21BF39,
 	TouchController__ctor_m6BE6CE527C888393971A22B707FEE3090E3BA234,
-	U3COnOneMoveU3Ed__15__ctor_m6602B09413A527E268CEF7422BCEF3F87D093B5A,
-	U3COnOneMoveU3Ed__15_System_IDisposable_Dispose_m3A5911CA3481FA2D0F80EE0EB2EB501114F0207B,
-	U3COnOneMoveU3Ed__15_MoveNext_m02CD76DEDB29EB461B3E50E25E97D7224FF414D6,
-	U3COnOneMoveU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m617CF20B828F44AF0C1E9A319CAE686CF497CAC8,
-	U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m98C0E17389AA0AD207641374BB6A0983AA290916,
-	U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_get_Current_mCA535DA57D9EBFED1DB7089FE53727352D500624,
-	U3COnTwoMoveU3Ed__16__ctor_m76C1F143CB5A91A3EDF9754821A660F1EF618F41,
-	U3COnTwoMoveU3Ed__16_System_IDisposable_Dispose_m30B3908E8BA42C11953E6A1E19CC0CAD7C478AEE,
-	U3COnTwoMoveU3Ed__16_MoveNext_m1D73647501C320BDCB65AF6B0CCF95A894FDC1A7,
-	U3COnTwoMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m559A485FE95FAADBADB6A00E490FE1BCC321C2F1,
-	U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_m46718D6DD5B44689E52F27236E78E51AB06DC966,
-	U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_get_Current_mA04F505AE479314309D5F3735CDEEE0A04BF7A37,
-	U3COnTwoRotateU3Ed__17__ctor_m55F4D82B043FF6E61C73CCF700E03A8958B2B54A,
-	U3COnTwoRotateU3Ed__17_System_IDisposable_Dispose_m7BE2CD1F5163FD012443C845B139C9D99BE1C1E9,
-	U3COnTwoRotateU3Ed__17_MoveNext_mFCB5B529AE76E34AA56AB7F9AEC4CACBFD0C358E,
-	U3COnTwoRotateU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m761AE76D8C10E359E3745A15A1A5C19BBFF343A0,
-	U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m2395074D108A68D5ECC153CEDB02F12D10C9C041,
-	U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_get_Current_m21F159E60A583F5B0FE615000EC0FA324CCB4F01,
-	U3COnTwoScaleU3Ed__18__ctor_mEE8CF15649C84832B298257EBE15C4FE0905835C,
-	U3COnTwoScaleU3Ed__18_System_IDisposable_Dispose_mE0590D781AE248A185A7DA04B9ADC5A57EA8474A,
-	U3COnTwoScaleU3Ed__18_MoveNext_m3DFEF4DABD2ED9DB33A7F967F67CBEA811EA321A,
-	U3COnTwoScaleU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9417B21A14EC0680DED93A20C760C936DABE68A7,
-	U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_mC856F8C72C977635994CDDC6C71C6A6567065D83,
-	U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_get_Current_m373F9CCF108D705426019ACD6FF288CF314F4ADA,
+	U3COnOneMoveU3Ed__16__ctor_m4D3E79792CFE946E6A23B8A6D5C156261E597AFC,
+	U3COnOneMoveU3Ed__16_System_IDisposable_Dispose_m7CA00B38BAAA0D0F7019785F07273AA09497AD58,
+	U3COnOneMoveU3Ed__16_MoveNext_m23189FB67D279EFF7E16C9085314F5C213DBD0AD,
+	U3COnOneMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m487D0B093B19F8D1773214FC92921AF3080DCD50,
+	U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_Reset_m9830B3F2DCDC6C372F53EB104DE139D69D08458C,
+	U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_get_Current_mA16C215BED729DDF1B4845E08DBAC72BDD2554E0,
+	U3COnTwoMoveU3Ed__17__ctor_mD1B1371D95297E03658D80A27F709ED112381485,
+	U3COnTwoMoveU3Ed__17_System_IDisposable_Dispose_m972E280D51BCA3D750F58C7FF523016989C761D0,
+	U3COnTwoMoveU3Ed__17_MoveNext_mECA3563D37254E07D26CBFDB21737675E670ECE2,
+	U3COnTwoMoveU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m721E18E2895E01A91BCD06515C6DFDC9B10095EA,
+	U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_Reset_m1ED6219A1E70DC8D5A684AA160488E0BC7C85600,
+	U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_get_Current_m5100A84BF32C9208BA4A9B47844C5A86A3DCAA82,
+	U3COnTwoRotateU3Ed__18__ctor_mD068360929BE3C7CBF371F6D7D235419F7447793,
+	U3COnTwoRotateU3Ed__18_System_IDisposable_Dispose_m1BBBE5D5BE54A81683264CD9EDF1220CF7206AF8,
+	U3COnTwoRotateU3Ed__18_MoveNext_mEA0086D95D068C6CECE850559B2CFD53BB400DF6,
+	U3COnTwoRotateU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m250132544BF1EFA81E0F3FD1F2F0652CA8722EC3,
+	U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_Reset_m00C4FFD6FAA5933488D04F345017A83AD61079A7,
+	U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_get_Current_mD56BFCC7CEA204D2C46866CFEA43086E3A765E42,
+	U3COnTwoScaleU3Ed__19__ctor_mA395156252539B3E5027AA42CD252C71BA86059F,
+	U3COnTwoScaleU3Ed__19_System_IDisposable_Dispose_m8E15749E3CB48AE4D2307BA6E527569F72F1A8E0,
+	U3COnTwoScaleU3Ed__19_MoveNext_m27A6505E92FF83FCB08EC2ABB7FB71E51F5E1842,
+	U3COnTwoScaleU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m019C31244FFD80FAD105FCFBCBF79C65C31EBC4B,
+	U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_Reset_m2AB168CF545547A24D2AD58D3A7A682029B5BC04,
+	U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_get_Current_m8B1D28C36DB8772A2C647F99B3D962E2F183A011,
 };
 static const int32_t s_InvokerIndices[40] = 
 {
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3020,
-	3776,
-	3776,
+	3777,
+	3777,
 	182,
-	3776,
+	3777,
 	3687,
 	3687,
 	3687,
 	3687,
 	959,
-	3776,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_Sample_MotionTracking_ImageTarget_CodeGenModule;

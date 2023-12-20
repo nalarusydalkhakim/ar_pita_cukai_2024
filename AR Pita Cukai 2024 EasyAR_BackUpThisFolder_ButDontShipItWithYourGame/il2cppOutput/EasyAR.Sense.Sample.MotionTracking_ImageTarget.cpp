@@ -243,14 +243,14 @@ struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
-// Common.TouchController/<OnOneMove>d__15
-struct U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A;
-// Common.TouchController/<OnTwoMove>d__16
-struct U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527;
-// Common.TouchController/<OnTwoRotate>d__17
-struct U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78;
-// Common.TouchController/<OnTwoScale>d__18
-struct U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E;
+// Common.TouchController/<OnOneMove>d__16
+struct U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE;
+// Common.TouchController/<OnTwoMove>d__17
+struct U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F;
+// Common.TouchController/<OnTwoRotate>d__18
+struct U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E;
+// Common.TouchController/<OnTwoScale>d__19
+struct U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5;
 // MotionTracking_ImageTarget.UIController/<>c__DisplayClass5_0
 struct U3CU3Ec__DisplayClass5_0_tA49C4F65740DE33EC72003B467475753E2BD3826;
 
@@ -271,27 +271,33 @@ IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C6
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tA49C4F65740DE33EC72003B467475753E2BD3826_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral018F8D429F8AA9BA28BB3504858806F3098FCE93;
+IL2CPP_EXTERN_C String_t* _stringLiteral0970CF2FD3560786B3DFD69BC3EE83E1A9521103;
 IL2CPP_EXTERN_C String_t* _stringLiteral0E8CD1E34507F5A3FFA3D074EE3DF7B1F702458B;
 IL2CPP_EXTERN_C String_t* _stringLiteral1EC2E3F8C2D4E0635EE4294CDA138243E2D85339;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral255FBDA0A6F231C9011577CD61755542A4D386E9;
 IL2CPP_EXTERN_C String_t* _stringLiteral2857526C6CA87F5E42495CA8FC55534F69207042;
+IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral3DF22942163DC77B0DAEE048614E29D96E4493DC;
+IL2CPP_EXTERN_C String_t* _stringLiteral3FD8F8AC6AC464169FFBE67A817A867D6B67538B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FE426488E225C003B8620F8F6883113ABCA277F;
+IL2CPP_EXTERN_C String_t* _stringLiteral46B615CC894A4048CF6469321A55D3818A977254;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A25544E6922FB90F714C62E18485457D83197D5;
 IL2CPP_EXTERN_C String_t* _stringLiteral58B4B6B5AB41667F374F84DEC54D10B8267FFF0E;
 IL2CPP_EXTERN_C String_t* _stringLiteral7281452A3DC77AEE11B7BF6EA8596FE4074AAEBE;
 IL2CPP_EXTERN_C String_t* _stringLiteral7BC542217A6C9B694F7F1571EF8A3C64EB753FCD;
+IL2CPP_EXTERN_C String_t* _stringLiteral8C0B334A2A36C440093673295CFEBA7D3C2CFD67;
 IL2CPP_EXTERN_C String_t* _stringLiteral9264A04A31D84024600F8E9C198E657445BFEA77;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FC9A91C4826E22CD281F76B131A1239F939D46D;
 IL2CPP_EXTERN_C String_t* _stringLiteralADD3B5F2D67647A225CB10788BB728D4EA24E40B;
@@ -312,10 +318,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mF199FD9CBA6731B2C2BA73B3D0813832DD116C43_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Contains_TisARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_mB2B48D47826C82B27386BB2CAC3100B6C99AC299_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Optional_1_ToString_m1BDCF86EB40EA7486C9CDB80F4492E170391A75E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m98C0E17389AA0AD207641374BB6A0983AA290916_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_m46718D6DD5B44689E52F27236E78E51AB06DC966_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m2395074D108A68D5ECC153CEDB02F12D10C9C041_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_mC856F8C72C977635994CDDC6C71C6A6567065D83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_Reset_m9830B3F2DCDC6C372F53EB104DE139D69D08458C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_Reset_m1ED6219A1E70DC8D5A684AA160488E0BC7C85600_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_Reset_m00C4FFD6FAA5933488D04F345017A83AD61079A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_Reset_m2AB168CF545547A24D2AD58D3A7A682029B5BC04_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3CAwakeU3Eb__0_m42AA6C6E47744E953285A0B55910E3921F5E7FBA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3CAwakeU3Eb__1_mE4BACAE556AA5EE7AC9FED624B4D502F9A35FCE3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* ARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_0_0_0_var;
@@ -1202,105 +1208,105 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
-// Common.TouchController/<OnOneMove>d__15
-struct U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A  : public RuntimeObject
+// Common.TouchController/<OnOneMove>d__16
+struct U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE  : public RuntimeObject
 {
-	// System.Int32 Common.TouchController/<OnOneMove>d__15::<>1__state
+	// System.Int32 Common.TouchController/<OnOneMove>d__16::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Common.TouchController/<OnOneMove>d__15::<>2__current
+	// System.Object Common.TouchController/<OnOneMove>d__16::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Common.TouchController Common.TouchController/<OnOneMove>d__15::<>4__this
+	// Common.TouchController Common.TouchController/<OnOneMove>d__16::<>4__this
 	TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* ___U3CU3E4__this_2;
-	// UnityEngine.Touch[] Common.TouchController/<OnOneMove>d__15::<>s__1
+	// UnityEngine.Touch[] Common.TouchController/<OnOneMove>d__16::<>s__1
 	TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* ___U3CU3Es__1_3;
-	// System.Int32 Common.TouchController/<OnOneMove>d__15::<>s__2
+	// System.Int32 Common.TouchController/<OnOneMove>d__16::<>s__2
 	int32_t ___U3CU3Es__2_4;
-	// UnityEngine.Touch Common.TouchController/<OnOneMove>d__15::<touch>5__3
+	// UnityEngine.Touch Common.TouchController/<OnOneMove>d__16::<touch>5__3
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 ___U3CtouchU3E5__3_5;
-	// UnityEngine.Vector3 Common.TouchController/<OnOneMove>d__15::<touchV3>5__4
+	// UnityEngine.Vector3 Common.TouchController/<OnOneMove>d__16::<touchV3>5__4
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CtouchV3U3E5__4_6;
-	// UnityEngine.Vector3 Common.TouchController/<OnOneMove>d__15::<addV3>5__5
+	// UnityEngine.Vector3 Common.TouchController/<OnOneMove>d__16::<addV3>5__5
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CaddV3U3E5__5_7;
-	// UnityEngine.Vector3 Common.TouchController/<OnOneMove>d__15::<newPos>5__6
+	// UnityEngine.Vector3 Common.TouchController/<OnOneMove>d__16::<newPos>5__6
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CnewPosU3E5__6_8;
 };
 
-// Common.TouchController/<OnTwoMove>d__16
-struct U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527  : public RuntimeObject
+// Common.TouchController/<OnTwoMove>d__17
+struct U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F  : public RuntimeObject
 {
-	// System.Int32 Common.TouchController/<OnTwoMove>d__16::<>1__state
+	// System.Int32 Common.TouchController/<OnTwoMove>d__17::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Common.TouchController/<OnTwoMove>d__16::<>2__current
+	// System.Object Common.TouchController/<OnTwoMove>d__17::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Common.TouchController Common.TouchController/<OnTwoMove>d__16::<>4__this
+	// Common.TouchController Common.TouchController/<OnTwoMove>d__17::<>4__this
 	TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* ___U3CU3E4__this_2;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__16::<xMovement>5__1
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__17::<xMovement>5__1
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CxMovementU3E5__1_3;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__16::<yMovement>5__2
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__17::<yMovement>5__2
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CyMovementU3E5__2_4;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__16::<rawTargetPos>5__3
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__17::<rawTargetPos>5__3
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CrawTargetPosU3E5__3_5;
-	// UnityEngine.Touch[] Common.TouchController/<OnTwoMove>d__16::<>s__4
+	// UnityEngine.Touch[] Common.TouchController/<OnTwoMove>d__17::<>s__4
 	TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* ___U3CU3Es__4_6;
-	// System.Int32 Common.TouchController/<OnTwoMove>d__16::<>s__5
+	// System.Int32 Common.TouchController/<OnTwoMove>d__17::<>s__5
 	int32_t ___U3CU3Es__5_7;
-	// UnityEngine.Touch Common.TouchController/<OnTwoMove>d__16::<touch>5__6
+	// UnityEngine.Touch Common.TouchController/<OnTwoMove>d__17::<touch>5__6
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 ___U3CtouchU3E5__6_8;
-	// UnityEngine.Vector2 Common.TouchController/<OnTwoMove>d__16::<fixedDelta>5__7
+	// UnityEngine.Vector2 Common.TouchController/<OnTwoMove>d__17::<fixedDelta>5__7
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CfixedDeltaU3E5__7_9;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__16::<Cam_Forward>5__8
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__17::<Cam_Forward>5__8
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CCam_ForwardU3E5__8_10;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__16::<Cam_Forward_XZ>5__9
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__17::<Cam_Forward_XZ>5__9
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CCam_Forward_XZU3E5__9_11;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__16::<newPos>5__10
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoMove>d__17::<newPos>5__10
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CnewPosU3E5__10_12;
 };
 
-// Common.TouchController/<OnTwoRotate>d__17
-struct U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78  : public RuntimeObject
+// Common.TouchController/<OnTwoRotate>d__18
+struct U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E  : public RuntimeObject
 {
-	// System.Int32 Common.TouchController/<OnTwoRotate>d__17::<>1__state
+	// System.Int32 Common.TouchController/<OnTwoRotate>d__18::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Common.TouchController/<OnTwoRotate>d__17::<>2__current
+	// System.Object Common.TouchController/<OnTwoRotate>d__18::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Common.TouchController Common.TouchController/<OnTwoRotate>d__17::<>4__this
+	// Common.TouchController Common.TouchController/<OnTwoRotate>d__18::<>4__this
 	TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* ___U3CU3E4__this_2;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoRotate>d__17::<xMovement>5__1
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoRotate>d__18::<xMovement>5__1
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CxMovementU3E5__1_3;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoRotate>d__17::<yMovement>5__2
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoRotate>d__18::<yMovement>5__2
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CyMovementU3E5__2_4;
-	// UnityEngine.Quaternion Common.TouchController/<OnTwoRotate>d__17::<rawRotation>5__3
+	// UnityEngine.Quaternion Common.TouchController/<OnTwoRotate>d__18::<rawRotation>5__3
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrawRotationU3E5__3_5;
-	// UnityEngine.Touch[] Common.TouchController/<OnTwoRotate>d__17::<>s__4
+	// UnityEngine.Touch[] Common.TouchController/<OnTwoRotate>d__18::<>s__4
 	TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* ___U3CU3Es__4_6;
-	// System.Int32 Common.TouchController/<OnTwoRotate>d__17::<>s__5
+	// System.Int32 Common.TouchController/<OnTwoRotate>d__18::<>s__5
 	int32_t ___U3CU3Es__5_7;
-	// UnityEngine.Touch Common.TouchController/<OnTwoRotate>d__17::<touch>5__6
+	// UnityEngine.Touch Common.TouchController/<OnTwoRotate>d__18::<touch>5__6
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 ___U3CtouchU3E5__6_8;
-	// UnityEngine.Vector2 Common.TouchController/<OnTwoRotate>d__17::<fixedDelta>5__7
+	// UnityEngine.Vector2 Common.TouchController/<OnTwoRotate>d__18::<fixedDelta>5__7
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CfixedDeltaU3E5__7_9;
 };
 
-// Common.TouchController/<OnTwoScale>d__18
-struct U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E  : public RuntimeObject
+// Common.TouchController/<OnTwoScale>d__19
+struct U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5  : public RuntimeObject
 {
-	// System.Int32 Common.TouchController/<OnTwoScale>d__18::<>1__state
+	// System.Int32 Common.TouchController/<OnTwoScale>d__19::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Common.TouchController/<OnTwoScale>d__18::<>2__current
+	// System.Object Common.TouchController/<OnTwoScale>d__19::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Common.TouchController Common.TouchController/<OnTwoScale>d__18::<>4__this
+	// Common.TouchController Common.TouchController/<OnTwoScale>d__19::<>4__this
 	TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* ___U3CU3E4__this_2;
-	// UnityEngine.Vector3 Common.TouchController/<OnTwoScale>d__18::<rawScale>5__1
+	// UnityEngine.Vector3 Common.TouchController/<OnTwoScale>d__19::<rawScale>5__1
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CrawScaleU3E5__1_3;
-	// System.Single Common.TouchController/<OnTwoScale>d__18::<rawFingersDistance>5__2
+	// System.Single Common.TouchController/<OnTwoScale>d__19::<rawFingersDistance>5__2
 	float ___U3CrawFingersDistanceU3E5__2_4;
-	// UnityEngine.Touch[] Common.TouchController/<OnTwoScale>d__18::<>s__3
+	// UnityEngine.Touch[] Common.TouchController/<OnTwoScale>d__19::<>s__3
 	TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* ___U3CU3Es__3_5;
-	// System.Int32 Common.TouchController/<OnTwoScale>d__18::<>s__4
+	// System.Int32 Common.TouchController/<OnTwoScale>d__19::<>s__4
 	int32_t ___U3CU3Es__4_6;
-	// UnityEngine.Touch Common.TouchController/<OnTwoScale>d__18::<touch>5__5
+	// UnityEngine.Touch Common.TouchController/<OnTwoScale>d__19::<touch>5__5
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 ___U3CtouchU3E5__5_7;
-	// System.Single Common.TouchController/<OnTwoScale>d__18::<scaleFactor>5__6
+	// System.Single Common.TouchController/<OnTwoScale>d__19::<scaleFactor>5__6
 	float ___U3CscaleFactorU3E5__6_8;
 };
 
@@ -1406,24 +1412,26 @@ struct FrameSource_tEFFB44317ECA60F900CBDDA05D06E675C6CC88CD_StaticFields
 // Common.TouchController
 struct TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.UI.Text Common.TouchController::infoText
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___infoText_4;
 	// UnityEngine.Transform Common.TouchController::controlTarget
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___controlTarget_6;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___controlTarget_7;
 	// UnityEngine.Camera Common.TouchController::cameraTarget
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cameraTarget_7;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cameraTarget_8;
 	// System.Boolean Common.TouchController::isOneFingerDraggable
-	bool ___isOneFingerDraggable_8;
+	bool ___isOneFingerDraggable_9;
 	// System.Boolean Common.TouchController::isTwoFingerDraggable
-	bool ___isTwoFingerDraggable_9;
+	bool ___isTwoFingerDraggable_10;
 	// System.Boolean Common.TouchController::isTwoFingerScalable
-	bool ___isTwoFingerScalable_10;
+	bool ___isTwoFingerScalable_11;
 	// System.Boolean Common.TouchController::isTwoFingerRotatable
-	bool ___isTwoFingerRotatable_11;
+	bool ___isTwoFingerRotatable_12;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Vector2> Common.TouchController::originalPosition
-	Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* ___originalPosition_12;
+	Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* ___originalPosition_13;
 	// Common.TouchController/GestureControl Common.TouchController::curGesture
-	int32_t ___curGesture_13;
+	int32_t ___curGesture_14;
 	// System.Single Common.TouchController::targetCamDistance
-	float ___targetCamDistance_14;
+	float ___targetCamDistance_15;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -1792,6 +1800,8 @@ inline void Dictionary_2_set_Item_mF199FD9CBA6731B2C2BA73B3D0813832DD116C43 (Dic
 {
 	((  void (*) (Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520*, int32_t, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))Dictionary_2_set_Item_mF199FD9CBA6731B2C2BA73B3D0813832DD116C43_gshared)(__this, ___key0, ___value1, method);
 }
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Vector2>::Remove(TKey)
 inline bool Dictionary_2_Remove_m8AAAFC55B2438542D29F1EDCDEEE6AE631082269 (Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* __this, int32_t ___key0, const RuntimeMethod* method)
 {
@@ -1830,8 +1840,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoMove_m84D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoScale_mA23A92B57942FE77A0A1A2A1933F308D5C3C5810 (TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Common.TouchController::OnOneMove()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnOneMove_mC8951003C04FE5DAD807A321230E9F081293AFAA (TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
@@ -1840,14 +1848,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector3::get_magnitude()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
-// System.Void Common.TouchController/<OnOneMove>d__15::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__15__ctor_m6602B09413A527E268CEF7422BCEF3F87D093B5A (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void Common.TouchController/<OnTwoMove>d__16::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__16__ctor_m76C1F143CB5A91A3EDF9754821A660F1EF618F41 (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void Common.TouchController/<OnTwoRotate>d__17::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__17__ctor_m55F4D82B043FF6E61C73CCF700E03A8958B2B54A (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void Common.TouchController/<OnTwoScale>d__18::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__18__ctor_mEE8CF15649C84832B298257EBE15C4FE0905835C (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Common.TouchController/<OnOneMove>d__16::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__16__ctor_m4D3E79792CFE946E6A23B8A6D5C156261E597AFC (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Common.TouchController/<OnTwoMove>d__17::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__17__ctor_mD1B1371D95297E03658D80A27F709ED112381485 (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Common.TouchController/<OnTwoRotate>d__18::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__18__ctor_mD068360929BE3C7CBF371F6D7D235419F7447793 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Common.TouchController/<OnTwoScale>d__19::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__19__ctor_mA395156252539B3E5027AA42CD252C71BA86059F (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_zero()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Vector2::op_Inequality(UnityEngine.Vector2,UnityEngine.Vector2)
@@ -2768,6 +2776,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_Update_m443CF6BD9830E01E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mF199FD9CBA6731B2C2BA73B3D0813832DD116C43_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral018F8D429F8AA9BA28BB3504858806F3098FCE93);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0970CF2FD3560786B3DFD69BC3EE83E1A9521103);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3FD8F8AC6AC464169FFBE67A817A867D6B67538B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46B615CC894A4048CF6469321A55D3818A977254);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C0B334A2A36C440093673295CFEBA7D3C2CFD67);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
@@ -2783,21 +2797,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_Update_m443CF6BD9830E01E
 	bool V_9 = false;
 	bool V_10 = false;
 	bool V_11 = false;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_12;
-	memset((&V_12), 0, sizeof(V_12));
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_13;
-	memset((&V_13), 0, sizeof(V_13));
-	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_14;
-	memset((&V_14), 0, sizeof(V_14));
-	bool V_15 = false;
-	bool V_16 = false;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_17;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_17;
 	memset((&V_17), 0, sizeof(V_17));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_18;
-	memset((&V_18), 0, sizeof(V_18));
+	bool V_18 = false;
 	bool V_19 = false;
-	bool V_20 = false;
-	bool V_21 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_20;
+	memset((&V_20), 0, sizeof(V_20));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_21;
+	memset((&V_21), 0, sizeof(V_21));
 	bool V_22 = false;
 	bool V_23 = false;
 	bool V_24 = false;
@@ -2807,13 +2821,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_Update_m443CF6BD9830E01E
 	bool V_28 = false;
 	bool V_29 = false;
 	bool V_30 = false;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_31;
-	memset((&V_31), 0, sizeof(V_31));
-	int32_t G_B17_0 = 0;
-	int32_t G_B27_0 = 0;
+	bool V_31 = false;
+	bool V_32 = false;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_37;
+	memset((&V_37), 0, sizeof(V_37));
+	int32_t G_B23_0 = 0;
+	int32_t G_B33_0 = 0;
 	{
 		// if (!controlTarget) { return; }
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
@@ -2826,7 +2846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_Update_m443CF6BD9830E01E
 	}
 	{
 		// if (!controlTarget) { return; }
-		goto IL_0390;
+		goto IL_0477;
 	}
 
 IL_0019:
@@ -2836,10 +2856,10 @@ IL_0019:
 		L_3 = Input_get_touches_m884B92DD9A389F7985AB275A9717AC629C258B6B(NULL);
 		V_1 = L_3;
 		V_2 = 0;
-		goto IL_0085;
+		goto IL_00d2;
 	}
 
-IL_0024:
+IL_0027:
 	{
 		// foreach (var touch in Input.touches)
 		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_4 = V_1;
@@ -2855,538 +2875,664 @@ IL_0024:
 		bool L_9 = V_4;
 		if (!L_9)
 		{
-			goto IL_005b;
+			goto IL_0083;
 		}
 	}
 	{
 		// originalPosition[touch.fingerId] = touch.position;
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_10 = __this->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_10 = __this->___originalPosition_13;
 		int32_t L_11;
 		L_11 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_3), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 		L_12 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_3), NULL);
 		NullCheck(L_10);
 		Dictionary_2_set_Item_mF199FD9CBA6731B2C2BA73B3D0813832DD116C43(L_10, L_11, L_12, Dictionary_2_set_Item_mF199FD9CBA6731B2C2BA73B3D0813832DD116C43_RuntimeMethod_var);
-		goto IL_0080;
-	}
-
-IL_005b:
-	{
-		// else if (touch.phase == TouchPhase.Ended)
-		int32_t L_13;
-		L_13 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_3), NULL);
-		V_5 = (bool)((((int32_t)L_13) == ((int32_t)3))? 1 : 0);
-		bool L_14 = V_5;
-		if (!L_14)
+		// if (infoText != null)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___infoText_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_5 = L_14;
+		bool L_15 = V_5;
+		if (!L_15)
 		{
 			goto IL_0080;
 		}
 	}
 	{
-		// originalPosition.Remove(touch.fingerId);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_15 = __this->___originalPosition_12;
-		int32_t L_16;
-		L_16 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_3), NULL);
-		NullCheck(L_15);
-		bool L_17;
-		L_17 = Dictionary_2_Remove_m8AAAFC55B2438542D29F1EDCDEEE6AE631082269(L_15, L_16, Dictionary_2_Remove_m8AAAFC55B2438542D29F1EDCDEEE6AE631082269_RuntimeMethod_var);
+		// infoText.text = "Mulai";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___infoText_4;
+		NullCheck(L_16);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, _stringLiteral46B615CC894A4048CF6469321A55D3818A977254);
 	}
 
 IL_0080:
 	{
-		int32_t L_18 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+		goto IL_00cd;
 	}
 
-IL_0085:
+IL_0083:
+	{
+		// else if (touch.phase == TouchPhase.Ended)
+		int32_t L_17;
+		L_17 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_3), NULL);
+		V_6 = (bool)((((int32_t)L_17) == ((int32_t)3))? 1 : 0);
+		bool L_18 = V_6;
+		if (!L_18)
+		{
+			goto IL_00cd;
+		}
+	}
+	{
+		// originalPosition.Remove(touch.fingerId);
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_19 = __this->___originalPosition_13;
+		int32_t L_20;
+		L_20 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_3), NULL);
+		NullCheck(L_19);
+		bool L_21;
+		L_21 = Dictionary_2_Remove_m8AAAFC55B2438542D29F1EDCDEEE6AE631082269(L_19, L_20, Dictionary_2_Remove_m8AAAFC55B2438542D29F1EDCDEEE6AE631082269_RuntimeMethod_var);
+		// if (infoText != null)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___infoText_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_7 = L_23;
+		bool L_24 = V_7;
+		if (!L_24)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		// infoText.text = "Berakhir";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___infoText_4;
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_25, _stringLiteral8C0B334A2A36C440093673295CFEBA7D3C2CFD67);
+	}
+
+IL_00cc:
+	{
+	}
+
+IL_00cd:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00d2:
 	{
 		// foreach (var touch in Input.touches)
-		int32_t L_19 = V_2;
-		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_20 = V_1;
-		NullCheck(L_20);
-		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
+		int32_t L_27 = V_2;
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_28 = V_1;
+		NullCheck(L_28);
+		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
 		{
-			goto IL_0024;
+			goto IL_0027;
 		}
 	}
 	{
 		// if (curGesture == GestureControl.OutOfControl)
-		int32_t L_21 = __this->___curGesture_13;
-		V_6 = (bool)((((int32_t)L_21) == ((int32_t)6))? 1 : 0);
-		bool L_22 = V_6;
-		if (!L_22)
+		int32_t L_29 = __this->___curGesture_14;
+		V_8 = (bool)((((int32_t)L_29) == ((int32_t)6))? 1 : 0);
+		bool L_30 = V_8;
+		if (!L_30)
 		{
-			goto IL_00bf;
+			goto IL_0134;
 		}
 	}
 	{
 		// if (Input.touchCount == 0)
-		int32_t L_23;
-		L_23 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_7 = (bool)((((int32_t)L_23) == ((int32_t)0))? 1 : 0);
-		bool L_24 = V_7;
-		if (!L_24)
+		int32_t L_31;
+		L_31 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_9 = (bool)((((int32_t)L_31) == ((int32_t)0))? 1 : 0);
+		bool L_32 = V_9;
+		if (!L_32)
 		{
-			goto IL_00b9;
+			goto IL_012e;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.NoTouch;
-		__this->___curGesture_13 = 0;
+		__this->___curGesture_14 = 0;
+		// if (infoText != null)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___infoText_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_34;
+		L_34 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_33, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_10 = L_34;
+		bool L_35 = V_10;
+		if (!L_35)
+		{
+			goto IL_012d;
+		}
 	}
-
-IL_00b9:
 	{
-		goto IL_034d;
+		// infoText.text = "No Touch";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_36 = __this->___infoText_4;
+		NullCheck(L_36);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_36, _stringLiteral018F8D429F8AA9BA28BB3504858806F3098FCE93);
 	}
 
-IL_00bf:
+IL_012d:
+	{
+	}
+
+IL_012e:
+	{
+		goto IL_0434;
+	}
+
+IL_0134:
 	{
 		// else if (curGesture == GestureControl.TwoMove || curGesture == GestureControl.TwoRotate || curGesture == GestureControl.TwoScale)
-		int32_t L_25 = __this->___curGesture_13;
-		if ((((int32_t)L_25) == ((int32_t)3)))
+		int32_t L_37 = __this->___curGesture_14;
+		if ((((int32_t)L_37) == ((int32_t)3)))
 		{
-			goto IL_00dc;
+			goto IL_0151;
 		}
 	}
 	{
-		int32_t L_26 = __this->___curGesture_13;
-		if ((((int32_t)L_26) == ((int32_t)4)))
+		int32_t L_38 = __this->___curGesture_14;
+		if ((((int32_t)L_38) == ((int32_t)4)))
 		{
-			goto IL_00dc;
+			goto IL_0151;
 		}
 	}
 	{
-		int32_t L_27 = __this->___curGesture_13;
-		G_B17_0 = ((((int32_t)L_27) == ((int32_t)5))? 1 : 0);
-		goto IL_00dd;
+		int32_t L_39 = __this->___curGesture_14;
+		G_B23_0 = ((((int32_t)L_39) == ((int32_t)5))? 1 : 0);
+		goto IL_0152;
 	}
 
-IL_00dc:
+IL_0151:
 	{
-		G_B17_0 = 1;
+		G_B23_0 = 1;
 	}
 
-IL_00dd:
+IL_0152:
 	{
-		V_8 = (bool)G_B17_0;
-		bool L_28 = V_8;
-		if (!L_28)
+		V_11 = (bool)G_B23_0;
+		bool L_40 = V_11;
+		if (!L_40)
 		{
-			goto IL_010b;
+			goto IL_0180;
 		}
 	}
 	{
 		// if (Input.touchCount != 2)
-		int32_t L_29;
-		L_29 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_9 = (bool)((((int32_t)((((int32_t)L_29) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_30 = V_9;
-		if (!L_30)
+		int32_t L_41;
+		L_41 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_12 = (bool)((((int32_t)((((int32_t)L_41) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_42 = V_12;
+		if (!L_42)
 		{
-			goto IL_0105;
+			goto IL_017a;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.OutOfControl;
-		__this->___curGesture_13 = 6;
+		__this->___curGesture_14 = 6;
 	}
 
-IL_0105:
+IL_017a:
 	{
-		goto IL_034d;
+		goto IL_0434;
 	}
 
-IL_010b:
+IL_0180:
 	{
 		// else if (curGesture == GestureControl.TwoWait)
-		int32_t L_31 = __this->___curGesture_13;
-		V_10 = (bool)((((int32_t)L_31) == ((int32_t)2))? 1 : 0);
-		bool L_32 = V_10;
-		if (!L_32)
+		int32_t L_43 = __this->___curGesture_14;
+		V_13 = (bool)((((int32_t)L_43) == ((int32_t)2))? 1 : 0);
+		bool L_44 = V_13;
+		if (!L_44)
 		{
-			goto IL_028f;
+			goto IL_0376;
 		}
 	}
 	{
 		// if (Input.touchCount != 2)
-		int32_t L_33;
-		L_33 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_11 = (bool)((((int32_t)((((int32_t)L_33) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_34 = V_11;
-		if (!L_34)
+		int32_t L_45;
+		L_45 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_14 = (bool)((((int32_t)((((int32_t)L_45) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_46 = V_14;
+		if (!L_46)
 		{
-			goto IL_0144;
+			goto IL_01b9;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.OutOfControl;
-		__this->___curGesture_13 = 6;
-		goto IL_0289;
+		__this->___curGesture_14 = 6;
+		goto IL_0370;
 	}
 
-IL_0144:
+IL_01b9:
 	{
 		// Vector2 touch1Delta = Input.GetTouch(0).position - originalPosition[Input.GetTouch(0).fingerId];
-		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_35;
-		L_35 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
-		V_14 = L_35;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36;
-		L_36 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_14), NULL);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_37 = __this->___originalPosition_12;
-		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_38;
-		L_38 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
-		V_14 = L_38;
-		int32_t L_39;
-		L_39 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_14), NULL);
-		NullCheck(L_37);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40;
-		L_40 = Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1(L_37, L_39, Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1_RuntimeMethod_var);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_41;
-		L_41 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_36, L_40, NULL);
-		V_12 = L_41;
-		// Vector2 touch2Delta = Input.GetTouch(1).position - originalPosition[Input.GetTouch(1).fingerId];
-		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_42;
-		L_42 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
-		V_14 = L_42;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
-		L_43 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_14), NULL);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_44 = __this->___originalPosition_12;
-		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_45;
-		L_45 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
-		V_14 = L_45;
-		int32_t L_46;
-		L_46 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_14), NULL);
-		NullCheck(L_44);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_47;
-		L_47 = Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1(L_44, L_46, Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1_RuntimeMethod_var);
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_47;
+		L_47 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
+		V_17 = L_47;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48;
-		L_48 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_43, L_47, NULL);
-		V_13 = L_48;
+		L_48 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_17), NULL);
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_49 = __this->___originalPosition_13;
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_50;
+		L_50 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
+		V_17 = L_50;
+		int32_t L_51;
+		L_51 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_17), NULL);
+		NullCheck(L_49);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52;
+		L_52 = Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1(L_49, L_51, Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1_RuntimeMethod_var);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53;
+		L_53 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_48, L_52, NULL);
+		V_15 = L_53;
+		// Vector2 touch2Delta = Input.GetTouch(1).position - originalPosition[Input.GetTouch(1).fingerId];
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_54;
+		L_54 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
+		V_17 = L_54;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_55;
+		L_55 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_17), NULL);
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_56 = __this->___originalPosition_13;
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_57;
+		L_57 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
+		V_17 = L_57;
+		int32_t L_58;
+		L_58 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD((&V_17), NULL);
+		NullCheck(L_56);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_59;
+		L_59 = Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1(L_56, L_58, Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1_RuntimeMethod_var);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60;
+		L_60 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_55, L_59, NULL);
+		V_16 = L_60;
 		// if (touch1Delta.magnitude > gestureEnableDistanceThreshold && touch2Delta.magnitude > gestureEnableDistanceThreshold)
-		float L_49;
-		L_49 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_12), NULL);
-		if ((!(((float)L_49) > ((float)(10.0f)))))
+		float L_61;
+		L_61 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_15), NULL);
+		if ((!(((float)L_61) > ((float)(10.0f)))))
 		{
-			goto IL_01c3;
+			goto IL_0238;
 		}
 	}
 	{
-		float L_50;
-		L_50 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_13), NULL);
-		G_B27_0 = ((((float)L_50) > ((float)(10.0f)))? 1 : 0);
-		goto IL_01c4;
+		float L_62;
+		L_62 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_16), NULL);
+		G_B33_0 = ((((float)L_62) > ((float)(10.0f)))? 1 : 0);
+		goto IL_0239;
 	}
 
-IL_01c3:
+IL_0238:
 	{
-		G_B27_0 = 0;
+		G_B33_0 = 0;
 	}
 
-IL_01c4:
+IL_0239:
 	{
-		V_15 = (bool)G_B27_0;
-		bool L_51 = V_15;
-		if (!L_51)
+		V_18 = (bool)G_B33_0;
+		bool L_63 = V_18;
+		if (!L_63)
 		{
-			goto IL_0288;
+			goto IL_036f;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// if (Vector2.Dot(touch1Delta, touch2Delta) > 0)
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = V_12;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53 = V_13;
-		float L_54;
-		L_54 = Vector2_Dot_mBF0FA0B529C821F4733DDC3AD366B07CD27625F4_inline(L_52, L_53, NULL);
-		V_16 = (bool)((((float)L_54) > ((float)(0.0f)))? 1 : 0);
-		bool L_55 = V_16;
-		if (!L_55)
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_64 = V_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_65 = V_16;
+		float L_66;
+		L_66 = Vector2_Dot_mBF0FA0B529C821F4733DDC3AD366B07CD27625F4_inline(L_64, L_65, NULL);
+		V_19 = (bool)((((float)L_66) > ((float)(0.0f)))? 1 : 0);
+		bool L_67 = V_19;
+		if (!L_67)
 		{
-			goto IL_0263;
+			goto IL_0325;
 		}
 	}
 	{
 		// GetRelativeTouch(touch1Delta + touch2Delta, out xMov, out yMov);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_56 = V_12;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_57 = V_13;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58;
-		L_58 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_56, L_57, NULL);
-		TouchController_GetRelativeTouch_m28CF8C7CFF39378F3AF52AB7961051940B21BF39(__this, L_58, (&V_17), (&V_18), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_68 = V_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69 = V_16;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_70;
+		L_70 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_68, L_69, NULL);
+		TouchController_GetRelativeTouch_m28CF8C7CFF39378F3AF52AB7961051940B21BF39(__this, L_70, (&V_20), (&V_21), NULL);
 		// if (xMov.sqrMagnitude > yMov.sqrMagnitude)
-		float L_59;
-		L_59 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_17), NULL);
-		float L_60;
-		L_60 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_18), NULL);
-		V_19 = (bool)((((float)L_59) > ((float)L_60))? 1 : 0);
-		bool L_61 = V_19;
-		if (!L_61)
+		float L_71;
+		L_71 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_20), NULL);
+		float L_72;
+		L_72 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_21), NULL);
+		V_22 = (bool)((((float)L_71) > ((float)L_72))? 1 : 0);
+		bool L_73 = V_22;
+		if (!L_73)
 		{
-			goto IL_023c;
+			goto IL_02d9;
 		}
 	}
 	{
 		// curGesture = GestureControl.TwoRotate;
-		__this->___curGesture_13 = 4;
+		__this->___curGesture_14 = 4;
 		// if (isTwoFingerRotatable)
-		bool L_62 = __this->___isTwoFingerRotatable_11;
-		V_20 = L_62;
-		bool L_63 = V_20;
-		if (!L_63)
+		bool L_74 = __this->___isTwoFingerRotatable_12;
+		V_23 = L_74;
+		bool L_75 = V_23;
+		if (!L_75)
 		{
-			goto IL_0239;
+			goto IL_02d6;
 		}
 	}
 	{
 		// StartCoroutine(OnTwoRotate());
-		RuntimeObject* L_64;
-		L_64 = TouchController_OnTwoRotate_m5D6C226599068FF57CFDFC595BFC98F856651A7E(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_65;
-		L_65 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_64, NULL);
+		RuntimeObject* L_76;
+		L_76 = TouchController_OnTwoRotate_m5D6C226599068FF57CFDFC595BFC98F856651A7E(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_77;
+		L_77 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_76, NULL);
+		// if (infoText != null)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_78 = __this->___infoText_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_79;
+		L_79 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_78, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_24 = L_79;
+		bool L_80 = V_24;
+		if (!L_80)
+		{
+			goto IL_02d5;
+		}
 	}
-
-IL_0239:
 	{
-		goto IL_0260;
+		// infoText.text = "Rotate";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_81 = __this->___infoText_4;
+		NullCheck(L_81);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_81, _stringLiteral3FD8F8AC6AC464169FFBE67A817A867D6B67538B);
 	}
 
-IL_023c:
+IL_02d5:
+	{
+	}
+
+IL_02d6:
+	{
+		goto IL_0322;
+	}
+
+IL_02d9:
 	{
 		// curGesture = GestureControl.TwoMove;
-		__this->___curGesture_13 = 3;
+		__this->___curGesture_14 = 3;
 		// if (isTwoFingerDraggable)
-		bool L_66 = __this->___isTwoFingerDraggable_9;
-		V_21 = L_66;
-		bool L_67 = V_21;
-		if (!L_67)
+		bool L_82 = __this->___isTwoFingerDraggable_10;
+		V_25 = L_82;
+		bool L_83 = V_25;
+		if (!L_83)
 		{
-			goto IL_025f;
+			goto IL_0321;
 		}
 	}
 	{
 		// StartCoroutine(OnTwoMove());
-		RuntimeObject* L_68;
-		L_68 = TouchController_OnTwoMove_m84DB41607709FC7E80DA37769845C1836691D93F(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_69;
-		L_69 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_68, NULL);
+		RuntimeObject* L_84;
+		L_84 = TouchController_OnTwoMove_m84DB41607709FC7E80DA37769845C1836691D93F(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_85;
+		L_85 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_84, NULL);
+		// if (infoText != null)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_86 = __this->___infoText_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_87;
+		L_87 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_86, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_26 = L_87;
+		bool L_88 = V_26;
+		if (!L_88)
+		{
+			goto IL_0320;
+		}
+	}
+	{
+		// infoText.text = "Move";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_89 = __this->___infoText_4;
+		NullCheck(L_89);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_89, _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1);
 	}
 
-IL_025f:
+IL_0320:
 	{
 	}
 
-IL_0260:
+IL_0321:
 	{
-		goto IL_0287;
 	}
 
-IL_0263:
+IL_0322:
+	{
+		goto IL_036e;
+	}
+
+IL_0325:
 	{
 		// curGesture = GestureControl.TwoScale;
-		__this->___curGesture_13 = 5;
+		__this->___curGesture_14 = 5;
 		// if (isTwoFingerScalable)
-		bool L_70 = __this->___isTwoFingerScalable_10;
-		V_22 = L_70;
-		bool L_71 = V_22;
-		if (!L_71)
+		bool L_90 = __this->___isTwoFingerScalable_11;
+		V_27 = L_90;
+		bool L_91 = V_27;
+		if (!L_91)
 		{
-			goto IL_0286;
+			goto IL_036d;
 		}
 	}
 	{
 		// StartCoroutine(OnTwoScale());
-		RuntimeObject* L_72;
-		L_72 = TouchController_OnTwoScale_mA23A92B57942FE77A0A1A2A1933F308D5C3C5810(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_73;
-		L_73 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_72, NULL);
+		RuntimeObject* L_92;
+		L_92 = TouchController_OnTwoScale_mA23A92B57942FE77A0A1A2A1933F308D5C3C5810(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_93;
+		L_93 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_92, NULL);
+		// if (infoText != null)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_94 = __this->___infoText_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_95;
+		L_95 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_94, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_28 = L_95;
+		bool L_96 = V_28;
+		if (!L_96)
+		{
+			goto IL_036c;
+		}
+	}
+	{
+		// infoText.text = "Scale";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_97 = __this->___infoText_4;
+		NullCheck(L_97);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_97, _stringLiteral0970CF2FD3560786B3DFD69BC3EE83E1A9521103);
 	}
 
-IL_0286:
+IL_036c:
 	{
 	}
 
-IL_0287:
+IL_036d:
 	{
 	}
 
-IL_0288:
+IL_036e:
 	{
 	}
 
-IL_0289:
+IL_036f:
 	{
-		goto IL_034d;
 	}
 
-IL_028f:
+IL_0370:
+	{
+		goto IL_0434;
+	}
+
+IL_0376:
 	{
 		// else if (curGesture == GestureControl.OneMove)
-		int32_t L_74 = __this->___curGesture_13;
-		V_23 = (bool)((((int32_t)L_74) == ((int32_t)1))? 1 : 0);
-		bool L_75 = V_23;
-		if (!L_75)
+		int32_t L_98 = __this->___curGesture_14;
+		V_29 = (bool)((((int32_t)L_98) == ((int32_t)1))? 1 : 0);
+		bool L_99 = V_29;
+		if (!L_99)
 		{
-			goto IL_02e3;
+			goto IL_03ca;
 		}
 	}
 	{
 		// if (Input.touchCount == 2)
-		int32_t L_76;
-		L_76 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_24 = (bool)((((int32_t)L_76) == ((int32_t)2))? 1 : 0);
-		bool L_77 = V_24;
-		if (!L_77)
+		int32_t L_100;
+		L_100 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_30 = (bool)((((int32_t)L_100) == ((int32_t)2))? 1 : 0);
+		bool L_101 = V_30;
+		if (!L_101)
 		{
-			goto IL_02bf;
+			goto IL_03a6;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.TwoWait;
-		__this->___curGesture_13 = 2;
-		goto IL_02e0;
+		__this->___curGesture_14 = 2;
+		goto IL_03c7;
 	}
 
-IL_02bf:
+IL_03a6:
 	{
 		// else if (Input.touchCount != 1)
-		int32_t L_78;
-		L_78 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_25 = (bool)((((int32_t)((((int32_t)L_78) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_79 = V_25;
-		if (!L_79)
+		int32_t L_102;
+		L_102 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_31 = (bool)((((int32_t)((((int32_t)L_102) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_103 = V_31;
+		if (!L_103)
 		{
-			goto IL_02e0;
+			goto IL_03c7;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.OutOfControl;
-		__this->___curGesture_13 = 6;
+		__this->___curGesture_14 = 6;
 	}
 
-IL_02e0:
+IL_03c7:
 	{
-		goto IL_034d;
+		goto IL_0434;
 	}
 
-IL_02e3:
+IL_03ca:
 	{
 		// else if (curGesture == GestureControl.NoTouch)
-		int32_t L_80 = __this->___curGesture_13;
-		V_26 = (bool)((((int32_t)L_80) == ((int32_t)0))? 1 : 0);
-		bool L_81 = V_26;
-		if (!L_81)
+		int32_t L_104 = __this->___curGesture_14;
+		V_32 = (bool)((((int32_t)L_104) == ((int32_t)0))? 1 : 0);
+		bool L_105 = V_32;
+		if (!L_105)
 		{
-			goto IL_034d;
+			goto IL_0434;
 		}
 	}
 	{
 		// if (Input.touchCount == 1)
-		int32_t L_82;
-		L_82 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_27 = (bool)((((int32_t)L_82) == ((int32_t)1))? 1 : 0);
-		bool L_83 = V_27;
-		if (!L_83)
+		int32_t L_106;
+		L_106 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_33 = (bool)((((int32_t)L_106) == ((int32_t)1))? 1 : 0);
+		bool L_107 = V_33;
+		if (!L_107)
 		{
-			goto IL_032e;
+			goto IL_0415;
 		}
 	}
 	{
 		// curGesture = GestureControl.OneMove;
-		__this->___curGesture_13 = 1;
+		__this->___curGesture_14 = 1;
 		// if (isOneFingerDraggable)
-		bool L_84 = __this->___isOneFingerDraggable_8;
-		V_28 = L_84;
-		bool L_85 = V_28;
-		if (!L_85)
+		bool L_108 = __this->___isOneFingerDraggable_9;
+		V_34 = L_108;
+		bool L_109 = V_34;
+		if (!L_109)
 		{
-			goto IL_032b;
+			goto IL_0412;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// StartCoroutine(OnOneMove());
-		RuntimeObject* L_86;
-		L_86 = TouchController_OnOneMove_mC8951003C04FE5DAD807A321230E9F081293AFAA(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_87;
-		L_87 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_86, NULL);
+		RuntimeObject* L_110;
+		L_110 = TouchController_OnOneMove_mC8951003C04FE5DAD807A321230E9F081293AFAA(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_111;
+		L_111 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_110, NULL);
 	}
 
-IL_032b:
+IL_0412:
 	{
-		goto IL_034c;
+		goto IL_0433;
 	}
 
-IL_032e:
+IL_0415:
 	{
 		// else if (Input.touchCount == 2)
-		int32_t L_88;
-		L_88 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_29 = (bool)((((int32_t)L_88) == ((int32_t)2))? 1 : 0);
-		bool L_89 = V_29;
-		if (!L_89)
+		int32_t L_112;
+		L_112 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_35 = (bool)((((int32_t)L_112) == ((int32_t)2))? 1 : 0);
+		bool L_113 = V_35;
+		if (!L_113)
 		{
-			goto IL_034c;
+			goto IL_0433;
 		}
 	}
 	{
 		// curGesture = GestureControl.TwoWait;
-		__this->___curGesture_13 = 2;
+		__this->___curGesture_14 = 2;
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 	}
 
-IL_034c:
+IL_0433:
 	{
 	}
 
-IL_034d:
+IL_0434:
 	{
 		// if (controlTarget != null)
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_90 = __this->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_114 = __this->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_91;
-		L_91 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_90, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_30 = L_91;
-		bool L_92 = V_30;
-		if (!L_92)
+		bool L_115;
+		L_115 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_114, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_36 = L_115;
+		bool L_116 = V_36;
+		if (!L_116)
 		{
-			goto IL_0390;
+			goto IL_0477;
 		}
 	}
 	{
 		// targetCamDistance = (cameraTarget.transform.position - controlTarget.position).magnitude;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_93 = __this->___cameraTarget_7;
-		NullCheck(L_93);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_94;
-		L_94 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_93, NULL);
-		NullCheck(L_94);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
-		L_95 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_94, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_96 = __this->___controlTarget_6;
-		NullCheck(L_96);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97;
-		L_97 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_96, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98;
-		L_98 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_95, L_97, NULL);
-		V_31 = L_98;
-		float L_99;
-		L_99 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_31), NULL);
-		__this->___targetCamDistance_14 = L_99;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_117 = __this->___cameraTarget_8;
+		NullCheck(L_117);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_118;
+		L_118 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_117, NULL);
+		NullCheck(L_118);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_119;
+		L_119 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_118, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_120 = __this->___controlTarget_7;
+		NullCheck(L_120);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_121;
+		L_121 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_120, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_122;
+		L_122 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_119, L_121, NULL);
+		V_37 = L_122;
+		float L_123;
+		L_123 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_37), NULL);
+		__this->___targetCamDistance_15 = L_123;
 	}
 
-IL_0390:
+IL_0477:
 	{
 		// }
 		return;
@@ -3400,26 +3546,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_TurnOn_mD7E1BCFF31394BB0
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// controlTarget = target;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___target0;
-		__this->___controlTarget_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___controlTarget_6), (void*)L_0);
+		__this->___controlTarget_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___controlTarget_7), (void*)L_0);
 		// cameraTarget = cam;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = ___cam1;
-		__this->___cameraTarget_7 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraTarget_7), (void*)L_1);
+		__this->___cameraTarget_8 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraTarget_8), (void*)L_1);
 		// this.isOneFingerDraggable = isOneFingerDraggable;
 		bool L_2 = ___isOneFingerDraggable2;
-		__this->___isOneFingerDraggable_8 = L_2;
+		__this->___isOneFingerDraggable_9 = L_2;
 		// this.isTwoFingerDraggable = isTwoFingerDraggable;
 		bool L_3 = ___isTwoFingerDraggable3;
-		__this->___isTwoFingerDraggable_9 = L_3;
+		__this->___isTwoFingerDraggable_10 = L_3;
 		// this.isTwoFingerScalable = isTwoFingerScalable;
 		bool L_4 = ___isTwoFingerScalable4;
-		__this->___isTwoFingerScalable_10 = L_4;
+		__this->___isTwoFingerScalable_11 = L_4;
 		// this.isTwoFingerRotatable = isTwoFingerRotatable;
 		bool L_5 = ___isTwoFingerRotatable5;
-		__this->___isTwoFingerRotatable_11 = L_5;
+		__this->___isTwoFingerRotatable_12 = L_5;
 		// curGesture = GestureControl.NoTouch;
-		__this->___curGesture_13 = 0;
+		__this->___curGesture_14 = 0;
 		// }
 		return;
 	}
@@ -3431,13 +3577,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_TurnOff_mD892B4BF42026AD
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// controlTarget = null;
-		__this->___controlTarget_6 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___controlTarget_6), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		__this->___controlTarget_7 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___controlTarget_7), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
 		// cameraTarget = null;
-		__this->___cameraTarget_7 = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraTarget_7), (void*)(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
+		__this->___cameraTarget_8 = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraTarget_8), (void*)(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
 		// curGesture = GestureControl.NoTouch;
-		__this->___curGesture_13 = 0;
+		__this->___curGesture_14 = 0;
 		// }
 		return;
 	}
@@ -3448,14 +3594,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnOneMove_mC89
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* L_0 = (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A*)il2cpp_codegen_object_new(U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A_il2cpp_TypeInfo_var);
+		U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* L_0 = (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE*)il2cpp_codegen_object_new(U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3COnOneMoveU3Ed__15__ctor_m6602B09413A527E268CEF7422BCEF3F87D093B5A(L_0, 0, NULL);
-		U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* L_1 = L_0;
+		U3COnOneMoveU3Ed__16__ctor_m4D3E79792CFE946E6A23B8A6D5C156261E597AFC(L_0, 0, NULL);
+		U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -3468,14 +3614,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoMove_m84D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* L_0 = (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527*)il2cpp_codegen_object_new(U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527_il2cpp_TypeInfo_var);
+		U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* L_0 = (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F*)il2cpp_codegen_object_new(U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3COnTwoMoveU3Ed__16__ctor_m76C1F143CB5A91A3EDF9754821A660F1EF618F41(L_0, 0, NULL);
-		U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* L_1 = L_0;
+		U3COnTwoMoveU3Ed__17__ctor_mD1B1371D95297E03658D80A27F709ED112381485(L_0, 0, NULL);
+		U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -3488,14 +3634,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoRotate_m5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* L_0 = (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78*)il2cpp_codegen_object_new(U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78_il2cpp_TypeInfo_var);
+		U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* L_0 = (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E*)il2cpp_codegen_object_new(U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3COnTwoRotateU3Ed__17__ctor_m55F4D82B043FF6E61C73CCF700E03A8958B2B54A(L_0, 0, NULL);
-		U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* L_1 = L_0;
+		U3COnTwoRotateU3Ed__18__ctor_mD068360929BE3C7CBF371F6D7D235419F7447793(L_0, 0, NULL);
+		U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -3508,14 +3654,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoScale_mA2
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* L_0 = (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E*)il2cpp_codegen_object_new(U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E_il2cpp_TypeInfo_var);
+		U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* L_0 = (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5*)il2cpp_codegen_object_new(U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3COnTwoScaleU3Ed__18__ctor_mEE8CF15649C84832B298257EBE15C4FE0905835C(L_0, 0, NULL);
-		U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* L_1 = L_0;
+		U3COnTwoScaleU3Ed__19__ctor_mA395156252539B3E5027AA42CD252C71BA86059F(L_0, 0, NULL);
+		U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -3575,7 +3721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_GetRelativeTouch_m28CF8C
 	}
 	{
 		// Vector3 startPoint = cameraTarget.ScreenToWorldPoint(new Vector3(0f, 0f, 300f));
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = __this->___cameraTarget_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = __this->___cameraTarget_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_5), (0.0f), (0.0f), (300.0f), /*hidden argument*/NULL);
@@ -3584,7 +3730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_GetRelativeTouch_m28CF8C
 		L_6 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_4, L_5, NULL);
 		V_1 = L_6;
 		// Vector3 endPoint = cameraTarget.ScreenToWorldPoint(new Vector3(delta.x, delta.y, 300f));
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = __this->___cameraTarget_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = __this->___cameraTarget_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = ___delta0;
 		float L_9 = L_8.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = ___delta0;
@@ -3603,7 +3749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_GetRelativeTouch_m28CF8C
 		L_16 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_14, L_15, NULL);
 		V_3 = L_16;
 		// Vector3 relaForward = Vector3.ProjectOnPlane(cameraTarget.transform.forward, Vector3.up).normalized;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = __this->___cameraTarget_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = __this->___cameraTarget_8;
 		NullCheck(L_17);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
 		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_17, NULL);
@@ -3844,8 +3990,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController__ctor_m6BE6CE527C8883939
 		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_0 = (Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520*)il2cpp_codegen_object_new(Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Dictionary_2__ctor_mE352B1093D935D290E0B7A717D2AD2869814D5DD(L_0, Dictionary_2__ctor_mE352B1093D935D290E0B7A717D2AD2869814D5DD_RuntimeMethod_var);
-		__this->___originalPosition_12 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___originalPosition_12), (void*)L_0);
+		__this->___originalPosition_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___originalPosition_13), (void*)L_0);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -3858,8 +4004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController__ctor_m6BE6CE527C8883939
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Common.TouchController/<OnOneMove>d__15::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__15__ctor_m6602B09413A527E268CEF7422BCEF3F87D093B5A (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnOneMove>d__16::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__16__ctor_m4D3E79792CFE946E6A23B8A6D5C156261E597AFC (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3868,15 +4014,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__15__ctor_m6602B09413A5
 		return;
 	}
 }
-// System.Void Common.TouchController/<OnOneMove>d__15::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__15_System_IDisposable_Dispose_m3A5911CA3481FA2D0F80EE0EB2EB501114F0207B (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnOneMove>d__16::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__16_System_IDisposable_Dispose_m7CA00B38BAAA0D0F7019785F07273AA09497AD58 (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Common.TouchController/<OnOneMove>d__15::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnOneMoveU3Ed__15_MoveNext_m02CD76DEDB29EB461B3E50E25E97D7224FF414D6 (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, const RuntimeMethod* method) 
+// System.Boolean Common.TouchController/<OnOneMove>d__16::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnOneMoveU3Ed__16_MoveNext_m23189FB67D279EFF7E16C9085314F5C213DBD0AD (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3977,7 +4123,7 @@ IL_0063:
 		// originalPosition[touch.fingerId] = touch.position;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_8 = __this->___U3CU3E4__this_2;
 		NullCheck(L_8);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_9 = L_8->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_9 = L_8->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417* L_10 = (&__this->___U3CtouchU3E5__3_5);
 		int32_t L_11;
 		L_11 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD(L_10, NULL);
@@ -4014,7 +4160,7 @@ IL_00d9:
 		// if (!controlTarget) { yield break; }
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_18 = __this->___U3CU3E4__this_2;
 		NullCheck(L_18);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = L_18->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = L_18->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
 		L_20 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_19, NULL);
@@ -4056,7 +4202,7 @@ IL_00f4:
 		// var addV3 = cameraTarget.transform.localToWorldMatrix.MultiplyVector(touchV3);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_31 = __this->___U3CU3E4__this_2;
 		NullCheck(L_31);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_32 = L_31->___cameraTarget_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_32 = L_31->___cameraTarget_8;
 		NullCheck(L_32);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
 		L_33 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_32, NULL);
@@ -4071,14 +4217,14 @@ IL_00f4:
 		// var newPos = controlTarget.position + addV3 * targetCamDistance;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_37 = __this->___U3CU3E4__this_2;
 		NullCheck(L_37);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = L_37->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = L_37->___controlTarget_7;
 		NullCheck(L_38);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
 		L_39 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_38, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = __this->___U3CaddV3U3E5__5_7;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_41 = __this->___U3CU3E4__this_2;
 		NullCheck(L_41);
-		float L_42 = L_41->___targetCamDistance_14;
+		float L_42 = L_41->___targetCamDistance_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
 		L_43 = Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline(L_40, L_42, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
@@ -4087,7 +4233,7 @@ IL_00f4:
 		// controlTarget.position = newPos;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_45 = __this->___U3CU3E4__this_2;
 		NullCheck(L_45);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = L_45->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = L_45->___controlTarget_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = __this->___U3CnewPosU3E5__6_8;
 		NullCheck(L_46);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_46, L_47, NULL);
@@ -4124,7 +4270,7 @@ IL_01ea:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_54 = __this->___U3CU3E4__this_2;
 		NullCheck(L_54);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_55 = L_54->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_55 = L_54->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_56;
 		L_56 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_2 = L_56;
@@ -4156,26 +4302,26 @@ IL_0213:
 		return (bool)0;
 	}
 }
-// System.Object Common.TouchController/<OnOneMove>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnOneMoveU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m617CF20B828F44AF0C1E9A319CAE686CF497CAC8 (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnOneMove>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnOneMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m487D0B093B19F8D1773214FC92921AF3080DCD50 (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Common.TouchController/<OnOneMove>d__15::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m98C0E17389AA0AD207641374BB6A0983AA290916 (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnOneMove>d__16::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_Reset_m9830B3F2DCDC6C372F53EB104DE139D69D08458C (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_Reset_m98C0E17389AA0AD207641374BB6A0983AA290916_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_Reset_m9830B3F2DCDC6C372F53EB104DE139D69D08458C_RuntimeMethod_var)));
 	}
 }
-// System.Object Common.TouchController/<OnOneMove>d__15::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnOneMoveU3Ed__15_System_Collections_IEnumerator_get_Current_mCA535DA57D9EBFED1DB7089FE53727352D500624 (U3COnOneMoveU3Ed__15_t186369182EAE1FC916F2DA5BE394CAB4723D305A* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnOneMove>d__16::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnOneMoveU3Ed__16_System_Collections_IEnumerator_get_Current_mA16C215BED729DDF1B4845E08DBAC72BDD2554E0 (U3COnOneMoveU3Ed__16_tFDFB519A918146D33558C092EEBA7B38EC08F0DE* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -4190,8 +4336,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnOneMoveU3Ed__15_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Common.TouchController/<OnTwoMove>d__16::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__16__ctor_m76C1F143CB5A91A3EDF9754821A660F1EF618F41 (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoMove>d__17::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__17__ctor_mD1B1371D95297E03658D80A27F709ED112381485 (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -4200,15 +4346,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__16__ctor_m76C1F143CB5A
 		return;
 	}
 }
-// System.Void Common.TouchController/<OnTwoMove>d__16::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__16_System_IDisposable_Dispose_m30B3908E8BA42C11953E6A1E19CC0CAD7C478AEE (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoMove>d__17::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__17_System_IDisposable_Dispose_m972E280D51BCA3D750F58C7FF523016989C761D0 (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Common.TouchController/<OnTwoMove>d__16::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoMoveU3Ed__16_MoveNext_m1D73647501C320BDCB65AF6B0CCF95A894FDC1A7 (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, const RuntimeMethod* method) 
+// System.Boolean Common.TouchController/<OnTwoMove>d__17::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoMoveU3Ed__17_MoveNext_mECA3563D37254E07D26CBFDB21737675E670ECE2 (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4228,15 +4374,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoMoveU3Ed__16_MoveNext_m1D7364750
 	bool V_4 = false;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B16_0;
 	memset((&G_B16_0), 0, sizeof(G_B16_0));
-	U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* G_B16_1 = NULL;
+	U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* G_B16_1 = NULL;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B15_0;
 	memset((&G_B15_0), 0, sizeof(G_B15_0));
-	U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* G_B15_1 = NULL;
+	U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* G_B15_1 = NULL;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B17_0;
 	memset((&G_B17_0), 0, sizeof(G_B17_0));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B17_1;
 	memset((&G_B17_1), 0, sizeof(G_B17_1));
-	U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* G_B17_2 = NULL;
+	U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* G_B17_2 = NULL;
 	int32_t G_B24_0 = 0;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
@@ -4284,7 +4430,7 @@ IL_001b:
 		// var rawTargetPos = controlTarget.position;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_3 = __this->___U3CU3E4__this_2;
 		NullCheck(L_3);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___controlTarget_7;
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
@@ -4310,7 +4456,7 @@ IL_004e:
 		// originalPosition[touch.fingerId] = touch.position;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_11 = __this->___U3CU3E4__this_2;
 		NullCheck(L_11);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_12 = L_11->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_12 = L_11->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417* L_13 = (&__this->___U3CtouchU3E5__6_8);
 		int32_t L_14;
 		L_14 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD(L_13, NULL);
@@ -4347,7 +4493,7 @@ IL_00c4:
 		// if (!controlTarget) { yield break; }
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_21 = __this->___U3CU3E4__this_2;
 		NullCheck(L_21);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = L_21->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = L_21->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
 		L_23 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_22, NULL);
@@ -4380,7 +4526,7 @@ IL_00df:
 		L_29 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_26, L_28, NULL);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_30 = __this->___U3CU3E4__this_2;
 		NullCheck(L_30);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_31 = L_30->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_31 = L_30->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_32;
 		L_32 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_2 = L_32;
@@ -4393,7 +4539,7 @@ IL_00df:
 		L_35 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_29, L_34, NULL);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_36 = __this->___U3CU3E4__this_2;
 		NullCheck(L_36);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_37 = L_36->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_37 = L_36->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_38;
 		L_38 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
 		V_2 = L_38;
@@ -4429,7 +4575,7 @@ IL_00df:
 		// var Cam_Forward = cameraTarget.transform.forward;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_50 = __this->___U3CU3E4__this_2;
 		NullCheck(L_50);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_51 = L_50->___cameraTarget_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_51 = L_50->___cameraTarget_8;
 		NullCheck(L_51);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52;
 		L_52 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_51, NULL);
@@ -4486,7 +4632,7 @@ IL_01e5:
 		L_66 = Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline(G_B17_0, L_65, NULL);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_67 = __this->___U3CU3E4__this_2;
 		NullCheck(L_67);
-		float L_68 = L_67->___targetCamDistance_14;
+		float L_68 = L_67->___targetCamDistance_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
 		L_69 = Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline(L_66, L_68, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70;
@@ -4500,7 +4646,7 @@ IL_01e5:
 		// controlTarget.position = newPos;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_73 = __this->___U3CU3E4__this_2;
 		NullCheck(L_73);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74 = L_73->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74 = L_73->___controlTarget_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75 = __this->___U3CnewPosU3E5__10_12;
 		NullCheck(L_74);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_74, L_75, NULL);
@@ -4545,7 +4691,7 @@ IL_0288:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_83 = __this->___U3CU3E4__this_2;
 		NullCheck(L_83);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_84 = L_83->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_84 = L_83->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_85;
 		L_85 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_2 = L_85;
@@ -4562,7 +4708,7 @@ IL_0288:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_88 = __this->___U3CU3E4__this_2;
 		NullCheck(L_88);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_89 = L_88->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_89 = L_88->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_90;
 		L_90 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
 		V_2 = L_90;
@@ -4594,26 +4740,26 @@ IL_02d1:
 		return (bool)0;
 	}
 }
-// System.Object Common.TouchController/<OnTwoMove>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoMoveU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m559A485FE95FAADBADB6A00E490FE1BCC321C2F1 (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnTwoMove>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoMoveU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m721E18E2895E01A91BCD06515C6DFDC9B10095EA (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Common.TouchController/<OnTwoMove>d__16::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_m46718D6DD5B44689E52F27236E78E51AB06DC966 (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoMove>d__17::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_Reset_m1ED6219A1E70DC8D5A684AA160488E0BC7C85600 (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_Reset_m46718D6DD5B44689E52F27236E78E51AB06DC966_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_Reset_m1ED6219A1E70DC8D5A684AA160488E0BC7C85600_RuntimeMethod_var)));
 	}
 }
-// System.Object Common.TouchController/<OnTwoMove>d__16::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoMoveU3Ed__16_System_Collections_IEnumerator_get_Current_mA04F505AE479314309D5F3735CDEEE0A04BF7A37 (U3COnTwoMoveU3Ed__16_tC222D177352A4EAEFEFFD0D22E5AE220795BB527* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnTwoMove>d__17::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoMoveU3Ed__17_System_Collections_IEnumerator_get_Current_m5100A84BF32C9208BA4A9B47844C5A86A3DCAA82 (U3COnTwoMoveU3Ed__17_tC41230EDC80D7508A49AA9473B4EEC4E723E287F* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -4628,8 +4774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoMoveU3Ed__16_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Common.TouchController/<OnTwoRotate>d__17::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__17__ctor_m55F4D82B043FF6E61C73CCF700E03A8958B2B54A (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoRotate>d__18::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__18__ctor_mD068360929BE3C7CBF371F6D7D235419F7447793 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -4638,15 +4784,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__17__ctor_m55F4D82B04
 		return;
 	}
 }
-// System.Void Common.TouchController/<OnTwoRotate>d__17::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__17_System_IDisposable_Dispose_m7BE2CD1F5163FD012443C845B139C9D99BE1C1E9 (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoRotate>d__18::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__18_System_IDisposable_Dispose_m1BBBE5D5BE54A81683264CD9EDF1220CF7206AF8 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Common.TouchController/<OnTwoRotate>d__17::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoRotateU3Ed__17_MoveNext_mFCB5B529AE76E34AA56AB7F9AEC4CACBFD0C358E (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, const RuntimeMethod* method) 
+// System.Boolean Common.TouchController/<OnTwoRotate>d__18::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoRotateU3Ed__18_MoveNext_mEA0086D95D068C6CECE850559B2CFD53BB400DF6 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4712,7 +4858,7 @@ IL_001b:
 		// Quaternion rawRotation = controlTarget.rotation;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_3 = __this->___U3CU3E4__this_2;
 		NullCheck(L_3);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___controlTarget_7;
 		NullCheck(L_4);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_4, NULL);
@@ -4738,7 +4884,7 @@ IL_004e:
 		// originalPosition[touch.fingerId] = touch.position;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_11 = __this->___U3CU3E4__this_2;
 		NullCheck(L_11);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_12 = L_11->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_12 = L_11->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417* L_13 = (&__this->___U3CtouchU3E5__6_8);
 		int32_t L_14;
 		L_14 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD(L_13, NULL);
@@ -4775,7 +4921,7 @@ IL_00c4:
 		// if (!controlTarget) { yield break; }
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_21 = __this->___U3CU3E4__this_2;
 		NullCheck(L_21);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = L_21->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = L_21->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
 		L_23 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_22, NULL);
@@ -4808,7 +4954,7 @@ IL_00df:
 		L_29 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_26, L_28, NULL);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_30 = __this->___U3CU3E4__this_2;
 		NullCheck(L_30);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_31 = L_30->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_31 = L_30->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_32;
 		L_32 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_2 = L_32;
@@ -4821,7 +4967,7 @@ IL_00df:
 		L_35 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_29, L_34, NULL);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_36 = __this->___U3CU3E4__this_2;
 		NullCheck(L_36);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_37 = L_36->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_37 = L_36->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_38;
 		L_38 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
 		V_2 = L_38;
@@ -4872,7 +5018,7 @@ IL_00df:
 		L_57 = Vector3_Cross_m77F64620D73934C56BEE37A64016DBDCB9D21DB8_inline(L_55, L_56, NULL);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_58 = __this->___U3CU3E4__this_2;
 		NullCheck(L_58);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_59 = L_58->___cameraTarget_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_59 = L_58->___cameraTarget_8;
 		NullCheck(L_59);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60;
 		L_60 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_59, NULL);
@@ -4892,7 +5038,7 @@ IL_00df:
 		// controlTarget.rotation = rawRotation * Quaternion.Euler(0f, xMovement.sqrMagnitude / Mathf.PI, 0f);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_64 = __this->___U3CU3E4__this_2;
 		NullCheck(L_64);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65 = L_64->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65 = L_64->___controlTarget_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_66 = __this->___U3CrawRotationU3E5__3_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_67 = (&__this->___U3CxMovementU3E5__1_3);
 		float L_68;
@@ -4911,7 +5057,7 @@ IL_021d:
 		// controlTarget.rotation = rawRotation * Quaternion.Euler(0f, -xMovement.sqrMagnitude / Mathf.PI, 0f);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_71 = __this->___U3CU3E4__this_2;
 		NullCheck(L_71);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_72 = L_71->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_72 = L_71->___controlTarget_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_73 = __this->___U3CrawRotationU3E5__3_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_74 = (&__this->___U3CxMovementU3E5__1_3);
 		float L_75;
@@ -4961,7 +5107,7 @@ IL_0286:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_82 = __this->___U3CU3E4__this_2;
 		NullCheck(L_82);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_83 = L_82->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_83 = L_82->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_84;
 		L_84 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_2 = L_84;
@@ -4978,7 +5124,7 @@ IL_0286:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_87 = __this->___U3CU3E4__this_2;
 		NullCheck(L_87);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_88 = L_87->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_88 = L_87->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_89;
 		L_89 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
 		V_2 = L_89;
@@ -5010,26 +5156,26 @@ IL_02cf:
 		return (bool)0;
 	}
 }
-// System.Object Common.TouchController/<OnTwoRotate>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoRotateU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m761AE76D8C10E359E3745A15A1A5C19BBFF343A0 (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnTwoRotate>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoRotateU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m250132544BF1EFA81E0F3FD1F2F0652CA8722EC3 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Common.TouchController/<OnTwoRotate>d__17::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m2395074D108A68D5ECC153CEDB02F12D10C9C041 (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoRotate>d__18::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_Reset_m00C4FFD6FAA5933488D04F345017A83AD61079A7 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_Reset_m2395074D108A68D5ECC153CEDB02F12D10C9C041_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_Reset_m00C4FFD6FAA5933488D04F345017A83AD61079A7_RuntimeMethod_var)));
 	}
 }
-// System.Object Common.TouchController/<OnTwoRotate>d__17::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoRotateU3Ed__17_System_Collections_IEnumerator_get_Current_m21F159E60A583F5B0FE615000EC0FA324CCB4F01 (U3COnTwoRotateU3Ed__17_t49A1C1ADFA2CA2EB5403CBE75773FEE153DBFA78* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnTwoRotate>d__18::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoRotateU3Ed__18_System_Collections_IEnumerator_get_Current_mD56BFCC7CEA204D2C46866CFEA43086E3A765E42 (U3COnTwoRotateU3Ed__18_tA7C67BD683F422F074BB1D5EB58C3CA9179CB57E* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -5044,8 +5190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoRotateU3Ed__17_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Common.TouchController/<OnTwoScale>d__18::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__18__ctor_mEE8CF15649C84832B298257EBE15C4FE0905835C (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoScale>d__19::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__19__ctor_mA395156252539B3E5027AA42CD252C71BA86059F (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -5054,15 +5200,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__18__ctor_mEE8CF15649C
 		return;
 	}
 }
-// System.Void Common.TouchController/<OnTwoScale>d__18::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__18_System_IDisposable_Dispose_mE0590D781AE248A185A7DA04B9ADC5A57EA8474A (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoScale>d__19::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__19_System_IDisposable_Dispose_m8E15749E3CB48AE4D2307BA6E527569F72F1A8E0 (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Common.TouchController/<OnTwoScale>d__18::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoScaleU3Ed__18_MoveNext_m3DFEF4DABD2ED9DB33A7F967F67CBEA811EA321A (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, const RuntimeMethod* method) 
+// System.Boolean Common.TouchController/<OnTwoScale>d__19::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnTwoScaleU3Ed__19_MoveNext_m27A6505E92FF83FCB08EC2ABB7FB71E51F5E1842 (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5126,7 +5272,7 @@ IL_001b:
 		// Vector3 rawScale = controlTarget.localScale;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_3 = __this->___U3CU3E4__this_2;
 		NullCheck(L_3);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___controlTarget_7;
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_4, NULL);
@@ -5152,7 +5298,7 @@ IL_004e:
 		// originalPosition[touch.fingerId] = touch.position;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_11 = __this->___U3CU3E4__this_2;
 		NullCheck(L_11);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_12 = L_11->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_12 = L_11->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417* L_13 = (&__this->___U3CtouchU3E5__5_7);
 		int32_t L_14;
 		L_14 = Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD(L_13, NULL);
@@ -5184,7 +5330,7 @@ IL_00a8:
 		// float rawFingersDistance = Vector2.Distance(originalPosition[Input.GetTouch(0).fingerId], originalPosition[Input.GetTouch(1).fingerId]);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_21 = __this->___U3CU3E4__this_2;
 		NullCheck(L_21);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_22 = L_21->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_22 = L_21->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_23;
 		L_23 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_1 = L_23;
@@ -5195,7 +5341,7 @@ IL_00a8:
 		L_25 = Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1(L_22, L_24, Dictionary_2_get_Item_m82A7E8554E4AF17AFEB6097E122ECA383C4900E1_RuntimeMethod_var);
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_26 = __this->___U3CU3E4__this_2;
 		NullCheck(L_26);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_27 = L_26->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_27 = L_26->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_28;
 		L_28 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
 		V_1 = L_28;
@@ -5215,7 +5361,7 @@ IL_010b:
 		// if (!controlTarget) { yield break; }
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_32 = __this->___U3CU3E4__this_2;
 		NullCheck(L_32);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = L_32->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = L_32->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_34;
 		L_34 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_33, NULL);
@@ -5251,7 +5397,7 @@ IL_0126:
 		// controlTarget.localScale = rawScale / scaleFactor;
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_42 = __this->___U3CU3E4__this_2;
 		NullCheck(L_42);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = L_42->___controlTarget_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = L_42->___controlTarget_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = __this->___U3CrawScaleU3E5__1_3;
 		float L_45 = __this->___U3CscaleFactorU3E5__6_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
@@ -5287,7 +5433,7 @@ IL_0193:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_50 = __this->___U3CU3E4__this_2;
 		NullCheck(L_50);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_51 = L_50->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_51 = L_50->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_52;
 		L_52 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(0, NULL);
 		V_1 = L_52;
@@ -5304,7 +5450,7 @@ IL_0193:
 	{
 		TouchController_t888D40BCAF638772D5E76ABEB56182415340C8A0* L_55 = __this->___U3CU3E4__this_2;
 		NullCheck(L_55);
-		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_56 = L_55->___originalPosition_12;
+		Dictionary_2_t150F4DEDF234511FA356EE5425B26AEB9A3A3520* L_56 = L_55->___originalPosition_13;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_57;
 		L_57 = Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4(1, NULL);
 		V_1 = L_57;
@@ -5336,26 +5482,26 @@ IL_01dc:
 		return (bool)0;
 	}
 }
-// System.Object Common.TouchController/<OnTwoScale>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoScaleU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9417B21A14EC0680DED93A20C760C936DABE68A7 (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnTwoScale>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoScaleU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m019C31244FFD80FAD105FCFBCBF79C65C31EBC4B (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Common.TouchController/<OnTwoScale>d__18::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_mC856F8C72C977635994CDDC6C71C6A6567065D83 (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, const RuntimeMethod* method) 
+// System.Void Common.TouchController/<OnTwoScale>d__19::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_Reset_m2AB168CF545547A24D2AD58D3A7A682029B5BC04 (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_Reset_mC856F8C72C977635994CDDC6C71C6A6567065D83_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_Reset_m2AB168CF545547A24D2AD58D3A7A682029B5BC04_RuntimeMethod_var)));
 	}
 }
-// System.Object Common.TouchController/<OnTwoScale>d__18::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoScaleU3Ed__18_System_Collections_IEnumerator_get_Current_m373F9CCF108D705426019ACD6FF288CF314F4ADA (U3COnTwoScaleU3Ed__18_tDA8839CC23E0DA7234B8AEF803D68499507DC23E* __this, const RuntimeMethod* method) 
+// System.Object Common.TouchController/<OnTwoScale>d__19::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnTwoScaleU3Ed__19_System_Collections_IEnumerator_get_Current_m8B1D28C36DB8772A2C647F99B3D962E2F183A011 (U3COnTwoScaleU3Ed__19_tA3CC2AD2F51FDA718C78E4C9219375B064DE42E5* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;

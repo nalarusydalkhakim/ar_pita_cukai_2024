@@ -40,7 +40,12 @@ public class ButtonManager : MonoBehaviour
 
     public void openScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        // SceneManager.LoadScene(sceneName);
+        LoadController.Instance.LoadScene(sceneName);
+    }
+
+    public void changeScene(string sceneName){
+        LoadController.Instance.LoadScene(sceneName);
     }
 
     public void AppExit()

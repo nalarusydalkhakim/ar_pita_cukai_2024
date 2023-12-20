@@ -44,15 +44,15 @@ static Il2CppMethodPointer s_methodPointers[9] =
 };
 static const int32_t s_InvokerIndices[9] = 
 {
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	1695,
 	3038,
-	3776,
+	3777,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_Sample_AllSamplesLauncher_CodeGenModule;
 const Il2CppCodeGenModule g_EasyAR_Sense_Sample_AllSamplesLauncher_CodeGenModule = 
