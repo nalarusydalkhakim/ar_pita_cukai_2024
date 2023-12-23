@@ -6702,7 +6702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52c187ca6687b3640b0f5cae155d84a5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7fb299091466d63429992fc1a6d42b06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7172,7 +7172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 947721121}
-  videoToPlay: {fileID: 32900000, guid: f21c6afe2e6021844b87bef25ca38893, type: 3}
+  videoToPlay: {fileID: 32900000, guid: c63ec1ca58dcdbd4dafbe57616f30ab7, type: 3}
   image: {fileID: 947721122}
 --- !u!328 &947721121
 VideoPlayer:
@@ -7182,7 +7182,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947721118}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: f21c6afe2e6021844b87bef25ca38893, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c63ec1ca58dcdbd4dafbe57616f30ab7, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -7195,12 +7195,14 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 0
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 0
   m_Looping: 1
@@ -10663,7 +10665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1263815471}
-  videoToPlay: {fileID: 32900000, guid: 6633a9407ef900046bf6d8fabd051674, type: 3}
+  videoToPlay: {fileID: 32900000, guid: 0a5dc6afdb4ef0348adcb15f9137b043, type: 3}
   image: {fileID: 1263815470}
   image2: {fileID: 2029186856}
   playPauseImage1: {fileID: 107787666}
@@ -11891,7 +11893,7 @@ RectTransform:
   - {fileID: 1948892062}
   - {fileID: 1243844268}
   m_Father: {fileID: 1252757619}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16516,7 +16518,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 494556007}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
