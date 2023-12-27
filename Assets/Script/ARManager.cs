@@ -27,6 +27,6 @@ public class ARManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using easyar;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TouchController : MonoBehaviour
 {
-    public Text text;
+    public ARSession Session;
     private const float rotateSpeed = 270;
     private const float gestureEnableDistanceThreshold = 10;
-
     private Transform controlTarget;
     private Camera cameraTarget;
     private bool isOneFingerDraggable;
@@ -30,6 +30,10 @@ public class TouchController : MonoBehaviour
         OutOfControl,
     }
 
+    private void Start() {
+        // TurnOn(gameObject.transform, Session.Assembly.Camera, true, true, true, true);
+    }
+
     private void Update()
     {
         if (!controlTarget) { return; }
@@ -38,12 +42,10 @@ public class TouchController : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 originalPosition[touch.fingerId] = touch.position;
-                text.text = "touch began";
             }
             else if (touch.phase == TouchPhase.Ended)
             {
                 originalPosition.Remove(touch.fingerId);
-                text.text = "touch remove";
             }
         }
 
@@ -53,7 +55,6 @@ public class TouchController : MonoBehaviour
             {
                 StopAllCoroutines();
                 curGesture = GestureControl.NoTouch;
-                text.text = "touch not detected";
             }
         }
         else if (curGesture == GestureControl.TwoMove || curGesture == GestureControl.TwoRotate || curGesture == GestureControl.TwoScale)
@@ -62,7 +63,6 @@ public class TouchController : MonoBehaviour
             {
                 StopAllCoroutines();
                 curGesture = GestureControl.OutOfControl;
-                text.text = "touch out of control";
             }
         }
         else if (curGesture == GestureControl.TwoWait)
@@ -91,7 +91,6 @@ public class TouchController : MonoBehaviour
                             {
                                 StartCoroutine(OnTwoRotate());
                             }
-                            text.text = "touch two rotate";
                         }
                         else
                         {
@@ -100,7 +99,6 @@ public class TouchController : MonoBehaviour
                             {
                                 StartCoroutine(OnTwoMove());
                             }
-                            text.text = "touch two move";
                         }
                     }
                     else
@@ -109,7 +107,6 @@ public class TouchController : MonoBehaviour
                         if (isTwoFingerScalable)
                         {
                             StartCoroutine(OnTwoScale());
-                            text.text = "touch two scale";
                         }
                     }
                 }
@@ -161,7 +158,7 @@ public class TouchController : MonoBehaviour
         this.isTwoFingerScalable = isTwoFingerScalable;
         this.isTwoFingerRotatable = isTwoFingerRotatable;
         curGesture = GestureControl.NoTouch;
-        text.text = "touch not detcted";
+        Debug.Log("TurnOn");
     }
 
     public void TurnOff()
@@ -170,7 +167,6 @@ public class TouchController : MonoBehaviour
         controlTarget = null;
         cameraTarget = null;
         curGesture = GestureControl.NoTouch;
-        text.text = "touch not detcted";
     }
 
     private IEnumerator OnOneMove()

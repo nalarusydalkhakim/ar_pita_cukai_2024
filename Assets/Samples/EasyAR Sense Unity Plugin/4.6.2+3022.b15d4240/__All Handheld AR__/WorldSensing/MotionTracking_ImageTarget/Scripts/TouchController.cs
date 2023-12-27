@@ -16,6 +16,8 @@ namespace Common
     public class TouchController : MonoBehaviour
     {
         public Text infoText;
+
+        public GameObject ObjectAR;
         private const float rotateSpeed = 270;
         private const float gestureEnableDistanceThreshold = 10;
 
@@ -132,6 +134,7 @@ namespace Common
                             curGesture = GestureControl.TwoScale;
                             if (isTwoFingerScalable)
                             {
+                                // Scale
                                 StartCoroutine(OnTwoScale());
                                 if (infoText != null)
                                 {
@@ -162,6 +165,7 @@ namespace Common
                     curGesture = GestureControl.OneMove;
                     if (isOneFingerDraggable)
                     {
+                        // Move
                         StopAllCoroutines();
                         StartCoroutine(OnOneMove());
                     }
