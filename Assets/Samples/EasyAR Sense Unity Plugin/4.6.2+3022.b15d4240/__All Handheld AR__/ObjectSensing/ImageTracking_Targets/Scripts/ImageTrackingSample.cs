@@ -52,16 +52,16 @@ namespace ImageTracking_ImageTarget
 
             Session.SpecificTargetCenter = controllerNamecard.gameObject;
 
-            var launcher = "AllSamplesLauncher";
-            if (Application.CanStreamedLevelBeLoaded(launcher))
-            {
-                var button = BackButton.GetComponent<Button>();
-                button.onClick.AddListener(() => { UnityEngine.SceneManagement.SceneManager.LoadScene(launcher); });
-            }
-            else
-            {
-                BackButton.gameObject.SetActive(false);
-            }
+            // var launcher = "AllSamplesLauncher";
+            // if (Application.CanStreamedLevelBeLoaded(launcher))
+            // {
+            //     var button = BackButton.GetComponent<Button>();
+            //     button.onClick.AddListener(() => { UnityEngine.SceneManagement.SceneManager.LoadScene(launcher); });
+            // }
+            // else
+            // {
+            //     BackButton.gameObject.SetActive(false);
+            // }
         }
 
         private void Update()

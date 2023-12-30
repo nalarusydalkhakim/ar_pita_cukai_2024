@@ -42,21 +42,17 @@ extern void ImageTrackingSample__ctor_m105E619932A4E60E93E2B4CE1474545CB6618BD5 
 extern void ImageJson__ctor_m1622DDD1937E3277F421B9D5D27658022436E65E (void);
 // 0x0000000F System.Void ImageTracking_ImageTarget.ImageTrackingSample/ImageFile::.ctor()
 extern void ImageFile__ctor_m344D00B06E68E8B17FA27024AC7AE30850DDCA36 (void);
-// 0x00000010 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass8_0::.ctor()
-extern void U3CU3Ec__DisplayClass8_0__ctor_mD4BDF5ADBCB8168E1D12C12535A723E8D83452C0 (void);
-// 0x00000011 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass8_0::<Awake>b__0()
-extern void U3CU3Ec__DisplayClass8_0_U3CAwakeU3Eb__0_m175EE9C9CE9239A5359B418C1E4DFFB8150F110F (void);
-// 0x00000012 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::.ctor()
+// 0x00000010 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::.ctor()
 extern void U3CU3Ec__DisplayClass19_0__ctor_m47962069C14BDFB0F200D4D2DED2EED914EB0963 (void);
-// 0x00000013 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__0()
+// 0x00000011 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__0()
 extern void U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__0_mFE97B399F373411265FB2AAB2654AB4F0CBA1974 (void);
-// 0x00000014 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__1()
+// 0x00000012 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__1()
 extern void U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__1_m8CCC3BED990A396B991440D17F874FAFAE5A1E77 (void);
-// 0x00000015 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__2(easyar.Target,System.Boolean)
+// 0x00000013 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__2(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__2_m0DE6959B7ED0E7DD36621A7944241BD5D7F4655A (void);
-// 0x00000016 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__3(easyar.Target,System.Boolean)
+// 0x00000014 System.Void ImageTracking_ImageTarget.ImageTrackingSample/<>c__DisplayClass19_0::<AddTargetControllerEvents>b__3(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__3_m934DA3BB164D602263AC233CEAFD9715CEFF6265 (void);
-static Il2CppMethodPointer s_methodPointers[22] = 
+static Il2CppMethodPointer s_methodPointers[20] = 
 {
 	ImageTrackingSample_Awake_m36DC19F92DFB8553DF2FD9311C92545208226755,
 	ImageTrackingSample_Update_m7DA486D4A89CEA1F7CFCAA271B85815CF9923435,
@@ -73,15 +69,13 @@ static Il2CppMethodPointer s_methodPointers[22] =
 	ImageTrackingSample__ctor_m105E619932A4E60E93E2B4CE1474545CB6618BD5,
 	ImageJson__ctor_m1622DDD1937E3277F421B9D5D27658022436E65E,
 	ImageFile__ctor_m344D00B06E68E8B17FA27024AC7AE30850DDCA36,
-	U3CU3Ec__DisplayClass8_0__ctor_mD4BDF5ADBCB8168E1D12C12535A723E8D83452C0,
-	U3CU3Ec__DisplayClass8_0_U3CAwakeU3Eb__0_m175EE9C9CE9239A5359B418C1E4DFFB8150F110F,
 	U3CU3Ec__DisplayClass19_0__ctor_m47962069C14BDFB0F200D4D2DED2EED914EB0963,
 	U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__0_mFE97B399F373411265FB2AAB2654AB4F0CBA1974,
 	U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__1_m8CCC3BED990A396B991440D17F874FAFAE5A1E77,
 	U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__2_m0DE6959B7ED0E7DD36621A7944241BD5D7F4655A,
 	U3CU3Ec__DisplayClass19_0_U3CAddTargetControllerEventsU3Eb__3_m934DA3BB164D602263AC233CEAFD9715CEFF6265,
 };
-static const int32_t s_InvokerIndices[22] = 
+static const int32_t s_InvokerIndices[20] = 
 {
 	3777,
 	3777,
@@ -101,8 +95,6 @@ static const int32_t s_InvokerIndices[22] =
 	3777,
 	3777,
 	3777,
-	3777,
-	3777,
 	1682,
 	1682,
 };
@@ -110,7 +102,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_Ta
 const Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_Targets_CodeGenModule = 
 {
 	"EasyAR.Sense.Sample.ImageTracking_Targets.dll",
-	22,
+	20,
 	s_methodPointers,
 	0,
 	NULL,

@@ -412,23 +412,27 @@ extern void VideController_Start_m3031715A55C2904A4ADA4FF2EA4842AED7161F08 (void
 extern void VideController_SetVideo_mEA3FCB843FE1031270D3EC68129C5189EF5C3057 (void);
 // 0x000000C8 System.Collections.IEnumerator VideController::PlayVideo()
 extern void VideController_PlayVideo_mD505C4512286F8C503BDBEB0D75E94D09A6BE776 (void);
-// 0x000000C9 System.Void VideController::Update()
+// 0x000000C9 System.Void VideController::forwardVideo(System.Single)
+extern void VideController_forwardVideo_m05402546BCE09C72C6D9C9FE2D59273A29966935 (void);
+// 0x000000CA System.Void VideController::backwardVideo(System.Single)
+extern void VideController_backwardVideo_m4E913A253584969137CA6829AF21661536CBF566 (void);
+// 0x000000CB System.Void VideController::Update()
 extern void VideController_Update_mF681614313E25CC6D80A82F80F3CC2DDD8EE3002 (void);
-// 0x000000CA System.Void VideController::.ctor()
+// 0x000000CC System.Void VideController::.ctor()
 extern void VideController__ctor_m299E5355D6C205F4C7E0D6019B42A787609EB132 (void);
-// 0x000000CB System.Void VideController/<PlayVideo>d__14::.ctor(System.Int32)
+// 0x000000CD System.Void VideController/<PlayVideo>d__14::.ctor(System.Int32)
 extern void U3CPlayVideoU3Ed__14__ctor_m977FD08B359D50FA5C152F8AB37E62EED847FC8C (void);
-// 0x000000CC System.Void VideController/<PlayVideo>d__14::System.IDisposable.Dispose()
+// 0x000000CE System.Void VideController/<PlayVideo>d__14::System.IDisposable.Dispose()
 extern void U3CPlayVideoU3Ed__14_System_IDisposable_Dispose_mA48979AED9E8970E1E678BCFB9E6AB527CE13218 (void);
-// 0x000000CD System.Boolean VideController/<PlayVideo>d__14::MoveNext()
+// 0x000000CF System.Boolean VideController/<PlayVideo>d__14::MoveNext()
 extern void U3CPlayVideoU3Ed__14_MoveNext_mC5CE1B873DAC9E95219CA19C168C9D64EAB820A6 (void);
-// 0x000000CE System.Object VideController/<PlayVideo>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000D0 System.Object VideController/<PlayVideo>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPlayVideoU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m194778C923AD387FB26A9A8812FADDCABF3D46CC (void);
-// 0x000000CF System.Void VideController/<PlayVideo>d__14::System.Collections.IEnumerator.Reset()
+// 0x000000D1 System.Void VideController/<PlayVideo>d__14::System.Collections.IEnumerator.Reset()
 extern void U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_Reset_m067A8C7F28D780C4B4CF8435BD9567A374B8DBBD (void);
-// 0x000000D0 System.Object VideController/<PlayVideo>d__14::System.Collections.IEnumerator.get_Current()
+// 0x000000D2 System.Object VideController/<PlayVideo>d__14::System.Collections.IEnumerator.get_Current()
 extern void U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_get_Current_m54DF8919BDA4A54B305E14D2F24E2A77BA2B17F0 (void);
-static Il2CppMethodPointer s_methodPointers[208] = 
+static Il2CppMethodPointer s_methodPointers[210] = 
 {
 	APPManager_Awake_m29CF3127D0C1D4048EC4F89FF279CF6C3985AA5F,
 	APPManager_Start_m1B7A9598820D25915A477294FF02459A1B111BF4,
@@ -630,6 +634,8 @@ static Il2CppMethodPointer s_methodPointers[208] =
 	VideController_Start_m3031715A55C2904A4ADA4FF2EA4842AED7161F08,
 	VideController_SetVideo_mEA3FCB843FE1031270D3EC68129C5189EF5C3057,
 	VideController_PlayVideo_mD505C4512286F8C503BDBEB0D75E94D09A6BE776,
+	VideController_forwardVideo_m05402546BCE09C72C6D9C9FE2D59273A29966935,
+	VideController_backwardVideo_m4E913A253584969137CA6829AF21661536CBF566,
 	VideController_Update_mF681614313E25CC6D80A82F80F3CC2DDD8EE3002,
 	VideController__ctor_m299E5355D6C205F4C7E0D6019B42A787609EB132,
 	U3CPlayVideoU3Ed__14__ctor_m977FD08B359D50FA5C152F8AB37E62EED847FC8C,
@@ -639,7 +645,7 @@ static Il2CppMethodPointer s_methodPointers[208] =
 	U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_Reset_m067A8C7F28D780C4B4CF8435BD9567A374B8DBBD,
 	U3CPlayVideoU3Ed__14_System_Collections_IEnumerator_get_Current_m54DF8919BDA4A54B305E14D2F24E2A77BA2B17F0,
 };
-static const int32_t s_InvokerIndices[208] = 
+static const int32_t s_InvokerIndices[210] = 
 {
 	3777,
 	3777,
@@ -841,6 +847,8 @@ static const int32_t s_InvokerIndices[208] =
 	3777,
 	3777,
 	3687,
+	3071,
+	3071,
 	3777,
 	3777,
 	3020,
@@ -854,7 +862,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	208,
+	210,
 	s_methodPointers,
 	0,
 	NULL,

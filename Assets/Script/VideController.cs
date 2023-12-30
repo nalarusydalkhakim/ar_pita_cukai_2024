@@ -76,6 +76,24 @@ public class VideController : MonoBehaviour
         videoPlayer.Play();
 
     }
+
+    public void forwardVideo(float time = 5.0f)
+    {
+        if (videoPlayer.time < videoPlayer.clip.length - time)
+        {
+            videoPlayer.time += time;
+
+        }
+    }
+    
+    public void backwardVideo(float time = 5.0f)
+    {
+        if (videoPlayer.time > 0f)
+        {
+            videoPlayer.time -= time;
+
+        }
+    }
     // Update is called once per frame
     void Update()
     {
