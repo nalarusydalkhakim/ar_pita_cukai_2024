@@ -41,12 +41,12 @@ namespace ImageTracking_ImageTarget
             cameraDevice = Session.GetComponentInChildren<CameraDeviceFrameSource>();
 
             // targets from scene
-            controllerNamecard = GameObject.Find("ImageTarget-namecard").GetComponent<ImageTargetController>();
-            controllerIdback = GameObject.Find("ImageTarget-idback").GetComponent<ImageTargetController>();
+            controllerNamecard = GameObject.Find("ImageTarget-seri1 (1)").GetComponent<ImageTargetController>();
+            // controllerIdback = GameObject.Find("ImageTarget-idback").GetComponent<ImageTargetController>();
             imageTargetControllers[controllerNamecard] = false;
-            imageTargetControllers[controllerIdback] = false;
+            // imageTargetControllers[controllerIdback] = false;
             AddTargetControllerEvents(controllerNamecard);
-            AddTargetControllerEvents(controllerIdback);
+            // AddTargetControllerEvents(controllerIdback);
 
             CreateTargets();
 
@@ -231,7 +231,7 @@ namespace ImageTracking_ImageTarget
             return targetController;
         }
 
-        private void AddTargetControllerEvents(ImageTargetController controller)
+        private void    AddTargetControllerEvents(ImageTargetController controller)
         {
             if (!controller)
             {
