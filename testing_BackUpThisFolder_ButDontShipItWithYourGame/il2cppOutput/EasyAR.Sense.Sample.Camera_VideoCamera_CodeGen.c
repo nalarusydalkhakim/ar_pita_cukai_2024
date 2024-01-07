@@ -56,19 +56,19 @@ static Il2CppMethodPointer s_methodPointers[13] =
 };
 static const int32_t s_InvokerIndices[13] = 
 {
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	2980,
 	2980,
 	2980,
 	2980,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	1695,
-	3776,
-	3776,
+	3777,
+	3777,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_Sample_Camera_VideoCamera_CodeGenModule;
 const Il2CppCodeGenModule g_EasyAR_Sense_Sample_Camera_VideoCamera_CodeGenModule = 

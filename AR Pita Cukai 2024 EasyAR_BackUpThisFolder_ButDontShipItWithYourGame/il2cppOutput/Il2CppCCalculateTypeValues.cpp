@@ -14086,14 +14086,14 @@ struct U3CU3Ec_t67A4E6FE2E0F86552E6A886100AD38F0D90B0B76_StaticFields
 	Func_2_tD3EB9C798F3343BFC2B19E1EF62D06CB5B71645C* ___U3CU3E9__12_0_2;
 };
 
-// easyar.CameraDeviceFrameSource/<AutoOpen>d__46
-struct U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D  : public RuntimeObject
+// easyar.CameraDeviceFrameSource/<AutoOpen>d__48
+struct U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D  : public RuntimeObject
 {
-	// System.Int32 easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>1__state
+	// System.Int32 easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>2__current
+	// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// easyar.CameraDeviceFrameSource easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>4__this
+	// easyar.CameraDeviceFrameSource easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>4__this
 	CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* ___U3CU3E4__this_2;
 };
 
@@ -61339,7 +61339,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize2435 = { sizeof(ARKitFrameSo
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2436;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2436 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2437;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2437 = { sizeof(U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2437 = { sizeof(U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2438;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2438 = { sizeof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92), -1, sizeof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2439;

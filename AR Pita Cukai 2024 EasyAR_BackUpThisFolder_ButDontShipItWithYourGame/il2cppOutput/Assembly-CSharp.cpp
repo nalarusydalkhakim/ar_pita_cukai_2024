@@ -3491,12 +3491,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_GetRelativeTouch_m134935
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator TouchController::OnTwoRotate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoRotate_m3592816D51244E7E9BC34461289D8FED5BDC53A9 (TouchController_tEA714A3AD8470CFE8D310CD659305F53B416D732* __this, const RuntimeMethod* method) ;
-// System.Collections.IEnumerator TouchController::OnTwoMove()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoMove_m310DE35EBD59FB314A2964C820FF17E23CFF2C55 (TouchController_tEA714A3AD8470CFE8D310CD659305F53B416D732* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator TouchController::OnTwoScale()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnTwoScale_m3CAC18051CF9EC4B6AB2CFE712D99FF5D553D863 (TouchController_tEA714A3AD8470CFE8D310CD659305F53B416D732* __this, const RuntimeMethod* method) ;
-// System.Collections.IEnumerator TouchController::OnOneMove()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TouchController_OnOneMove_m873B943FC4F488500D985AC944B7AB358D893E17 (TouchController_tEA714A3AD8470CFE8D310CD659305F53B416D732* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector3::get_magnitude()
@@ -11348,7 +11344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchController_Update_m8492E30F38475D13
 	}
 	{
 		// if (!controlTarget) { return; }
-		goto IL_0390;
+		goto IL_0376;
 	}
 
 IL_0019:
@@ -11461,7 +11457,7 @@ IL_0085:
 
 IL_00b9:
 	{
-		goto IL_034d;
+		goto IL_0333;
 	}
 
 IL_00bf:
@@ -11520,7 +11516,7 @@ IL_00dd:
 
 IL_0105:
 	{
-		goto IL_034d;
+		goto IL_0333;
 	}
 
 IL_010b:
@@ -11531,7 +11527,7 @@ IL_010b:
 		bool L_32 = V_10;
 		if (!L_32)
 		{
-			goto IL_028f;
+			goto IL_0282;
 		}
 	}
 	{
@@ -11550,7 +11546,7 @@ IL_010b:
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.OutOfControl;
 		__this->___curGesture_14 = 6;
-		goto IL_0289;
+		goto IL_027c;
 	}
 
 IL_0144:
@@ -11617,7 +11613,7 @@ IL_01c4:
 		bool L_51 = V_15;
 		if (!L_51)
 		{
-			goto IL_0288;
+			goto IL_027b;
 		}
 	}
 	{
@@ -11632,7 +11628,7 @@ IL_01c4:
 		bool L_55 = V_16;
 		if (!L_55)
 		{
-			goto IL_0263;
+			goto IL_0256;
 		}
 	}
 	{
@@ -11676,7 +11672,7 @@ IL_01c4:
 
 IL_0239:
 	{
-		goto IL_0260;
+		goto IL_0253;
 	}
 
 IL_023c:
@@ -11689,84 +11685,79 @@ IL_023c:
 		bool L_67 = V_21;
 		if (!L_67)
 		{
-			goto IL_025f;
+			goto IL_0252;
 		}
 	}
 	{
-		// StartCoroutine(OnTwoMove());
-		RuntimeObject* L_68;
-		L_68 = TouchController_OnTwoMove_m310DE35EBD59FB314A2964C820FF17E23CFF2C55(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_69;
-		L_69 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_68, NULL);
 	}
 
-IL_025f:
+IL_0252:
 	{
 	}
 
-IL_0260:
+IL_0253:
 	{
-		goto IL_0287;
+		goto IL_027a;
 	}
 
-IL_0263:
+IL_0256:
 	{
 		// curGesture = GestureControl.TwoScale;
 		__this->___curGesture_14 = 5;
 		// if (isTwoFingerScalable)
-		bool L_70 = __this->___isTwoFingerScalable_11;
-		V_22 = L_70;
-		bool L_71 = V_22;
-		if (!L_71)
+		bool L_68 = __this->___isTwoFingerScalable_11;
+		V_22 = L_68;
+		bool L_69 = V_22;
+		if (!L_69)
 		{
-			goto IL_0286;
+			goto IL_0279;
 		}
 	}
 	{
 		// StartCoroutine(OnTwoScale());
-		RuntimeObject* L_72;
-		L_72 = TouchController_OnTwoScale_m3CAC18051CF9EC4B6AB2CFE712D99FF5D553D863(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_73;
-		L_73 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_72, NULL);
+		RuntimeObject* L_70;
+		L_70 = TouchController_OnTwoScale_m3CAC18051CF9EC4B6AB2CFE712D99FF5D553D863(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_71;
+		L_71 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_70, NULL);
 	}
 
-IL_0286:
+IL_0279:
 	{
 	}
 
-IL_0287:
+IL_027a:
 	{
 	}
 
-IL_0288:
+IL_027b:
 	{
 	}
 
-IL_0289:
+IL_027c:
 	{
-		goto IL_034d;
+		goto IL_0333;
 	}
 
-IL_028f:
+IL_0282:
 	{
 		// else if (curGesture == GestureControl.OneMove)
-		int32_t L_74 = __this->___curGesture_14;
-		V_23 = (bool)((((int32_t)L_74) == ((int32_t)1))? 1 : 0);
-		bool L_75 = V_23;
-		if (!L_75)
+		int32_t L_72 = __this->___curGesture_14;
+		V_23 = (bool)((((int32_t)L_72) == ((int32_t)1))? 1 : 0);
+		bool L_73 = V_23;
+		if (!L_73)
 		{
-			goto IL_02e3;
+			goto IL_02d6;
 		}
 	}
 	{
 		// if (Input.touchCount == 2)
-		int32_t L_76;
-		L_76 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_24 = (bool)((((int32_t)L_76) == ((int32_t)2))? 1 : 0);
-		bool L_77 = V_24;
-		if (!L_77)
+		int32_t L_74;
+		L_74 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_24 = (bool)((((int32_t)L_74) == ((int32_t)2))? 1 : 0);
+		bool L_75 = V_24;
+		if (!L_75)
 		{
-			goto IL_02bf;
+			goto IL_02b2;
 		}
 	}
 	{
@@ -11774,19 +11765,19 @@ IL_028f:
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 		// curGesture = GestureControl.TwoWait;
 		__this->___curGesture_14 = 2;
-		goto IL_02e0;
+		goto IL_02d3;
 	}
 
-IL_02bf:
+IL_02b2:
 	{
 		// else if (Input.touchCount != 1)
-		int32_t L_78;
-		L_78 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_25 = (bool)((((int32_t)((((int32_t)L_78) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_79 = V_25;
-		if (!L_79)
+		int32_t L_76;
+		L_76 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_25 = (bool)((((int32_t)((((int32_t)L_76) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_77 = V_25;
+		if (!L_77)
 		{
-			goto IL_02e0;
+			goto IL_02d3;
 		}
 	}
 	{
@@ -11796,70 +11787,65 @@ IL_02bf:
 		__this->___curGesture_14 = 6;
 	}
 
-IL_02e0:
+IL_02d3:
 	{
-		goto IL_034d;
+		goto IL_0333;
 	}
 
-IL_02e3:
+IL_02d6:
 	{
 		// else if (curGesture == GestureControl.NoTouch)
-		int32_t L_80 = __this->___curGesture_14;
-		V_26 = (bool)((((int32_t)L_80) == ((int32_t)0))? 1 : 0);
-		bool L_81 = V_26;
-		if (!L_81)
+		int32_t L_78 = __this->___curGesture_14;
+		V_26 = (bool)((((int32_t)L_78) == ((int32_t)0))? 1 : 0);
+		bool L_79 = V_26;
+		if (!L_79)
 		{
-			goto IL_034d;
+			goto IL_0333;
 		}
 	}
 	{
 		// if (Input.touchCount == 1)
-		int32_t L_82;
-		L_82 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_27 = (bool)((((int32_t)L_82) == ((int32_t)1))? 1 : 0);
-		bool L_83 = V_27;
-		if (!L_83)
+		int32_t L_80;
+		L_80 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_27 = (bool)((((int32_t)L_80) == ((int32_t)1))? 1 : 0);
+		bool L_81 = V_27;
+		if (!L_81)
 		{
-			goto IL_032e;
+			goto IL_0314;
 		}
 	}
 	{
 		// curGesture = GestureControl.OneMove;
 		__this->___curGesture_14 = 1;
 		// if (isOneFingerDraggable)
-		bool L_84 = __this->___isOneFingerDraggable_9;
-		V_28 = L_84;
-		bool L_85 = V_28;
-		if (!L_85)
+		bool L_82 = __this->___isOneFingerDraggable_9;
+		V_28 = L_82;
+		bool L_83 = V_28;
+		if (!L_83)
 		{
-			goto IL_032b;
+			goto IL_0311;
 		}
 	}
 	{
 		// StopAllCoroutines();
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
-		// StartCoroutine(OnOneMove());
-		RuntimeObject* L_86;
-		L_86 = TouchController_OnOneMove_m873B943FC4F488500D985AC944B7AB358D893E17(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_87;
-		L_87 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_86, NULL);
 	}
 
-IL_032b:
+IL_0311:
 	{
-		goto IL_034c;
+		goto IL_0332;
 	}
 
-IL_032e:
+IL_0314:
 	{
 		// else if (Input.touchCount == 2)
-		int32_t L_88;
-		L_88 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
-		V_29 = (bool)((((int32_t)L_88) == ((int32_t)2))? 1 : 0);
-		bool L_89 = V_29;
-		if (!L_89)
+		int32_t L_84;
+		L_84 = Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF(NULL);
+		V_29 = (bool)((((int32_t)L_84) == ((int32_t)2))? 1 : 0);
+		bool L_85 = V_29;
+		if (!L_85)
 		{
-			goto IL_034c;
+			goto IL_0332;
 		}
 	}
 	{
@@ -11869,46 +11855,46 @@ IL_032e:
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
 	}
 
-IL_034c:
+IL_0332:
 	{
 	}
 
-IL_034d:
+IL_0333:
 	{
 		// if (controlTarget != null)
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_90 = __this->___controlTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_86 = __this->___controlTarget_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_91;
-		L_91 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_90, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_30 = L_91;
-		bool L_92 = V_30;
-		if (!L_92)
+		bool L_87;
+		L_87 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_86, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_30 = L_87;
+		bool L_88 = V_30;
+		if (!L_88)
 		{
-			goto IL_0390;
+			goto IL_0376;
 		}
 	}
 	{
 		// targetCamDistance = (cameraTarget.transform.position - controlTarget.position).magnitude;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_93 = __this->___cameraTarget_8;
-		NullCheck(L_93);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_94;
-		L_94 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_93, NULL);
-		NullCheck(L_94);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
-		L_95 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_94, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_96 = __this->___controlTarget_7;
-		NullCheck(L_96);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97;
-		L_97 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_96, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98;
-		L_98 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_95, L_97, NULL);
-		V_31 = L_98;
-		float L_99;
-		L_99 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_31), NULL);
-		__this->___targetCamDistance_15 = L_99;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_89 = __this->___cameraTarget_8;
+		NullCheck(L_89);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_90;
+		L_90 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_89, NULL);
+		NullCheck(L_90);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
+		L_91 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_90, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_92 = __this->___controlTarget_7;
+		NullCheck(L_92);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93;
+		L_93 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_92, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94;
+		L_94 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_91, L_93, NULL);
+		V_31 = L_94;
+		float L_95;
+		L_95 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_31), NULL);
+		__this->___targetCamDistance_15 = L_95;
 	}
 
-IL_0390:
+IL_0376:
 	{
 		// }
 		return;

@@ -9578,14 +9578,14 @@ struct U3CU3Ec_t67A4E6FE2E0F86552E6A886100AD38F0D90B0B76_StaticFields
 	Func_2_tD3EB9C798F3343BFC2B19E1EF62D06CB5B71645C* ___U3CU3E9__12_0_2;
 };
 
-// easyar.CameraDeviceFrameSource/<AutoOpen>d__46
-struct U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D  : public RuntimeObject
+// easyar.CameraDeviceFrameSource/<AutoOpen>d__48
+struct U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D  : public RuntimeObject
 {
-	// System.Int32 easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>1__state
+	// System.Int32 easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>2__current
+	// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// easyar.CameraDeviceFrameSource easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>4__this
+	// easyar.CameraDeviceFrameSource easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>4__this
 	CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* ___U3CU3E4__this_2;
 };
 
@@ -38286,7 +38286,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2436[3] =
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2437[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D, ___U3CU3E4__this_2)),};
+	static_cast<int32_t>(offsetof(U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D, ___U3CU3E4__this_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2438[14] = 
 {
 	static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___U3CDeviceU3Ek__BackingField_11)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___FocusMode_12)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___CameraSize_13)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___CameraOpenMethod_14)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___CameraType_15)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___CameraIndex_16)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_StaticFields, ___availableCenterMode_17)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___cameraPreference_18)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___parameters_19)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___willOpen_20)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___disableAutoOpen_21)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___DeviceCreated_22)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___DeviceOpened_23)),static_cast<int32_t>(offsetof(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92, ___DeviceClosed_24)),};

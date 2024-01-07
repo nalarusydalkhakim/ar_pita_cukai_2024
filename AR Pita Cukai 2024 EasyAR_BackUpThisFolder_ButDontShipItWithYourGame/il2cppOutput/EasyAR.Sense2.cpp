@@ -508,8 +508,8 @@ struct FrameChangeAction_t22915014AF19BCD5BA244E1A821751FAC6A2C2B3;
 struct U3CU3Ec_t379422584F1144728859507BF90CD4CA05370749;
 // UnityEngine.Camera/CameraCallback
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
-// easyar.CameraDeviceFrameSource/<AutoOpen>d__46
-struct U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D;
+// easyar.CameraDeviceFrameSource/<AutoOpen>d__48
+struct U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D;
 // easyar.CameraImageMaterial/CameraImageShaders
 struct CameraImageShaders_tF11C72B259F894CE25147615DF0A4DBB4B0D80E7;
 // easyar.CameraImageRenderer/UserRequest
@@ -710,8 +710,8 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAutoOpenU3Ed__28_tCDB2003B08C643597AC0E76C4EECA5F604242048_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAutoOpenU3Ed__40_t6EE8DEC7E45F1928EBC5B69FE2DA0AF50AB55E21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAutoOpenU3Ed__41_t6C6B7BD2D38E74321DE6A331A84BD02A47E405F2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAutoOpenU3Ed__47_t0D0B312D8B005E51CCF957718A0E2C35D8EBA283_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CCheckAvailabilityU3Ed__41_t69BDC9A1DEE9EA50DAAA7486B72CFD18E5467D94_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass26_0_t4DF16B210552A1736F2A9D15A4211DE2D0ABE83A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass41_0_tB66C35723D8C5CE4CE9B030856B3C9B43F8EFD64_il2cpp_TypeInfo_var;
@@ -917,10 +917,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__40_MoveNext_mA3D70DDC77AB5
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__40_System_Collections_IEnumerator_Reset_m39993D3E057B119BE9E8452B5E6730157F88703E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__41_MoveNext_mDC2BA8FFE5D76B6639A0D6DE1371239B73D3E5FF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__41_System_Collections_IEnumerator_Reset_m09C65BDA549764DD27863E6D990C0E223C3BBE27_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__46_MoveNext_m61FA881F27F5060A9B5A96A7FEDF266E1F1784BA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_Reset_m12814D082C8FED2B3102E05FDC2749DDE7E620A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__47_MoveNext_m0BB1C291ACD64C5131B3F7AD51427F028BBB7FD8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__47_System_Collections_IEnumerator_Reset_m927B57FEDCFDA7A8355843723D608FCBE01B22C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__48_MoveNext_mBDE213B0C489C2AB74214453D0FB7DBB3333D1B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_Reset_m693F969B667498AA84C7BEECAAA5448362608FEC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCheckAvailabilityU3Ed__41_System_Collections_IEnumerator_Reset_m3B968004DE51AEB48BE019958EF8DD1032AC188A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnAssembleU3Eb__40_0_m58A396877E79315F3BCCDEB1DDDB57610435B12E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__3_0_m83E00571206394186C8889E411C0E1D5ADA605F2_RuntimeMethod_var;
@@ -1373,14 +1373,14 @@ struct U3CU3Ec_t379422584F1144728859507BF90CD4CA05370749_StaticFields
 	Func_2_t40D0AF526C2E8BFF3C5446FB81FEAA320EC0ACBB* ___U3CU3E9__3_0_1;
 };
 
-// easyar.CameraDeviceFrameSource/<AutoOpen>d__46
-struct U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D  : public RuntimeObject
+// easyar.CameraDeviceFrameSource/<AutoOpen>d__48
+struct U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D  : public RuntimeObject
 {
-	// System.Int32 easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>1__state
+	// System.Int32 easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>2__current
+	// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// easyar.CameraDeviceFrameSource easyar.CameraDeviceFrameSource/<AutoOpen>d__46::<>4__this
+	// easyar.CameraDeviceFrameSource easyar.CameraDeviceFrameSource/<AutoOpen>d__48::<>4__this
 	CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* ___U3CU3E4__this_2;
 };
 
@@ -5514,10 +5514,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraDeviceSelector_getFocusMode_m9A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator easyar.CameraDeviceFrameSource::AutoOpen()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraDeviceFrameSource_AutoOpen_m3E902B9365FB5F95FA37E6EBDA50821E9BFE7ED0 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
+// System.Void easyar.CameraDeviceFrameSource::Open()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
 // System.Void easyar.CameraDeviceFrameSource::set_Device(easyar.CameraDevice)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_set_Device_mAE6594D620E64B812F45298BC08D47D7CFF736DB_inline (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, CameraDevice_tD49A49DD97F9C0B672E5617F54A2B15B7CB2ACCE* ___value0, const RuntimeMethod* method) ;
-// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__46__ctor_m4865DC8AB9B534D562D64980B1B027B53C7763A2 (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__48__ctor_mC4BF7855A7573ADDCEF570BEB3EA6F5B77280D02 (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<easyar.ARSession/ARCenterMode>::.ctor()
 inline void List_1__ctor_m343E9AE492A94D882A440150B52E21644C336D34 (List_1_t28ACFD63E6C534D957A7F965C7430A0E1A7149DE* __this, const RuntimeMethod* method)
 {
@@ -5534,8 +5536,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraDeviceFrameSource_get_CameraPre
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CameraDevice_tD49A49DD97F9C0B672E5617F54A2B15B7CB2ACCE* CameraDeviceSelector_createCameraDevice_mDD800E19CB4877097279EB323C285C7C3CAE68C5 (int32_t ___preference0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
-// System.Void easyar.CameraDeviceFrameSource::Open()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
 // easyar.MotionTrackerCameraDevice easyar.MotionTrackerFrameSource::get_Device()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MotionTrackerCameraDevice_tD436B669F38CE985813E95A6F7828D3E4BB8C0BB* MotionTrackerFrameSource_get_Device_mC0E3FFC702FE8394DBEE46E8E26DFD9BD5D61518_inline (MotionTrackerFrameSource_tD7D327ED271EF894B64ED950708BB80FEC03DE00* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object,System.Object)
@@ -28774,6 +28774,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Open_mE2216EE221
 		return;
 	}
 }
+// System.Void easyar.CameraDeviceFrameSource::changeFocusMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_changeFocusMode_mF8FCBA15E122C2592DB2E46B567AEBC947BE5CF4 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) 
+{
+	{
+		// Close();
+		CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F(__this, NULL);
+		// FocusMode = CameraDeviceFocusMode.Continousauto;
+		__this->___FocusMode_12 = 2;
+		// Open();
+		CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void easyar.CameraDeviceFrameSource::focusMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_focusMode_m57AA1A08CE66F423E2859056FD86BE059EC646B4 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) 
+{
+	{
+		// Close();
+		CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F(__this, NULL);
+		// FocusMode = CameraDeviceFocusMode.Continousauto;
+		__this->___FocusMode_12 = 2;
+		// Open();
+		CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64(__this, NULL);
+		// }
+		return;
+	}
+}
 // System.Void easyar.CameraDeviceFrameSource::Close()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) 
 {
@@ -28877,14 +28905,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraDeviceFrameSource_AutoOp
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* L_0 = (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D*)il2cpp_codegen_object_new(U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D_il2cpp_TypeInfo_var);
+		U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* L_0 = (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D*)il2cpp_codegen_object_new(U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CAutoOpenU3Ed__46__ctor_m4865DC8AB9B534D562D64980B1B027B53C7763A2(L_0, 0, NULL);
-		U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* L_1 = L_0;
+		U3CAutoOpenU3Ed__48__ctor_mC4BF7855A7573ADDCEF570BEB3EA6F5B77280D02(L_0, 0, NULL);
+		U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -29260,8 +29288,8 @@ IL_01ab:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__46__ctor_m4865DC8AB9B534D562D64980B1B027B53C7763A2 (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__48__ctor_mC4BF7855A7573ADDCEF570BEB3EA6F5B77280D02 (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -29270,15 +29298,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__46__ctor_m4865DC8AB9B53
 		return;
 	}
 }
-// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__46_System_IDisposable_Dispose_mCFAB319CD4DB4EC88C3C41EB58883A455DDD8E96 (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, const RuntimeMethod* method) 
+// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__48_System_IDisposable_Dispose_mA3D90A68574C4CEB1F94079522E9CD81A5C59186 (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean easyar.CameraDeviceFrameSource/<AutoOpen>d__46::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAutoOpenU3Ed__46_MoveNext_m61FA881F27F5060A9B5A96A7FEDF266E1F1784BA (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, const RuntimeMethod* method) 
+// System.Boolean easyar.CameraDeviceFrameSource/<AutoOpen>d__48::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAutoOpenU3Ed__48_MoveNext_mBDE213B0C489C2AB74214453D0FB7DBB3333D1B6 (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -29482,7 +29510,7 @@ IL_00be:
 		UIPopupException_t6CBA36793B5CB835F7ED2FD94F0D60186543D6EE* L_24 = (UIPopupException_t6CBA36793B5CB835F7ED2FD94F0D60186543D6EE*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UIPopupException_t6CBA36793B5CB835F7ED2FD94F0D60186543D6EE_il2cpp_TypeInfo_var)));
 		NullCheck(L_24);
 		UIPopupException__ctor_m2028C0A495324E4FAD33E2E48EDE7347C6BF2F6C(L_24, L_23, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAutoOpenU3Ed__46_MoveNext_m61FA881F27F5060A9B5A96A7FEDF266E1F1784BA_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAutoOpenU3Ed__48_MoveNext_mBDE213B0C489C2AB74214453D0FB7DBB3333D1B6_RuntimeMethod_var)));
 	}
 
 IL_00ce:
@@ -29495,26 +29523,26 @@ IL_00ce:
 		return (bool)0;
 	}
 }
-// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAutoOpenU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCDC611B70AB9D41A3A3879B78F0C7A7221DF102D (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, const RuntimeMethod* method) 
+// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAutoOpenU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC2C35C07D630FB542A8E94CE8A6DA7F05902F04E (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_Reset_m12814D082C8FED2B3102E05FDC2749DDE7E620A8 (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, const RuntimeMethod* method) 
+// System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_Reset_m693F969B667498AA84C7BEECAAA5448362608FEC (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_Reset_m12814D082C8FED2B3102E05FDC2749DDE7E620A8_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_Reset_m693F969B667498AA84C7BEECAAA5448362608FEC_RuntimeMethod_var)));
 	}
 }
-// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_get_Current_m49D9E70978B3636063BA3F406BCE6582F6ABC306 (U3CAutoOpenU3Ed__46_t273E4635E30DE853167BBB798722C4F2AB78C36D* __this, const RuntimeMethod* method) 
+// System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_get_Current_m92DD2F5270AC79E24B61B88A6CA174F8F750E750 (U3CAutoOpenU3Ed__48_tF1A4316FD2342DDE2B81015D02B3AAEB4974A61D* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;

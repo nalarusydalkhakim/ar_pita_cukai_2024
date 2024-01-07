@@ -44,14 +44,14 @@ static Il2CppMethodPointer s_methodPointers[9] =
 };
 static const int32_t s_InvokerIndices[9] = 
 {
-	3776,
-	3776,
+	3777,
+	3777,
 	2980,
-	3776,
-	3776,
-	3776,
-	5990,
-	3776,
+	3777,
+	3777,
+	3777,
+	5993,
+	3777,
 	3020,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_MotionFusion_CodeGenModule;

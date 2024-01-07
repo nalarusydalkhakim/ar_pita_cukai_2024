@@ -4751,2435 +4751,2439 @@ extern void CameraDeviceFrameSource_OnDestroy_m3F5EB9EDCE96E44115E5176B9D3513654
 extern void CameraDeviceFrameSource_OnAssemble_mD223E238E402A9DB083151D808907836E65A1D8C (void);
 // 0x0000092C System.Void easyar.CameraDeviceFrameSource::Open()
 extern void CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64 (void);
-// 0x0000092D System.Void easyar.CameraDeviceFrameSource::Close()
+// 0x0000092D System.Void easyar.CameraDeviceFrameSource::changeFocusMode()
+extern void CameraDeviceFrameSource_changeFocusMode_mF8FCBA15E122C2592DB2E46B567AEBC947BE5CF4 (void);
+// 0x0000092E System.Void easyar.CameraDeviceFrameSource::focusMode()
+extern void CameraDeviceFrameSource_focusMode_m57AA1A08CE66F423E2859056FD86BE059EC646B4 (void);
+// 0x0000092F System.Void easyar.CameraDeviceFrameSource::Close()
 extern void CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F (void);
-// 0x0000092E System.Void easyar.CameraDeviceFrameSource::Connect(easyar.InputFrameSink)
+// 0x00000930 System.Void easyar.CameraDeviceFrameSource::Connect(easyar.InputFrameSink)
 extern void CameraDeviceFrameSource_Connect_m8819CE4AB52E5C836A04149DB902095260A0967E (void);
-// 0x0000092F System.Collections.IEnumerator easyar.CameraDeviceFrameSource::AutoOpen()
+// 0x00000931 System.Collections.IEnumerator easyar.CameraDeviceFrameSource::AutoOpen()
 extern void CameraDeviceFrameSource_AutoOpen_m3E902B9365FB5F95FA37E6EBDA50821E9BFE7ED0 (void);
-// 0x00000930 System.Void easyar.CameraDeviceFrameSource::.ctor()
+// 0x00000932 System.Void easyar.CameraDeviceFrameSource::.ctor()
 extern void CameraDeviceFrameSource__ctor_mE6C35B41B398AB3F11D55A95EE4B1C300335A22F (void);
-// 0x00000931 System.Void easyar.CameraDeviceFrameSource::.cctor()
+// 0x00000933 System.Void easyar.CameraDeviceFrameSource::.cctor()
 extern void CameraDeviceFrameSource__cctor_m1517ABF90FB016BF7F4540518F2D54B7E8ABD9E1 (void);
-// 0x00000932 System.Void easyar.CameraDeviceFrameSource::<Open>b__43_0(easyar.PermissionStatus,System.String)
+// 0x00000934 System.Void easyar.CameraDeviceFrameSource::<Open>b__43_0(easyar.PermissionStatus,System.String)
 extern void CameraDeviceFrameSource_U3COpenU3Eb__43_0_m04972F64C887C8DD6D8B0C26F582F88D11128D97 (void);
-// 0x00000933 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::.ctor(System.Int32)
-extern void U3CAutoOpenU3Ed__46__ctor_m4865DC8AB9B534D562D64980B1B027B53C7763A2 (void);
-// 0x00000934 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.IDisposable.Dispose()
-extern void U3CAutoOpenU3Ed__46_System_IDisposable_Dispose_mCFAB319CD4DB4EC88C3C41EB58883A455DDD8E96 (void);
-// 0x00000935 System.Boolean easyar.CameraDeviceFrameSource/<AutoOpen>d__46::MoveNext()
-extern void U3CAutoOpenU3Ed__46_MoveNext_m61FA881F27F5060A9B5A96A7FEDF266E1F1784BA (void);
-// 0x00000936 System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CAutoOpenU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCDC611B70AB9D41A3A3879B78F0C7A7221DF102D (void);
-// 0x00000937 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.Collections.IEnumerator.Reset()
-extern void U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_Reset_m12814D082C8FED2B3102E05FDC2749DDE7E620A8 (void);
-// 0x00000938 System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__46::System.Collections.IEnumerator.get_Current()
-extern void U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_get_Current_m49D9E70978B3636063BA3F406BCE6582F6ABC306 (void);
-// 0x00000939 easyar.MotionTrackerCameraDevice easyar.MotionTrackerFrameSource::get_Device()
+// 0x00000935 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::.ctor(System.Int32)
+extern void U3CAutoOpenU3Ed__48__ctor_mC4BF7855A7573ADDCEF570BEB3EA6F5B77280D02 (void);
+// 0x00000936 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.IDisposable.Dispose()
+extern void U3CAutoOpenU3Ed__48_System_IDisposable_Dispose_mA3D90A68574C4CEB1F94079522E9CD81A5C59186 (void);
+// 0x00000937 System.Boolean easyar.CameraDeviceFrameSource/<AutoOpen>d__48::MoveNext()
+extern void U3CAutoOpenU3Ed__48_MoveNext_mBDE213B0C489C2AB74214453D0FB7DBB3333D1B6 (void);
+// 0x00000938 System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoOpenU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC2C35C07D630FB542A8E94CE8A6DA7F05902F04E (void);
+// 0x00000939 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.Collections.IEnumerator.Reset()
+extern void U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_Reset_m693F969B667498AA84C7BEECAAA5448362608FEC (void);
+// 0x0000093A System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__48::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_get_Current_m92DD2F5270AC79E24B61B88A6CA174F8F750E750 (void);
+// 0x0000093B easyar.MotionTrackerCameraDevice easyar.MotionTrackerFrameSource::get_Device()
 extern void MotionTrackerFrameSource_get_Device_mC0E3FFC702FE8394DBEE46E8E26DFD9BD5D61518 (void);
-// 0x0000093A System.Void easyar.MotionTrackerFrameSource::set_Device(easyar.MotionTrackerCameraDevice)
+// 0x0000093C System.Void easyar.MotionTrackerFrameSource::set_Device(easyar.MotionTrackerCameraDevice)
 extern void MotionTrackerFrameSource_set_Device_m1C93C53A2C9FAF376ED68836300E941B440091A4 (void);
-// 0x0000093B System.Void easyar.MotionTrackerFrameSource::add_DeviceCreated(System.Action)
+// 0x0000093D System.Void easyar.MotionTrackerFrameSource::add_DeviceCreated(System.Action)
 extern void MotionTrackerFrameSource_add_DeviceCreated_m21D3F63B4F97BC1EC3B051283189AD81B1B92273 (void);
-// 0x0000093C System.Void easyar.MotionTrackerFrameSource::remove_DeviceCreated(System.Action)
+// 0x0000093E System.Void easyar.MotionTrackerFrameSource::remove_DeviceCreated(System.Action)
 extern void MotionTrackerFrameSource_remove_DeviceCreated_m94031C02A19E8594DFD3C19B2510A51AA7B6D969 (void);
-// 0x0000093D System.Void easyar.MotionTrackerFrameSource::add_DeviceOpened(System.Action)
+// 0x0000093F System.Void easyar.MotionTrackerFrameSource::add_DeviceOpened(System.Action)
 extern void MotionTrackerFrameSource_add_DeviceOpened_m8F5D512356A5E64659E2D544F4F93042E3EDD611 (void);
-// 0x0000093E System.Void easyar.MotionTrackerFrameSource::remove_DeviceOpened(System.Action)
+// 0x00000940 System.Void easyar.MotionTrackerFrameSource::remove_DeviceOpened(System.Action)
 extern void MotionTrackerFrameSource_remove_DeviceOpened_mE5AF4AB7A982720B82EA79A430C06C1365FEFBFB (void);
-// 0x0000093F System.Void easyar.MotionTrackerFrameSource::add_DeviceClosed(System.Action)
+// 0x00000941 System.Void easyar.MotionTrackerFrameSource::add_DeviceClosed(System.Action)
 extern void MotionTrackerFrameSource_add_DeviceClosed_m449F250E83D8B2B30B29658F0359FAE35C7E2530 (void);
-// 0x00000940 System.Void easyar.MotionTrackerFrameSource::remove_DeviceClosed(System.Action)
+// 0x00000942 System.Void easyar.MotionTrackerFrameSource::remove_DeviceClosed(System.Action)
 extern void MotionTrackerFrameSource_remove_DeviceClosed_m77A8292180FCBA846A448A52E74CB495FA502D7C (void);
-// 0x00000941 easyar.Optional`1<easyar.InputFrameSourceType> easyar.MotionTrackerFrameSource::get_Type()
+// 0x00000943 easyar.Optional`1<easyar.InputFrameSourceType> easyar.MotionTrackerFrameSource::get_Type()
 extern void MotionTrackerFrameSource_get_Type_m09CCA4DB7018117A184476595FEF2E27946C2AAC (void);
-// 0x00000942 easyar.Optional`1<System.Boolean> easyar.MotionTrackerFrameSource::get_IsAvailable()
+// 0x00000944 easyar.Optional`1<System.Boolean> easyar.MotionTrackerFrameSource::get_IsAvailable()
 extern void MotionTrackerFrameSource_get_IsAvailable_m5C8EA316729774A5163771D168132988709DEA91 (void);
-// 0x00000943 System.Int32 easyar.MotionTrackerFrameSource::get_BufferCapacity()
+// 0x00000945 System.Int32 easyar.MotionTrackerFrameSource::get_BufferCapacity()
 extern void MotionTrackerFrameSource_get_BufferCapacity_m041643749FBBEC59E2E9D9DE913377E69CBCD1E8 (void);
-// 0x00000944 System.Void easyar.MotionTrackerFrameSource::set_BufferCapacity(System.Int32)
+// 0x00000946 System.Void easyar.MotionTrackerFrameSource::set_BufferCapacity(System.Int32)
 extern void MotionTrackerFrameSource_set_BufferCapacity_mA2315803750E9CF62BE690622150A21EDFA9B3DC (void);
-// 0x00000945 easyar.WorldRootController easyar.MotionTrackerFrameSource::get_WorldRoot()
+// 0x00000947 easyar.WorldRootController easyar.MotionTrackerFrameSource::get_WorldRoot()
 extern void MotionTrackerFrameSource_get_WorldRoot_m565C4739E69F2769D52580E2B35890F4B0B3893E (void);
-// 0x00000946 System.Void easyar.MotionTrackerFrameSource::set_WorldRoot(easyar.WorldRootController)
+// 0x00000948 System.Void easyar.MotionTrackerFrameSource::set_WorldRoot(easyar.WorldRootController)
 extern void MotionTrackerFrameSource_set_WorldRoot_mEC8083C225A67E3D0D1D46F7ACFF82702AFC42A6 (void);
-// 0x00000947 UnityEngine.GameObject easyar.MotionTrackerFrameSource::get_Origin()
+// 0x00000949 UnityEngine.GameObject easyar.MotionTrackerFrameSource::get_Origin()
 extern void MotionTrackerFrameSource_get_Origin_m0D8090CD6DD170D6E0953CA81C2AFF39696B3C0E (void);
-// 0x00000948 System.Void easyar.MotionTrackerFrameSource::Awake()
+// 0x0000094A System.Void easyar.MotionTrackerFrameSource::Awake()
 extern void MotionTrackerFrameSource_Awake_mF2CB447EFE19FF2EE3BF9CB40A93AD3170CB685D (void);
-// 0x00000949 System.Void easyar.MotionTrackerFrameSource::OnEnable()
+// 0x0000094B System.Void easyar.MotionTrackerFrameSource::OnEnable()
 extern void MotionTrackerFrameSource_OnEnable_m3BDF8CA834343BA54A2F7CECB3771C6EC4E606CC (void);
-// 0x0000094A System.Void easyar.MotionTrackerFrameSource::OnDisable()
+// 0x0000094C System.Void easyar.MotionTrackerFrameSource::OnDisable()
 extern void MotionTrackerFrameSource_OnDisable_m678E4F5EDBA14F75C9CE4B1BA9BF54C10BE1B7AD (void);
-// 0x0000094B System.Void easyar.MotionTrackerFrameSource::OnDestroy()
+// 0x0000094D System.Void easyar.MotionTrackerFrameSource::OnDestroy()
 extern void MotionTrackerFrameSource_OnDestroy_m6B295A9279590FACA0C8F1359A60F914BF20EC95 (void);
-// 0x0000094C System.Void easyar.MotionTrackerFrameSource::OnAssemble(easyar.ARSession)
+// 0x0000094E System.Void easyar.MotionTrackerFrameSource::OnAssemble(easyar.ARSession)
 extern void MotionTrackerFrameSource_OnAssemble_mAB9082D2697749A34CEDE2FA9CE284D775AA3FCC (void);
-// 0x0000094D System.Collections.IEnumerator easyar.MotionTrackerFrameSource::CheckAvailability()
+// 0x0000094F System.Collections.IEnumerator easyar.MotionTrackerFrameSource::CheckAvailability()
 extern void MotionTrackerFrameSource_CheckAvailability_mB4AD73CA1DB39613A2768912E39B5F090E4601D9 (void);
-// 0x0000094E System.Void easyar.MotionTrackerFrameSource::Open()
+// 0x00000950 System.Void easyar.MotionTrackerFrameSource::Open()
 extern void MotionTrackerFrameSource_Open_m9439B2166854F4926B89B1E9D7D0ECB56B5EF79A (void);
-// 0x0000094F System.Void easyar.MotionTrackerFrameSource::Close()
+// 0x00000951 System.Void easyar.MotionTrackerFrameSource::Close()
 extern void MotionTrackerFrameSource_Close_mC8E7D0BC0B22354BD885A8540C3F475F69E1F41D (void);
-// 0x00000950 System.Void easyar.MotionTrackerFrameSource::Connect(easyar.InputFrameSink)
+// 0x00000952 System.Void easyar.MotionTrackerFrameSource::Connect(easyar.InputFrameSink)
 extern void MotionTrackerFrameSource_Connect_m6C754F4AE7E4B3049F31EC0F3940EDC03520616A (void);
-// 0x00000951 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.MotionTrackerFrameSource::HitTestAgainstHorizontalPlane(UnityEngine.Vector2)
+// 0x00000953 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.MotionTrackerFrameSource::HitTestAgainstHorizontalPlane(UnityEngine.Vector2)
 extern void MotionTrackerFrameSource_HitTestAgainstHorizontalPlane_mA57D0D72394ABB73C4ABD0FA961D14F57CC4F09B (void);
-// 0x00000952 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.MotionTrackerFrameSource::HitTestAgainstPointCloud(UnityEngine.Vector2)
+// 0x00000954 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.MotionTrackerFrameSource::HitTestAgainstPointCloud(UnityEngine.Vector2)
 extern void MotionTrackerFrameSource_HitTestAgainstPointCloud_mCA46991F2C22595C4FC61B21F6975FBAEAD7DF8B (void);
-// 0x00000953 System.Collections.IEnumerator easyar.MotionTrackerFrameSource::AutoOpen()
+// 0x00000955 System.Collections.IEnumerator easyar.MotionTrackerFrameSource::AutoOpen()
 extern void MotionTrackerFrameSource_AutoOpen_mB82B4E39600E4E3D8238B3A551E24E545A98FE75 (void);
-// 0x00000954 System.Void easyar.MotionTrackerFrameSource::SetupOriginUsingWorldRoot()
+// 0x00000956 System.Void easyar.MotionTrackerFrameSource::SetupOriginUsingWorldRoot()
 extern void MotionTrackerFrameSource_SetupOriginUsingWorldRoot_mD34E4B28D8866C60E9CC481BA9BE246F8603C9B3 (void);
-// 0x00000955 System.Void easyar.MotionTrackerFrameSource::.ctor()
+// 0x00000957 System.Void easyar.MotionTrackerFrameSource::.ctor()
 extern void MotionTrackerFrameSource__ctor_m88638CE5DB20220A3927EBF61FF0952BCC968446 (void);
-// 0x00000956 System.Void easyar.MotionTrackerFrameSource::<Open>b__42_0(easyar.PermissionStatus,System.String)
+// 0x00000958 System.Void easyar.MotionTrackerFrameSource::<Open>b__42_0(easyar.PermissionStatus,System.String)
 extern void MotionTrackerFrameSource_U3COpenU3Eb__42_0_m49E6DDAD756A472D9BA2BAA43DAECDAB59DD20B1 (void);
-// 0x00000957 System.Void easyar.MotionTrackerFrameSource/MotionTrackerCameraDeviceParameters::.ctor()
+// 0x00000959 System.Void easyar.MotionTrackerFrameSource/MotionTrackerCameraDeviceParameters::.ctor()
 extern void MotionTrackerCameraDeviceParameters__ctor_m5388411269A2A765305F09E3763D7A27BA52F0C7 (void);
-// 0x00000958 System.Void easyar.MotionTrackerFrameSource/<>c::.cctor()
+// 0x0000095A System.Void easyar.MotionTrackerFrameSource/<>c::.cctor()
 extern void U3CU3Ec__cctor_m53A1777AE0686FC38B408D5E0B082431FFACECBB (void);
-// 0x00000959 System.Void easyar.MotionTrackerFrameSource/<>c::.ctor()
+// 0x0000095B System.Void easyar.MotionTrackerFrameSource/<>c::.ctor()
 extern void U3CU3Ec__ctor_m46E52E40FE679F1DF19EF6DED9D5DF3064023092 (void);
-// 0x0000095A System.Boolean easyar.MotionTrackerFrameSource/<>c::<OnAssemble>b__40_0(easyar.FrameFilter)
+// 0x0000095C System.Boolean easyar.MotionTrackerFrameSource/<>c::<OnAssemble>b__40_0(easyar.FrameFilter)
 extern void U3CU3Ec_U3COnAssembleU3Eb__40_0_m58A396877E79315F3BCCDEB1DDDB57610435B12E (void);
-// 0x0000095B System.Void easyar.MotionTrackerFrameSource/<>c__DisplayClass41_0::.ctor()
+// 0x0000095D System.Void easyar.MotionTrackerFrameSource/<>c__DisplayClass41_0::.ctor()
 extern void U3CU3Ec__DisplayClass41_0__ctor_m0F2F9702822D6EE3B5276704841E72E0B4630E8C (void);
-// 0x0000095C System.Void easyar.MotionTrackerFrameSource/<>c__DisplayClass41_0::<CheckAvailability>b__0(easyar.CalibrationDownloadStatus,easyar.Optional`1<System.String>)
+// 0x0000095E System.Void easyar.MotionTrackerFrameSource/<>c__DisplayClass41_0::<CheckAvailability>b__0(easyar.CalibrationDownloadStatus,easyar.Optional`1<System.String>)
 extern void U3CU3Ec__DisplayClass41_0_U3CCheckAvailabilityU3Eb__0_mF98E1342156410F834FE64750DD146CF38E779CF (void);
-// 0x0000095D System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::.ctor(System.Int32)
+// 0x0000095F System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::.ctor(System.Int32)
 extern void U3CCheckAvailabilityU3Ed__41__ctor_m15119C4119FACB81CF516CEB91E8DFF447D62357 (void);
-// 0x0000095E System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.IDisposable.Dispose()
+// 0x00000960 System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.IDisposable.Dispose()
 extern void U3CCheckAvailabilityU3Ed__41_System_IDisposable_Dispose_mAB107D6D4489F7755CF7CF4C7BA3AB399231A85D (void);
-// 0x0000095F System.Boolean easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::MoveNext()
+// 0x00000961 System.Boolean easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::MoveNext()
 extern void U3CCheckAvailabilityU3Ed__41_MoveNext_mCD43F5F3B964A16628B358DB90D0B8C1AA64498F (void);
-// 0x00000960 System.Object easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000962 System.Object easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CCheckAvailabilityU3Ed__41_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1ABD30D52DFE8ABEE3F6AA950B6A78F89220ADAB (void);
-// 0x00000961 System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.Collections.IEnumerator.Reset()
+// 0x00000963 System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.Collections.IEnumerator.Reset()
 extern void U3CCheckAvailabilityU3Ed__41_System_Collections_IEnumerator_Reset_m3B968004DE51AEB48BE019958EF8DD1032AC188A (void);
-// 0x00000962 System.Object easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.Collections.IEnumerator.get_Current()
+// 0x00000964 System.Object easyar.MotionTrackerFrameSource/<CheckAvailability>d__41::System.Collections.IEnumerator.get_Current()
 extern void U3CCheckAvailabilityU3Ed__41_System_Collections_IEnumerator_get_Current_m088C57B08B8F2C312F1C8F2B0AFC0611701BD9B0 (void);
-// 0x00000963 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__47::.ctor(System.Int32)
+// 0x00000965 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__47::.ctor(System.Int32)
 extern void U3CAutoOpenU3Ed__47__ctor_m19DB5FBB5C18226C1B7FF1B5BFE0E54C40135312 (void);
-// 0x00000964 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.IDisposable.Dispose()
+// 0x00000966 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.IDisposable.Dispose()
 extern void U3CAutoOpenU3Ed__47_System_IDisposable_Dispose_m0CB0EB6057F39F6790F95C0F817CF6956DD16C52 (void);
-// 0x00000965 System.Boolean easyar.MotionTrackerFrameSource/<AutoOpen>d__47::MoveNext()
+// 0x00000967 System.Boolean easyar.MotionTrackerFrameSource/<AutoOpen>d__47::MoveNext()
 extern void U3CAutoOpenU3Ed__47_MoveNext_m0BB1C291ACD64C5131B3F7AD51427F028BBB7FD8 (void);
-// 0x00000966 System.Object easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000968 System.Object easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CAutoOpenU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC13A7AE54AB6AA0E5BA3A716E392EB7227FA6640 (void);
-// 0x00000967 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.Collections.IEnumerator.Reset()
+// 0x00000969 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.Collections.IEnumerator.Reset()
 extern void U3CAutoOpenU3Ed__47_System_Collections_IEnumerator_Reset_m927B57FEDCFDA7A8355843723D608FCBE01B22C1 (void);
-// 0x00000968 System.Object easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.Collections.IEnumerator.get_Current()
+// 0x0000096A System.Object easyar.MotionTrackerFrameSource/<AutoOpen>d__47::System.Collections.IEnumerator.get_Current()
 extern void U3CAutoOpenU3Ed__47_System_Collections_IEnumerator_get_Current_mEE22CB932A6F8A609FD90BD225B4BE76F126E417 (void);
-// 0x00000969 System.Void easyar.VideoRecorder::add_StatusUpdate(System.Action`2<easyar.RecordStatus,System.String>)
+// 0x0000096B System.Void easyar.VideoRecorder::add_StatusUpdate(System.Action`2<easyar.RecordStatus,System.String>)
 extern void VideoRecorder_add_StatusUpdate_m82A5B02394D08ABCC23202E2DB0E3F1B29649114 (void);
-// 0x0000096A System.Void easyar.VideoRecorder::remove_StatusUpdate(System.Action`2<easyar.RecordStatus,System.String>)
+// 0x0000096C System.Void easyar.VideoRecorder::remove_StatusUpdate(System.Action`2<easyar.RecordStatus,System.String>)
 extern void VideoRecorder_remove_StatusUpdate_m0F08AF2F520D338A23B24B5617C4F07B1B8A6504 (void);
-// 0x0000096B System.Boolean easyar.VideoRecorder::get_IsReady()
+// 0x0000096D System.Boolean easyar.VideoRecorder::get_IsReady()
 extern void VideoRecorder_get_IsReady_m414189B01158947BCA5F7DED787FA38BD8982C8E (void);
-// 0x0000096C System.Void easyar.VideoRecorder::set_IsReady(System.Boolean)
+// 0x0000096E System.Void easyar.VideoRecorder::set_IsReady(System.Boolean)
 extern void VideoRecorder_set_IsReady_mA77771EAB389C9CB84DBD6795376B977C525BA41 (void);
-// 0x0000096D System.Void easyar.VideoRecorder::Start()
+// 0x0000096F System.Void easyar.VideoRecorder::Start()
 extern void VideoRecorder_Start_m6EF77A1A4382464B8CC578BC9DBD811A9380DAA8 (void);
-// 0x0000096E System.Void easyar.VideoRecorder::OnDestroy()
+// 0x00000970 System.Void easyar.VideoRecorder::OnDestroy()
 extern void VideoRecorder_OnDestroy_m7DB34D430A69EF0C480A4D3F17EE19C91C6BF51A (void);
-// 0x0000096F System.Boolean easyar.VideoRecorder::StartRecording()
+// 0x00000971 System.Boolean easyar.VideoRecorder::StartRecording()
 extern void VideoRecorder_StartRecording_m8030EC559BE731F50CD973FB3A676F9949000634 (void);
-// 0x00000970 System.Boolean easyar.VideoRecorder::StartRecording(easyar.RecorderConfiguration)
+// 0x00000972 System.Boolean easyar.VideoRecorder::StartRecording(easyar.RecorderConfiguration)
 extern void VideoRecorder_StartRecording_m02B3EC89BAB43054A250BF5A0D8C086381D83B0C (void);
-// 0x00000971 System.Boolean easyar.VideoRecorder::StopRecording()
+// 0x00000973 System.Boolean easyar.VideoRecorder::StopRecording()
 extern void VideoRecorder_StopRecording_m553456D346BCCAE32CD1815569300704A12088D1 (void);
-// 0x00000972 System.Boolean easyar.VideoRecorder::RecordFrame(UnityEngine.RenderTexture)
+// 0x00000974 System.Boolean easyar.VideoRecorder::RecordFrame(UnityEngine.RenderTexture)
 extern void VideoRecorder_RecordFrame_m32A4F65299E43598CF2C1FDA21DC868D4BB7ECAB (void);
-// 0x00000973 System.Void easyar.VideoRecorder::.ctor()
+// 0x00000975 System.Void easyar.VideoRecorder::.ctor()
 extern void VideoRecorder__ctor_m5E6559EF22C8ED00D581DE499A1C5C236837717C (void);
-// 0x00000974 System.Void easyar.VideoRecorder::<Start>b__14_0(easyar.PermissionStatus,System.String)
+// 0x00000976 System.Void easyar.VideoRecorder::<Start>b__14_0(easyar.PermissionStatus,System.String)
 extern void VideoRecorder_U3CStartU3Eb__14_0_m8EA67892A46AB5094F20E06897B0DC2FC0FB08F4 (void);
-// 0x00000975 System.Void easyar.VideoRecorder::<StartRecording>b__17_0(easyar.RecordStatus,System.String)
+// 0x00000977 System.Void easyar.VideoRecorder::<StartRecording>b__17_0(easyar.RecordStatus,System.String)
 extern void VideoRecorder_U3CStartRecordingU3Eb__17_0_mD5ED12BFBDF698E38A235230A14DF16F583A51D8 (void);
-// 0x00000976 System.Void easyar.EasyARController::add_PostUpdate(System.Action)
+// 0x00000978 System.Void easyar.EasyARController::add_PostUpdate(System.Action)
 extern void EasyARController_add_PostUpdate_m00777E3BBCEC23E277D62D7C0728C83E05214A09 (void);
-// 0x00000977 System.Void easyar.EasyARController::remove_PostUpdate(System.Action)
+// 0x00000979 System.Void easyar.EasyARController::remove_PostUpdate(System.Action)
 extern void EasyARController_remove_PostUpdate_m98199FF80F3ED1B5F905D3206F8DA1C522F86E7D (void);
-// 0x00000978 easyar.EasyARController easyar.EasyARController::get_Instance()
+// 0x0000097A easyar.EasyARController easyar.EasyARController::get_Instance()
 extern void EasyARController_get_Instance_mFD49136A56B9212987C8989B045D463D2841C295 (void);
-// 0x00000979 System.Void easyar.EasyARController::set_Instance(easyar.EasyARController)
+// 0x0000097B System.Void easyar.EasyARController::set_Instance(easyar.EasyARController)
 extern void EasyARController_set_Instance_m1C4B1EA692AD86008173774711884ED72E531CE6 (void);
-// 0x0000097A System.Boolean easyar.EasyARController::get_Initialized()
+// 0x0000097C System.Boolean easyar.EasyARController::get_Initialized()
 extern void EasyARController_get_Initialized_m935DB2BF2CE8CA548AC7782D9785A3277D1813FD (void);
-// 0x0000097B System.Void easyar.EasyARController::set_Initialized(System.Boolean)
+// 0x0000097D System.Void easyar.EasyARController::set_Initialized(System.Boolean)
 extern void EasyARController_set_Initialized_m78E6205970E7A81B0E2FE484774414F574DB525B (void);
-// 0x0000097C easyar.DelayedCallbackScheduler easyar.EasyARController::get_Scheduler()
+// 0x0000097E easyar.DelayedCallbackScheduler easyar.EasyARController::get_Scheduler()
 extern void EasyARController_get_Scheduler_m46B02E14B7D33AAC9E730B677FE1CA94A28955E7 (void);
-// 0x0000097D System.Void easyar.EasyARController::set_Scheduler(easyar.DelayedCallbackScheduler)
+// 0x0000097F System.Void easyar.EasyARController::set_Scheduler(easyar.DelayedCallbackScheduler)
 extern void EasyARController_set_Scheduler_m9A5FF4CBE8F1D45C03FD5E5FC2C3AD974C61B7A7 (void);
-// 0x0000097E easyar.ThreadWorker easyar.EasyARController::get_Worker()
+// 0x00000980 easyar.ThreadWorker easyar.EasyARController::get_Worker()
 extern void EasyARController_get_Worker_mC0CE2BCBC0B1A9D6DCFAAE303EED4615168DD253 (void);
-// 0x0000097F System.Void easyar.EasyARController::set_Worker(easyar.ThreadWorker)
+// 0x00000981 System.Void easyar.EasyARController::set_Worker(easyar.ThreadWorker)
 extern void EasyARController_set_Worker_m084F9786B7042B40EA561AB6951A533C0AD506AE (void);
-// 0x00000980 easyar.Display easyar.EasyARController::get_Display()
+// 0x00000982 easyar.Display easyar.EasyARController::get_Display()
 extern void EasyARController_get_Display_mD2AA8A02E26BAAFDB4A7F496DB6FC075D6D3CEAE (void);
-// 0x00000981 System.Void easyar.EasyARController::set_Display(easyar.Display)
+// 0x00000983 System.Void easyar.EasyARController::set_Display(easyar.Display)
 extern void EasyARController_set_Display_m0658B989504C86624A8433731D3882D0642EB2B5 (void);
-// 0x00000982 System.Boolean easyar.EasyARController::Initialize()
+// 0x00000984 System.Boolean easyar.EasyARController::Initialize()
 extern void EasyARController_Initialize_m8B22CCA107E1673E64267B8CF2468CEE18167725 (void);
-// 0x00000983 System.Boolean easyar.EasyARController::Initialize(System.String)
+// 0x00000985 System.Boolean easyar.EasyARController::Initialize(System.String)
 extern void EasyARController_Initialize_mD09947280F1ED5686DD4C350DB51E754FB77862F (void);
-// 0x00000984 System.Void easyar.EasyARController::Deinitialize()
+// 0x00000986 System.Void easyar.EasyARController::Deinitialize()
 extern void EasyARController_Deinitialize_mF275433F866011FEF4C50635968A42E2B794D0D6 (void);
-// 0x00000985 System.Void easyar.EasyARController::AttemptInitializeOnLoad()
+// 0x00000987 System.Void easyar.EasyARController::AttemptInitializeOnLoad()
 extern void EasyARController_AttemptInitializeOnLoad_mDCA6D82F56A9597A358598CEBB435DB7E91CA0FB (void);
-// 0x00000986 System.Void easyar.EasyARController::Awake()
+// 0x00000988 System.Void easyar.EasyARController::Awake()
 extern void EasyARController_Awake_m601519A5C76AB3524B9AD0D5053B65C1A87D4213 (void);
-// 0x00000987 System.Void easyar.EasyARController::Update()
+// 0x00000989 System.Void easyar.EasyARController::Update()
 extern void EasyARController_Update_m85082B57E8C415B1B9FE2E880F2D3BED56730AA3 (void);
-// 0x00000988 System.Void easyar.EasyARController::OnApplicationPause(System.Boolean)
+// 0x0000098A System.Void easyar.EasyARController::OnApplicationPause(System.Boolean)
 extern void EasyARController_OnApplicationPause_m62C2A18AE6C526BF0E0D1FD953D6EF9549475B24 (void);
-// 0x00000989 System.Void easyar.EasyARController::OnDestroy()
+// 0x0000098B System.Void easyar.EasyARController::OnDestroy()
 extern void EasyARController_OnDestroy_mE6D2E57D8A0F5BF442D2C30EB769961F587E09DE (void);
-// 0x0000098A System.Void easyar.EasyARController::OnDomainUnload(System.Object,System.EventArgs)
+// 0x0000098C System.Void easyar.EasyARController::OnDomainUnload(System.Object,System.EventArgs)
 extern void EasyARController_OnDomainUnload_mA9642E9B44AC03E5322A4609C79FF65FF1C6FA8D (void);
-// 0x0000098B System.Void easyar.EasyARController::ShowErrorMessage()
+// 0x0000098D System.Void easyar.EasyARController::ShowErrorMessage()
 extern void EasyARController_ShowErrorMessage_m204C1B87EBD8DFB12C144853604AC4AD0177DE9D (void);
-// 0x0000098C System.Void easyar.EasyARController::.ctor()
+// 0x0000098E System.Void easyar.EasyARController::.ctor()
 extern void EasyARController__ctor_mDABC01DBECE8F9E38A722D4EAC4D94136E9555C9 (void);
-// 0x0000098D System.Void easyar.EasyARController::.cctor()
+// 0x0000098F System.Void easyar.EasyARController::.cctor()
 extern void EasyARController__cctor_m9298F4BEC4CE577F6C0E16039A0BABFE6EE4E94A (void);
-// 0x0000098E easyar.EasyARSettings easyar.EasyARSettings::get_Instance()
+// 0x00000990 easyar.EasyARSettings easyar.EasyARSettings::get_Instance()
 extern void EasyARSettings_get_Instance_m68BACFA529C0DCF60767E7787A7A3182D8C69AE7 (void);
-// 0x0000098F System.Void easyar.EasyARSettings::set_Instance(easyar.EasyARSettings)
+// 0x00000991 System.Void easyar.EasyARSettings::set_Instance(easyar.EasyARSettings)
 extern void EasyARSettings_set_Instance_m8AE5F4D451722AD3D46DBEE7ABA986E2C8EF944E (void);
-// 0x00000990 System.Void easyar.EasyARSettings::Awake()
+// 0x00000992 System.Void easyar.EasyARSettings::Awake()
 extern void EasyARSettings_Awake_m5460B65B70A6DA4588C42C4EB6E208AB582D8B85 (void);
-// 0x00000991 System.Void easyar.EasyARSettings::.ctor()
+// 0x00000993 System.Void easyar.EasyARSettings::.ctor()
 extern void EasyARSettings__ctor_m4E81829EA86690ECA623878B0425EDB81248C5F9 (void);
-// 0x00000992 System.Void easyar.EasyARSettings/TargetGizmoConfig::.ctor()
+// 0x00000994 System.Void easyar.EasyARSettings/TargetGizmoConfig::.ctor()
 extern void TargetGizmoConfig__ctor_m02AF7296C70852C866A18E0DE36A0CA219D0760F (void);
-// 0x00000993 System.Void easyar.EasyARSettings/TargetGizmoConfig/ImageTargetConfig::.ctor()
+// 0x00000995 System.Void easyar.EasyARSettings/TargetGizmoConfig/ImageTargetConfig::.ctor()
 extern void ImageTargetConfig__ctor_m7AC89A436AB197E26FA4A3999C37597FB60C61C0 (void);
-// 0x00000994 System.Void easyar.EasyARSettings/TargetGizmoConfig/ObjectTargetConfig::.ctor()
+// 0x00000996 System.Void easyar.EasyARSettings/TargetGizmoConfig/ObjectTargetConfig::.ctor()
 extern void ObjectTargetConfig__ctor_m12DA781CC950FA5756AC34DD5F975DB22750E00E (void);
-// 0x00000995 System.Void easyar.EasyARSettings/Permission::.ctor()
+// 0x00000997 System.Void easyar.EasyARSettings/Permission::.ctor()
 extern void Permission__ctor_mF7FD74D660BF966E3302DF05F964CD37956B4851 (void);
-// 0x00000996 System.Int32 easyar.CloudRecognizerFrameFilter::get_BufferRequirement()
+// 0x00000998 System.Int32 easyar.CloudRecognizerFrameFilter::get_BufferRequirement()
 extern void CloudRecognizerFrameFilter_get_BufferRequirement_m61ED01010C26E1FE242C646A46F9AB51ABCA9C48 (void);
-// 0x00000997 System.Void easyar.CloudRecognizerFrameFilter::OnDestroy()
+// 0x00000999 System.Void easyar.CloudRecognizerFrameFilter::OnDestroy()
 extern void CloudRecognizerFrameFilter_OnDestroy_m7A1225B7CB0E6398036944E5416FA443CE0028D4 (void);
-// 0x00000998 System.Void easyar.CloudRecognizerFrameFilter::OnAssemble(easyar.ARSession)
+// 0x0000099A System.Void easyar.CloudRecognizerFrameFilter::OnAssemble(easyar.ARSession)
 extern void CloudRecognizerFrameFilter_OnAssemble_m8D9932E714C473F875FEE8F35583C6009FFD7F29 (void);
-// 0x00000999 System.Void easyar.CloudRecognizerFrameFilter::Resolve(System.Action`1<easyar.InputFrame>,System.Action`2<easyar.Optional`1<easyar.CloudRecognizationResult>,System.String>)
+// 0x0000099B System.Void easyar.CloudRecognizerFrameFilter::Resolve(System.Action`1<easyar.InputFrame>,System.Action`2<easyar.Optional`1<easyar.CloudRecognizationResult>,System.String>)
 extern void CloudRecognizerFrameFilter_Resolve_m7DBDE2696A616BDD19BDAE6F7C98E737A2FDD888 (void);
-// 0x0000099A System.Void easyar.CloudRecognizerFrameFilter::OnFrameUpdate(easyar.OutputFrame)
+// 0x0000099C System.Void easyar.CloudRecognizerFrameFilter::OnFrameUpdate(easyar.OutputFrame)
 extern void CloudRecognizerFrameFilter_OnFrameUpdate_m58458D44937C6F68850080357CF64017481236C6 (void);
-// 0x0000099B System.Collections.IEnumerator easyar.CloudRecognizerFrameFilter::AutoCreate()
+// 0x0000099D System.Collections.IEnumerator easyar.CloudRecognizerFrameFilter::AutoCreate()
 extern void CloudRecognizerFrameFilter_AutoCreate_m606DC8A31BB82B96FC0F6BFF911580A9CD4FE579 (void);
-// 0x0000099C System.Collections.IEnumerator easyar.CloudRecognizerFrameFilter::CheckRequest(easyar.CloudRecognizerFrameFilter/Request)
+// 0x0000099E System.Collections.IEnumerator easyar.CloudRecognizerFrameFilter::CheckRequest(easyar.CloudRecognizerFrameFilter/Request)
 extern void CloudRecognizerFrameFilter_CheckRequest_mC06491E3A62BBE5AB22BA84D4473B23EE0C28CA2 (void);
-// 0x0000099D System.Void easyar.CloudRecognizerFrameFilter::NotifyEmptyConfig(easyar.CloudRecognizerFrameFilter/CloudRecognizerServiceConfig)
+// 0x0000099F System.Void easyar.CloudRecognizerFrameFilter::NotifyEmptyConfig(easyar.CloudRecognizerFrameFilter/CloudRecognizerServiceConfig)
 extern void CloudRecognizerFrameFilter_NotifyEmptyConfig_m26969C3738B9C4803C13B71AF6243FD6F0A47A05 (void);
-// 0x0000099E System.Void easyar.CloudRecognizerFrameFilter::NotifyEmptyPrivateConfig(easyar.CloudRecognizerFrameFilter/PrivateCloudRecognizerServiceConfig)
+// 0x000009A0 System.Void easyar.CloudRecognizerFrameFilter::NotifyEmptyPrivateConfig(easyar.CloudRecognizerFrameFilter/PrivateCloudRecognizerServiceConfig)
 extern void CloudRecognizerFrameFilter_NotifyEmptyPrivateConfig_m7470361911BCCB7D9FA7C1B02AD81C308F99BF23 (void);
-// 0x0000099F System.Void easyar.CloudRecognizerFrameFilter::.ctor()
+// 0x000009A1 System.Void easyar.CloudRecognizerFrameFilter::.ctor()
 extern void CloudRecognizerFrameFilter__ctor_mD978B3A6E11E17707CCCA0A9A858D02F0C8BDEB0 (void);
-// 0x000009A0 System.Void easyar.CloudRecognizerFrameFilter/CloudRecognizerServiceConfig::.ctor()
+// 0x000009A2 System.Void easyar.CloudRecognizerFrameFilter/CloudRecognizerServiceConfig::.ctor()
 extern void CloudRecognizerServiceConfig__ctor_mFCC69F49222B30F8652DD295C20777BE6E69CD70 (void);
-// 0x000009A1 System.Void easyar.CloudRecognizerFrameFilter/PrivateCloudRecognizerServiceConfig::.ctor()
+// 0x000009A3 System.Void easyar.CloudRecognizerFrameFilter/PrivateCloudRecognizerServiceConfig::.ctor()
 extern void PrivateCloudRecognizerServiceConfig__ctor_m87A67BC3C46CC4F73B2CB8647290D9E7BBBEDC3F (void);
-// 0x000009A2 System.Void easyar.CloudRecognizerFrameFilter/Request::.ctor()
+// 0x000009A4 System.Void easyar.CloudRecognizerFrameFilter/Request::.ctor()
 extern void Request__ctor_mD6075734E30778A049C9FD391E6D7CBF706574AE (void);
-// 0x000009A3 System.Void easyar.CloudRecognizerFrameFilter/<>c__DisplayClass14_0::.ctor()
+// 0x000009A5 System.Void easyar.CloudRecognizerFrameFilter/<>c__DisplayClass14_0::.ctor()
 extern void U3CU3Ec__DisplayClass14_0__ctor_mD6771162042FB00F993607E35001ECD99E802F91 (void);
-// 0x000009A4 System.Void easyar.CloudRecognizerFrameFilter/<>c__DisplayClass14_0::<OnFrameUpdate>b__0(easyar.CloudRecognizationResult)
+// 0x000009A6 System.Void easyar.CloudRecognizerFrameFilter/<>c__DisplayClass14_0::<OnFrameUpdate>b__0(easyar.CloudRecognizationResult)
 extern void U3CU3Ec__DisplayClass14_0_U3COnFrameUpdateU3Eb__0_mA23D6033EC1042F3CD3D8570C6D9090BE95D0A1E (void);
-// 0x000009A5 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::.ctor(System.Int32)
+// 0x000009A7 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::.ctor(System.Int32)
 extern void U3CAutoCreateU3Ed__15__ctor_mB1DCA8E02969AA4660BC569DFA5F359DFD22D6B6 (void);
-// 0x000009A6 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.IDisposable.Dispose()
+// 0x000009A8 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.IDisposable.Dispose()
 extern void U3CAutoCreateU3Ed__15_System_IDisposable_Dispose_m64F5F366F504D605C1665389272A8B93E8890F4B (void);
-// 0x000009A7 System.Boolean easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::MoveNext()
+// 0x000009A9 System.Boolean easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::MoveNext()
 extern void U3CAutoCreateU3Ed__15_MoveNext_m48AE40CDFDE1A87AC0B4F16C459BA1AF5FED5021 (void);
-// 0x000009A8 System.Object easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000009AA System.Object easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CAutoCreateU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m249913B381A2327EA7656802C3F3D89282710169 (void);
-// 0x000009A9 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.IEnumerator.Reset()
+// 0x000009AB System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.IEnumerator.Reset()
 extern void U3CAutoCreateU3Ed__15_System_Collections_IEnumerator_Reset_m84F89FA67290DEA335F2B0A1C9113D6701706865 (void);
-// 0x000009AA System.Object easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.IEnumerator.get_Current()
+// 0x000009AC System.Object easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.IEnumerator.get_Current()
 extern void U3CAutoCreateU3Ed__15_System_Collections_IEnumerator_get_Current_mC571AB893F5A23F4FA92FEF554D3A814DEDA11D8 (void);
-// 0x000009AB System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::.ctor(System.Int32)
+// 0x000009AD System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::.ctor(System.Int32)
 extern void U3CCheckRequestU3Ed__16__ctor_m8A358626118CDD6FEA7953E5BF6C13C5DD75EA9B (void);
-// 0x000009AC System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.IDisposable.Dispose()
+// 0x000009AE System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.IDisposable.Dispose()
 extern void U3CCheckRequestU3Ed__16_System_IDisposable_Dispose_m63CC08F70F4ABD5729D7E7B262195A2BDBDE38AD (void);
-// 0x000009AD System.Boolean easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::MoveNext()
+// 0x000009AF System.Boolean easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::MoveNext()
 extern void U3CCheckRequestU3Ed__16_MoveNext_mBC609333EF05624FDF13F089F4E8F54677D1DE2C (void);
-// 0x000009AE System.Object easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000009B0 System.Object easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CCheckRequestU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCCA6140075ECF88226ECD4A160986E73075E19E0 (void);
-// 0x000009AF System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.IEnumerator.Reset()
+// 0x000009B1 System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.IEnumerator.Reset()
 extern void U3CCheckRequestU3Ed__16_System_Collections_IEnumerator_Reset_mCC4D9C7EC82CB25F7BD5F9E02BB00D4128FEB3F0 (void);
-// 0x000009B0 System.Object easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.IEnumerator.get_Current()
+// 0x000009B2 System.Object easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.IEnumerator.get_Current()
 extern void U3CCheckRequestU3Ed__16_System_Collections_IEnumerator_get_Current_m29969A3417CD306871A477E3D0A541381AFD5F10 (void);
-// 0x000009B1 easyar.ImageTarget easyar.ImageTargetController::get_Target()
+// 0x000009B3 easyar.ImageTarget easyar.ImageTargetController::get_Target()
 extern void ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95 (void);
-// 0x000009B2 System.Void easyar.ImageTargetController::set_Target(easyar.ImageTarget)
+// 0x000009B4 System.Void easyar.ImageTargetController::set_Target(easyar.ImageTarget)
 extern void ImageTargetController_set_Target_m02DC8AE90C9743C75D8502B044DA5B0EB3356E8A (void);
-// 0x000009B3 System.Void easyar.ImageTargetController::add_TargetAvailable(System.Action)
+// 0x000009B5 System.Void easyar.ImageTargetController::add_TargetAvailable(System.Action)
 extern void ImageTargetController_add_TargetAvailable_m937FA387361513207C8AAE979D13D797A0724EA2 (void);
-// 0x000009B4 System.Void easyar.ImageTargetController::remove_TargetAvailable(System.Action)
+// 0x000009B6 System.Void easyar.ImageTargetController::remove_TargetAvailable(System.Action)
 extern void ImageTargetController_remove_TargetAvailable_m0558BAFEE1A42D0DD63F37DB135286DBAF74E199 (void);
-// 0x000009B5 System.Void easyar.ImageTargetController::add_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+// 0x000009B7 System.Void easyar.ImageTargetController::add_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
 extern void ImageTargetController_add_TargetLoad_m91633BAF45092ADF09E6F663EF292B891ACC505C (void);
-// 0x000009B6 System.Void easyar.ImageTargetController::remove_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+// 0x000009B8 System.Void easyar.ImageTargetController::remove_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
 extern void ImageTargetController_remove_TargetLoad_m310D54B475130460865992875BCCC8A3C6A11F3C (void);
-// 0x000009B7 System.Void easyar.ImageTargetController::add_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+// 0x000009B9 System.Void easyar.ImageTargetController::add_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
 extern void ImageTargetController_add_TargetUnload_m118D9AE2DAB3F7F26C90A3D4B3F7E647503CDCF9 (void);
-// 0x000009B8 System.Void easyar.ImageTargetController::remove_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+// 0x000009BA System.Void easyar.ImageTargetController::remove_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
 extern void ImageTargetController_remove_TargetUnload_m7C7C2CCE318D0CF8115CE778AB0227E18E560556 (void);
-// 0x000009B9 easyar.ImageTrackerFrameFilter easyar.ImageTargetController::get_Tracker()
+// 0x000009BB easyar.ImageTrackerFrameFilter easyar.ImageTargetController::get_Tracker()
 extern void ImageTargetController_get_Tracker_mC362601661B2A96E13FAC68FF2B09E0946BF9E73 (void);
-// 0x000009BA System.Void easyar.ImageTargetController::set_Tracker(easyar.ImageTrackerFrameFilter)
+// 0x000009BC System.Void easyar.ImageTargetController::set_Tracker(easyar.ImageTrackerFrameFilter)
 extern void ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B (void);
-// 0x000009BB UnityEngine.Vector2 easyar.ImageTargetController::get_Size()
+// 0x000009BD UnityEngine.Vector2 easyar.ImageTargetController::get_Size()
 extern void ImageTargetController_get_Size_m81B778F198A8854934002A378CB53FF3A6D50225 (void);
-// 0x000009BC System.Void easyar.ImageTargetController::set_Size(UnityEngine.Vector2)
+// 0x000009BE System.Void easyar.ImageTargetController::set_Size(UnityEngine.Vector2)
 extern void ImageTargetController_set_Size_mA93F24B229CA629BA077580ECE3A53A76D1CC1F8 (void);
-// 0x000009BD System.Void easyar.ImageTargetController::Start()
+// 0x000009BF System.Void easyar.ImageTargetController::Start()
 extern void ImageTargetController_Start_mBD0CBD1B20D1249267C0A5D44268EE31020ED5FD (void);
-// 0x000009BE System.Void easyar.ImageTargetController::Update()
+// 0x000009C0 System.Void easyar.ImageTargetController::Update()
 extern void ImageTargetController_Update_m84653120D4AE5517F8225CEA13EEC106AE8866E5 (void);
-// 0x000009BF System.Void easyar.ImageTargetController::OnDestroy()
+// 0x000009C1 System.Void easyar.ImageTargetController::OnDestroy()
 extern void ImageTargetController_OnDestroy_mB3E0CBA4BBA1427E4F352EC02FE87B9B8D55E9FE (void);
-// 0x000009C0 System.Void easyar.ImageTargetController::OnTracking()
+// 0x000009C2 System.Void easyar.ImageTargetController::OnTracking()
 extern void ImageTargetController_OnTracking_mAD21A55082EA4D5888D5C820BEF549228E75779D (void);
-// 0x000009C1 System.Void easyar.ImageTargetController::LoadImageFile(easyar.ImageTargetController/ImageFileSourceData)
+// 0x000009C3 System.Void easyar.ImageTargetController::LoadImageFile(easyar.ImageTargetController/ImageFileSourceData)
 extern void ImageTargetController_LoadImageFile_m0C96CA4B52C406C7E6E43C118DBCC8A4E65EC484 (void);
-// 0x000009C2 System.Void easyar.ImageTargetController::LoadTargetDataFile(easyar.ImageTargetController/TargetDataFileSourceData)
+// 0x000009C4 System.Void easyar.ImageTargetController::LoadTargetDataFile(easyar.ImageTargetController/TargetDataFileSourceData)
 extern void ImageTargetController_LoadTargetDataFile_mAA4A193BCEFA50F50A6581482E302325551EAD2F (void);
-// 0x000009C3 System.Void easyar.ImageTargetController::LoadTarget(easyar.ImageTarget)
+// 0x000009C5 System.Void easyar.ImageTargetController::LoadTarget(easyar.ImageTarget)
 extern void ImageTargetController_LoadTarget_mF5B64EE4AED15B3DD9A209046D6B7BCC8CC622D0 (void);
-// 0x000009C4 System.Collections.IEnumerator easyar.ImageTargetController::LoadImageBuffer(easyar.Buffer,easyar.ImageTargetController/ImageFileSourceData)
+// 0x000009C6 System.Collections.IEnumerator easyar.ImageTargetController::LoadImageBuffer(easyar.Buffer,easyar.ImageTargetController/ImageFileSourceData)
 extern void ImageTargetController_LoadImageBuffer_m7F9B49796221F397B3DD20951D026A9C61255743 (void);
-// 0x000009C5 System.Collections.IEnumerator easyar.ImageTargetController::LoadTargetDataBuffer(easyar.Buffer)
+// 0x000009C7 System.Collections.IEnumerator easyar.ImageTargetController::LoadTargetDataBuffer(easyar.Buffer)
 extern void ImageTargetController_LoadTargetDataBuffer_m77A49E66DE709773C4D9010C6C32B6F7B0719AEC (void);
-// 0x000009C6 System.Void easyar.ImageTargetController::UpdateTargetInTracker()
+// 0x000009C8 System.Void easyar.ImageTargetController::UpdateTargetInTracker()
 extern void ImageTargetController_UpdateTargetInTracker_mA8685BBF994D73477605C7A03D93BE17304DF5A9 (void);
-// 0x000009C7 System.Void easyar.ImageTargetController::UpdateScale()
+// 0x000009C9 System.Void easyar.ImageTargetController::UpdateScale()
 extern void ImageTargetController_UpdateScale_m8CB7C3BBFF1AAC4589F22B56D9B843C29F8FF489 (void);
-// 0x000009C8 System.Void easyar.ImageTargetController::CheckScale()
+// 0x000009CA System.Void easyar.ImageTargetController::CheckScale()
 extern void ImageTargetController_CheckScale_mCE751A9504DDF5A8C08D9516D98674A030375D6B (void);
-// 0x000009C9 System.Void easyar.ImageTargetController::.ctor()
+// 0x000009CB System.Void easyar.ImageTargetController::.ctor()
 extern void ImageTargetController__ctor_m004DC8AA0E97C9147CFCF146D8DD207538FB052E (void);
-// 0x000009CA System.Void easyar.ImageTargetController::<LoadTargetDataFile>b__35_0(easyar.Buffer)
+// 0x000009CC System.Void easyar.ImageTargetController::<LoadTargetDataFile>b__35_0(easyar.Buffer)
 extern void ImageTargetController_U3CLoadTargetDataFileU3Eb__35_0_m88987798ABB5ADF18A83E7627783F501F871E491 (void);
-// 0x000009CB System.Void easyar.ImageTargetController::<UpdateTargetInTracker>b__39_0(easyar.Target,System.Boolean)
+// 0x000009CD System.Void easyar.ImageTargetController::<UpdateTargetInTracker>b__39_0(easyar.Target,System.Boolean)
 extern void ImageTargetController_U3CUpdateTargetInTrackerU3Eb__39_0_m1939D3182BBC11CF34DDC6687AFEEC1C11BB1E08 (void);
-// 0x000009CC System.Void easyar.ImageTargetController/ImageFileSourceData::.ctor()
+// 0x000009CE System.Void easyar.ImageTargetController/ImageFileSourceData::.ctor()
 extern void ImageFileSourceData__ctor_m1FC12618D065F916C968FE7C694746EDBE03D2A8 (void);
-// 0x000009CD System.Void easyar.ImageTargetController/TargetDataFileSourceData::.ctor()
+// 0x000009CF System.Void easyar.ImageTargetController/TargetDataFileSourceData::.ctor()
 extern void TargetDataFileSourceData__ctor_m55BE27C785B522450B12B613325E49C7731E0055 (void);
-// 0x000009CE System.Void easyar.ImageTargetController/<>c__DisplayClass34_0::.ctor()
+// 0x000009D0 System.Void easyar.ImageTargetController/<>c__DisplayClass34_0::.ctor()
 extern void U3CU3Ec__DisplayClass34_0__ctor_mEEE0EA8D94387806F61F425BA6D79A5198333424 (void);
-// 0x000009CF System.Void easyar.ImageTargetController/<>c__DisplayClass34_0::<LoadImageFile>b__0(easyar.Buffer)
+// 0x000009D1 System.Void easyar.ImageTargetController/<>c__DisplayClass34_0::<LoadImageFile>b__0(easyar.Buffer)
 extern void U3CU3Ec__DisplayClass34_0_U3CLoadImageFileU3Eb__0_m616BBCE47ECFA27A653B3C807DBDE783579D6A78 (void);
-// 0x000009D0 System.Void easyar.ImageTargetController/<>c__DisplayClass37_0::.ctor()
+// 0x000009D2 System.Void easyar.ImageTargetController/<>c__DisplayClass37_0::.ctor()
 extern void U3CU3Ec__DisplayClass37_0__ctor_m55CAEE5D05CF2B1BC1FC759F1151DBD249384AD0 (void);
-// 0x000009D1 System.Void easyar.ImageTargetController/<>c__DisplayClass37_1::.ctor()
+// 0x000009D3 System.Void easyar.ImageTargetController/<>c__DisplayClass37_1::.ctor()
 extern void U3CU3Ec__DisplayClass37_1__ctor_m9BCF6E8B3B549A6D5DA6124D6190D281DAEF647F (void);
-// 0x000009D2 System.Void easyar.ImageTargetController/<>c__DisplayClass37_1::<LoadImageBuffer>b__0()
+// 0x000009D4 System.Void easyar.ImageTargetController/<>c__DisplayClass37_1::<LoadImageBuffer>b__0()
 extern void U3CU3Ec__DisplayClass37_1_U3CLoadImageBufferU3Eb__0_mB4F11FD69B40E68B312FDF954A28008BC380F926 (void);
-// 0x000009D3 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::.ctor(System.Int32)
+// 0x000009D5 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::.ctor(System.Int32)
 extern void U3CLoadImageBufferU3Ed__37__ctor_mAD7298F8B7F8975D392A33A3A50D7668B26F0879 (void);
-// 0x000009D4 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::System.IDisposable.Dispose()
+// 0x000009D6 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::System.IDisposable.Dispose()
 extern void U3CLoadImageBufferU3Ed__37_System_IDisposable_Dispose_m220F5BF09CE799351978CCE59ACD8830C3B20157 (void);
-// 0x000009D5 System.Boolean easyar.ImageTargetController/<LoadImageBuffer>d__37::MoveNext()
+// 0x000009D7 System.Boolean easyar.ImageTargetController/<LoadImageBuffer>d__37::MoveNext()
 extern void U3CLoadImageBufferU3Ed__37_MoveNext_m6CE2A3E85D2046407EBBD691BD999143B17EDE78 (void);
-// 0x000009D6 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::<>m__Finally1()
+// 0x000009D8 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::<>m__Finally1()
 extern void U3CLoadImageBufferU3Ed__37_U3CU3Em__Finally1_mBBC56EA8BC7B9C5F6A816F48197E78B10EDE72FD (void);
-// 0x000009D7 System.Object easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000009D9 System.Object easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadImageBufferU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1571018AEBB7D7FDD8CBE5AC34A28E6AD12BC832 (void);
-// 0x000009D8 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.IEnumerator.Reset()
+// 0x000009DA System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.IEnumerator.Reset()
 extern void U3CLoadImageBufferU3Ed__37_System_Collections_IEnumerator_Reset_m96AA7FEF3DC081296374215C27A186598DCF0D7D (void);
-// 0x000009D9 System.Object easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.IEnumerator.get_Current()
+// 0x000009DB System.Object easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadImageBufferU3Ed__37_System_Collections_IEnumerator_get_Current_m79D4068A594A4DE4C1D8CC210962989F48C356E6 (void);
-// 0x000009DA System.Void easyar.ImageTargetController/<>c__DisplayClass38_0::.ctor()
+// 0x000009DC System.Void easyar.ImageTargetController/<>c__DisplayClass38_0::.ctor()
 extern void U3CU3Ec__DisplayClass38_0__ctor_mDBF0C8B30A87E3FB11A4E0B5216F4257C35B4E79 (void);
-// 0x000009DB System.Void easyar.ImageTargetController/<>c__DisplayClass38_1::.ctor()
+// 0x000009DD System.Void easyar.ImageTargetController/<>c__DisplayClass38_1::.ctor()
 extern void U3CU3Ec__DisplayClass38_1__ctor_mD4B375E4F6097D997051C7D8584A0AF61ACD45EF (void);
-// 0x000009DC System.Void easyar.ImageTargetController/<>c__DisplayClass38_1::<LoadTargetDataBuffer>b__0()
+// 0x000009DE System.Void easyar.ImageTargetController/<>c__DisplayClass38_1::<LoadTargetDataBuffer>b__0()
 extern void U3CU3Ec__DisplayClass38_1_U3CLoadTargetDataBufferU3Eb__0_mCA76A7C2041FC87795AFBAB9611FDE2ECF3BDEEC (void);
-// 0x000009DD System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::.ctor(System.Int32)
+// 0x000009DF System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::.ctor(System.Int32)
 extern void U3CLoadTargetDataBufferU3Ed__38__ctor_mB97520DE4D20C4DB13475167C96FFDE7BA1956CE (void);
-// 0x000009DE System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.IDisposable.Dispose()
+// 0x000009E0 System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.IDisposable.Dispose()
 extern void U3CLoadTargetDataBufferU3Ed__38_System_IDisposable_Dispose_m90FB65BC91CC7E1EA14679CC2B5A663B991729EF (void);
-// 0x000009DF System.Boolean easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::MoveNext()
+// 0x000009E1 System.Boolean easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::MoveNext()
 extern void U3CLoadTargetDataBufferU3Ed__38_MoveNext_mF7EF73B52308C200F0A2A9930FC26ECB998FA076 (void);
-// 0x000009E0 System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::<>m__Finally1()
+// 0x000009E2 System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::<>m__Finally1()
 extern void U3CLoadTargetDataBufferU3Ed__38_U3CU3Em__Finally1_mD671D788B0E9E550EB045FEBA1688343E7177F65 (void);
-// 0x000009E1 System.Object easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000009E3 System.Object easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadTargetDataBufferU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0D9AB50CF422D2AB69329C3A13EA09A711BCEE92 (void);
-// 0x000009E2 System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.IEnumerator.Reset()
+// 0x000009E4 System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.IEnumerator.Reset()
 extern void U3CLoadTargetDataBufferU3Ed__38_System_Collections_IEnumerator_Reset_mE7AAF6C8ED5FF484E0638E28FF075939FF70B1E7 (void);
-// 0x000009E3 System.Object easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.IEnumerator.get_Current()
+// 0x000009E5 System.Object easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadTargetDataBufferU3Ed__38_System_Collections_IEnumerator_get_Current_m209A42BD82B9B9817C0D0FCDADBEBDB2D249248B (void);
-// 0x000009E4 System.Void easyar.ImageTargetController/<>c__DisplayClass39_0::.ctor()
+// 0x000009E6 System.Void easyar.ImageTargetController/<>c__DisplayClass39_0::.ctor()
 extern void U3CU3Ec__DisplayClass39_0__ctor_mBD5D59053BEF1610917495065283499B4E3CA842 (void);
-// 0x000009E5 System.Void easyar.ImageTargetController/<>c__DisplayClass39_0::<UpdateTargetInTracker>b__1(easyar.Target,System.Boolean)
+// 0x000009E7 System.Void easyar.ImageTargetController/<>c__DisplayClass39_0::<UpdateTargetInTracker>b__1(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass39_0_U3CUpdateTargetInTrackerU3Eb__1_m028FA0DB06BF9BE40C859E47761473ADABCF4D44 (void);
-// 0x000009E6 easyar.ImageTracker easyar.ImageTrackerFrameFilter::get_Tracker()
+// 0x000009E8 easyar.ImageTracker easyar.ImageTrackerFrameFilter::get_Tracker()
 extern void ImageTrackerFrameFilter_get_Tracker_mD35CBEDB7003023C3A0492EA90098A6677875AAD (void);
-// 0x000009E7 System.Void easyar.ImageTrackerFrameFilter::set_Tracker(easyar.ImageTracker)
+// 0x000009E9 System.Void easyar.ImageTrackerFrameFilter::set_Tracker(easyar.ImageTracker)
 extern void ImageTrackerFrameFilter_set_Tracker_m22F80D8B8C22D223F4C38612B2C0BE20D5D3846C (void);
-// 0x000009E8 System.Void easyar.ImageTrackerFrameFilter::add_TargetLoad(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+// 0x000009EA System.Void easyar.ImageTrackerFrameFilter::add_TargetLoad(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
 extern void ImageTrackerFrameFilter_add_TargetLoad_m1BC28A46E4BFD888FD8B828DA242226B5B5A4520 (void);
-// 0x000009E9 System.Void easyar.ImageTrackerFrameFilter::remove_TargetLoad(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+// 0x000009EB System.Void easyar.ImageTrackerFrameFilter::remove_TargetLoad(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
 extern void ImageTrackerFrameFilter_remove_TargetLoad_mAFD90E2E92CE785FBCBF7B6FE501CE9061490953 (void);
-// 0x000009EA System.Void easyar.ImageTrackerFrameFilter::add_TargetUnload(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+// 0x000009EC System.Void easyar.ImageTrackerFrameFilter::add_TargetUnload(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
 extern void ImageTrackerFrameFilter_add_TargetUnload_m7A46334F1E5B386098F2A8936B5EF6B18807B426 (void);
-// 0x000009EB System.Void easyar.ImageTrackerFrameFilter::remove_TargetUnload(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+// 0x000009ED System.Void easyar.ImageTrackerFrameFilter::remove_TargetUnload(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
 extern void ImageTrackerFrameFilter_remove_TargetUnload_m14DA555B7D9A8C981840FC4050D2322A1D7DC4CD (void);
-// 0x000009EC System.Void easyar.ImageTrackerFrameFilter::add_SimultaneousNumChanged(System.Action)
+// 0x000009EE System.Void easyar.ImageTrackerFrameFilter::add_SimultaneousNumChanged(System.Action)
 extern void ImageTrackerFrameFilter_add_SimultaneousNumChanged_mA65F772F18A27A613DED284D48B830694EB66E83 (void);
-// 0x000009ED System.Void easyar.ImageTrackerFrameFilter::remove_SimultaneousNumChanged(System.Action)
+// 0x000009EF System.Void easyar.ImageTrackerFrameFilter::remove_SimultaneousNumChanged(System.Action)
 extern void ImageTrackerFrameFilter_remove_SimultaneousNumChanged_m612F1CE2F0FD49A876063DA51F5468A83B2AE710 (void);
-// 0x000009EE System.Int32 easyar.ImageTrackerFrameFilter::get_BufferRequirement()
+// 0x000009F0 System.Int32 easyar.ImageTrackerFrameFilter::get_BufferRequirement()
 extern void ImageTrackerFrameFilter_get_BufferRequirement_m93C5CC941CFE7C3FBCB2471FC5C1BB7F2C197635 (void);
-// 0x000009EF System.Int32 easyar.ImageTrackerFrameFilter::get_SimultaneousNum()
+// 0x000009F1 System.Int32 easyar.ImageTrackerFrameFilter::get_SimultaneousNum()
 extern void ImageTrackerFrameFilter_get_SimultaneousNum_m7E1117AC138AE194DF048CD1A260B7225ED06615 (void);
-// 0x000009F0 System.Void easyar.ImageTrackerFrameFilter::set_SimultaneousNum(System.Int32)
+// 0x000009F2 System.Void easyar.ImageTrackerFrameFilter::set_SimultaneousNum(System.Int32)
 extern void ImageTrackerFrameFilter_set_SimultaneousNum_m85D85FBB0B69D08BF61A5BF45376983C613CD3AD (void);
-// 0x000009F1 System.Collections.Generic.List`1<easyar.TargetController> easyar.ImageTrackerFrameFilter::get_TargetControllers()
+// 0x000009F3 System.Collections.Generic.List`1<easyar.TargetController> easyar.ImageTrackerFrameFilter::get_TargetControllers()
 extern void ImageTrackerFrameFilter_get_TargetControllers_m6313B7C8605D2C92100F567EF5BE221110CC327C (void);
-// 0x000009F2 System.Void easyar.ImageTrackerFrameFilter::set_TargetControllers(System.Collections.Generic.List`1<easyar.TargetController>)
+// 0x000009F4 System.Void easyar.ImageTrackerFrameFilter::set_TargetControllers(System.Collections.Generic.List`1<easyar.TargetController>)
 extern void ImageTrackerFrameFilter_set_TargetControllers_m079F6F6DE3E01AE9898876D9FC55E8D53F86BB68 (void);
-// 0x000009F3 easyar.ImageTrackerFrameFilter/ResultParameters easyar.ImageTrackerFrameFilter::get_ResultType()
+// 0x000009F5 easyar.ImageTrackerFrameFilter/ResultParameters easyar.ImageTrackerFrameFilter::get_ResultType()
 extern void ImageTrackerFrameFilter_get_ResultType_m009908762EC32B7AF980A05771FC87F5FD3D2D2C (void);
-// 0x000009F4 System.Void easyar.ImageTrackerFrameFilter::set_ResultType(easyar.ImageTrackerFrameFilter/ResultParameters)
+// 0x000009F6 System.Void easyar.ImageTrackerFrameFilter::set_ResultType(easyar.ImageTrackerFrameFilter/ResultParameters)
 extern void ImageTrackerFrameFilter_set_ResultType_mAB0313C03DF9D758B5168D467257981739BD4E3F (void);
-// 0x000009F5 System.Void easyar.ImageTrackerFrameFilter::Awake()
+// 0x000009F7 System.Void easyar.ImageTrackerFrameFilter::Awake()
 extern void ImageTrackerFrameFilter_Awake_mDE685EA4923DF83CEEB77ABDF134312F1CC340A2 (void);
-// 0x000009F6 System.Void easyar.ImageTrackerFrameFilter::OnEnable()
+// 0x000009F8 System.Void easyar.ImageTrackerFrameFilter::OnEnable()
 extern void ImageTrackerFrameFilter_OnEnable_m1127574FBB5E43B9AFFD4291E033A246B9CE44D5 (void);
-// 0x000009F7 System.Void easyar.ImageTrackerFrameFilter::OnDisable()
+// 0x000009F9 System.Void easyar.ImageTrackerFrameFilter::OnDisable()
 extern void ImageTrackerFrameFilter_OnDisable_m180E1689FE4B350945F5DB08DBBC48750A14E11D (void);
-// 0x000009F8 System.Void easyar.ImageTrackerFrameFilter::OnDestroy()
+// 0x000009FA System.Void easyar.ImageTrackerFrameFilter::OnDestroy()
 extern void ImageTrackerFrameFilter_OnDestroy_mBC043F5929C3C4ABC49C35CCE7625D27CAC1BFD7 (void);
-// 0x000009F9 System.Void easyar.ImageTrackerFrameFilter::LoadTarget(easyar.ImageTargetController)
+// 0x000009FB System.Void easyar.ImageTrackerFrameFilter::LoadTarget(easyar.ImageTargetController)
 extern void ImageTrackerFrameFilter_LoadTarget_mCF99432D1E37FDB493795B7B9AAE59E7EC02BAD0 (void);
-// 0x000009FA System.Void easyar.ImageTrackerFrameFilter::UnloadTarget(easyar.ImageTargetController)
+// 0x000009FC System.Void easyar.ImageTrackerFrameFilter::UnloadTarget(easyar.ImageTargetController)
 extern void ImageTrackerFrameFilter_UnloadTarget_m3DF61D5F6672C7B66936062F0C5214B2F4A80641 (void);
-// 0x000009FB easyar.FeedbackFrameSink easyar.ImageTrackerFrameFilter::FeedbackFrameSink()
+// 0x000009FD easyar.FeedbackFrameSink easyar.ImageTrackerFrameFilter::FeedbackFrameSink()
 extern void ImageTrackerFrameFilter_FeedbackFrameSink_mA86D903FC35C37A8F7A87AE092CFD7140EAFC663 (void);
-// 0x000009FC easyar.OutputFrameSource easyar.ImageTrackerFrameFilter::OutputFrameSource()
+// 0x000009FE easyar.OutputFrameSource easyar.ImageTrackerFrameFilter::OutputFrameSource()
 extern void ImageTrackerFrameFilter_OutputFrameSource_m41EA1D49D255DF5950DE6467826F7EE3716BDD24 (void);
-// 0x000009FD System.Void easyar.ImageTrackerFrameFilter::OnAssemble(easyar.ARSession)
+// 0x000009FF System.Void easyar.ImageTrackerFrameFilter::OnAssemble(easyar.ARSession)
 extern void ImageTrackerFrameFilter_OnAssemble_m91583CA9B01C6561013AF899E9BCDBA655DD19EA (void);
-// 0x000009FE System.Void easyar.ImageTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000A00 System.Void easyar.ImageTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
 extern void ImageTrackerFrameFilter_OnResult_m9EEE9F72A95FB8A6C43169B1A371912DCD9A4069 (void);
-// 0x000009FF easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.ImageTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+// 0x00000A01 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.ImageTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
 extern void ImageTrackerFrameFilter_TryGetCenter_m43D74ED575255655F9B44A82C9C90A563A4080C6 (void);
-// 0x00000A00 System.Void easyar.ImageTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000A02 System.Void easyar.ImageTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void ImageTrackerFrameFilter_UpdateTransform_m81391CE52554A3863BF61AA31F1ADFF755EBA285 (void);
-// 0x00000A01 System.Void easyar.ImageTrackerFrameFilter::LoadImageTarget(easyar.ImageTargetController,System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A03 System.Void easyar.ImageTrackerFrameFilter::LoadImageTarget(easyar.ImageTargetController,System.Action`2<easyar.Target,System.Boolean>)
 extern void ImageTrackerFrameFilter_LoadImageTarget_m1913C46E1811F7617F711317DEE0849AD59B56F1 (void);
-// 0x00000A02 System.Void easyar.ImageTrackerFrameFilter::UnloadImageTarget(easyar.ImageTargetController,System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A04 System.Void easyar.ImageTrackerFrameFilter::UnloadImageTarget(easyar.ImageTargetController,System.Action`2<easyar.Target,System.Boolean>)
 extern void ImageTrackerFrameFilter_UnloadImageTarget_m140DDFA97B4C5CE3D2D0DF57B16BC7417236D115 (void);
-// 0x00000A03 System.Void easyar.ImageTrackerFrameFilter::OnHFlipChange(System.Boolean)
+// 0x00000A05 System.Void easyar.ImageTrackerFrameFilter::OnHFlipChange(System.Boolean)
 extern void ImageTrackerFrameFilter_OnHFlipChange_mADC44897088650649AADE000EA05EDC6C37E221F (void);
-// 0x00000A04 easyar.TargetController easyar.ImageTrackerFrameFilter::TryGetTargetController(System.Int32)
+// 0x00000A06 easyar.TargetController easyar.ImageTrackerFrameFilter::TryGetTargetController(System.Int32)
 extern void ImageTrackerFrameFilter_TryGetTargetController_m0229449EC763B1A249355AB021F3B83BA12C13D6 (void);
-// 0x00000A05 System.Void easyar.ImageTrackerFrameFilter::.ctor()
+// 0x00000A07 System.Void easyar.ImageTrackerFrameFilter::.ctor()
 extern void ImageTrackerFrameFilter__ctor_m9DA1119CF91ACED35ADC96600D9719EA2741AA93 (void);
-// 0x00000A06 System.Void easyar.ImageTrackerFrameFilter/ResultParameters::.ctor()
+// 0x00000A08 System.Void easyar.ImageTrackerFrameFilter/ResultParameters::.ctor()
 extern void ResultParameters__ctor_m05D095E12442A217353D8E1A64DF9659AE65D41C (void);
-// 0x00000A07 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass44_0::.ctor()
+// 0x00000A09 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass44_0::.ctor()
 extern void U3CU3Ec__DisplayClass44_0__ctor_mAAC3616376D9B19983C5130C3B230EF428697A09 (void);
-// 0x00000A08 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass44_0::<LoadImageTarget>b__0(easyar.Target,System.Boolean)
+// 0x00000A0A System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass44_0::<LoadImageTarget>b__0(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass44_0_U3CLoadImageTargetU3Eb__0_m490307BFC998C884CDD5D9E7F630B2D11637EB26 (void);
-// 0x00000A09 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass45_0::.ctor()
+// 0x00000A0B System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass45_0::.ctor()
 extern void U3CU3Ec__DisplayClass45_0__ctor_m92CAF5411A261422786A56EE1CF56A765A55E3E2 (void);
-// 0x00000A0A System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass45_0::<UnloadImageTarget>b__0(easyar.Target,System.Boolean)
+// 0x00000A0C System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass45_0::<UnloadImageTarget>b__0(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass45_0_U3CUnloadImageTargetU3Eb__0_m5F41A80854679BEFD63072EB3B25552CAF6E1A15 (void);
-// 0x00000A0B easyar.ObjectTarget easyar.ObjectTargetController::get_Target()
+// 0x00000A0D easyar.ObjectTarget easyar.ObjectTargetController::get_Target()
 extern void ObjectTargetController_get_Target_m68ACD08B1961274389988847AB9C00725BF35FD1 (void);
-// 0x00000A0C System.Void easyar.ObjectTargetController::set_Target(easyar.ObjectTarget)
+// 0x00000A0E System.Void easyar.ObjectTargetController::set_Target(easyar.ObjectTarget)
 extern void ObjectTargetController_set_Target_m424F61A0D108DF516FFB4DCA198F9C1C99382AD6 (void);
-// 0x00000A0D System.Void easyar.ObjectTargetController::add_TargetAvailable(System.Action)
+// 0x00000A0F System.Void easyar.ObjectTargetController::add_TargetAvailable(System.Action)
 extern void ObjectTargetController_add_TargetAvailable_mDB6CB23F244357819D1FE55ACAA862C5F7E7AC3D (void);
-// 0x00000A0E System.Void easyar.ObjectTargetController::remove_TargetAvailable(System.Action)
+// 0x00000A10 System.Void easyar.ObjectTargetController::remove_TargetAvailable(System.Action)
 extern void ObjectTargetController_remove_TargetAvailable_mE4C4922BD29D938A4ED7EAAF8C67E9846BC58B90 (void);
-// 0x00000A0F System.Void easyar.ObjectTargetController::add_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A11 System.Void easyar.ObjectTargetController::add_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
 extern void ObjectTargetController_add_TargetLoad_m8C34E94866C0354A070331B5FE1C383828C8AF57 (void);
-// 0x00000A10 System.Void easyar.ObjectTargetController::remove_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A12 System.Void easyar.ObjectTargetController::remove_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
 extern void ObjectTargetController_remove_TargetLoad_m68F1BC759DB4442876C76409E2151900F734AFD1 (void);
-// 0x00000A11 System.Void easyar.ObjectTargetController::add_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A13 System.Void easyar.ObjectTargetController::add_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
 extern void ObjectTargetController_add_TargetUnload_mA40853B603DD443FDA0461573E438DC5C7C92880 (void);
-// 0x00000A12 System.Void easyar.ObjectTargetController::remove_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A14 System.Void easyar.ObjectTargetController::remove_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
 extern void ObjectTargetController_remove_TargetUnload_mD48E24CF0DF5650607A67D2252CBF76AC5BA540F (void);
-// 0x00000A13 easyar.ObjectTrackerFrameFilter easyar.ObjectTargetController::get_Tracker()
+// 0x00000A15 easyar.ObjectTrackerFrameFilter easyar.ObjectTargetController::get_Tracker()
 extern void ObjectTargetController_get_Tracker_m29D2CE3DE8759D95F3F6B57A86AFF0CF0FDE1229 (void);
-// 0x00000A14 System.Void easyar.ObjectTargetController::set_Tracker(easyar.ObjectTrackerFrameFilter)
+// 0x00000A16 System.Void easyar.ObjectTargetController::set_Tracker(easyar.ObjectTrackerFrameFilter)
 extern void ObjectTargetController_set_Tracker_mED9D067AF53EC65C87BD58724F9936358BD50FA2 (void);
-// 0x00000A15 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.ObjectTargetController::get_BoundingBox()
+// 0x00000A17 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.ObjectTargetController::get_BoundingBox()
 extern void ObjectTargetController_get_BoundingBox_m18B19F8D01A4AAC4C7E41419E378F6C8F34EC0B6 (void);
-// 0x00000A16 System.Void easyar.ObjectTargetController::set_BoundingBox(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x00000A18 System.Void easyar.ObjectTargetController::set_BoundingBox(System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void ObjectTargetController_set_BoundingBox_m6937B54CB4E041EF3ED39064F1DFF8C9DD66C646 (void);
-// 0x00000A17 System.Void easyar.ObjectTargetController::Start()
+// 0x00000A19 System.Void easyar.ObjectTargetController::Start()
 extern void ObjectTargetController_Start_m4E08F934430E37B3A02BD5E627E9F258907EB484 (void);
-// 0x00000A18 System.Void easyar.ObjectTargetController::Update()
+// 0x00000A1A System.Void easyar.ObjectTargetController::Update()
 extern void ObjectTargetController_Update_m823545DFFF6AA22E835D0B278F60EC618F131144 (void);
-// 0x00000A19 System.Void easyar.ObjectTargetController::OnDestroy()
+// 0x00000A1B System.Void easyar.ObjectTargetController::OnDestroy()
 extern void ObjectTargetController_OnDestroy_mDA1A1567AD6ADC1868769975FD35AABD3EC78C55 (void);
-// 0x00000A1A System.Void easyar.ObjectTargetController::OnTracking()
+// 0x00000A1C System.Void easyar.ObjectTargetController::OnTracking()
 extern void ObjectTargetController_OnTracking_m55DBEBD245EEB008451E6571BCFF7ECFCD9B5E18 (void);
-// 0x00000A1B System.Void easyar.ObjectTargetController::LoadObjFile(easyar.ObjectTargetController/ObjFileSourceData)
+// 0x00000A1D System.Void easyar.ObjectTargetController::LoadObjFile(easyar.ObjectTargetController/ObjFileSourceData)
 extern void ObjectTargetController_LoadObjFile_m514FEFFD00E8C964D18C691BD967457BCB14489D (void);
-// 0x00000A1C System.Void easyar.ObjectTargetController::LoadTarget(easyar.ObjectTarget)
+// 0x00000A1E System.Void easyar.ObjectTargetController::LoadTarget(easyar.ObjectTarget)
 extern void ObjectTargetController_LoadTarget_m97DE83C58022ED98AC330EE99C7D9E1755FA4B69 (void);
-// 0x00000A1D System.Collections.IEnumerator easyar.ObjectTargetController::LoadObjFileFromSource(easyar.ObjectTargetController/ObjFileSourceData)
+// 0x00000A1F System.Collections.IEnumerator easyar.ObjectTargetController::LoadObjFileFromSource(easyar.ObjectTargetController/ObjFileSourceData)
 extern void ObjectTargetController_LoadObjFileFromSource_m161EED430F897AD636667F7AC73B7DE66863408B (void);
-// 0x00000A1E System.Void easyar.ObjectTargetController::UpdateTargetInTracker()
+// 0x00000A20 System.Void easyar.ObjectTargetController::UpdateTargetInTracker()
 extern void ObjectTargetController_UpdateTargetInTracker_m7AF46A415F20D4DBC79E9BEA4C79285C50F690BE (void);
-// 0x00000A1F System.Void easyar.ObjectTargetController::UpdateScale()
+// 0x00000A21 System.Void easyar.ObjectTargetController::UpdateScale()
 extern void ObjectTargetController_UpdateScale_mA2481965F25B0A906118374F27983B633BB4A580 (void);
-// 0x00000A20 System.Void easyar.ObjectTargetController::CheckScale()
+// 0x00000A22 System.Void easyar.ObjectTargetController::CheckScale()
 extern void ObjectTargetController_CheckScale_mE6107D0B643C1CBFD33975A732FC7238F4A5632A (void);
-// 0x00000A21 System.Void easyar.ObjectTargetController::.ctor()
+// 0x00000A23 System.Void easyar.ObjectTargetController::.ctor()
 extern void ObjectTargetController__ctor_m1270AF020C533B6959296716657551F9D2372370 (void);
-// 0x00000A22 System.Void easyar.ObjectTargetController::<UpdateTargetInTracker>b__36_0(easyar.Target,System.Boolean)
+// 0x00000A24 System.Void easyar.ObjectTargetController::<UpdateTargetInTracker>b__36_0(easyar.Target,System.Boolean)
 extern void ObjectTargetController_U3CUpdateTargetInTrackerU3Eb__36_0_m0EF159A0FF2AE08CB8BF9B968078DDF984A01EA9 (void);
-// 0x00000A23 System.Void easyar.ObjectTargetController/ObjFileSourceData::.ctor()
+// 0x00000A25 System.Void easyar.ObjectTargetController/ObjFileSourceData::.ctor()
 extern void ObjFileSourceData__ctor_mED731E21ED70A57C221B8DF9B1E97CB62C727E01 (void);
-// 0x00000A24 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_0::.ctor()
+// 0x00000A26 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_0::.ctor()
 extern void U3CU3Ec__DisplayClass35_0__ctor_m323041982EBA8DC1686D8FE149F6BDBB8927189D (void);
-// 0x00000A25 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_1::.ctor()
+// 0x00000A27 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_1::.ctor()
 extern void U3CU3Ec__DisplayClass35_1__ctor_mED4C324C78D20DF2135734FC2FA54EB9741D639E (void);
-// 0x00000A26 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_1::<LoadObjFileFromSource>b__0(easyar.Buffer)
+// 0x00000A28 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_1::<LoadObjFileFromSource>b__0(easyar.Buffer)
 extern void U3CU3Ec__DisplayClass35_1_U3CLoadObjFileFromSourceU3Eb__0_mDDBF89B9A72A76661191F20DBAFEF3AA2BA0D4D8 (void);
-// 0x00000A27 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_2::.ctor()
+// 0x00000A29 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_2::.ctor()
 extern void U3CU3Ec__DisplayClass35_2__ctor_m9EC61204ED5CF9C6836BEA7CCC2FD3C5CACC79A9 (void);
-// 0x00000A28 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_2::<LoadObjFileFromSource>b__1(easyar.Buffer)
+// 0x00000A2A System.Void easyar.ObjectTargetController/<>c__DisplayClass35_2::<LoadObjFileFromSource>b__1(easyar.Buffer)
 extern void U3CU3Ec__DisplayClass35_2_U3CLoadObjFileFromSourceU3Eb__1_mF88826868F58AD74E022382DB780C50384FD7814 (void);
-// 0x00000A29 System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::.ctor(System.Int32)
+// 0x00000A2B System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::.ctor(System.Int32)
 extern void U3CLoadObjFileFromSourceU3Ed__35__ctor_mDBAECBF92D75C2CA4451954AA55633799D71C4EF (void);
-// 0x00000A2A System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.IDisposable.Dispose()
+// 0x00000A2C System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.IDisposable.Dispose()
 extern void U3CLoadObjFileFromSourceU3Ed__35_System_IDisposable_Dispose_m26A87B842EF470403700866A04505F3B8AE37116 (void);
-// 0x00000A2B System.Boolean easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::MoveNext()
+// 0x00000A2D System.Boolean easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::MoveNext()
 extern void U3CLoadObjFileFromSourceU3Ed__35_MoveNext_m9E981AC03B97301ABFD11A06280ABE477C27D18E (void);
-// 0x00000A2C System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::<>m__Finally1()
+// 0x00000A2E System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::<>m__Finally1()
 extern void U3CLoadObjFileFromSourceU3Ed__35_U3CU3Em__Finally1_m5D896F038C6263FE2A76C7EFCBC9F9046AEC41E5 (void);
-// 0x00000A2D System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::<>m__Finally2()
+// 0x00000A2F System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::<>m__Finally2()
 extern void U3CLoadObjFileFromSourceU3Ed__35_U3CU3Em__Finally2_mA935AA5C1A3AADD316BFF934C98E7FFE781FD868 (void);
-// 0x00000A2E System.Object easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000A30 System.Object easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadObjFileFromSourceU3Ed__35_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA26CEDF7C5181138F1B920F9D90A7A6DD3A6D3AE (void);
-// 0x00000A2F System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.IEnumerator.Reset()
+// 0x00000A31 System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.IEnumerator.Reset()
 extern void U3CLoadObjFileFromSourceU3Ed__35_System_Collections_IEnumerator_Reset_m4FD824F7F01FB0E3832B920F9B432A593145D480 (void);
-// 0x00000A30 System.Object easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.IEnumerator.get_Current()
+// 0x00000A32 System.Object easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadObjFileFromSourceU3Ed__35_System_Collections_IEnumerator_get_Current_m4B6543D28012C97259D791AF30A751CEE2E3ED73 (void);
-// 0x00000A31 System.Void easyar.ObjectTargetController/<>c__DisplayClass36_0::.ctor()
+// 0x00000A33 System.Void easyar.ObjectTargetController/<>c__DisplayClass36_0::.ctor()
 extern void U3CU3Ec__DisplayClass36_0__ctor_m5C414A2844BCF166ECE0BA531F0CB053FF112608 (void);
-// 0x00000A32 System.Void easyar.ObjectTargetController/<>c__DisplayClass36_0::<UpdateTargetInTracker>b__1(easyar.Target,System.Boolean)
+// 0x00000A34 System.Void easyar.ObjectTargetController/<>c__DisplayClass36_0::<UpdateTargetInTracker>b__1(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass36_0_U3CUpdateTargetInTrackerU3Eb__1_mE03F83BCC6599AE5A2EB68C9844365A937187919 (void);
-// 0x00000A33 easyar.ObjectTracker easyar.ObjectTrackerFrameFilter::get_Tracker()
+// 0x00000A35 easyar.ObjectTracker easyar.ObjectTrackerFrameFilter::get_Tracker()
 extern void ObjectTrackerFrameFilter_get_Tracker_m92A32BAE08944E46F323C122E3C416CFC0F2D1C9 (void);
-// 0x00000A34 System.Void easyar.ObjectTrackerFrameFilter::set_Tracker(easyar.ObjectTracker)
+// 0x00000A36 System.Void easyar.ObjectTrackerFrameFilter::set_Tracker(easyar.ObjectTracker)
 extern void ObjectTrackerFrameFilter_set_Tracker_mDE4337E7800351B90461D568A32505738AC842A1 (void);
-// 0x00000A35 System.Void easyar.ObjectTrackerFrameFilter::add_TargetLoad(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+// 0x00000A37 System.Void easyar.ObjectTrackerFrameFilter::add_TargetLoad(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
 extern void ObjectTrackerFrameFilter_add_TargetLoad_m072EBAF8C1D02A417A8B0AE8CF3DCF9C48472750 (void);
-// 0x00000A36 System.Void easyar.ObjectTrackerFrameFilter::remove_TargetLoad(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+// 0x00000A38 System.Void easyar.ObjectTrackerFrameFilter::remove_TargetLoad(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
 extern void ObjectTrackerFrameFilter_remove_TargetLoad_m84F18892E2982A9F4FC20CBBE32B19C33CF27795 (void);
-// 0x00000A37 System.Void easyar.ObjectTrackerFrameFilter::add_TargetUnload(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+// 0x00000A39 System.Void easyar.ObjectTrackerFrameFilter::add_TargetUnload(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
 extern void ObjectTrackerFrameFilter_add_TargetUnload_m6956A25317D1BF0306138308877577B6ECC51585 (void);
-// 0x00000A38 System.Void easyar.ObjectTrackerFrameFilter::remove_TargetUnload(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+// 0x00000A3A System.Void easyar.ObjectTrackerFrameFilter::remove_TargetUnload(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
 extern void ObjectTrackerFrameFilter_remove_TargetUnload_m768F101F6B980D24CDB3AB322D4D6B2622AFF033 (void);
-// 0x00000A39 System.Void easyar.ObjectTrackerFrameFilter::add_SimultaneousNumChanged(System.Action)
+// 0x00000A3B System.Void easyar.ObjectTrackerFrameFilter::add_SimultaneousNumChanged(System.Action)
 extern void ObjectTrackerFrameFilter_add_SimultaneousNumChanged_m36A394540186BB9353C41417652FC0204490C208 (void);
-// 0x00000A3A System.Void easyar.ObjectTrackerFrameFilter::remove_SimultaneousNumChanged(System.Action)
+// 0x00000A3C System.Void easyar.ObjectTrackerFrameFilter::remove_SimultaneousNumChanged(System.Action)
 extern void ObjectTrackerFrameFilter_remove_SimultaneousNumChanged_m853EA424C508DE986F70321CF822FB35B09814C4 (void);
-// 0x00000A3B System.Int32 easyar.ObjectTrackerFrameFilter::get_BufferRequirement()
+// 0x00000A3D System.Int32 easyar.ObjectTrackerFrameFilter::get_BufferRequirement()
 extern void ObjectTrackerFrameFilter_get_BufferRequirement_mB97710256FD0511E1EFBCBE7764A4532EA377556 (void);
-// 0x00000A3C System.Int32 easyar.ObjectTrackerFrameFilter::get_SimultaneousNum()
+// 0x00000A3E System.Int32 easyar.ObjectTrackerFrameFilter::get_SimultaneousNum()
 extern void ObjectTrackerFrameFilter_get_SimultaneousNum_m8C0A051FA03C851FFCE6003DAE5D722B61043D39 (void);
-// 0x00000A3D System.Void easyar.ObjectTrackerFrameFilter::set_SimultaneousNum(System.Int32)
+// 0x00000A3F System.Void easyar.ObjectTrackerFrameFilter::set_SimultaneousNum(System.Int32)
 extern void ObjectTrackerFrameFilter_set_SimultaneousNum_mC767D106DFDA4B732C1C96E2FB9378B6D05C6BB0 (void);
-// 0x00000A3E System.Collections.Generic.List`1<easyar.TargetController> easyar.ObjectTrackerFrameFilter::get_TargetControllers()
+// 0x00000A40 System.Collections.Generic.List`1<easyar.TargetController> easyar.ObjectTrackerFrameFilter::get_TargetControllers()
 extern void ObjectTrackerFrameFilter_get_TargetControllers_m31872F2D91399332A2264657AE5BC552E52A3702 (void);
-// 0x00000A3F System.Void easyar.ObjectTrackerFrameFilter::set_TargetControllers(System.Collections.Generic.List`1<easyar.TargetController>)
+// 0x00000A41 System.Void easyar.ObjectTrackerFrameFilter::set_TargetControllers(System.Collections.Generic.List`1<easyar.TargetController>)
 extern void ObjectTrackerFrameFilter_set_TargetControllers_mD459B0E195D9BE18B9211348C716C0DA5E0C4B9D (void);
-// 0x00000A40 easyar.ObjectTrackerFrameFilter/ResultParameters easyar.ObjectTrackerFrameFilter::get_ResultType()
+// 0x00000A42 easyar.ObjectTrackerFrameFilter/ResultParameters easyar.ObjectTrackerFrameFilter::get_ResultType()
 extern void ObjectTrackerFrameFilter_get_ResultType_mACD373AE4E1B4C0ED40F61AD50EC1860EAE9EA48 (void);
-// 0x00000A41 System.Void easyar.ObjectTrackerFrameFilter::set_ResultType(easyar.ObjectTrackerFrameFilter/ResultParameters)
+// 0x00000A43 System.Void easyar.ObjectTrackerFrameFilter::set_ResultType(easyar.ObjectTrackerFrameFilter/ResultParameters)
 extern void ObjectTrackerFrameFilter_set_ResultType_mB759A15D03695B99A2C6B9A03F07B2727B7FEFDB (void);
-// 0x00000A42 System.Void easyar.ObjectTrackerFrameFilter::Awake()
+// 0x00000A44 System.Void easyar.ObjectTrackerFrameFilter::Awake()
 extern void ObjectTrackerFrameFilter_Awake_m28F9BDDBBC93F5E4C79BC39D611F7C337F325B3F (void);
-// 0x00000A43 System.Void easyar.ObjectTrackerFrameFilter::OnEnable()
+// 0x00000A45 System.Void easyar.ObjectTrackerFrameFilter::OnEnable()
 extern void ObjectTrackerFrameFilter_OnEnable_m69BA15DB8CFC43D98ACC442EC12D9520C24D704C (void);
-// 0x00000A44 System.Void easyar.ObjectTrackerFrameFilter::OnDisable()
+// 0x00000A46 System.Void easyar.ObjectTrackerFrameFilter::OnDisable()
 extern void ObjectTrackerFrameFilter_OnDisable_mE69CE7942751186A0A38D607C5820D5D3632D703 (void);
-// 0x00000A45 System.Void easyar.ObjectTrackerFrameFilter::OnDestroy()
+// 0x00000A47 System.Void easyar.ObjectTrackerFrameFilter::OnDestroy()
 extern void ObjectTrackerFrameFilter_OnDestroy_m3BF9BE4808FA353ECB45E8FCD07C57C752935316 (void);
-// 0x00000A46 System.Void easyar.ObjectTrackerFrameFilter::LoadTarget(easyar.ObjectTargetController)
+// 0x00000A48 System.Void easyar.ObjectTrackerFrameFilter::LoadTarget(easyar.ObjectTargetController)
 extern void ObjectTrackerFrameFilter_LoadTarget_m19D567DFEAD310E65C64BE2F22984F98645B7721 (void);
-// 0x00000A47 System.Void easyar.ObjectTrackerFrameFilter::UnloadTarget(easyar.ObjectTargetController)
+// 0x00000A49 System.Void easyar.ObjectTrackerFrameFilter::UnloadTarget(easyar.ObjectTargetController)
 extern void ObjectTrackerFrameFilter_UnloadTarget_mA21E310D46AD0AE128DE47A6A492EEB1C1E944C8 (void);
-// 0x00000A48 easyar.FeedbackFrameSink easyar.ObjectTrackerFrameFilter::FeedbackFrameSink()
+// 0x00000A4A easyar.FeedbackFrameSink easyar.ObjectTrackerFrameFilter::FeedbackFrameSink()
 extern void ObjectTrackerFrameFilter_FeedbackFrameSink_m8AD59ACACCEA6BED01AB4677348BBC0CDBC437DC (void);
-// 0x00000A49 easyar.OutputFrameSource easyar.ObjectTrackerFrameFilter::OutputFrameSource()
+// 0x00000A4B easyar.OutputFrameSource easyar.ObjectTrackerFrameFilter::OutputFrameSource()
 extern void ObjectTrackerFrameFilter_OutputFrameSource_mB62B684E34CAB6A7D4EDF15B463CB948CBB7BDA2 (void);
-// 0x00000A4A System.Void easyar.ObjectTrackerFrameFilter::OnAssemble(easyar.ARSession)
+// 0x00000A4C System.Void easyar.ObjectTrackerFrameFilter::OnAssemble(easyar.ARSession)
 extern void ObjectTrackerFrameFilter_OnAssemble_m07B45196243F59C6D9C9C0D6BF3ACEC857C57911 (void);
-// 0x00000A4B System.Void easyar.ObjectTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000A4D System.Void easyar.ObjectTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
 extern void ObjectTrackerFrameFilter_OnResult_mD02B9176B371950DEF1BE793B354688494688FBB (void);
-// 0x00000A4C easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.ObjectTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+// 0x00000A4E easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.ObjectTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
 extern void ObjectTrackerFrameFilter_TryGetCenter_m8769C189054B7453B94194655CFFFFC560CD9E7B (void);
-// 0x00000A4D System.Void easyar.ObjectTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000A4F System.Void easyar.ObjectTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void ObjectTrackerFrameFilter_UpdateTransform_m64FB4B279A1BF9664C522D1B23E6024A381AA554 (void);
-// 0x00000A4E System.Void easyar.ObjectTrackerFrameFilter::LoadObjectTarget(easyar.ObjectTargetController,System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A50 System.Void easyar.ObjectTrackerFrameFilter::LoadObjectTarget(easyar.ObjectTargetController,System.Action`2<easyar.Target,System.Boolean>)
 extern void ObjectTrackerFrameFilter_LoadObjectTarget_m864D67FB3A7A21BB63350049CCAAA6047D0EAE28 (void);
-// 0x00000A4F System.Void easyar.ObjectTrackerFrameFilter::UnloadObjectTarget(easyar.ObjectTargetController,System.Action`2<easyar.Target,System.Boolean>)
+// 0x00000A51 System.Void easyar.ObjectTrackerFrameFilter::UnloadObjectTarget(easyar.ObjectTargetController,System.Action`2<easyar.Target,System.Boolean>)
 extern void ObjectTrackerFrameFilter_UnloadObjectTarget_m28716FD90A62AE918D74EC84644C1B1CF420851D (void);
-// 0x00000A50 System.Void easyar.ObjectTrackerFrameFilter::OnHFlipChange(System.Boolean)
+// 0x00000A52 System.Void easyar.ObjectTrackerFrameFilter::OnHFlipChange(System.Boolean)
 extern void ObjectTrackerFrameFilter_OnHFlipChange_m0F38AD0D30D55402EFE57F98F864A83C9704BEC8 (void);
-// 0x00000A51 easyar.TargetController easyar.ObjectTrackerFrameFilter::TryGetTargetController(System.Int32)
+// 0x00000A53 easyar.TargetController easyar.ObjectTrackerFrameFilter::TryGetTargetController(System.Int32)
 extern void ObjectTrackerFrameFilter_TryGetTargetController_m490FFE0027A76CFE009D4429A198A9D02DAED842 (void);
-// 0x00000A52 System.Void easyar.ObjectTrackerFrameFilter::.ctor()
+// 0x00000A54 System.Void easyar.ObjectTrackerFrameFilter::.ctor()
 extern void ObjectTrackerFrameFilter__ctor_mC60BF6D3B71CFF3767EF7956DC78B22118837796 (void);
-// 0x00000A53 System.Void easyar.ObjectTrackerFrameFilter/ResultParameters::.ctor()
+// 0x00000A55 System.Void easyar.ObjectTrackerFrameFilter/ResultParameters::.ctor()
 extern void ResultParameters__ctor_m550FFB185012725E9451F567B2CC2D5C23CA80A8 (void);
-// 0x00000A54 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass41_0::.ctor()
+// 0x00000A56 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass41_0::.ctor()
 extern void U3CU3Ec__DisplayClass41_0__ctor_m422AC3A5664D1C2CD4EA6B622C421F1ED450D2CB (void);
-// 0x00000A55 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass41_0::<LoadObjectTarget>b__0(easyar.Target,System.Boolean)
+// 0x00000A57 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass41_0::<LoadObjectTarget>b__0(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass41_0_U3CLoadObjectTargetU3Eb__0_m9183BEE207EA82B4AE473322920DCDB8FA3C556B (void);
-// 0x00000A56 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass42_0::.ctor()
+// 0x00000A58 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass42_0::.ctor()
 extern void U3CU3Ec__DisplayClass42_0__ctor_m346127CA7B93EA1C89BDE93753088EC7360282D4 (void);
-// 0x00000A57 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass42_0::<UnloadObjectTarget>b__0(easyar.Target,System.Boolean)
+// 0x00000A59 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass42_0::<UnloadObjectTarget>b__0(easyar.Target,System.Boolean)
 extern void U3CU3Ec__DisplayClass42_0_U3CUnloadObjectTargetU3Eb__0_mA1182CCA033F8DB7209A3B8A361681D2AA840A3D (void);
-// 0x00000A58 System.Void easyar.AliasAttribute::.ctor()
+// 0x00000A5A System.Void easyar.AliasAttribute::.ctor()
 extern void AliasAttribute__ctor_m9EBB2AF5E9169D1200342D77E11283ECA036EE2F (void);
-// 0x00000A59 System.Void easyar.RecordAttribute::.ctor()
+// 0x00000A5B System.Void easyar.RecordAttribute::.ctor()
 extern void RecordAttribute__ctor_m73F55D638982DBE053CB6A2FC0B842D53AD5463A (void);
-// 0x00000A5A System.Void easyar.TaggedUnionAttribute::.ctor()
+// 0x00000A5C System.Void easyar.TaggedUnionAttribute::.ctor()
 extern void TaggedUnionAttribute__ctor_m4BBE70C6113EDBBF3DB96DFB9266E999A15B7781 (void);
-// 0x00000A5B System.Void easyar.TagAttribute::.ctor()
+// 0x00000A5D System.Void easyar.TagAttribute::.ctor()
 extern void TagAttribute__ctor_m7AE4E4D96814E796BB07F8F5FA48AB61BFD22E74 (void);
-// 0x00000A5C System.Void easyar.TupleAttribute::.ctor()
+// 0x00000A5E System.Void easyar.TupleAttribute::.ctor()
 extern void TupleAttribute__ctor_mBF72C1D704258557799C79A169447A68757FB92B (void);
-// 0x00000A5D easyar.Optional`1<T> easyar.Optional`1::CreateNone()
-// 0x00000A5E easyar.Optional`1<T> easyar.Optional`1::CreateSome(T)
-// 0x00000A5F System.Boolean easyar.Optional`1::get_OnNone()
-// 0x00000A60 System.Boolean easyar.Optional`1::get_OnSome()
-// 0x00000A61 easyar.Optional`1<T> easyar.Optional`1::get_Empty()
-// 0x00000A62 easyar.Optional`1<T> easyar.Optional`1::op_Implicit(T)
-// 0x00000A63 T easyar.Optional`1::op_Explicit(easyar.Optional`1<T>)
-// 0x00000A64 System.Boolean easyar.Optional`1::op_Equality(easyar.Optional`1<T>,easyar.Optional`1<T>)
-// 0x00000A65 System.Boolean easyar.Optional`1::op_Inequality(easyar.Optional`1<T>,easyar.Optional`1<T>)
-// 0x00000A66 System.Boolean easyar.Optional`1::op_Equality(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
-// 0x00000A67 System.Boolean easyar.Optional`1::op_Inequality(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
-// 0x00000A68 System.Boolean easyar.Optional`1::Equals(System.Object)
-// 0x00000A69 System.Int32 easyar.Optional`1::GetHashCode()
-// 0x00000A6A System.Boolean easyar.Optional`1::Equals(easyar.Optional`1<T>,easyar.Optional`1<T>)
-// 0x00000A6B System.Boolean easyar.Optional`1::Equals(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
-// 0x00000A6C T easyar.Optional`1::get_Value()
-// 0x00000A6D T easyar.Optional`1::ValueOrDefault(T)
-// 0x00000A6E System.String easyar.Optional`1::ToString()
-// 0x00000A6F System.Void easyar.UnityPackage::.ctor()
+// 0x00000A5F easyar.Optional`1<T> easyar.Optional`1::CreateNone()
+// 0x00000A60 easyar.Optional`1<T> easyar.Optional`1::CreateSome(T)
+// 0x00000A61 System.Boolean easyar.Optional`1::get_OnNone()
+// 0x00000A62 System.Boolean easyar.Optional`1::get_OnSome()
+// 0x00000A63 easyar.Optional`1<T> easyar.Optional`1::get_Empty()
+// 0x00000A64 easyar.Optional`1<T> easyar.Optional`1::op_Implicit(T)
+// 0x00000A65 T easyar.Optional`1::op_Explicit(easyar.Optional`1<T>)
+// 0x00000A66 System.Boolean easyar.Optional`1::op_Equality(easyar.Optional`1<T>,easyar.Optional`1<T>)
+// 0x00000A67 System.Boolean easyar.Optional`1::op_Inequality(easyar.Optional`1<T>,easyar.Optional`1<T>)
+// 0x00000A68 System.Boolean easyar.Optional`1::op_Equality(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
+// 0x00000A69 System.Boolean easyar.Optional`1::op_Inequality(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
+// 0x00000A6A System.Boolean easyar.Optional`1::Equals(System.Object)
+// 0x00000A6B System.Int32 easyar.Optional`1::GetHashCode()
+// 0x00000A6C System.Boolean easyar.Optional`1::Equals(easyar.Optional`1<T>,easyar.Optional`1<T>)
+// 0x00000A6D System.Boolean easyar.Optional`1::Equals(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
+// 0x00000A6E T easyar.Optional`1::get_Value()
+// 0x00000A6F T easyar.Optional`1::ValueOrDefault(T)
+// 0x00000A70 System.String easyar.Optional`1::ToString()
+// 0x00000A71 System.Void easyar.UnityPackage::.ctor()
 extern void UnityPackage__ctor_m32ADC04C4DF6E98894C0FE0D302381FE8B244986 (void);
-// 0x00000A70 UnityEngine.Matrix4x4 easyar.APIExtend::ToUnityMatrix(easyar.Matrix44F)
+// 0x00000A72 UnityEngine.Matrix4x4 easyar.APIExtend::ToUnityMatrix(easyar.Matrix44F)
 extern void APIExtend_ToUnityMatrix_m246EBB5E10CAFE1C74099C6CCF3D4FE39B81CB33 (void);
-// 0x00000A71 easyar.Matrix44F easyar.APIExtend::ToEasyARMatrix(UnityEngine.Matrix4x4)
+// 0x00000A73 easyar.Matrix44F easyar.APIExtend::ToEasyARMatrix(UnityEngine.Matrix4x4)
 extern void APIExtend_ToEasyARMatrix_m0B3A225B96F990A9BA03CD46178F8D773088DE28 (void);
-// 0x00000A72 UnityEngine.Pose easyar.APIExtend::ToUnityPose(easyar.Matrix44F)
+// 0x00000A74 UnityEngine.Pose easyar.APIExtend::ToUnityPose(easyar.Matrix44F)
 extern void APIExtend_ToUnityPose_mFFF67DE2B42DCA48E0C8EE12C642ECEB8925F80D (void);
-// 0x00000A73 easyar.Matrix44F easyar.APIExtend::ToEasyARPose(UnityEngine.Pose)
+// 0x00000A75 easyar.Matrix44F easyar.APIExtend::ToEasyARPose(UnityEngine.Pose)
 extern void APIExtend_ToEasyARPose_m9C8DE87F341DB9580CC87EF48C1005F869AAB3FF (void);
-// 0x00000A74 easyar.Vec2F easyar.APIExtend::ToEasyARVector(UnityEngine.Vector2)
+// 0x00000A76 easyar.Vec2F easyar.APIExtend::ToEasyARVector(UnityEngine.Vector2)
 extern void APIExtend_ToEasyARVector_mA9BAAFC70177249A371F67ECD7DCEB93071A686F (void);
-// 0x00000A75 easyar.Vec3F easyar.APIExtend::ToEasyARVector(UnityEngine.Vector3)
+// 0x00000A77 easyar.Vec3F easyar.APIExtend::ToEasyARVector(UnityEngine.Vector3)
 extern void APIExtend_ToEasyARVector_m665D3E21E60A24CFA3A1C6C076F46C3871DFDAEF (void);
-// 0x00000A76 UnityEngine.Vector2 easyar.APIExtend::ToUnityVector(easyar.Vec2F)
+// 0x00000A78 UnityEngine.Vector2 easyar.APIExtend::ToUnityVector(easyar.Vec2F)
 extern void APIExtend_ToUnityVector_m873EAAC343F09BC9CD42EC24CACD174EE2AC9685 (void);
-// 0x00000A77 UnityEngine.Vector3 easyar.APIExtend::ToUnityVector(easyar.Vec3F)
+// 0x00000A79 UnityEngine.Vector3 easyar.APIExtend::ToUnityVector(easyar.Vec3F)
 extern void APIExtend_ToUnityVector_m218A3A2091F462A35677C7051F0E3A10EBE99326 (void);
-// 0x00000A78 UnityEngine.Pose easyar.APIExtend::Inverse(UnityEngine.Pose)
+// 0x00000A7A UnityEngine.Pose easyar.APIExtend::Inverse(UnityEngine.Pose)
 extern void APIExtend_Inverse_mBD6FABEC78A7388AAFC3C1FAEA4FAFC3D725510A (void);
-// 0x00000A79 UnityEngine.Pose easyar.APIExtend::FlipX(UnityEngine.Pose,System.Boolean)
+// 0x00000A7B UnityEngine.Pose easyar.APIExtend::FlipX(UnityEngine.Pose,System.Boolean)
 extern void APIExtend_FlipX_m4B1503113C6A2E5034124752AB504E8185E76D9F (void);
-// 0x00000A7A UnityEngine.GameObject easyar.ARSessionFactory::CreateSession(easyar.ARSessionFactory/ARSessionPreset,System.Func`1<System.Collections.Generic.List`1<UnityEngine.GameObject>>)
+// 0x00000A7C UnityEngine.GameObject easyar.ARSessionFactory::CreateSession(easyar.ARSessionFactory/ARSessionPreset,System.Func`1<System.Collections.Generic.List`1<UnityEngine.GameObject>>)
 extern void ARSessionFactory_CreateSession_mF5647DFAD7B2E3D272919BB73187FD237BB2C9CF (void);
-// 0x00000A7B UnityEngine.GameObject easyar.ARSessionFactory::CreateSession(System.String,System.Func`1<System.Collections.Generic.List`1<UnityEngine.GameObject>>,System.Func`1<System.Collections.Generic.List`1<UnityEngine.GameObject>>)
+// 0x00000A7D UnityEngine.GameObject easyar.ARSessionFactory::CreateSession(System.String,System.Func`1<System.Collections.Generic.List`1<UnityEngine.GameObject>>,System.Func`1<System.Collections.Generic.List`1<UnityEngine.GameObject>>)
 extern void ARSessionFactory_CreateSession_m1D1CB0D7932E5A8D3BCC6F92BE142560793398A3 (void);
-// 0x00000A7C System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory::CreateFrameFilters(easyar.ARSessionFactory/ARSessionPreset)
+// 0x00000A7E System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory::CreateFrameFilters(easyar.ARSessionFactory/ARSessionPreset)
 extern void ARSessionFactory_CreateFrameFilters_mDA364D99E4C7745A23B7EB65E2C8DD67EE1CAECA (void);
-// 0x00000A7D System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory::CreateFrameSources(easyar.ARSessionFactory/ARSessionPreset)
+// 0x00000A7F System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory::CreateFrameSources(easyar.ARSessionFactory/ARSessionPreset)
 extern void ARSessionFactory_CreateFrameSources_mE09A78A9451E7DF47E81950EFDDA782B6EB97AAA (void);
-// 0x00000A7E UnityEngine.GameObject easyar.ARSessionFactory::AddFrameFilter(UnityEngine.GameObject)
-// 0x00000A7F UnityEngine.GameObject easyar.ARSessionFactory::AddFrameSource(UnityEngine.GameObject)
-// 0x00000A80 UnityEngine.GameObject easyar.ARSessionFactory::AddFramePlayer(UnityEngine.GameObject)
+// 0x00000A80 UnityEngine.GameObject easyar.ARSessionFactory::AddFrameFilter(UnityEngine.GameObject)
+// 0x00000A81 UnityEngine.GameObject easyar.ARSessionFactory::AddFrameSource(UnityEngine.GameObject)
+// 0x00000A82 UnityEngine.GameObject easyar.ARSessionFactory::AddFramePlayer(UnityEngine.GameObject)
 extern void ARSessionFactory_AddFramePlayer_mF471543C21C6D4BB4F378548D397597AFA922AFD (void);
-// 0x00000A81 UnityEngine.GameObject easyar.ARSessionFactory::AddFrameRecorder(UnityEngine.GameObject)
+// 0x00000A83 UnityEngine.GameObject easyar.ARSessionFactory::AddFrameRecorder(UnityEngine.GameObject)
 extern void ARSessionFactory_AddFrameRecorder_m0D999D97D57407735F8DCC6508912C1C27BDDB99 (void);
-// 0x00000A82 UnityEngine.GameObject easyar.ARSessionFactory::CreateVideoRecorder()
+// 0x00000A84 UnityEngine.GameObject easyar.ARSessionFactory::CreateVideoRecorder()
 extern void ARSessionFactory_CreateVideoRecorder_mD2BB87F15DF03309FB537C084DC18313F2F437F5 (void);
-// 0x00000A83 UnityEngine.GameObject easyar.ARSessionFactory::CreateController()
-// 0x00000A84 System.Void easyar.ARSessionFactory::SetupMotionTracker(UnityEngine.GameObject,easyar.ARSessionFactory/MotionTrackerPreset)
+// 0x00000A85 UnityEngine.GameObject easyar.ARSessionFactory::CreateController()
+// 0x00000A86 System.Void easyar.ARSessionFactory::SetupMotionTracker(UnityEngine.GameObject,easyar.ARSessionFactory/MotionTrackerPreset)
 extern void ARSessionFactory_SetupMotionTracker_m8ED118DF84E6206214FD9FA6798126353212A4A9 (void);
-// 0x00000A85 System.Void easyar.ARSessionFactory::SetupFrameSources(System.Collections.Generic.List`1<UnityEngine.GameObject>,easyar.ARSessionFactory/ARSessionPreset)
+// 0x00000A87 System.Void easyar.ARSessionFactory::SetupFrameSources(System.Collections.Generic.List`1<UnityEngine.GameObject>,easyar.ARSessionFactory/ARSessionPreset)
 extern void ARSessionFactory_SetupFrameSources_m5890DE6B5BA8CE0826E26041F26B53F1696AF84D (void);
-// 0x00000A86 System.Void easyar.ARSessionFactory::SetupCameraDevice(UnityEngine.GameObject,easyar.CameraDevicePreference)
+// 0x00000A88 System.Void easyar.ARSessionFactory::SetupCameraDevice(UnityEngine.GameObject,easyar.CameraDevicePreference)
 extern void ARSessionFactory_SetupCameraDevice_m068546190F4FCE398F2A71345260D695FE4958FF (void);
-// 0x00000A87 System.String easyar.ARSessionFactory::DefaultName()
-// 0x00000A88 System.String easyar.ARSessionFactory::DefaultName(System.Type)
+// 0x00000A89 System.String easyar.ARSessionFactory::DefaultName()
+// 0x00000A8A System.String easyar.ARSessionFactory::DefaultName(System.Type)
 extern void ARSessionFactory_DefaultName_m3D8677727E49A52F6E01424F7D8F639BBE0D48C5 (void);
-// 0x00000A89 System.Boolean easyar.ARSessionFactory::IsSessionPartAndEmpty(UnityEngine.GameObject)
+// 0x00000A8B System.Boolean easyar.ARSessionFactory::IsSessionPartAndEmpty(UnityEngine.GameObject)
 extern void ARSessionFactory_IsSessionPartAndEmpty_mBB78080E34A259EB49C371EF052869E8C15E307A (void);
-// 0x00000A8A UnityEngine.GameObject easyar.ARSessionFactory::CreateSparseSpatialMap()
+// 0x00000A8C UnityEngine.GameObject easyar.ARSessionFactory::CreateSparseSpatialMap()
 extern void ARSessionFactory_CreateSparseSpatialMap_m363ABCFA059B9F87619363C1077C08F4D2CDC208 (void);
-// 0x00000A8B UnityEngine.GameObject easyar.ARSessionFactory::CreateDenseSpatialMapBuilder()
+// 0x00000A8D UnityEngine.GameObject easyar.ARSessionFactory::CreateDenseSpatialMapBuilder()
 extern void ARSessionFactory_CreateDenseSpatialMapBuilder_mDCD995D124D49B4E1ED86C7F8CD8D3ECAE868559 (void);
-// 0x00000A8C UnityEngine.GameObject easyar.ARSessionFactory::CreateObject(System.String)
-// 0x00000A8D System.Void easyar.ARSessionFactory::.ctor()
+// 0x00000A8E UnityEngine.GameObject easyar.ARSessionFactory::CreateObject(System.String)
+// 0x00000A8F System.Void easyar.ARSessionFactory::.ctor()
 extern void ARSessionFactory__ctor_mFCFB4DFAA1926C52C47CC1D4ECCBF3077482E73A (void);
-// 0x00000A8E System.Void easyar.ARSessionFactory::<CreateSession>g__parentSession|3_0(UnityEngine.GameObject,easyar.ARSessionFactory/<>c__DisplayClass3_0&)
+// 0x00000A90 System.Void easyar.ARSessionFactory::<CreateSession>g__parentSession|3_0(UnityEngine.GameObject,easyar.ARSessionFactory/<>c__DisplayClass3_0&)
 extern void ARSessionFactory_U3CCreateSessionU3Eg__parentSessionU7C3_0_m20F9C1270046055C5162E01C5EC3F80FACD8D41D (void);
-// 0x00000A8F System.Void easyar.ARSessionFactory/<>c__DisplayClass2_0::.ctor()
+// 0x00000A91 System.Void easyar.ARSessionFactory/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_m6EFC9CFD34DB42AB203C8B1797D0F59D71317FB8 (void);
-// 0x00000A90 System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory/<>c__DisplayClass2_0::<CreateSession>b__0()
+// 0x00000A92 System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory/<>c__DisplayClass2_0::<CreateSession>b__0()
 extern void U3CU3Ec__DisplayClass2_0_U3CCreateSessionU3Eb__0_mDEF9D7DAF6056416F342C85BFF262580955D74CA (void);
-// 0x00000A91 System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory/<>c__DisplayClass2_0::<CreateSession>b__1()
+// 0x00000A93 System.Collections.Generic.List`1<UnityEngine.GameObject> easyar.ARSessionFactory/<>c__DisplayClass2_0::<CreateSession>b__1()
 extern void U3CU3Ec__DisplayClass2_0_U3CCreateSessionU3Eb__1_mE01F78ED60D5DF6B0FCECFA8B49365371468B580 (void);
-// 0x00000A92 System.Collections.IEnumerator easyar.FileUtil::LoadFile(System.String,easyar.PathType,System.Action`1<easyar.Buffer>)
+// 0x00000A94 System.Collections.IEnumerator easyar.FileUtil::LoadFile(System.String,easyar.PathType,System.Action`1<easyar.Buffer>)
 extern void FileUtil_LoadFile_m610E1F14E43803D915077BB5C0E2CE4BD0481703 (void);
-// 0x00000A93 System.Collections.IEnumerator easyar.FileUtil::LoadFile(System.String,easyar.PathType,System.Action`1<System.Byte[]>,System.Action`1<System.String>)
+// 0x00000A95 System.Collections.IEnumerator easyar.FileUtil::LoadFile(System.String,easyar.PathType,System.Action`1<System.Byte[]>,System.Action`1<System.String>)
 extern void FileUtil_LoadFile_m81391E37EAE00EA7E8EBBF9928A25D2B71AA7C49 (void);
-// 0x00000A94 System.String easyar.FileUtil::PathToUrl(System.String)
+// 0x00000A96 System.String easyar.FileUtil::PathToUrl(System.String)
 extern void FileUtil_PathToUrl_mB231105B0AF2D403A3A9BD811921067A7112CDF1 (void);
-// 0x00000A95 System.Void easyar.FileUtil::ImportSampleStreamingAssets()
+// 0x00000A97 System.Void easyar.FileUtil::ImportSampleStreamingAssets()
 extern void FileUtil_ImportSampleStreamingAssets_m5BA4634D419CBEECA88F006AB9614B768CF5110A (void);
-// 0x00000A96 System.Void easyar.FileUtil/<>c__DisplayClass1_0::.ctor()
+// 0x00000A98 System.Void easyar.FileUtil/<>c__DisplayClass1_0::.ctor()
 extern void U3CU3Ec__DisplayClass1_0__ctor_m154091B11FEE186F996B0920A9FC8044374314D1 (void);
-// 0x00000A97 System.Void easyar.FileUtil/<>c__DisplayClass1_0::<LoadFile>b__0(System.Byte[])
+// 0x00000A99 System.Void easyar.FileUtil/<>c__DisplayClass1_0::<LoadFile>b__0(System.Byte[])
 extern void U3CU3Ec__DisplayClass1_0_U3CLoadFileU3Eb__0_mF735644B1372A8A29DBBEABD6BEC8D20C4D2EBA4 (void);
-// 0x00000A98 System.Void easyar.FileUtil/<LoadFile>d__2::.ctor(System.Int32)
+// 0x00000A9A System.Void easyar.FileUtil/<LoadFile>d__2::.ctor(System.Int32)
 extern void U3CLoadFileU3Ed__2__ctor_mF46E3F99265D45E45F528E39E1B91D6B43C09C9D (void);
-// 0x00000A99 System.Void easyar.FileUtil/<LoadFile>d__2::System.IDisposable.Dispose()
+// 0x00000A9B System.Void easyar.FileUtil/<LoadFile>d__2::System.IDisposable.Dispose()
 extern void U3CLoadFileU3Ed__2_System_IDisposable_Dispose_m7980F12FA90023EC0621C13A21B922A3A7A56ED5 (void);
-// 0x00000A9A System.Boolean easyar.FileUtil/<LoadFile>d__2::MoveNext()
+// 0x00000A9C System.Boolean easyar.FileUtil/<LoadFile>d__2::MoveNext()
 extern void U3CLoadFileU3Ed__2_MoveNext_m2528306E3AED3DE23D334F4B576E2DB09EAA7A9C (void);
-// 0x00000A9B System.Void easyar.FileUtil/<LoadFile>d__2::<>m__Finally1()
+// 0x00000A9D System.Void easyar.FileUtil/<LoadFile>d__2::<>m__Finally1()
 extern void U3CLoadFileU3Ed__2_U3CU3Em__Finally1_mEB59E4E60DB6374223F5553502521898F70E7BA1 (void);
-// 0x00000A9C System.Object easyar.FileUtil/<LoadFile>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000A9E System.Object easyar.FileUtil/<LoadFile>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadFileU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m00528705AFB3952F9E3B6BBFC8A0E026C5F690F4 (void);
-// 0x00000A9D System.Void easyar.FileUtil/<LoadFile>d__2::System.Collections.IEnumerator.Reset()
+// 0x00000A9F System.Void easyar.FileUtil/<LoadFile>d__2::System.Collections.IEnumerator.Reset()
 extern void U3CLoadFileU3Ed__2_System_Collections_IEnumerator_Reset_mF9B5C3E4F6503E0CE41CCD802485CEA1A50C744A (void);
-// 0x00000A9E System.Object easyar.FileUtil/<LoadFile>d__2::System.Collections.IEnumerator.get_Current()
+// 0x00000AA0 System.Object easyar.FileUtil/<LoadFile>d__2::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadFileU3Ed__2_System_Collections_IEnumerator_get_Current_mF1E3BC7407B1C220DBFB40F37BFBDDC968B1A01D (void);
-// 0x00000A9F System.Void easyar.GUIPopup::Start()
+// 0x00000AA1 System.Void easyar.GUIPopup::Start()
 extern void GUIPopup_Start_m0C82A4A8A667B4C19FE7BC84D5D1265FB493A575 (void);
-// 0x00000AA0 System.Void easyar.GUIPopup::OnDestroy()
+// 0x00000AA2 System.Void easyar.GUIPopup::OnDestroy()
 extern void GUIPopup_OnDestroy_m1FABB703528E69981FF566CD3FB6757D73372A19 (void);
-// 0x00000AA1 System.Void easyar.GUIPopup::EnqueueMessage(System.String,System.Single,System.Boolean)
+// 0x00000AA3 System.Void easyar.GUIPopup::EnqueueMessage(System.String,System.Single,System.Boolean)
 extern void GUIPopup_EnqueueMessage_mE38C2A9433BEC0EDF3015528068A89C522B85139 (void);
-// 0x00000AA2 System.Void easyar.GUIPopup::EnqueuePersistentWarning(System.String)
+// 0x00000AA4 System.Void easyar.GUIPopup::EnqueuePersistentWarning(System.String)
 extern void GUIPopup_EnqueuePersistentWarning_m3DBD1D7EB89B09C1AA69C4E64556C4560259079D (void);
-// 0x00000AA3 System.Collections.IEnumerator easyar.GUIPopup::ShowMessage()
+// 0x00000AA5 System.Collections.IEnumerator easyar.GUIPopup::ShowMessage()
 extern void GUIPopup_ShowMessage_m248135411D5F3C8EA3F3A3F8F229E2B5E0109155 (void);
-// 0x00000AA4 System.Void easyar.GUIPopup::OnGUI()
+// 0x00000AA6 System.Void easyar.GUIPopup::OnGUI()
 extern void GUIPopup_OnGUI_mFBB72848CE3804F3C085521534F39694A1E1CEE6 (void);
-// 0x00000AA5 System.Void easyar.GUIPopup::ShowMessage(easyar.Optional`1<easyar.GUIPopup/MessageData>)
+// 0x00000AA7 System.Void easyar.GUIPopup::ShowMessage(easyar.Optional`1<easyar.GUIPopup/MessageData>)
 extern void GUIPopup_ShowMessage_mDF7104B94135E814850CB954C9952BDDFF1B5333 (void);
-// 0x00000AA6 System.Void easyar.GUIPopup::ShowWarningMessage(System.String)
+// 0x00000AA8 System.Void easyar.GUIPopup::ShowWarningMessage(System.String)
 extern void GUIPopup_ShowWarningMessage_m1A78B0205E3F87D90A9BF3419A47A8E4E16B2F73 (void);
-// 0x00000AA7 System.Void easyar.GUIPopup::.ctor()
+// 0x00000AA9 System.Void easyar.GUIPopup::.ctor()
 extern void GUIPopup__ctor_mBFC3EC7BDBEF74704420959C921819007C1AE56C (void);
-// 0x00000AA8 System.Void easyar.GUIPopup/<ShowMessage>d__12::.ctor(System.Int32)
+// 0x00000AAA System.Void easyar.GUIPopup/<ShowMessage>d__12::.ctor(System.Int32)
 extern void U3CShowMessageU3Ed__12__ctor_mC10A44E8333A346AD71EC94A79A119985D1AB357 (void);
-// 0x00000AA9 System.Void easyar.GUIPopup/<ShowMessage>d__12::System.IDisposable.Dispose()
+// 0x00000AAB System.Void easyar.GUIPopup/<ShowMessage>d__12::System.IDisposable.Dispose()
 extern void U3CShowMessageU3Ed__12_System_IDisposable_Dispose_m50464912EC454D53E9E3798A35C374843A8E7147 (void);
-// 0x00000AAA System.Boolean easyar.GUIPopup/<ShowMessage>d__12::MoveNext()
+// 0x00000AAC System.Boolean easyar.GUIPopup/<ShowMessage>d__12::MoveNext()
 extern void U3CShowMessageU3Ed__12_MoveNext_mE6F99A028E7E27CCBD8098FF8E29EEDE2275E7CC (void);
-// 0x00000AAB System.Object easyar.GUIPopup/<ShowMessage>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000AAD System.Object easyar.GUIPopup/<ShowMessage>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CShowMessageU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m33E3B20FF878746820CDCF073897755E945803F5 (void);
-// 0x00000AAC System.Void easyar.GUIPopup/<ShowMessage>d__12::System.Collections.IEnumerator.Reset()
+// 0x00000AAE System.Void easyar.GUIPopup/<ShowMessage>d__12::System.Collections.IEnumerator.Reset()
 extern void U3CShowMessageU3Ed__12_System_Collections_IEnumerator_Reset_m87404BBFF9102F6D66DB99AFC00C26F4DFFE9513 (void);
-// 0x00000AAD System.Object easyar.GUIPopup/<ShowMessage>d__12::System.Collections.IEnumerator.get_Current()
+// 0x00000AAF System.Object easyar.GUIPopup/<ShowMessage>d__12::System.Collections.IEnumerator.get_Current()
 extern void U3CShowMessageU3Ed__12_System_Collections_IEnumerator_get_Current_m38E24849EE739E095693DA1533F6EDFE938CA073 (void);
-// 0x00000AAE System.Void easyar.UIPopupException::.ctor(System.String,System.Single)
+// 0x00000AB0 System.Void easyar.UIPopupException::.ctor(System.String,System.Single)
 extern void UIPopupException__ctor_mD0A82FF416EEFB798E10E1C32F9EC5CE449DB258 (void);
-// 0x00000AAF System.Void easyar.UIPopupException::.ctor(System.String)
+// 0x00000AB1 System.Void easyar.UIPopupException::.ctor(System.String)
 extern void UIPopupException__ctor_m2028C0A495324E4FAD33E2E48EDE7347C6BF2F6C (void);
-// 0x00000AB0 System.Void easyar.ThreadWorker::Finalize()
+// 0x00000AB2 System.Void easyar.ThreadWorker::Finalize()
 extern void ThreadWorker_Finalize_mAF2DB6D28678A142E1A18F491CA41DF6B03CB150 (void);
-// 0x00000AB1 System.Void easyar.ThreadWorker::Dispose()
+// 0x00000AB3 System.Void easyar.ThreadWorker::Dispose()
 extern void ThreadWorker_Dispose_mCB163CDEF06B33B778EFDD19339F44CE7B0BF2A1 (void);
-// 0x00000AB2 System.Void easyar.ThreadWorker::Run(System.Action)
+// 0x00000AB4 System.Void easyar.ThreadWorker::Run(System.Action)
 extern void ThreadWorker_Run_mE19FF9BF70FEBC298AB58494630216F2FB775F03 (void);
-// 0x00000AB3 System.Void easyar.ThreadWorker::CreateThread()
+// 0x00000AB5 System.Void easyar.ThreadWorker::CreateThread()
 extern void ThreadWorker_CreateThread_mAA57B2B09B3ADA3CE29E8F7EBA45A2B00C9EAAE9 (void);
-// 0x00000AB4 System.Void easyar.ThreadWorker::Finish()
+// 0x00000AB6 System.Void easyar.ThreadWorker::Finish()
 extern void ThreadWorker_Finish_m5A3FDD0AEFFAB94BB82B0FE7A1FD85AEE5BCA54A (void);
-// 0x00000AB5 System.Void easyar.ThreadWorker::.ctor()
+// 0x00000AB7 System.Void easyar.ThreadWorker::.ctor()
 extern void ThreadWorker__ctor_m7C3D8587DDFFE05853F60422C3A65F292A057E8C (void);
-// 0x00000AB6 System.Void easyar.ThreadWorker::<CreateThread>b__6_0()
+// 0x00000AB8 System.Void easyar.ThreadWorker::<CreateThread>b__6_0()
 extern void ThreadWorker_U3CCreateThreadU3Eb__6_0_m4BD149C1C0325DC3B62BBF637308E7A03733C84A (void);
-// 0x00000AB7 System.Void easyar.ARAssembly::Finalize()
+// 0x00000AB9 System.Void easyar.ARAssembly::Finalize()
 extern void ARAssembly_Finalize_m071A060913C2454EF80B9F994BA5A7E3F54E4033 (void);
-// 0x00000AB8 easyar.FrameSource easyar.ARAssembly::get_FrameSource()
+// 0x00000ABA easyar.FrameSource easyar.ARAssembly::get_FrameSource()
 extern void ARAssembly_get_FrameSource_m90C2102DAB3E58792051000792948892BD1F1377 (void);
-// 0x00000AB9 System.Void easyar.ARAssembly::set_FrameSource(easyar.FrameSource)
+// 0x00000ABB System.Void easyar.ARAssembly::set_FrameSource(easyar.FrameSource)
 extern void ARAssembly_set_FrameSource_mCF676C86759E116F94970A77EA82DEB038DE0474 (void);
-// 0x00000ABA easyar.FrameRecorder easyar.ARAssembly::get_FrameRecorder()
+// 0x00000ABC easyar.FrameRecorder easyar.ARAssembly::get_FrameRecorder()
 extern void ARAssembly_get_FrameRecorder_m466821D55D7E6C20E6855683F0B61BAB31BC3663 (void);
-// 0x00000ABB System.Void easyar.ARAssembly::set_FrameRecorder(easyar.FrameRecorder)
+// 0x00000ABD System.Void easyar.ARAssembly::set_FrameRecorder(easyar.FrameRecorder)
 extern void ARAssembly_set_FrameRecorder_m03799B51699EF19881CE19B399AB488BEED8FE68 (void);
-// 0x00000ABC System.Collections.Generic.List`1<easyar.FrameFilter> easyar.ARAssembly::get_FrameFilters()
+// 0x00000ABE System.Collections.Generic.List`1<easyar.FrameFilter> easyar.ARAssembly::get_FrameFilters()
 extern void ARAssembly_get_FrameFilters_m1385B673BF63B3C979935AA0880B60C3E305174C (void);
-// 0x00000ABD System.Void easyar.ARAssembly::set_FrameFilters(System.Collections.Generic.List`1<easyar.FrameFilter>)
+// 0x00000ABF System.Void easyar.ARAssembly::set_FrameFilters(System.Collections.Generic.List`1<easyar.FrameFilter>)
 extern void ARAssembly_set_FrameFilters_m9CB2DD721F390B4D5239DCE7299F9C46233ADD48 (void);
-// 0x00000ABE UnityEngine.Camera easyar.ARAssembly::get_Camera()
+// 0x00000AC0 UnityEngine.Camera easyar.ARAssembly::get_Camera()
 extern void ARAssembly_get_Camera_mC6B606117E775EE115EDE9C2F99DBCE08992370A (void);
-// 0x00000ABF System.Void easyar.ARAssembly::set_Camera(UnityEngine.Camera)
+// 0x00000AC1 System.Void easyar.ARAssembly::set_Camera(UnityEngine.Camera)
 extern void ARAssembly_set_Camera_m159D5EA6B6DB6368D610DF725D56FC45C54A428E (void);
-// 0x00000AC0 System.Boolean easyar.ARAssembly::get_Ready()
+// 0x00000AC2 System.Boolean easyar.ARAssembly::get_Ready()
 extern void ARAssembly_get_Ready_m2E13F66DD9CC20F59FFCA7B7483031FD4C552690 (void);
-// 0x00000AC1 System.Void easyar.ARAssembly::set_Ready(System.Boolean)
+// 0x00000AC3 System.Void easyar.ARAssembly::set_Ready(System.Boolean)
 extern void ARAssembly_set_Ready_m79EDF61D92FFBB19B0753FC4B022667CD61D9D5F (void);
-// 0x00000AC2 easyar.Optional`1<easyar.OutputFrame> easyar.ARAssembly::get_OutputFrame()
+// 0x00000AC4 easyar.Optional`1<easyar.OutputFrame> easyar.ARAssembly::get_OutputFrame()
 extern void ARAssembly_get_OutputFrame_m84D142561D62180449E5698D5F86D3EFE652B567 (void);
-// 0x00000AC3 System.Int32 easyar.ARAssembly::get_ExtraBufferCapacity()
+// 0x00000AC5 System.Int32 easyar.ARAssembly::get_ExtraBufferCapacity()
 extern void ARAssembly_get_ExtraBufferCapacity_m1D381FA46040088603566DB305B090EB42FB38FF (void);
-// 0x00000AC4 System.Void easyar.ARAssembly::set_ExtraBufferCapacity(System.Int32)
+// 0x00000AC6 System.Void easyar.ARAssembly::set_ExtraBufferCapacity(System.Int32)
 extern void ARAssembly_set_ExtraBufferCapacity_m1DAC470DA0AD4ECE62EACA8146A8B4E9873FDC39 (void);
-// 0x00000AC5 easyar.IDisplay easyar.ARAssembly::get_Display()
+// 0x00000AC7 easyar.IDisplay easyar.ARAssembly::get_Display()
 extern void ARAssembly_get_Display_m7F71F9A9B8D7AAAC1A9072887BF47E1162B1EEF2 (void);
-// 0x00000AC6 System.Void easyar.ARAssembly::Dispose()
+// 0x00000AC8 System.Void easyar.ARAssembly::Dispose()
 extern void ARAssembly_Dispose_mCFDF4627BF98CB976EEE4C3A31A685C594D7F481 (void);
-// 0x00000AC7 System.Void easyar.ARAssembly::Assemble(easyar.ARAssembly/Components,easyar.ARSession)
+// 0x00000AC9 System.Void easyar.ARAssembly::Assemble(easyar.ARAssembly/Components,easyar.ARSession)
 extern void ARAssembly_Assemble_m7EFE2BDB1537EB65541AF74C9CB73268247EC25C (void);
-// 0x00000AC8 System.Void easyar.ARAssembly::Break()
+// 0x00000ACA System.Void easyar.ARAssembly::Break()
 extern void ARAssembly_Break_mE1A3C456E2806307DF6E8C91CD38142225207C84 (void);
-// 0x00000AC9 System.Void easyar.ARAssembly::Pause()
+// 0x00000ACB System.Void easyar.ARAssembly::Pause()
 extern void ARAssembly_Pause_m8335982C4F232C269D460E695A58A43AEFABA6B6 (void);
-// 0x00000ACA System.Void easyar.ARAssembly::Resume()
+// 0x00000ACC System.Void easyar.ARAssembly::Resume()
 extern void ARAssembly_Resume_m73D8536F91A35F46FD54BC9552574A2CD9B2E9F2 (void);
-// 0x00000ACB System.Void easyar.ARAssembly::ResetBufferCapacity()
+// 0x00000ACD System.Void easyar.ARAssembly::ResetBufferCapacity()
 extern void ARAssembly_ResetBufferCapacity_m6B744F3E1C8069E4E4B28398E475848353983AC9 (void);
-// 0x00000ACC System.Int32 easyar.ARAssembly::GetBufferRequirement()
+// 0x00000ACE System.Int32 easyar.ARAssembly::GetBufferRequirement()
 extern void ARAssembly_GetBufferRequirement_m80F55059DD7EA31BE2E49F7ABE3633C01663C74D (void);
-// 0x00000ACD System.Int32 easyar.ARAssembly::GetFrameFilterCount()
-// 0x00000ACE System.Void easyar.ARAssembly::Assemble()
+// 0x00000ACF System.Int32 easyar.ARAssembly::GetFrameFilterCount()
+// 0x00000AD0 System.Void easyar.ARAssembly::Assemble()
 extern void ARAssembly_Assemble_m84029F899F2089E6ED719F01FB7026AAAB457B06 (void);
-// 0x00000ACF System.Void easyar.ARAssembly::DisposeAll()
+// 0x00000AD1 System.Void easyar.ARAssembly::DisposeAll()
 extern void ARAssembly_DisposeAll_m518D9EE99FF74A359C204F4FF9AC07D26F89AAD0 (void);
-// 0x00000AD0 System.Void easyar.ARAssembly::.ctor()
+// 0x00000AD2 System.Void easyar.ARAssembly::.ctor()
 extern void ARAssembly__ctor_m45C2E5D2DD6A9D23FDA22288B1E58E5AFDD7EDC5 (void);
-// 0x00000AD1 System.Void easyar.ARAssembly/Components::.ctor()
+// 0x00000AD3 System.Void easyar.ARAssembly/Components::.ctor()
 extern void Components__ctor_m4D53A82CD7347BD0DC53DF4A1A9402924CA1E685 (void);
-// 0x00000AD2 System.Collections.IEnumerator easyar.ARComponentPicker::Pick(System.Action`1<easyar.ARAssembly/Components>)
+// 0x00000AD4 System.Collections.IEnumerator easyar.ARComponentPicker::Pick(System.Action`1<easyar.ARAssembly/Components>)
 extern void ARComponentPicker_Pick_mD7E53BCCC442B61B8125D9674D64E515E34150E9 (void);
-// 0x00000AD3 easyar.ARAssembly/Components easyar.ARComponentPicker::Preview()
+// 0x00000AD5 easyar.ARAssembly/Components easyar.ARComponentPicker::Preview()
 extern void ARComponentPicker_Preview_mDD91448832626E7E0FE2BA98806E73A18742048B (void);
-// 0x00000AD4 System.Collections.Generic.List`1<CType> easyar.ARComponentPicker::GetComponentsInChildrenTransformOrder()
-// 0x00000AD5 System.Void easyar.ARComponentPicker::PickFrameSourceForPreview(easyar.ARAssembly/Components)
+// 0x00000AD6 System.Collections.Generic.List`1<CType> easyar.ARComponentPicker::GetComponentsInChildrenTransformOrder()
+// 0x00000AD7 System.Void easyar.ARComponentPicker::PickFrameSourceForPreview(easyar.ARAssembly/Components)
 extern void ARComponentPicker_PickFrameSourceForPreview_mAB22923F69F647BABA3D423BB121B1A43E775905 (void);
-// 0x00000AD6 System.Void easyar.ARComponentPicker::PickFrameFilter(easyar.ARAssembly/Components)
+// 0x00000AD8 System.Void easyar.ARComponentPicker::PickFrameFilter(easyar.ARAssembly/Components)
 extern void ARComponentPicker_PickFrameFilter_m2B894D1958E51F93BEE265D430D3D44E6E104303 (void);
-// 0x00000AD7 System.Void easyar.ARComponentPicker::PickFrameRecorder(easyar.ARAssembly/Components)
+// 0x00000AD9 System.Void easyar.ARComponentPicker::PickFrameRecorder(easyar.ARAssembly/Components)
 extern void ARComponentPicker_PickFrameRecorder_m9FC9B73251905282BD82C012D4A558E55FB67ABA (void);
-// 0x00000AD8 System.Boolean easyar.ARComponentPicker::PickFramePlayer(easyar.ARAssembly/Components)
+// 0x00000ADA System.Boolean easyar.ARComponentPicker::PickFramePlayer(easyar.ARAssembly/Components)
 extern void ARComponentPicker_PickFramePlayer_m29128F52CFA448C1F099B7D579AACE34B99773E6 (void);
-// 0x00000AD9 System.Collections.IEnumerator easyar.ARComponentPicker::PickFrameSource(easyar.ARAssembly/Components)
+// 0x00000ADB System.Collections.IEnumerator easyar.ARComponentPicker::PickFrameSource(easyar.ARAssembly/Components)
 extern void ARComponentPicker_PickFrameSource_mC5FFF86128DEEE6C147676282FDE3B84B390D4F6 (void);
-// 0x00000ADA System.Collections.IEnumerator easyar.ARComponentPicker::SelectFirstAvailableActiveFrameSource(System.Action`1<easyar.FrameSource>)
+// 0x00000ADC System.Collections.IEnumerator easyar.ARComponentPicker::SelectFirstAvailableActiveFrameSource(System.Action`1<easyar.FrameSource>)
 extern void ARComponentPicker_SelectFirstAvailableActiveFrameSource_m6E0160C138331579D521C54F440810802449D812 (void);
-// 0x00000ADB System.Void easyar.ARComponentPicker::GetComponentsInChildrenTransformOrder(System.Collections.Generic.List`1<CType>,UnityEngine.Transform)
-// 0x00000ADC System.Void easyar.ARComponentPicker::.ctor()
+// 0x00000ADD System.Void easyar.ARComponentPicker::GetComponentsInChildrenTransformOrder(System.Collections.Generic.List`1<CType>,UnityEngine.Transform)
+// 0x00000ADE System.Void easyar.ARComponentPicker::.ctor()
 extern void ARComponentPicker__ctor_m41F61F8F9553FF5716D0C643BA66D0EF222876B5 (void);
-// 0x00000ADD System.Void easyar.ARComponentPicker/<Pick>d__8::.ctor(System.Int32)
+// 0x00000ADF System.Void easyar.ARComponentPicker/<Pick>d__8::.ctor(System.Int32)
 extern void U3CPickU3Ed__8__ctor_m6B483D775D9B003E8C985025174F6D241B376EEE (void);
-// 0x00000ADE System.Void easyar.ARComponentPicker/<Pick>d__8::System.IDisposable.Dispose()
+// 0x00000AE0 System.Void easyar.ARComponentPicker/<Pick>d__8::System.IDisposable.Dispose()
 extern void U3CPickU3Ed__8_System_IDisposable_Dispose_m8F62AE54121F62E9E5754F19EE0D1A225E22CF4C (void);
-// 0x00000ADF System.Boolean easyar.ARComponentPicker/<Pick>d__8::MoveNext()
+// 0x00000AE1 System.Boolean easyar.ARComponentPicker/<Pick>d__8::MoveNext()
 extern void U3CPickU3Ed__8_MoveNext_mEF270BDEB42EE7DF3C78B69DDD32731089B28B3F (void);
-// 0x00000AE0 System.Object easyar.ARComponentPicker/<Pick>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000AE2 System.Object easyar.ARComponentPicker/<Pick>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPickU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD15E41EC30859767AE27020A8E513812FDD91811 (void);
-// 0x00000AE1 System.Void easyar.ARComponentPicker/<Pick>d__8::System.Collections.IEnumerator.Reset()
+// 0x00000AE3 System.Void easyar.ARComponentPicker/<Pick>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CPickU3Ed__8_System_Collections_IEnumerator_Reset_mC62CDDD5E3236F54337100BE9CC2A6A833482123 (void);
-// 0x00000AE2 System.Object easyar.ARComponentPicker/<Pick>d__8::System.Collections.IEnumerator.get_Current()
+// 0x00000AE4 System.Object easyar.ARComponentPicker/<Pick>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CPickU3Ed__8_System_Collections_IEnumerator_get_Current_mCCD3ED81E620E2C360265F9D0BAE8034787730FC (void);
-// 0x00000AE3 System.Void easyar.ARComponentPicker/<>c__DisplayClass15_0::.ctor()
+// 0x00000AE5 System.Void easyar.ARComponentPicker/<>c__DisplayClass15_0::.ctor()
 extern void U3CU3Ec__DisplayClass15_0__ctor_m5429435919B45871945A513EECE51CD183B5295D (void);
-// 0x00000AE4 System.Void easyar.ARComponentPicker/<>c__DisplayClass15_0::<PickFrameSource>b__0(easyar.FrameSource)
+// 0x00000AE6 System.Void easyar.ARComponentPicker/<>c__DisplayClass15_0::<PickFrameSource>b__0(easyar.FrameSource)
 extern void U3CU3Ec__DisplayClass15_0_U3CPickFrameSourceU3Eb__0_m8CC58CE79BA25E3083938107FFC96F33B37EC2C9 (void);
-// 0x00000AE5 System.Void easyar.ARComponentPicker/<PickFrameSource>d__15::.ctor(System.Int32)
+// 0x00000AE7 System.Void easyar.ARComponentPicker/<PickFrameSource>d__15::.ctor(System.Int32)
 extern void U3CPickFrameSourceU3Ed__15__ctor_m66E987DB28E3C0B26D3C7D999AFE3E1AA2F6D5DE (void);
-// 0x00000AE6 System.Void easyar.ARComponentPicker/<PickFrameSource>d__15::System.IDisposable.Dispose()
+// 0x00000AE8 System.Void easyar.ARComponentPicker/<PickFrameSource>d__15::System.IDisposable.Dispose()
 extern void U3CPickFrameSourceU3Ed__15_System_IDisposable_Dispose_m4CD8F6C6CE164AE9896DB5C330634AF372F9386F (void);
-// 0x00000AE7 System.Boolean easyar.ARComponentPicker/<PickFrameSource>d__15::MoveNext()
+// 0x00000AE9 System.Boolean easyar.ARComponentPicker/<PickFrameSource>d__15::MoveNext()
 extern void U3CPickFrameSourceU3Ed__15_MoveNext_m522455C62A798942309DFC369CAF5EAC09850C24 (void);
-// 0x00000AE8 System.Object easyar.ARComponentPicker/<PickFrameSource>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000AEA System.Object easyar.ARComponentPicker/<PickFrameSource>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPickFrameSourceU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5E2DBA5E79F840CEF5E4C8E84676F004B6D14CA9 (void);
-// 0x00000AE9 System.Void easyar.ARComponentPicker/<PickFrameSource>d__15::System.Collections.IEnumerator.Reset()
+// 0x00000AEB System.Void easyar.ARComponentPicker/<PickFrameSource>d__15::System.Collections.IEnumerator.Reset()
 extern void U3CPickFrameSourceU3Ed__15_System_Collections_IEnumerator_Reset_m6778F7AC832A93C12EAEC67AF4264B049B7A1E33 (void);
-// 0x00000AEA System.Object easyar.ARComponentPicker/<PickFrameSource>d__15::System.Collections.IEnumerator.get_Current()
+// 0x00000AEC System.Object easyar.ARComponentPicker/<PickFrameSource>d__15::System.Collections.IEnumerator.get_Current()
 extern void U3CPickFrameSourceU3Ed__15_System_Collections_IEnumerator_get_Current_m02A41CCCDF0C1E391EE4DEB024DE223B3E3695D0 (void);
-// 0x00000AEB System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::.ctor(System.Int32)
+// 0x00000AED System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::.ctor(System.Int32)
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16__ctor_m0E0775C0EDFF245F3B3AECB113DA7330FB65FC67 (void);
-// 0x00000AEC System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.IDisposable.Dispose()
+// 0x00000AEE System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.IDisposable.Dispose()
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16_System_IDisposable_Dispose_m24775A9BC6122054E7305E26F30828A377D99918 (void);
-// 0x00000AED System.Boolean easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::MoveNext()
+// 0x00000AEF System.Boolean easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::MoveNext()
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16_MoveNext_m35BAFCE21C44A35DB79AF7339001C28E0D5BDAF0 (void);
-// 0x00000AEE System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::<>m__Finally1()
+// 0x00000AF0 System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::<>m__Finally1()
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16_U3CU3Em__Finally1_m28A464D56B88D1D8385CFA73EFFDB87A4AD049A5 (void);
-// 0x00000AEF System.Object easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000AF1 System.Object easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE60CF8FE59B4239459B4AC7344218C0BC6B7EA81 (void);
-// 0x00000AF0 System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.Collections.IEnumerator.Reset()
+// 0x00000AF2 System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.Collections.IEnumerator.Reset()
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16_System_Collections_IEnumerator_Reset_m0336E4C08652DACD8C33080D8209DBAEBFDEE585 (void);
-// 0x00000AF1 System.Object easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.Collections.IEnumerator.get_Current()
+// 0x00000AF3 System.Object easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__16::System.Collections.IEnumerator.get_Current()
 extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__16_System_Collections_IEnumerator_get_Current_m5CD7F10FF47B3603AFB5335EBB2741946D0393AE (void);
-// 0x00000AF2 System.Void easyar.ARSession::add_FrameChange(easyar.ARSession/FrameChangeAction)
+// 0x00000AF4 System.Void easyar.ARSession::add_FrameChange(easyar.ARSession/FrameChangeAction)
 extern void ARSession_add_FrameChange_mF5107795C3D4A240E859492CFDA751E428D7C02F (void);
-// 0x00000AF3 System.Void easyar.ARSession::remove_FrameChange(easyar.ARSession/FrameChangeAction)
+// 0x00000AF5 System.Void easyar.ARSession::remove_FrameChange(easyar.ARSession/FrameChangeAction)
 extern void ARSession_remove_FrameChange_m69AC18D52490B6E616B42FCE7F9E781CF7DFC459 (void);
-// 0x00000AF4 System.Void easyar.ARSession::add_FrameUpdate(System.Action`1<easyar.OutputFrame>)
+// 0x00000AF6 System.Void easyar.ARSession::add_FrameUpdate(System.Action`1<easyar.OutputFrame>)
 extern void ARSession_add_FrameUpdate_mE9E2D5B99E1B74A74DF30DAB09A35981B0512C81 (void);
-// 0x00000AF5 System.Void easyar.ARSession::remove_FrameUpdate(System.Action`1<easyar.OutputFrame>)
+// 0x00000AF7 System.Void easyar.ARSession::remove_FrameUpdate(System.Action`1<easyar.OutputFrame>)
 extern void ARSession_remove_FrameUpdate_m070FDF096917B4C4F07FAFCB8AECA50FB66B1E6C (void);
-// 0x00000AF6 System.Void easyar.ARSession::add_StateChanged(System.Action`1<easyar.ARSession/SessionState>)
+// 0x00000AF8 System.Void easyar.ARSession::add_StateChanged(System.Action`1<easyar.ARSession/SessionState>)
 extern void ARSession_add_StateChanged_mB48474C43E473D3D6BE692B2304C4218DE66D16E (void);
-// 0x00000AF7 System.Void easyar.ARSession::remove_StateChanged(System.Action`1<easyar.ARSession/SessionState>)
+// 0x00000AF9 System.Void easyar.ARSession::remove_StateChanged(System.Action`1<easyar.ARSession/SessionState>)
 extern void ARSession_remove_StateChanged_m1C2297C682430AB13D8E2EAB5829453A119D58E1 (void);
-// 0x00000AF8 UnityEngine.GameObject easyar.ARSession::get_SpecificTargetCenter()
+// 0x00000AFA UnityEngine.GameObject easyar.ARSession::get_SpecificTargetCenter()
 extern void ARSession_get_SpecificTargetCenter_m073B46773B64BF6D53D8209991AAFBCCD659FD1F (void);
-// 0x00000AF9 System.Void easyar.ARSession::set_SpecificTargetCenter(UnityEngine.GameObject)
+// 0x00000AFB System.Void easyar.ARSession::set_SpecificTargetCenter(UnityEngine.GameObject)
 extern void ARSession_set_SpecificTargetCenter_mFF8A89316911782D564948580448B36C953EC2D2 (void);
-// 0x00000AFA UnityEngine.GameObject easyar.ARSession::get_CenterObject()
+// 0x00000AFC UnityEngine.GameObject easyar.ARSession::get_CenterObject()
 extern void ARSession_get_CenterObject_mBB894C35750938190298F7D5FF92758174A303D5 (void);
-// 0x00000AFB System.Void easyar.ARSession::set_CenterObject(UnityEngine.GameObject)
+// 0x00000AFD System.Void easyar.ARSession::set_CenterObject(UnityEngine.GameObject)
 extern void ARSession_set_CenterObject_m5E99FC89653FF9CD078C0F7228861BF6150A33B8 (void);
-// 0x00000AFC easyar.ARAssembly easyar.ARSession::get_Assembly()
+// 0x00000AFE easyar.ARAssembly easyar.ARSession::get_Assembly()
 extern void ARSession_get_Assembly_mD1EE98F79892BB336FDEB644E9E2FE68B5EF3994 (void);
-// 0x00000AFD System.Void easyar.ARSession::set_Assembly(easyar.ARAssembly)
+// 0x00000AFF System.Void easyar.ARSession::set_Assembly(easyar.ARAssembly)
 extern void ARSession_set_Assembly_m30CE5F39EA56E76FE3B1B96ABA52F6DC9EA308D6 (void);
-// 0x00000AFE easyar.Optional`1<easyar.CameraParameters> easyar.ARSession::get_FrameCameraParameters()
+// 0x00000B00 easyar.Optional`1<easyar.CameraParameters> easyar.ARSession::get_FrameCameraParameters()
 extern void ARSession_get_FrameCameraParameters_mB35C4603E0D0ECA742D25DE6B0FF51750D69AEF9 (void);
-// 0x00000AFF System.Void easyar.ARSession::set_FrameCameraParameters(easyar.Optional`1<easyar.CameraParameters>)
+// 0x00000B01 System.Void easyar.ARSession::set_FrameCameraParameters(easyar.Optional`1<easyar.CameraParameters>)
 extern void ARSession_set_FrameCameraParameters_m1728242106C822603033D07AB1ED2DBE29780640 (void);
-// 0x00000B00 System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.ARSession::get_AvailableCenterMode()
+// 0x00000B02 System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.ARSession::get_AvailableCenterMode()
 extern void ARSession_get_AvailableCenterMode_mE27967E2CB5EA8A2D922FCEF0576EBB8646D2610 (void);
-// 0x00000B01 UnityEngine.GameObject easyar.ARSession::get_Origin()
+// 0x00000B03 UnityEngine.GameObject easyar.ARSession::get_Origin()
 extern void ARSession_get_Origin_m45A40C95EFFF621EA4A2DA09BEA6EC5AFFFE5005 (void);
-// 0x00000B02 easyar.Optional`1<easyar.MotionTrackingStatus> easyar.ARSession::get_TrackingStatus()
+// 0x00000B04 easyar.Optional`1<easyar.MotionTrackingStatus> easyar.ARSession::get_TrackingStatus()
 extern void ARSession_get_TrackingStatus_m52BB5973FA0C5433DB5DE85A2CC9EACEB394B0E7 (void);
-// 0x00000B03 easyar.ARSession/SessionState easyar.ARSession::get_State()
+// 0x00000B05 easyar.ARSession/SessionState easyar.ARSession::get_State()
 extern void ARSession_get_State_mD075FC4C3644F367D17BE26B7D6A018925655245 (void);
-// 0x00000B04 System.Void easyar.ARSession::set_State(easyar.ARSession/SessionState)
+// 0x00000B06 System.Void easyar.ARSession::set_State(easyar.ARSession/SessionState)
 extern void ARSession_set_State_m94CE0C3A59F5C42DDA406E8AC4ACD45FD0A10738 (void);
-// 0x00000B05 System.Void easyar.ARSession::Start()
+// 0x00000B07 System.Void easyar.ARSession::Start()
 extern void ARSession_Start_mF04C0150C150F06769E349547D13473F2478A7DF (void);
-// 0x00000B06 System.Void easyar.ARSession::OnDestroy()
+// 0x00000B08 System.Void easyar.ARSession::OnDestroy()
 extern void ARSession_OnDestroy_mF5A6E1A0C48F44C4EDDFF26E8904AFD008D1E4BC (void);
-// 0x00000B07 System.Void easyar.ARSession::UpdateSession()
+// 0x00000B09 System.Void easyar.ARSession::UpdateSession()
 extern void ARSession_UpdateSession_mAE0D223D4379B54483585D93FF9789FD56889B9D (void);
-// 0x00000B08 easyar.Optional`1<UnityEngine.Vector2> easyar.ARSession::ImageCoordinatesFromScreenCoordinates(UnityEngine.Vector2)
+// 0x00000B0A easyar.Optional`1<UnityEngine.Vector2> easyar.ARSession::ImageCoordinatesFromScreenCoordinates(UnityEngine.Vector2)
 extern void ARSession_ImageCoordinatesFromScreenCoordinates_mC77A19D85FCBA0836F2077706A51699A38AC65FC (void);
-// 0x00000B09 System.Void easyar.ARSession::OnFrameUpdate(easyar.OutputFrame,easyar.InputFrame,UnityEngine.Quaternion)
+// 0x00000B0B System.Void easyar.ARSession::OnFrameUpdate(easyar.OutputFrame,easyar.InputFrame,UnityEngine.Quaternion)
 extern void ARSession_OnFrameUpdate_m45173BDF97784D3262BEB637107EA7D71B779867 (void);
-// 0x00000B0A System.Void easyar.ARSession::OnEmptyFrame()
+// 0x00000B0C System.Void easyar.ARSession::OnEmptyFrame()
 extern void ARSession_OnEmptyFrame_mDED2C86E05C346A6B4F2834A870E7D7F99912856 (void);
-// 0x00000B0B System.Void easyar.ARSession::.ctor()
+// 0x00000B0D System.Void easyar.ARSession::.ctor()
 extern void ARSession__ctor_mD69EF89E59AAF597EF5B54239387D956ED622936 (void);
-// 0x00000B0C System.Void easyar.ARSession::<Start>b__44_0(easyar.ARAssembly/Components)
+// 0x00000B0E System.Void easyar.ARSession::<Start>b__44_0(easyar.ARAssembly/Components)
 extern void ARSession_U3CStartU3Eb__44_0_m1AC676313D82D5114744DB64519CB5B313D933D2 (void);
-// 0x00000B0D System.Void easyar.ARSession::<OnFrameUpdate>g__disposeResults|48_0(easyar.ARSession/<>c__DisplayClass48_0&)
+// 0x00000B0F System.Void easyar.ARSession::<OnFrameUpdate>g__disposeResults|48_0(easyar.ARSession/<>c__DisplayClass48_0&)
 extern void ARSession_U3COnFrameUpdateU3Eg__disposeResultsU7C48_0_mB7CC7C2255F3729057C240B282FF03CC0C3C01D3 (void);
-// 0x00000B0E System.Void easyar.ARSession/FrameChangeAction::.ctor(System.Object,System.IntPtr)
+// 0x00000B10 System.Void easyar.ARSession/FrameChangeAction::.ctor(System.Object,System.IntPtr)
 extern void FrameChangeAction__ctor_m785D930385A2E527988D65AFC722B2B26D303ADB (void);
-// 0x00000B0F System.Void easyar.ARSession/FrameChangeAction::Invoke(easyar.OutputFrame,UnityEngine.Quaternion)
+// 0x00000B11 System.Void easyar.ARSession/FrameChangeAction::Invoke(easyar.OutputFrame,UnityEngine.Quaternion)
 extern void FrameChangeAction_Invoke_m29858D2C52B8F2670C6DF0702F62C57418E63E38 (void);
-// 0x00000B10 System.IAsyncResult easyar.ARSession/FrameChangeAction::BeginInvoke(easyar.OutputFrame,UnityEngine.Quaternion,System.AsyncCallback,System.Object)
+// 0x00000B12 System.IAsyncResult easyar.ARSession/FrameChangeAction::BeginInvoke(easyar.OutputFrame,UnityEngine.Quaternion,System.AsyncCallback,System.Object)
 extern void FrameChangeAction_BeginInvoke_m116FC07710E85094C29C2CB56B23B191B65B6917 (void);
-// 0x00000B11 System.Void easyar.ARSession/FrameChangeAction::EndInvoke(System.IAsyncResult)
+// 0x00000B13 System.Void easyar.ARSession/FrameChangeAction::EndInvoke(System.IAsyncResult)
 extern void FrameChangeAction_EndInvoke_mB2B72EFBB20BE9862E2E8E7D5A502FDA1EA4F7AC (void);
-// 0x00000B12 System.Void easyar.ARSession/<>c::.cctor()
+// 0x00000B14 System.Void easyar.ARSession/<>c::.cctor()
 extern void U3CU3Ec__cctor_mABC56E2BCCD266167F42369507B7CE1D09E111F3 (void);
-// 0x00000B13 System.Void easyar.ARSession/<>c::.ctor()
+// 0x00000B15 System.Void easyar.ARSession/<>c::.ctor()
 extern void U3CU3Ec__ctor_m131BC1DD09E6381C0E9E66CD870427178A5AD073 (void);
-// 0x00000B14 System.Boolean easyar.ARSession/<>c::<OnFrameUpdate>b__48_1(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000B16 System.Boolean easyar.ARSession/<>c::<OnFrameUpdate>b__48_1(easyar.Optional`1<easyar.FrameFilterResult>)
 extern void U3CU3Ec_U3COnFrameUpdateU3Eb__48_1_m6C06AD4F403B70AA5B52FFD059F6F9E5AEA538DD (void);
-// 0x00000B15 System.Boolean easyar.ARSession/<>c::<OnFrameUpdate>b__48_2(easyar.FrameFilter)
+// 0x00000B17 System.Boolean easyar.ARSession/<>c::<OnFrameUpdate>b__48_2(easyar.FrameFilter)
 extern void U3CU3Ec_U3COnFrameUpdateU3Eb__48_2_m5D25AC7172F8EEDDE7F3030790D0B129A99E5ECD (void);
-// 0x00000B16 System.Boolean easyar.ARSession/<>c::<OnEmptyFrame>b__49_0(easyar.FrameFilter)
+// 0x00000B18 System.Boolean easyar.ARSession/<>c::<OnEmptyFrame>b__49_0(easyar.FrameFilter)
 extern void U3CU3Ec_U3COnEmptyFrameU3Eb__49_0_m6AEC915DDE469A932A61FD961E4B3C2E8BBC7CA0 (void);
-// 0x00000B17 System.Int32 easyar.FrameFilter::get_BufferRequirement()
-// 0x00000B18 System.Void easyar.FrameFilter::OnAssemble(easyar.ARSession)
+// 0x00000B19 System.Int32 easyar.FrameFilter::get_BufferRequirement()
+// 0x00000B1A System.Void easyar.FrameFilter::OnAssemble(easyar.ARSession)
 extern void FrameFilter_OnAssemble_mFC0ACCAA2717E67A5813187806E6CC7BC54E29B6 (void);
-// 0x00000B19 System.Void easyar.FrameFilter::UpdateMotion(easyar.MotionTrackingStatus,UnityEngine.Pose)
+// 0x00000B1B System.Void easyar.FrameFilter::UpdateMotion(easyar.MotionTrackingStatus,UnityEngine.Pose)
 extern void FrameFilter_UpdateMotion_m560692BA31EA1FE2C218A0BA8A09575ED1E0883B (void);
-// 0x00000B1A easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.FrameFilter::TryGetCenter(UnityEngine.GameObject)
+// 0x00000B1C easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.FrameFilter::TryGetCenter(UnityEngine.GameObject)
 extern void FrameFilter_TryGetCenter_m56525C41F7CA38DF3EB63293C6EEA9BE04823F56 (void);
-// 0x00000B1B System.Void easyar.FrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000B1D System.Void easyar.FrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void FrameFilter_UpdateTransform_m6DF0EB6DE6A4FE9C9B608B9BF027A33C8491F6CD (void);
-// 0x00000B1C System.Void easyar.FrameFilter::SetHFlip(easyar.ARSession/ARHorizontalFlipMode)
+// 0x00000B1E System.Void easyar.FrameFilter::SetHFlip(easyar.ARSession/ARHorizontalFlipMode)
 extern void FrameFilter_SetHFlip_mE696BC63124468018A99A51D7ECE2A9759A4A1BA (void);
-// 0x00000B1D System.Void easyar.FrameFilter::OnHFlipChange(System.Boolean)
+// 0x00000B1F System.Void easyar.FrameFilter::OnHFlipChange(System.Boolean)
 extern void FrameFilter_OnHFlipChange_m2B4CE814B4C3649E59C8484308C421127B92B089 (void);
-// 0x00000B1E easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.FrameFilter::TryGetCenterTarget(UnityEngine.GameObject)
+// 0x00000B20 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.FrameFilter::TryGetCenterTarget(UnityEngine.GameObject)
 extern void FrameFilter_TryGetCenterTarget_m80F02FD5762F438788D3B765F7F1A92FE66E13B8 (void);
-// 0x00000B1F System.Void easyar.FrameFilter::UpdateTargetTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000B21 System.Void easyar.FrameFilter::UpdateTargetTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void FrameFilter_UpdateTargetTransform_m4A7CBF9404A439EF323808B698C1F1933472C7A6 (void);
-// 0x00000B20 System.Void easyar.FrameFilter::.ctor()
+// 0x00000B22 System.Void easyar.FrameFilter::.ctor()
 extern void FrameFilter__ctor_m3294372A748440126E65D15A1246C002035B00A0 (void);
-// 0x00000B21 easyar.FeedbackFrameSink easyar.FrameFilter/IFeedbackFrameSink::FeedbackFrameSink()
-// 0x00000B22 easyar.InputFrameSink easyar.FrameFilter/IInputFrameSink::InputFrameSink()
-// 0x00000B23 easyar.OutputFrameSource easyar.FrameFilter/IOutputFrameSource::OutputFrameSource()
-// 0x00000B24 System.Void easyar.FrameFilter/IOutputFrameSource::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
-// 0x00000B25 System.Void easyar.FrameFilter/<>c__DisplayClass13_0::.ctor()
+// 0x00000B23 easyar.FeedbackFrameSink easyar.FrameFilter/IFeedbackFrameSink::FeedbackFrameSink()
+// 0x00000B24 easyar.InputFrameSink easyar.FrameFilter/IInputFrameSink::InputFrameSink()
+// 0x00000B25 easyar.OutputFrameSource easyar.FrameFilter/IOutputFrameSource::OutputFrameSource()
+// 0x00000B26 System.Void easyar.FrameFilter/IOutputFrameSource::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000B27 System.Void easyar.FrameFilter/<>c__DisplayClass13_0::.ctor()
 extern void U3CU3Ec__DisplayClass13_0__ctor_m339436568FBF106D59147A55895D2C57CEBC01C2 (void);
-// 0x00000B26 System.Boolean easyar.FrameFilter/<>c__DisplayClass13_0::<TryGetCenterTarget>b__0(System.Tuple`2<easyar.TargetController,UnityEngine.Pose>)
+// 0x00000B28 System.Boolean easyar.FrameFilter/<>c__DisplayClass13_0::<TryGetCenterTarget>b__0(System.Tuple`2<easyar.TargetController,UnityEngine.Pose>)
 extern void U3CU3Ec__DisplayClass13_0_U3CTryGetCenterTargetU3Eb__0_m6AD6B0770E2F6B41AF30D011B936554C19A1812F (void);
-// 0x00000B27 System.Void easyar.FrameFilter/<>c__DisplayClass14_0::.ctor()
+// 0x00000B29 System.Void easyar.FrameFilter/<>c__DisplayClass14_0::.ctor()
 extern void U3CU3Ec__DisplayClass14_0__ctor_mBA1D7AADFD2D9950AF092BEA80486D170188D04A (void);
-// 0x00000B28 System.Boolean easyar.FrameFilter/<>c__DisplayClass14_0::<UpdateTargetTransform>b__0(System.Tuple`2<easyar.TargetController,UnityEngine.Pose>)
+// 0x00000B2A System.Boolean easyar.FrameFilter/<>c__DisplayClass14_0::<UpdateTargetTransform>b__0(System.Tuple`2<easyar.TargetController,UnityEngine.Pose>)
 extern void U3CU3Ec__DisplayClass14_0_U3CUpdateTargetTransformU3Eb__0_m3B01B35A2459FA4EA442414D985707FDFB6CBAC6 (void);
-// 0x00000B29 System.Void easyar.FramePlayer::add_TypeChange(System.Action`1<easyar.InputFrameSourceType>)
+// 0x00000B2B System.Void easyar.FramePlayer::add_TypeChange(System.Action`1<easyar.InputFrameSourceType>)
 extern void FramePlayer_add_TypeChange_mBEAE5D0BA68DD5E44542366A24C9503C591C6E75 (void);
-// 0x00000B2A System.Void easyar.FramePlayer::remove_TypeChange(System.Action`1<easyar.InputFrameSourceType>)
+// 0x00000B2C System.Void easyar.FramePlayer::remove_TypeChange(System.Action`1<easyar.InputFrameSourceType>)
 extern void FramePlayer_remove_TypeChange_mE6E673572ADE72A7DEF579FDAAFBECBAD3112315 (void);
-// 0x00000B2B easyar.Optional`1<easyar.InputFrameSourceType> easyar.FramePlayer::get_Type()
+// 0x00000B2D easyar.Optional`1<easyar.InputFrameSourceType> easyar.FramePlayer::get_Type()
 extern void FramePlayer_get_Type_mF310AF32F0E2622A7D8FACCFD7F7EC821CF25D13 (void);
-// 0x00000B2C easyar.Optional`1<System.Boolean> easyar.FramePlayer::get_IsAvailable()
+// 0x00000B2E easyar.Optional`1<System.Boolean> easyar.FramePlayer::get_IsAvailable()
 extern void FramePlayer_get_IsAvailable_m6AE06264FAC43BF4D293FBAFDF9B54CC20890A60 (void);
-// 0x00000B2D System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.FramePlayer::get_AvailableCenterMode()
+// 0x00000B2F System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.FramePlayer::get_AvailableCenterMode()
 extern void FramePlayer_get_AvailableCenterMode_m7FB89CA5361900D35AAC5CD163AD5FCCE7D2B1DC (void);
-// 0x00000B2E System.Boolean easyar.FramePlayer::get_IsCompleted()
+// 0x00000B30 System.Boolean easyar.FramePlayer::get_IsCompleted()
 extern void FramePlayer_get_IsCompleted_m60683BBD7FB3ED7C9A287D98A169CF975308D8FD (void);
-// 0x00000B2F System.Single easyar.FramePlayer::get_Length()
+// 0x00000B31 System.Single easyar.FramePlayer::get_Length()
 extern void FramePlayer_get_Length_m0519F7B87D7E4CFD016163332DB15382A6966FC1 (void);
-// 0x00000B30 System.Single easyar.FramePlayer::get_Time()
+// 0x00000B32 System.Single easyar.FramePlayer::get_Time()
 extern void FramePlayer_get_Time_mC4E752ED506623380C3902DB6512BDE9A8C84346 (void);
-// 0x00000B31 easyar.WorldRootController easyar.FramePlayer::get_WorldRoot()
+// 0x00000B33 easyar.WorldRootController easyar.FramePlayer::get_WorldRoot()
 extern void FramePlayer_get_WorldRoot_m3B89424FAD4374B85A7E7199DBD7F3F6A9794C48 (void);
-// 0x00000B32 System.Void easyar.FramePlayer::set_WorldRoot(easyar.WorldRootController)
+// 0x00000B34 System.Void easyar.FramePlayer::set_WorldRoot(easyar.WorldRootController)
 extern void FramePlayer_set_WorldRoot_mC470CD508089E1F9F70096FA2873058C8BD328B6 (void);
-// 0x00000B33 UnityEngine.GameObject easyar.FramePlayer::get_Origin()
+// 0x00000B35 UnityEngine.GameObject easyar.FramePlayer::get_Origin()
 extern void FramePlayer_get_Origin_mA13D6048135EFEF6227D4064AA6ABAF61878C685 (void);
-// 0x00000B34 easyar.IDisplay easyar.FramePlayer::get_Display()
+// 0x00000B36 easyar.IDisplay easyar.FramePlayer::get_Display()
 extern void FramePlayer_get_Display_m7EA09D6046F01987860158179E4B729E1FA3A60A (void);
-// 0x00000B35 System.Void easyar.FramePlayer::Awake()
+// 0x00000B37 System.Void easyar.FramePlayer::Awake()
 extern void FramePlayer_Awake_m5B28F60D51E41FE2145CDFC8FCC2DC4275BB0B72 (void);
-// 0x00000B36 System.Void easyar.FramePlayer::OnEnable()
+// 0x00000B38 System.Void easyar.FramePlayer::OnEnable()
 extern void FramePlayer_OnEnable_mBE1F36134F0F8E5FF937BEEB2410E976D6245008 (void);
-// 0x00000B37 System.Void easyar.FramePlayer::OnDisable()
+// 0x00000B39 System.Void easyar.FramePlayer::OnDisable()
 extern void FramePlayer_OnDisable_mB91EE27CA27D924EAB19879911D852DA1EEDC7FC (void);
-// 0x00000B38 System.Void easyar.FramePlayer::OnApplicationPause(System.Boolean)
+// 0x00000B3A System.Void easyar.FramePlayer::OnApplicationPause(System.Boolean)
 extern void FramePlayer_OnApplicationPause_m22E03EFBDE577F2BA4A6FE94BCE3194E21AEFC46 (void);
-// 0x00000B39 System.Void easyar.FramePlayer::OnDestroy()
+// 0x00000B3B System.Void easyar.FramePlayer::OnDestroy()
 extern void FramePlayer_OnDestroy_mD6A947F06382027DB958E6F4A638C5F34480CD39 (void);
-// 0x00000B3A System.Void easyar.FramePlayer::OnAssemble(easyar.ARSession)
+// 0x00000B3C System.Void easyar.FramePlayer::OnAssemble(easyar.ARSession)
 extern void FramePlayer_OnAssemble_m10330B88303F160FCD73D1D4A78D1BB2CDADB591 (void);
-// 0x00000B3B System.Boolean easyar.FramePlayer::Play()
+// 0x00000B3D System.Boolean easyar.FramePlayer::Play()
 extern void FramePlayer_Play_m797ACA61DD16B138C21349FD5FC17BFC9885AC98 (void);
-// 0x00000B3C System.Void easyar.FramePlayer::Stop()
+// 0x00000B3E System.Void easyar.FramePlayer::Stop()
 extern void FramePlayer_Stop_mC62077E600768AEB0EBB2C178594820CBCA1A304 (void);
-// 0x00000B3D System.Void easyar.FramePlayer::Pause()
+// 0x00000B3F System.Void easyar.FramePlayer::Pause()
 extern void FramePlayer_Pause_m9AF41889F41206FF9B962A8406A8A3F8B43EA209 (void);
-// 0x00000B3E System.Void easyar.FramePlayer::Connect(easyar.InputFrameSink)
+// 0x00000B40 System.Void easyar.FramePlayer::Connect(easyar.InputFrameSink)
 extern void FramePlayer_Connect_mF212FFC99EADE575C501B0B60A5D13330EDE0FF6 (void);
-// 0x00000B3F System.Collections.IEnumerator easyar.FramePlayer::PreLoadFrameMeta(System.Action)
+// 0x00000B41 System.Collections.IEnumerator easyar.FramePlayer::PreLoadFrameMeta(System.Action)
 extern void FramePlayer_PreLoadFrameMeta_m7C56E9DDBDE4583ECF9332CD63F78C68DF20010E (void);
-// 0x00000B40 System.Void easyar.FramePlayer::RequireSpatial()
+// 0x00000B42 System.Void easyar.FramePlayer::RequireSpatial()
 extern void FramePlayer_RequireSpatial_mE6BC9894573F202EB85C2BFDFA47E66AC3BC7235 (void);
-// 0x00000B41 System.Collections.IEnumerator easyar.FramePlayer::AutoPlay()
+// 0x00000B43 System.Collections.IEnumerator easyar.FramePlayer::AutoPlay()
 extern void FramePlayer_AutoPlay_m7209D4C5C17639865DC6E5FB31AD1639AE70EF68 (void);
-// 0x00000B42 System.Void easyar.FramePlayer::SetupOriginUsingWorldRoot()
+// 0x00000B44 System.Void easyar.FramePlayer::SetupOriginUsingWorldRoot()
 extern void FramePlayer_SetupOriginUsingWorldRoot_m395A57DB650FE366B5DB453BC0A02FCF5D5D1DA9 (void);
-// 0x00000B43 System.Void easyar.FramePlayer::.ctor()
+// 0x00000B45 System.Void easyar.FramePlayer::.ctor()
 extern void FramePlayer__ctor_m7B5A2FEB32B485D16BB473C62A39EC8A3276AAFA (void);
-// 0x00000B44 System.Void easyar.FramePlayer::.cctor()
+// 0x00000B46 System.Void easyar.FramePlayer::.cctor()
 extern void FramePlayer__cctor_mBB9666993ED9D56BB5ED06F53AD3B816D2CFFDD5 (void);
-// 0x00000B45 System.Single easyar.FramePlayer::<Play>b__44_0()
+// 0x00000B47 System.Single easyar.FramePlayer::<Play>b__44_0()
 extern void FramePlayer_U3CPlayU3Eb__44_0_m3E245FD564CB70D8D1C0335B0FCD8D1CB029BE88 (void);
-// 0x00000B46 System.Void easyar.FramePlayer/FrameMetaSource::add_AccelerometerUpdate(System.Action`1<easyar.AccelerometerResult>)
+// 0x00000B48 System.Void easyar.FramePlayer/FrameMetaSource::add_AccelerometerUpdate(System.Action`1<easyar.AccelerometerResult>)
 extern void FrameMetaSource_add_AccelerometerUpdate_mAAC76CC6E926159312BC5EA724426D5B81E03F8C (void);
-// 0x00000B47 System.Void easyar.FramePlayer/FrameMetaSource::remove_AccelerometerUpdate(System.Action`1<easyar.AccelerometerResult>)
+// 0x00000B49 System.Void easyar.FramePlayer/FrameMetaSource::remove_AccelerometerUpdate(System.Action`1<easyar.AccelerometerResult>)
 extern void FrameMetaSource_remove_AccelerometerUpdate_mD18629202A238D9F07844824178EE3C3A8ACE0C7 (void);
-// 0x00000B48 System.Void easyar.FramePlayer/FrameMetaSource::add_LocationUpdate(System.Action`1<easyar.LocationResult>)
+// 0x00000B4A System.Void easyar.FramePlayer/FrameMetaSource::add_LocationUpdate(System.Action`1<easyar.LocationResult>)
 extern void FrameMetaSource_add_LocationUpdate_m5C3E0E8EE4B02B28D9D9408A8B11BFE73277A785 (void);
-// 0x00000B49 System.Void easyar.FramePlayer/FrameMetaSource::remove_LocationUpdate(System.Action`1<easyar.LocationResult>)
+// 0x00000B4B System.Void easyar.FramePlayer/FrameMetaSource::remove_LocationUpdate(System.Action`1<easyar.LocationResult>)
 extern void FrameMetaSource_remove_LocationUpdate_m038E59F690998613E285A88B754EA7F6D470C7D8 (void);
-// 0x00000B4A easyar.InputFrameSourceType easyar.FramePlayer/FrameMetaSource::get_Type()
+// 0x00000B4C easyar.InputFrameSourceType easyar.FramePlayer/FrameMetaSource::get_Type()
 extern void FrameMetaSource_get_Type_m5CADBE8EE087C00E77B7EAA445D883B493A40E33 (void);
-// 0x00000B4B System.Void easyar.FramePlayer/FrameMetaSource::Finalize()
+// 0x00000B4D System.Void easyar.FramePlayer/FrameMetaSource::Finalize()
 extern void FrameMetaSource_Finalize_m5C5F831B125D6222C2142E210331686DC19F9CE8 (void);
-// 0x00000B4C System.Void easyar.FramePlayer/FrameMetaSource::Dispose()
+// 0x00000B4E System.Void easyar.FramePlayer/FrameMetaSource::Dispose()
 extern void FrameMetaSource_Dispose_m6E32AE29C882E69A8FA4824F1C12A8D249FBF9C9 (void);
-// 0x00000B4D System.Void easyar.FramePlayer/FrameMetaSource::Load(System.String)
+// 0x00000B4F System.Void easyar.FramePlayer/FrameMetaSource::Load(System.String)
 extern void FrameMetaSource_Load_m4F02A6F7044F856B6F80CBF1A2495FCF77EBB785 (void);
-// 0x00000B4E System.Void easyar.FramePlayer/FrameMetaSource::Start(System.String,System.Func`1<System.Single>)
+// 0x00000B50 System.Void easyar.FramePlayer/FrameMetaSource::Start(System.String,System.Func`1<System.Single>)
 extern void FrameMetaSource_Start_m3D617A866B39A4812223F434136D73F294375165 (void);
-// 0x00000B4F System.Void easyar.FramePlayer/FrameMetaSource::Stop()
+// 0x00000B51 System.Void easyar.FramePlayer/FrameMetaSource::Stop()
 extern void FrameMetaSource_Stop_mE9A7B0A8A288567F748DD6F32839490D0DD3020E (void);
-// 0x00000B50 System.Void easyar.FramePlayer/FrameMetaSource::Pause()
+// 0x00000B52 System.Void easyar.FramePlayer/FrameMetaSource::Pause()
 extern void FrameMetaSource_Pause_m75B2EA3FD2C107BFB865FB69AD2A0C6A6CD25E9E (void);
-// 0x00000B51 System.Void easyar.FramePlayer/FrameMetaSource::Resume()
+// 0x00000B53 System.Void easyar.FramePlayer/FrameMetaSource::Resume()
 extern void FrameMetaSource_Resume_m5B83DE6546A6C9FE6BC36774B7A2A8E7A1167B27 (void);
-// 0x00000B52 System.Void easyar.FramePlayer/FrameMetaSource::OnApplicationPause(System.Boolean)
+// 0x00000B54 System.Void easyar.FramePlayer/FrameMetaSource::OnApplicationPause(System.Boolean)
 extern void FrameMetaSource_OnApplicationPause_mF9C9700E8A8DA83A5E63A873C4A9424234FE0CFA (void);
-// 0x00000B53 System.Void easyar.FramePlayer/FrameMetaSource::Finish()
+// 0x00000B55 System.Void easyar.FramePlayer/FrameMetaSource::Finish()
 extern void FrameMetaSource_Finish_mA1D19B72A1BBCE8010667EB11AAC35D0E398A97F (void);
-// 0x00000B54 System.Void easyar.FramePlayer/FrameMetaSource::.ctor()
+// 0x00000B56 System.Void easyar.FramePlayer/FrameMetaSource::.ctor()
 extern void FrameMetaSource__ctor_m3DB3B72FBD224B5D401A24EF7A549AB030CB9FA1 (void);
-// 0x00000B55 System.Void easyar.FramePlayer/FrameMetaSource::<Start>b__21_0()
+// 0x00000B57 System.Void easyar.FramePlayer/FrameMetaSource::<Start>b__21_0()
 extern void FrameMetaSource_U3CStartU3Eb__21_0_m1D1E445F63097E5B80973A8291FA04EF73A8AB25 (void);
-// 0x00000B56 System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice::.ctor()
+// 0x00000B58 System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice::.ctor()
 extern void FrameMetaSlice__ctor_m1180D0B4B0B1095D99E2DA8E1E273B9D47DFEF38 (void);
-// 0x00000B57 System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/Application::.ctor()
+// 0x00000B59 System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/Application::.ctor()
 extern void Application__ctor_m76671799F3D48B8278124D4DF37526112FD4CE7F (void);
-// 0x00000B58 System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/Device::.ctor()
+// 0x00000B5A System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/Device::.ctor()
 extern void Device__ctor_mADD5B8DE9B77B0B944707F79EB29C324560DB820 (void);
-// 0x00000B59 System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/DeviceInput::.ctor()
+// 0x00000B5B System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/DeviceInput::.ctor()
 extern void DeviceInput__ctor_mCCF0DDDA7DDC40235191EC98E86DE398F7E5EC2F (void);
-// 0x00000B5A System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/DeviceInput/AccelerometerResult::.ctor()
+// 0x00000B5C System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/DeviceInput/AccelerometerResult::.ctor()
 extern void AccelerometerResult__ctor_m42352A561F17933040701A5D030C6756108D05A8 (void);
-// 0x00000B5B System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/DeviceInput/LocationResult::.ctor()
+// 0x00000B5D System.Void easyar.FramePlayer/FrameMetaSource/FrameMetaSlice/DeviceInput/LocationResult::.ctor()
 extern void LocationResult__ctor_m24BE0BCA186D271A0B896A15396F81284259D110 (void);
-// 0x00000B5C System.Void easyar.FramePlayer/<>c::.cctor()
+// 0x00000B5E System.Void easyar.FramePlayer/<>c::.cctor()
 extern void U3CU3Ec__cctor_m715181D4867B54755DC924E559FA7999069A3CC0 (void);
-// 0x00000B5D System.Void easyar.FramePlayer/<>c::.ctor()
+// 0x00000B5F System.Void easyar.FramePlayer/<>c::.ctor()
 extern void U3CU3Ec__ctor_m8DD7EE843F4500320FC94ED3EA03B8A70DB48EDE (void);
-// 0x00000B5E System.Boolean easyar.FramePlayer/<>c::<OnAssemble>b__43_0(easyar.FrameFilter)
+// 0x00000B60 System.Boolean easyar.FramePlayer/<>c::<OnAssemble>b__43_0(easyar.FrameFilter)
 extern void U3CU3Ec_U3COnAssembleU3Eb__43_0_mD040D6040105CE75A0F35028D56E5D3C47AEF6E4 (void);
-// 0x00000B5F System.Void easyar.FramePlayer/<>c__DisplayClass48_0::.ctor()
+// 0x00000B61 System.Void easyar.FramePlayer/<>c__DisplayClass48_0::.ctor()
 extern void U3CU3Ec__DisplayClass48_0__ctor_m2BCAEF74F5474EF5E6811E8E5F143E610928F7C7 (void);
-// 0x00000B60 System.Void easyar.FramePlayer/<>c__DisplayClass48_0::<PreLoadFrameMeta>b__0()
+// 0x00000B62 System.Void easyar.FramePlayer/<>c__DisplayClass48_0::<PreLoadFrameMeta>b__0()
 extern void U3CU3Ec__DisplayClass48_0_U3CPreLoadFrameMetaU3Eb__0_mB27B18385EFB29AC90E3542E5A0804360A2D30C6 (void);
-// 0x00000B61 System.Void easyar.FramePlayer/<PreLoadFrameMeta>d__48::.ctor(System.Int32)
+// 0x00000B63 System.Void easyar.FramePlayer/<PreLoadFrameMeta>d__48::.ctor(System.Int32)
 extern void U3CPreLoadFrameMetaU3Ed__48__ctor_mAE70316C12591EBE518F33D7489946CE0FBF2574 (void);
-// 0x00000B62 System.Void easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.IDisposable.Dispose()
+// 0x00000B64 System.Void easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.IDisposable.Dispose()
 extern void U3CPreLoadFrameMetaU3Ed__48_System_IDisposable_Dispose_m05334441B8941BBB832C5885D26ABB83742AF2AE (void);
-// 0x00000B63 System.Boolean easyar.FramePlayer/<PreLoadFrameMeta>d__48::MoveNext()
+// 0x00000B65 System.Boolean easyar.FramePlayer/<PreLoadFrameMeta>d__48::MoveNext()
 extern void U3CPreLoadFrameMetaU3Ed__48_MoveNext_mC37E96F01D775E688452E30CD2E2BEE6DBCE986F (void);
-// 0x00000B64 System.Object easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000B66 System.Object easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPreLoadFrameMetaU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m96DD2D7805CFDF1BB7648E51971CE60695B0E768 (void);
-// 0x00000B65 System.Void easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.Collections.IEnumerator.Reset()
+// 0x00000B67 System.Void easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.Collections.IEnumerator.Reset()
 extern void U3CPreLoadFrameMetaU3Ed__48_System_Collections_IEnumerator_Reset_m0BB1CCD543708BC7C456693110767F5ACA5F9ECF (void);
-// 0x00000B66 System.Object easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.Collections.IEnumerator.get_Current()
+// 0x00000B68 System.Object easyar.FramePlayer/<PreLoadFrameMeta>d__48::System.Collections.IEnumerator.get_Current()
 extern void U3CPreLoadFrameMetaU3Ed__48_System_Collections_IEnumerator_get_Current_mD2466B9F89711F7C74038352BF308BFFC6D105EA (void);
-// 0x00000B67 System.Void easyar.FramePlayer/<AutoPlay>d__50::.ctor(System.Int32)
+// 0x00000B69 System.Void easyar.FramePlayer/<AutoPlay>d__50::.ctor(System.Int32)
 extern void U3CAutoPlayU3Ed__50__ctor_m3A4570AC8BD2698ABB56CA99646C81AA157D5B73 (void);
-// 0x00000B68 System.Void easyar.FramePlayer/<AutoPlay>d__50::System.IDisposable.Dispose()
+// 0x00000B6A System.Void easyar.FramePlayer/<AutoPlay>d__50::System.IDisposable.Dispose()
 extern void U3CAutoPlayU3Ed__50_System_IDisposable_Dispose_mCA6FFD38A3625D295ABDE38FCB896417330F37B6 (void);
-// 0x00000B69 System.Boolean easyar.FramePlayer/<AutoPlay>d__50::MoveNext()
+// 0x00000B6B System.Boolean easyar.FramePlayer/<AutoPlay>d__50::MoveNext()
 extern void U3CAutoPlayU3Ed__50_MoveNext_m2EA6501B8F3C68E618892626955DFE72AF7BB6AE (void);
-// 0x00000B6A System.Object easyar.FramePlayer/<AutoPlay>d__50::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000B6C System.Object easyar.FramePlayer/<AutoPlay>d__50::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CAutoPlayU3Ed__50_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m781382196F2F5DE5DE7A1A2D93C3D8E151492B4D (void);
-// 0x00000B6B System.Void easyar.FramePlayer/<AutoPlay>d__50::System.Collections.IEnumerator.Reset()
+// 0x00000B6D System.Void easyar.FramePlayer/<AutoPlay>d__50::System.Collections.IEnumerator.Reset()
 extern void U3CAutoPlayU3Ed__50_System_Collections_IEnumerator_Reset_m0125E46169A9C072BC76BC5349F2DD3D62EC9B9E (void);
-// 0x00000B6C System.Object easyar.FramePlayer/<AutoPlay>d__50::System.Collections.IEnumerator.get_Current()
+// 0x00000B6E System.Object easyar.FramePlayer/<AutoPlay>d__50::System.Collections.IEnumerator.get_Current()
 extern void U3CAutoPlayU3Ed__50_System_Collections_IEnumerator_get_Current_m663FC1CA72A2F7E7830579504650CDFE049DBD80 (void);
-// 0x00000B6D System.Int32 easyar.FrameRecorder::get_BufferRequirement()
+// 0x00000B6F System.Int32 easyar.FrameRecorder::get_BufferRequirement()
 extern void FrameRecorder_get_BufferRequirement_m3E261DD8D43D619451E2F1146EE03383CAF7111D (void);
-// 0x00000B6E System.Void easyar.FrameRecorder::Awake()
+// 0x00000B70 System.Void easyar.FrameRecorder::Awake()
 extern void FrameRecorder_Awake_m1BA3559A88628E3193BD569797EA70828CBFF7D9 (void);
-// 0x00000B6F System.Void easyar.FrameRecorder::OnEnable()
+// 0x00000B71 System.Void easyar.FrameRecorder::OnEnable()
 extern void FrameRecorder_OnEnable_mA0791867B53609D17BDEB54FD922AE7878373509 (void);
-// 0x00000B70 System.Void easyar.FrameRecorder::OnDisable()
+// 0x00000B72 System.Void easyar.FrameRecorder::OnDisable()
 extern void FrameRecorder_OnDisable_mDDC934AB61931454A3EF691BDFD21F16255EC023 (void);
-// 0x00000B71 System.Void easyar.FrameRecorder::OnDestroy()
+// 0x00000B73 System.Void easyar.FrameRecorder::OnDestroy()
 extern void FrameRecorder_OnDestroy_m529CE1A009994CD7F500FE51E1D28A95866906D7 (void);
-// 0x00000B72 System.Void easyar.FrameRecorder::OnAssemble(easyar.ARSession)
+// 0x00000B74 System.Void easyar.FrameRecorder::OnAssemble(easyar.ARSession)
 extern void FrameRecorder_OnAssemble_m8E89ECD25D234ECBE102C526E36726951266C1C0 (void);
-// 0x00000B73 easyar.InputFrameSource easyar.FrameRecorder::Output()
+// 0x00000B75 easyar.InputFrameSource easyar.FrameRecorder::Output()
 extern void FrameRecorder_Output_mF49FF71FEAC20E345A10DF412138FB1AC9ADE0F8 (void);
-// 0x00000B74 easyar.InputFrameSink easyar.FrameRecorder::Input()
+// 0x00000B76 easyar.InputFrameSink easyar.FrameRecorder::Input()
 extern void FrameRecorder_Input_m4D84888D46A2E58F0AC1A1ADA0CEAEE3C0B655E1 (void);
-// 0x00000B75 System.Void easyar.FrameRecorder::.ctor()
+// 0x00000B77 System.Void easyar.FrameRecorder::.ctor()
 extern void FrameRecorder__ctor_m9FC145E10D9CA0E020A14A93202120F77027CC57 (void);
-// 0x00000B76 easyar.Optional`1<easyar.InputFrameSourceType> easyar.FrameSource::get_Type()
-// 0x00000B77 easyar.Optional`1<System.Boolean> easyar.FrameSource::get_IsAvailable()
-// 0x00000B78 System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.FrameSource::get_AvailableCenterMode()
+// 0x00000B78 easyar.Optional`1<easyar.InputFrameSourceType> easyar.FrameSource::get_Type()
+// 0x00000B79 easyar.Optional`1<System.Boolean> easyar.FrameSource::get_IsAvailable()
+// 0x00000B7A System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.FrameSource::get_AvailableCenterMode()
 extern void FrameSource_get_AvailableCenterMode_mAF1C0ABD9F5C80A7045F8FC2A1F5AF81C53B3656 (void);
-// 0x00000B79 System.Boolean easyar.FrameSource::get_IsHMD()
+// 0x00000B7B System.Boolean easyar.FrameSource::get_IsHMD()
 extern void FrameSource_get_IsHMD_m6384BC0C41C2280F23D4CA4081FE9ED2F1DE1350 (void);
-// 0x00000B7A System.Int32 easyar.FrameSource::get_BufferCapacity()
+// 0x00000B7C System.Int32 easyar.FrameSource::get_BufferCapacity()
 extern void FrameSource_get_BufferCapacity_mCC372D784110C205D976F830227352AAD80900F5 (void);
-// 0x00000B7B System.Void easyar.FrameSource::set_BufferCapacity(System.Int32)
+// 0x00000B7D System.Void easyar.FrameSource::set_BufferCapacity(System.Int32)
 extern void FrameSource_set_BufferCapacity_m6A2F5CEFC52246DC2F5C7F5A38AC03EF32BED7F1 (void);
-// 0x00000B7C UnityEngine.Camera easyar.FrameSource::get_Camera()
+// 0x00000B7E UnityEngine.Camera easyar.FrameSource::get_Camera()
 extern void FrameSource_get_Camera_m3AF1F542AD50439D16055E236943B5BBDB27202A (void);
-// 0x00000B7D System.Void easyar.FrameSource::set_Camera(UnityEngine.Camera)
+// 0x00000B7F System.Void easyar.FrameSource::set_Camera(UnityEngine.Camera)
 extern void FrameSource_set_Camera_mF11F14D8320714F3F9826EEECAF9FE114275BB5D (void);
-// 0x00000B7E System.Boolean easyar.FrameSource::get_IsCameraUnderControl()
+// 0x00000B80 System.Boolean easyar.FrameSource::get_IsCameraUnderControl()
 extern void FrameSource_get_IsCameraUnderControl_mDEBBF0D9E6763AD9794200623832FCF0607B56CB (void);
-// 0x00000B7F UnityEngine.GameObject easyar.FrameSource::get_Origin()
+// 0x00000B81 UnityEngine.GameObject easyar.FrameSource::get_Origin()
 extern void FrameSource_get_Origin_m4DA98EAB57568A4DE1E8E2B0117A6F6A89C6F70D (void);
-// 0x00000B80 System.Void easyar.FrameSource::Awake()
+// 0x00000B82 System.Void easyar.FrameSource::Awake()
 extern void FrameSource_Awake_m11E6765105A5E748DB55E5DFC5458FBEA6962FE9 (void);
-// 0x00000B81 System.Void easyar.FrameSource::OnEnable()
+// 0x00000B83 System.Void easyar.FrameSource::OnEnable()
 extern void FrameSource_OnEnable_mFE4B5075843171A5281632B4EDB305E63E02FFBB (void);
-// 0x00000B82 System.Void easyar.FrameSource::OnDisable()
+// 0x00000B84 System.Void easyar.FrameSource::OnDisable()
 extern void FrameSource_OnDisable_m1972517C0BF7D983F15BACF488CCA5B8A2834167 (void);
-// 0x00000B83 System.Boolean easyar.FrameSource::IsCustomCamera(easyar.FrameSource)
+// 0x00000B85 System.Boolean easyar.FrameSource::IsCustomCamera(easyar.FrameSource)
 extern void FrameSource_IsCustomCamera_m90A1B2E0CD8E37E6B17838112FD472E37D9C6AE3 (void);
-// 0x00000B84 System.Void easyar.FrameSource::Connect(easyar.InputFrameSink)
+// 0x00000B86 System.Void easyar.FrameSource::Connect(easyar.InputFrameSink)
 extern void FrameSource_Connect_mB09DED105CF24C36911E1072F20605A273CEE7D2 (void);
-// 0x00000B85 System.Void easyar.FrameSource::OnAssemble(easyar.ARSession)
+// 0x00000B87 System.Void easyar.FrameSource::OnAssemble(easyar.ARSession)
 extern void FrameSource_OnAssemble_mC11B5EA8F8B8F56A6D3EEC2D832168CEACEF575A (void);
-// 0x00000B86 System.Collections.IEnumerator easyar.FrameSource::CheckAvailability()
+// 0x00000B88 System.Collections.IEnumerator easyar.FrameSource::CheckAvailability()
 extern void FrameSource_CheckAvailability_mF047C9B9D47647B036AE9A2E9847CE8C6932E516 (void);
-// 0x00000B87 UnityEngine.Camera easyar.FrameSource::PickCamera()
+// 0x00000B89 UnityEngine.Camera easyar.FrameSource::PickCamera()
 extern void FrameSource_PickCamera_m2F3B812929F8B2CA84D53445F507048B4F072323 (void);
-// 0x00000B88 System.Void easyar.FrameSource::SetHFlip(easyar.ARSession/ARHorizontalFlipMode)
+// 0x00000B8A System.Void easyar.FrameSource::SetHFlip(easyar.ARSession/ARHorizontalFlipMode)
 extern void FrameSource_SetHFlip_m5971D2B83E282F4AF350605962B580F0CAB0318B (void);
-// 0x00000B89 System.Boolean easyar.FrameSource::IsValidCamera(UnityEngine.Camera)
+// 0x00000B8B System.Boolean easyar.FrameSource::IsValidCamera(UnityEngine.Camera)
 extern void FrameSource_IsValidCamera_mCF68B1F0FA0B0ED565D047CE025C660AA9F57981 (void);
-// 0x00000B8A System.Void easyar.FrameSource::.ctor()
+// 0x00000B8C System.Void easyar.FrameSource::.ctor()
 extern void FrameSource__ctor_mF2C3C0EA283D25EE25EC48941CA63A5F8944D3F1 (void);
-// 0x00000B8B System.Void easyar.FrameSource::.cctor()
+// 0x00000B8D System.Void easyar.FrameSource::.cctor()
 extern void FrameSource__cctor_m15F522F750BD45059D70111B2F78013AB5967B78 (void);
-// 0x00000B8C System.Void easyar.RenderCameraController::OnEnable()
+// 0x00000B8E System.Void easyar.RenderCameraController::OnEnable()
 extern void RenderCameraController_OnEnable_mF5A417E283A29A5BF6602650F39BF1EB1D110D39 (void);
-// 0x00000B8D System.Void easyar.RenderCameraController::OnDisable()
+// 0x00000B8F System.Void easyar.RenderCameraController::OnDisable()
 extern void RenderCameraController_OnDisable_mA377ED37EF2E1FAF7E1F1061A7574B744A13B46B (void);
-// 0x00000B8E System.Void easyar.RenderCameraController::OnDestroy()
+// 0x00000B90 System.Void easyar.RenderCameraController::OnDestroy()
 extern void RenderCameraController_OnDestroy_mBE878FFB3CD2775755EB87388E216479B64A7A7C (void);
-// 0x00000B8F System.Void easyar.RenderCameraController::OnAssemble(easyar.ARSession)
+// 0x00000B91 System.Void easyar.RenderCameraController::OnAssemble(easyar.ARSession)
 extern void RenderCameraController_OnAssemble_m67698AC3C9B8ABA6D6EAADF72C47D15721B11D81 (void);
-// 0x00000B90 System.Void easyar.RenderCameraController::SetProjectHFlip(System.Boolean)
+// 0x00000B92 System.Void easyar.RenderCameraController::SetProjectHFlip(System.Boolean)
 extern void RenderCameraController_SetProjectHFlip_mB5075F4A143546CB7AB8A9B5F77E9F07B93A172D (void);
-// 0x00000B91 System.Void easyar.RenderCameraController::SetRenderImageHFilp(System.Boolean)
+// 0x00000B93 System.Void easyar.RenderCameraController::SetRenderImageHFilp(System.Boolean)
 extern void RenderCameraController_SetRenderImageHFilp_m2F0558420FE15A7C340789CD047EC847C4B48D7B (void);
-// 0x00000B92 System.Void easyar.RenderCameraController::OnFrameChange(easyar.OutputFrame,UnityEngine.Quaternion)
+// 0x00000B94 System.Void easyar.RenderCameraController::OnFrameChange(easyar.OutputFrame,UnityEngine.Quaternion)
 extern void RenderCameraController_OnFrameChange_m4C9B9B9A6D7CDAEECABB7677BF2ED4CB641189A8 (void);
-// 0x00000B93 System.Void easyar.RenderCameraController::OnFrameUpdate(easyar.OutputFrame)
+// 0x00000B95 System.Void easyar.RenderCameraController::OnFrameUpdate(easyar.OutputFrame)
 extern void RenderCameraController_OnFrameUpdate_mC0D61175A5FB26EEC9827E1F2AC3FAC5DB1CD3D5 (void);
-// 0x00000B94 System.Void easyar.RenderCameraController::.ctor()
+// 0x00000B96 System.Void easyar.RenderCameraController::.ctor()
 extern void RenderCameraController__ctor_m681B5935656EC5DB9BD86ECED9A514EDC1688E39 (void);
-// 0x00000B95 System.Void easyar.TargetController::add_TargetFound(System.Action)
+// 0x00000B97 System.Void easyar.TargetController::add_TargetFound(System.Action)
 extern void TargetController_add_TargetFound_mD4B9C4D3662E282B491F617E22AA14D3775AB57B (void);
-// 0x00000B96 System.Void easyar.TargetController::remove_TargetFound(System.Action)
+// 0x00000B98 System.Void easyar.TargetController::remove_TargetFound(System.Action)
 extern void TargetController_remove_TargetFound_mD5395D7D698DE8C0AFE8B4DDAF9889F087279AD6 (void);
-// 0x00000B97 System.Void easyar.TargetController::add_TargetLost(System.Action)
+// 0x00000B99 System.Void easyar.TargetController::add_TargetLost(System.Action)
 extern void TargetController_add_TargetLost_mB6790A7172B5C303E3143155672D27F4BF6E4ECC (void);
-// 0x00000B98 System.Void easyar.TargetController::remove_TargetLost(System.Action)
+// 0x00000B9A System.Void easyar.TargetController::remove_TargetLost(System.Action)
 extern void TargetController_remove_TargetLost_mB2952BDE30C3EF2FFBCD61610F6BCB4009338D19 (void);
-// 0x00000B99 System.Boolean easyar.TargetController::get_IsTracked()
+// 0x00000B9B System.Boolean easyar.TargetController::get_IsTracked()
 extern void TargetController_get_IsTracked_m5D4CFC7F83447DDB475C2593BF1A1E32D412B775 (void);
-// 0x00000B9A System.Void easyar.TargetController::set_IsTracked(System.Boolean)
+// 0x00000B9C System.Void easyar.TargetController::set_IsTracked(System.Boolean)
 extern void TargetController_set_IsTracked_m2CE4B37E2DCFDA583D608EE42E7CD482B445B2EB (void);
-// 0x00000B9B System.Boolean easyar.TargetController::get_IsLoaded()
+// 0x00000B9D System.Boolean easyar.TargetController::get_IsLoaded()
 extern void TargetController_get_IsLoaded_m664FA600C560DDD419101466B8A4F3F61062A5FA (void);
-// 0x00000B9C System.Void easyar.TargetController::set_IsLoaded(System.Boolean)
+// 0x00000B9E System.Void easyar.TargetController::set_IsLoaded(System.Boolean)
 extern void TargetController_set_IsLoaded_mC04541B10A598C71AC8341C94B97C419089F00F1 (void);
-// 0x00000B9D System.Void easyar.TargetController::Start()
+// 0x00000B9F System.Void easyar.TargetController::Start()
 extern void TargetController_Start_m6884CD51BDC42ADD477A0073A0F603D1E391007F (void);
-// 0x00000B9E System.Void easyar.TargetController::OnTracking(System.Boolean)
+// 0x00000BA0 System.Void easyar.TargetController::OnTracking(System.Boolean)
 extern void TargetController_OnTracking_m7D2AC6C286576BF1C4EBA84B0C1D484E6C096CE2 (void);
-// 0x00000B9F System.Void easyar.TargetController::OnTracking()
-// 0x00000BA0 System.Void easyar.TargetController::.ctor()
+// 0x00000BA1 System.Void easyar.TargetController::OnTracking()
+// 0x00000BA2 System.Void easyar.TargetController::.ctor()
 extern void TargetController__ctor_mDD9C4ABEA7BA2296F0538270A52EDECE78395AAC (void);
-// 0x00000BA1 System.Void easyar.WorldRootController::add_TrackingStatusChanged(System.Action`1<easyar.MotionTrackingStatus>)
+// 0x00000BA3 System.Void easyar.WorldRootController::add_TrackingStatusChanged(System.Action`1<easyar.MotionTrackingStatus>)
 extern void WorldRootController_add_TrackingStatusChanged_m718197BD1093B5C9C2923D23F7E4DD480F5AD832 (void);
-// 0x00000BA2 System.Void easyar.WorldRootController::remove_TrackingStatusChanged(System.Action`1<easyar.MotionTrackingStatus>)
+// 0x00000BA4 System.Void easyar.WorldRootController::remove_TrackingStatusChanged(System.Action`1<easyar.MotionTrackingStatus>)
 extern void WorldRootController_remove_TrackingStatusChanged_mADB6FC26DA6FCFD87B66FBAD9814C3FA370A4417 (void);
-// 0x00000BA3 easyar.MotionTrackingStatus easyar.WorldRootController::get_TrackingStatus()
+// 0x00000BA5 easyar.MotionTrackingStatus easyar.WorldRootController::get_TrackingStatus()
 extern void WorldRootController_get_TrackingStatus_m243CCD944CB60980C159C482411724E39A787945 (void);
-// 0x00000BA4 System.Void easyar.WorldRootController::set_TrackingStatus(easyar.MotionTrackingStatus)
+// 0x00000BA6 System.Void easyar.WorldRootController::set_TrackingStatus(easyar.MotionTrackingStatus)
 extern void WorldRootController_set_TrackingStatus_mB92BD9325C2E5891699476E29D28E44A5349224E (void);
-// 0x00000BA5 System.Void easyar.WorldRootController::Start()
+// 0x00000BA7 System.Void easyar.WorldRootController::Start()
 extern void WorldRootController_Start_m338A99D7CF5960BB34C169D2A780E60E540586C5 (void);
-// 0x00000BA6 System.Void easyar.WorldRootController::OnTracking(easyar.MotionTrackingStatus)
+// 0x00000BA8 System.Void easyar.WorldRootController::OnTracking(easyar.MotionTrackingStatus)
 extern void WorldRootController_OnTracking_m06EE5F55F9C297537C89103B18F5C5891B1A3FA0 (void);
-// 0x00000BA7 System.Void easyar.WorldRootController::.ctor()
+// 0x00000BA9 System.Void easyar.WorldRootController::.ctor()
 extern void WorldRootController__ctor_m7FD3627D85E9CBE14CF7050B0716801D07AF782E (void);
-// 0x00000BA8 easyar.BlockInfo easyar.DenseSpatialMapBlockController::get_Info()
+// 0x00000BAA easyar.BlockInfo easyar.DenseSpatialMapBlockController::get_Info()
 extern void DenseSpatialMapBlockController_get_Info_m7278DD9DD8F053DBFE2E8627CC2623EBA85017A4 (void);
-// 0x00000BA9 System.Void easyar.DenseSpatialMapBlockController::set_Info(easyar.BlockInfo)
+// 0x00000BAB System.Void easyar.DenseSpatialMapBlockController::set_Info(easyar.BlockInfo)
 extern void DenseSpatialMapBlockController_set_Info_m57732C5399BFAE762E1D0AF0E1455C0F6C61A1D4 (void);
-// 0x00000BAA System.Void easyar.DenseSpatialMapBlockController::Awake()
+// 0x00000BAC System.Void easyar.DenseSpatialMapBlockController::Awake()
 extern void DenseSpatialMapBlockController_Awake_m67C128FCA97A65A6AF17BEDDEFD0D2660AF2E608 (void);
-// 0x00000BAB System.Void easyar.DenseSpatialMapBlockController::OnDestroy()
+// 0x00000BAD System.Void easyar.DenseSpatialMapBlockController::OnDestroy()
 extern void DenseSpatialMapBlockController_OnDestroy_m878F28B12C7A64024DAF0B49EECD332F45CE1172 (void);
-// 0x00000BAC System.Void easyar.DenseSpatialMapBlockController::UpdateData(easyar.BlockInfo,easyar.SceneMesh)
+// 0x00000BAE System.Void easyar.DenseSpatialMapBlockController::UpdateData(easyar.BlockInfo,easyar.SceneMesh)
 extern void DenseSpatialMapBlockController_UpdateData_m6526C2C26825A9C993B697449E655DA899723A1E (void);
-// 0x00000BAD System.Void easyar.DenseSpatialMapBlockController::UpdateMesh()
+// 0x00000BAF System.Void easyar.DenseSpatialMapBlockController::UpdateMesh()
 extern void DenseSpatialMapBlockController_UpdateMesh_m5604B7BAD9C8976D3EC784C770D47C774FBFB9D0 (void);
-// 0x00000BAE System.Void easyar.DenseSpatialMapBlockController::CopyMeshData(easyar.SceneMesh)
+// 0x00000BB0 System.Void easyar.DenseSpatialMapBlockController::CopyMeshData(easyar.SceneMesh)
 extern void DenseSpatialMapBlockController_CopyMeshData_mD26F39706665B87D4E39B9442DF9C3F20F21980E (void);
-// 0x00000BAF System.Void easyar.DenseSpatialMapBlockController::.ctor()
+// 0x00000BB1 System.Void easyar.DenseSpatialMapBlockController::.ctor()
 extern void DenseSpatialMapBlockController__ctor_m52568E475C979BB3F47EF8295FBF536D49E10A02 (void);
-// 0x00000BB0 easyar.DenseSpatialMap easyar.DenseSpatialMapBuilderFrameFilter::get_Builder()
+// 0x00000BB2 easyar.DenseSpatialMap easyar.DenseSpatialMapBuilderFrameFilter::get_Builder()
 extern void DenseSpatialMapBuilderFrameFilter_get_Builder_mC96240A903F87859C4E27D0D20A84F7FFA6D0593 (void);
-// 0x00000BB1 System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_Builder(easyar.DenseSpatialMap)
+// 0x00000BB3 System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_Builder(easyar.DenseSpatialMap)
 extern void DenseSpatialMapBuilderFrameFilter_set_Builder_mEE6041945DC6D1522B163C7E2199F04C50CB2B8C (void);
-// 0x00000BB2 System.Void easyar.DenseSpatialMapBuilderFrameFilter::add_MapCreate(System.Action`1<easyar.DenseSpatialMapBlockController>)
+// 0x00000BB4 System.Void easyar.DenseSpatialMapBuilderFrameFilter::add_MapCreate(System.Action`1<easyar.DenseSpatialMapBlockController>)
 extern void DenseSpatialMapBuilderFrameFilter_add_MapCreate_mC25619374F8BDD9ADADE568E82CD714F222CD733 (void);
-// 0x00000BB3 System.Void easyar.DenseSpatialMapBuilderFrameFilter::remove_MapCreate(System.Action`1<easyar.DenseSpatialMapBlockController>)
+// 0x00000BB5 System.Void easyar.DenseSpatialMapBuilderFrameFilter::remove_MapCreate(System.Action`1<easyar.DenseSpatialMapBlockController>)
 extern void DenseSpatialMapBuilderFrameFilter_remove_MapCreate_mC50280A24207A5F2BDBF987969651B9E76CDEFD3 (void);
-// 0x00000BB4 System.Void easyar.DenseSpatialMapBuilderFrameFilter::add_MapUpdate(System.Action`1<System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController>>)
+// 0x00000BB6 System.Void easyar.DenseSpatialMapBuilderFrameFilter::add_MapUpdate(System.Action`1<System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController>>)
 extern void DenseSpatialMapBuilderFrameFilter_add_MapUpdate_m5C45C0C9FD33CDCFF2AA4541FA0A5001D72D7E72 (void);
-// 0x00000BB5 System.Void easyar.DenseSpatialMapBuilderFrameFilter::remove_MapUpdate(System.Action`1<System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController>>)
+// 0x00000BB7 System.Void easyar.DenseSpatialMapBuilderFrameFilter::remove_MapUpdate(System.Action`1<System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController>>)
 extern void DenseSpatialMapBuilderFrameFilter_remove_MapUpdate_m365F1929D7B83DED95808CDA0010BB8F1A33F644 (void);
-// 0x00000BB6 System.Int32 easyar.DenseSpatialMapBuilderFrameFilter::get_BufferRequirement()
+// 0x00000BB8 System.Int32 easyar.DenseSpatialMapBuilderFrameFilter::get_BufferRequirement()
 extern void DenseSpatialMapBuilderFrameFilter_get_BufferRequirement_mF2C7D1A0B5C5F4C5F38276264B739C11DFF8ECA1 (void);
-// 0x00000BB7 System.Boolean easyar.DenseSpatialMapBuilderFrameFilter::get_RenderMesh()
+// 0x00000BB9 System.Boolean easyar.DenseSpatialMapBuilderFrameFilter::get_RenderMesh()
 extern void DenseSpatialMapBuilderFrameFilter_get_RenderMesh_mE59A90DB44443079D62EE4851DA2A4A63C567DB3 (void);
-// 0x00000BB8 System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_RenderMesh(System.Boolean)
+// 0x00000BBA System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_RenderMesh(System.Boolean)
 extern void DenseSpatialMapBuilderFrameFilter_set_RenderMesh_mA6848D296CEB7490CEC5346D533F69484DF279D2 (void);
-// 0x00000BB9 UnityEngine.Color easyar.DenseSpatialMapBuilderFrameFilter::get_MeshColor()
+// 0x00000BBB UnityEngine.Color easyar.DenseSpatialMapBuilderFrameFilter::get_MeshColor()
 extern void DenseSpatialMapBuilderFrameFilter_get_MeshColor_m258BC88ECD44787198459AA862E89FC8C349FE40 (void);
-// 0x00000BBA System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_MeshColor(UnityEngine.Color)
+// 0x00000BBC System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_MeshColor(UnityEngine.Color)
 extern void DenseSpatialMapBuilderFrameFilter_set_MeshColor_mC8AE837D8778E40C6C4238EA0881D453849A0C7D (void);
-// 0x00000BBB System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController> easyar.DenseSpatialMapBuilderFrameFilter::get_MeshBlocks()
+// 0x00000BBD System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController> easyar.DenseSpatialMapBuilderFrameFilter::get_MeshBlocks()
 extern void DenseSpatialMapBuilderFrameFilter_get_MeshBlocks_m65A1E2703288994551F68427EB3178F5AC2E27A4 (void);
-// 0x00000BBC System.Void easyar.DenseSpatialMapBuilderFrameFilter::Awake()
+// 0x00000BBE System.Void easyar.DenseSpatialMapBuilderFrameFilter::Awake()
 extern void DenseSpatialMapBuilderFrameFilter_Awake_m814B0F1EF5C6D042BF6B55175229C85D92DEFE55 (void);
-// 0x00000BBD System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnEnable()
+// 0x00000BBF System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnEnable()
 extern void DenseSpatialMapBuilderFrameFilter_OnEnable_m9E59A600FEEFEF0D5232057A4EB0DD88B16E5209 (void);
-// 0x00000BBE System.Void easyar.DenseSpatialMapBuilderFrameFilter::Update()
+// 0x00000BC0 System.Void easyar.DenseSpatialMapBuilderFrameFilter::Update()
 extern void DenseSpatialMapBuilderFrameFilter_Update_m187A7BEF684BB3C320BAD257D2CAC4BA95BD4750 (void);
-// 0x00000BBF System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnDisable()
+// 0x00000BC1 System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnDisable()
 extern void DenseSpatialMapBuilderFrameFilter_OnDisable_m73005452F2A37AC4BB55C8EC840EF77FDE4495C2 (void);
-// 0x00000BC0 System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnDestroy()
+// 0x00000BC2 System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnDestroy()
 extern void DenseSpatialMapBuilderFrameFilter_OnDestroy_m89F46707352B5CA1CC4D86708489DC9FEE8B368F (void);
-// 0x00000BC1 easyar.InputFrameSink easyar.DenseSpatialMapBuilderFrameFilter::InputFrameSink()
+// 0x00000BC3 easyar.InputFrameSink easyar.DenseSpatialMapBuilderFrameFilter::InputFrameSink()
 extern void DenseSpatialMapBuilderFrameFilter_InputFrameSink_mCC8E09F677819229D860D2A7234A9BAC8AD8FF3A (void);
-// 0x00000BC2 System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnAssemble(easyar.ARSession)
+// 0x00000BC4 System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnAssemble(easyar.ARSession)
 extern void DenseSpatialMapBuilderFrameFilter_OnAssemble_mEB66833791E8F4CB7309E528C96D818BB5C03BD2 (void);
-// 0x00000BC3 System.Void easyar.DenseSpatialMapBuilderFrameFilter::.ctor()
+// 0x00000BC5 System.Void easyar.DenseSpatialMapBuilderFrameFilter::.ctor()
 extern void DenseSpatialMapBuilderFrameFilter__ctor_mFB894AB92F64157F855D7565E72A187C33F75817 (void);
-// 0x00000BC4 UnityEngine.Camera easyar.DenseSpatialMapDepthRenderer::get_RenderDepthCamera()
+// 0x00000BC6 UnityEngine.Camera easyar.DenseSpatialMapDepthRenderer::get_RenderDepthCamera()
 extern void DenseSpatialMapDepthRenderer_get_RenderDepthCamera_m3432D9FF7C2B2D746AEA34158C122AFA73E7A9EB (void);
-// 0x00000BC5 System.Void easyar.DenseSpatialMapDepthRenderer::set_RenderDepthCamera(UnityEngine.Camera)
+// 0x00000BC7 System.Void easyar.DenseSpatialMapDepthRenderer::set_RenderDepthCamera(UnityEngine.Camera)
 extern void DenseSpatialMapDepthRenderer_set_RenderDepthCamera_m92362CDCAAA748630A17FE14FD8F9258A920ACAF (void);
-// 0x00000BC6 UnityEngine.Material easyar.DenseSpatialMapDepthRenderer::get_MapMeshMaterial()
+// 0x00000BC8 UnityEngine.Material easyar.DenseSpatialMapDepthRenderer::get_MapMeshMaterial()
 extern void DenseSpatialMapDepthRenderer_get_MapMeshMaterial_m155E770B10D2424EBB161F5F799751BAA5BF7818 (void);
-// 0x00000BC7 System.Void easyar.DenseSpatialMapDepthRenderer::set_MapMeshMaterial(UnityEngine.Material)
+// 0x00000BC9 System.Void easyar.DenseSpatialMapDepthRenderer::set_MapMeshMaterial(UnityEngine.Material)
 extern void DenseSpatialMapDepthRenderer_set_MapMeshMaterial_m3DBDAD505937806292A39670316850BA6A8D0931 (void);
-// 0x00000BC8 System.Void easyar.DenseSpatialMapDepthRenderer::OnEnable()
+// 0x00000BCA System.Void easyar.DenseSpatialMapDepthRenderer::OnEnable()
 extern void DenseSpatialMapDepthRenderer_OnEnable_mB5F9EE52496DE82DD7940BF3DF4FFD4CB269823A (void);
-// 0x00000BC9 System.Void easyar.DenseSpatialMapDepthRenderer::OnDisable()
+// 0x00000BCB System.Void easyar.DenseSpatialMapDepthRenderer::OnDisable()
 extern void DenseSpatialMapDepthRenderer_OnDisable_m022BF4696AD6D4534F221AE9C60A8480E3ED4CCC (void);
-// 0x00000BCA System.Void easyar.DenseSpatialMapDepthRenderer::OnBeforeRender()
+// 0x00000BCC System.Void easyar.DenseSpatialMapDepthRenderer::OnBeforeRender()
 extern void DenseSpatialMapDepthRenderer_OnBeforeRender_m8F276F4E6561F90AF2390296DD509ACEAF76382C (void);
-// 0x00000BCB System.Void easyar.DenseSpatialMapDepthRenderer::OnDestroy()
+// 0x00000BCD System.Void easyar.DenseSpatialMapDepthRenderer::OnDestroy()
 extern void DenseSpatialMapDepthRenderer_OnDestroy_m390A0DAF3E9673290E1BFDF166F6A9886396D2B6 (void);
-// 0x00000BCC System.Void easyar.DenseSpatialMapDepthRenderer::.ctor()
+// 0x00000BCE System.Void easyar.DenseSpatialMapDepthRenderer::.ctor()
 extern void DenseSpatialMapDepthRenderer__ctor_mEDAE8910C9E48CE9CD36A1E557423C373B0D9D56 (void);
-// 0x00000BCD easyar.MegaTracker easyar.MegaTrackerFrameFilter::get_Tracker()
+// 0x00000BCF easyar.MegaTracker easyar.MegaTrackerFrameFilter::get_Tracker()
 extern void MegaTrackerFrameFilter_get_Tracker_m4EC2C5F60A06E02131CED93B5B9FE952CF339DDD (void);
-// 0x00000BCE System.Void easyar.MegaTrackerFrameFilter::set_Tracker(easyar.MegaTracker)
+// 0x00000BD0 System.Void easyar.MegaTrackerFrameFilter::set_Tracker(easyar.MegaTracker)
 extern void MegaTrackerFrameFilter_set_Tracker_mAAC971AB8E04EEAF965BAFE97DFA462DF319C83C (void);
-// 0x00000BCF easyar.Accelerometer easyar.MegaTrackerFrameFilter::get_Accelerometer()
+// 0x00000BD1 easyar.Accelerometer easyar.MegaTrackerFrameFilter::get_Accelerometer()
 extern void MegaTrackerFrameFilter_get_Accelerometer_m6B317B682FA19C24D4E4F0830C7A30F7719DA477 (void);
-// 0x00000BD0 System.Void easyar.MegaTrackerFrameFilter::set_Accelerometer(easyar.Accelerometer)
+// 0x00000BD2 System.Void easyar.MegaTrackerFrameFilter::set_Accelerometer(easyar.Accelerometer)
 extern void MegaTrackerFrameFilter_set_Accelerometer_m4F7846E8DBEAFC6A33E6E6B7038FBC4926D73BC4 (void);
-// 0x00000BD1 System.Int32 easyar.MegaTrackerFrameFilter::get_BufferRequirement()
+// 0x00000BD3 System.Int32 easyar.MegaTrackerFrameFilter::get_BufferRequirement()
 extern void MegaTrackerFrameFilter_get_BufferRequirement_mD9AA0EFF32646CCEBFC374184767380539C3EC59 (void);
-// 0x00000BD2 easyar.MegaTrackerFrameFilter/TimeParameters easyar.MegaTrackerFrameFilter::get_RequestTimeParameters()
+// 0x00000BD4 easyar.MegaTrackerFrameFilter/TimeParameters easyar.MegaTrackerFrameFilter::get_RequestTimeParameters()
 extern void MegaTrackerFrameFilter_get_RequestTimeParameters_mAD80E565E46E1BF4A80406EC595F210482BC8A81 (void);
-// 0x00000BD3 System.Void easyar.MegaTrackerFrameFilter::set_RequestTimeParameters(easyar.MegaTrackerFrameFilter/TimeParameters)
+// 0x00000BD5 System.Void easyar.MegaTrackerFrameFilter::set_RequestTimeParameters(easyar.MegaTrackerFrameFilter/TimeParameters)
 extern void MegaTrackerFrameFilter_set_RequestTimeParameters_m4101AE823C68B495F46B8168D79A3746B672899D (void);
-// 0x00000BD4 easyar.MegaTrackerFrameFilter/ResultPoseTypeParameters easyar.MegaTrackerFrameFilter::get_ResultPoseType()
+// 0x00000BD6 easyar.MegaTrackerFrameFilter/ResultPoseTypeParameters easyar.MegaTrackerFrameFilter::get_ResultPoseType()
 extern void MegaTrackerFrameFilter_get_ResultPoseType_m441A3F3D844AA1DE8BA5861038514FEEE052B8D8 (void);
-// 0x00000BD5 System.Void easyar.MegaTrackerFrameFilter::set_ResultPoseType(easyar.MegaTrackerFrameFilter/ResultPoseTypeParameters)
+// 0x00000BD7 System.Void easyar.MegaTrackerFrameFilter::set_ResultPoseType(easyar.MegaTrackerFrameFilter/ResultPoseTypeParameters)
 extern void MegaTrackerFrameFilter_set_ResultPoseType_m7106828294C0F6353200D34C86E9A3ADAFA9E874 (void);
-// 0x00000BD6 easyar.Optional`1<easyar.ProximityLocationResult> easyar.MegaTrackerFrameFilter::get_ProximityLocation()
+// 0x00000BD8 easyar.Optional`1<easyar.ProximityLocationResult> easyar.MegaTrackerFrameFilter::get_ProximityLocation()
 extern void MegaTrackerFrameFilter_get_ProximityLocation_mE341C7414E09D61200B9949908C72A59E4A10F24 (void);
-// 0x00000BD7 System.Void easyar.MegaTrackerFrameFilter::set_ProximityLocation(easyar.Optional`1<easyar.ProximityLocationResult>)
+// 0x00000BD9 System.Void easyar.MegaTrackerFrameFilter::set_ProximityLocation(easyar.Optional`1<easyar.ProximityLocationResult>)
 extern void MegaTrackerFrameFilter_set_ProximityLocation_m11300C1AF595946A30155DE3D817261E738D7811 (void);
-// 0x00000BD8 System.String easyar.MegaTrackerFrameFilter::get_RequestMessage()
+// 0x00000BDA System.String easyar.MegaTrackerFrameFilter::get_RequestMessage()
 extern void MegaTrackerFrameFilter_get_RequestMessage_m9A242B58D23D59F50266F8E108865E1AF11F4DE7 (void);
-// 0x00000BD9 System.Void easyar.MegaTrackerFrameFilter::set_RequestMessage(System.String)
+// 0x00000BDB System.Void easyar.MegaTrackerFrameFilter::set_RequestMessage(System.String)
 extern void MegaTrackerFrameFilter_set_RequestMessage_m7C654AEC52888F033BC78974EB702ED7A0DEADC5 (void);
-// 0x00000BDA System.Void easyar.MegaTrackerFrameFilter::Awake()
+// 0x00000BDC System.Void easyar.MegaTrackerFrameFilter::Awake()
 extern void MegaTrackerFrameFilter_Awake_m8586A1C9547E69777843AABB4CD452170DD87371 (void);
-// 0x00000BDB easyar.InputFrameSink easyar.MegaTrackerFrameFilter::InputFrameSink()
+// 0x00000BDD easyar.InputFrameSink easyar.MegaTrackerFrameFilter::InputFrameSink()
 extern void MegaTrackerFrameFilter_InputFrameSink_mA11A196E88C9C1E74E1587954DE6DD00D785445F (void);
-// 0x00000BDC easyar.OutputFrameSource easyar.MegaTrackerFrameFilter::OutputFrameSource()
+// 0x00000BDE easyar.OutputFrameSource easyar.MegaTrackerFrameFilter::OutputFrameSource()
 extern void MegaTrackerFrameFilter_OutputFrameSource_mAEA1060FC72131B4667A03BDB0978A3B3170C645 (void);
-// 0x00000BDD System.Void easyar.MegaTrackerFrameFilter::OnAssemble(easyar.ARSession)
+// 0x00000BDF System.Void easyar.MegaTrackerFrameFilter::OnAssemble(easyar.ARSession)
 extern void MegaTrackerFrameFilter_OnAssemble_m7A86163085467B48A3B26D73E82582797747FCBF (void);
-// 0x00000BDE System.Void easyar.MegaTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000BE0 System.Void easyar.MegaTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
 extern void MegaTrackerFrameFilter_OnResult_m21D977EBD3234F47C1E52EB61E7537FD22C38503 (void);
-// 0x00000BDF System.Void easyar.MegaTrackerFrameFilter::ResetTracker()
+// 0x00000BE1 System.Void easyar.MegaTrackerFrameFilter::ResetTracker()
 extern void MegaTrackerFrameFilter_ResetTracker_mCC2A2ACDDA8C4C15EF61BC9E41FCF848BC57A2A2 (void);
-// 0x00000BE0 System.Void easyar.MegaTrackerFrameFilter::HandleProximityLocation(easyar.ProximityLocationResult)
+// 0x00000BE2 System.Void easyar.MegaTrackerFrameFilter::HandleProximityLocation(easyar.ProximityLocationResult)
 extern void MegaTrackerFrameFilter_HandleProximityLocation_m7D1D2F71E38D89CC522691BB2378EAF5E8F407A5 (void);
-// 0x00000BE1 System.Collections.IEnumerator easyar.MegaTrackerFrameFilter::GetFrameSourceType()
+// 0x00000BE3 System.Collections.IEnumerator easyar.MegaTrackerFrameFilter::GetFrameSourceType()
 extern void MegaTrackerFrameFilter_GetFrameSourceType_mAA2A3BAE52ADC84D668A2E616FA7CF53A8A2128C (void);
-// 0x00000BE2 System.Void easyar.MegaTrackerFrameFilter::NotifyEmptyConfig(easyar.MegaTrackerFrameFilter/MegaLocalizationServiceConfig)
+// 0x00000BE4 System.Void easyar.MegaTrackerFrameFilter::NotifyEmptyConfig(easyar.MegaTrackerFrameFilter/MegaLocalizationServiceConfig)
 extern void MegaTrackerFrameFilter_NotifyEmptyConfig_mE3CEF4BDB81CC47370F3DC8ABA48520204443DD2 (void);
-// 0x00000BE3 System.Void easyar.MegaTrackerFrameFilter::.ctor()
+// 0x00000BE5 System.Void easyar.MegaTrackerFrameFilter::.ctor()
 extern void MegaTrackerFrameFilter__ctor_m0E8F6D8D578734D9FF87F7B50E85B9C0A1F62FA2 (void);
-// 0x00000BE4 System.Void easyar.MegaTrackerFrameFilter/MegaLocalizationServiceConfig::.ctor()
+// 0x00000BE6 System.Void easyar.MegaTrackerFrameFilter/MegaLocalizationServiceConfig::.ctor()
 extern void MegaLocalizationServiceConfig__ctor_m765A87783E867F035E70E128A92C8677486DD5D0 (void);
-// 0x00000BE5 System.Void easyar.MegaTrackerFrameFilter/TimeParameters::.ctor()
+// 0x00000BE7 System.Void easyar.MegaTrackerFrameFilter/TimeParameters::.ctor()
 extern void TimeParameters__ctor_mC1AA40D15BD156182DADFE16F82FD18FF9B8E4A4 (void);
-// 0x00000BE6 System.Void easyar.MegaTrackerFrameFilter/ResultPoseTypeParameters::.ctor()
+// 0x00000BE8 System.Void easyar.MegaTrackerFrameFilter/ResultPoseTypeParameters::.ctor()
 extern void ResultPoseTypeParameters__ctor_mA7BD2DF7846554EC76F70974F5C3FBC64BB6CDCE (void);
-// 0x00000BE7 System.Void easyar.MegaTrackerFrameFilter/LocalizationResponse::.ctor()
+// 0x00000BE9 System.Void easyar.MegaTrackerFrameFilter/LocalizationResponse::.ctor()
 extern void LocalizationResponse__ctor_m388264550BBE839D7DB7FE4FEC5A11232660BBF8 (void);
-// 0x00000BE8 System.Void easyar.MegaTrackerFrameFilter/FallbackOptions::.ctor()
+// 0x00000BEA System.Void easyar.MegaTrackerFrameFilter/FallbackOptions::.ctor()
 extern void FallbackOptions__ctor_mCB7957076708C7BC603DF1C1B8B7E9D7F9CA0EB3 (void);
-// 0x00000BE9 System.Void easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::.ctor(System.Int32)
+// 0x00000BEB System.Void easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::.ctor(System.Int32)
 extern void U3CGetFrameSourceTypeU3Ed__42__ctor_m529AB5C5D59C8601837776EAB8DF4A0DB3E3AA67 (void);
-// 0x00000BEA System.Void easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.IDisposable.Dispose()
+// 0x00000BEC System.Void easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.IDisposable.Dispose()
 extern void U3CGetFrameSourceTypeU3Ed__42_System_IDisposable_Dispose_mC932981BA082593D6D86D6C5407106B47A970C00 (void);
-// 0x00000BEB System.Boolean easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::MoveNext()
+// 0x00000BED System.Boolean easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::MoveNext()
 extern void U3CGetFrameSourceTypeU3Ed__42_MoveNext_m69DCFF1C0533E4AA38FAF02CF2083CEBC97E8984 (void);
-// 0x00000BEC System.Object easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000BEE System.Object easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CGetFrameSourceTypeU3Ed__42_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5C186DDD1CB99398858E97BE766528C8A563FAA9 (void);
-// 0x00000BED System.Void easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.Collections.IEnumerator.Reset()
+// 0x00000BEF System.Void easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.Collections.IEnumerator.Reset()
 extern void U3CGetFrameSourceTypeU3Ed__42_System_Collections_IEnumerator_Reset_m20E116F713456C0D5DA525465F7450598EE9B89C (void);
-// 0x00000BEE System.Object easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.Collections.IEnumerator.get_Current()
+// 0x00000BF0 System.Object easyar.MegaTrackerFrameFilter/<GetFrameSourceType>d__42::System.Collections.IEnumerator.get_Current()
 extern void U3CGetFrameSourceTypeU3Ed__42_System_Collections_IEnumerator_get_Current_mAB4AE8A6BF122B64610900A7FC04A83608FB7C69 (void);
-// 0x00000BEF System.Void easyar.SparseSpatialMapActiveController::Start()
+// 0x00000BF1 System.Void easyar.SparseSpatialMapActiveController::Start()
 extern void SparseSpatialMapActiveController_Start_m17CB7A9E44DCAC263EBDFB44DE34EDDD33C0F27E (void);
-// 0x00000BF0 System.Void easyar.SparseSpatialMapActiveController::OnFound()
+// 0x00000BF2 System.Void easyar.SparseSpatialMapActiveController::OnFound()
 extern void SparseSpatialMapActiveController_OnFound_mD3F1067B4C46B7B332070E6B2EB1AE32A8752DA5 (void);
-// 0x00000BF1 System.Void easyar.SparseSpatialMapActiveController::.ctor()
+// 0x00000BF3 System.Void easyar.SparseSpatialMapActiveController::.ctor()
 extern void SparseSpatialMapActiveController__ctor_m968CB70E63C0227B4B34797D54D4A6B1DAA3810B (void);
-// 0x00000BF2 easyar.SparseSpatialMapController/SparseSpatialMapInfo easyar.SparseSpatialMapController::get_MapInfo()
+// 0x00000BF4 easyar.SparseSpatialMapController/SparseSpatialMapInfo easyar.SparseSpatialMapController::get_MapInfo()
 extern void SparseSpatialMapController_get_MapInfo_m12BE7B543F4E94CA1415534DBA64640E933B46FA (void);
-// 0x00000BF3 System.Void easyar.SparseSpatialMapController::set_MapInfo(easyar.SparseSpatialMapController/SparseSpatialMapInfo)
+// 0x00000BF5 System.Void easyar.SparseSpatialMapController::set_MapInfo(easyar.SparseSpatialMapController/SparseSpatialMapInfo)
 extern void SparseSpatialMapController_set_MapInfo_m53EA02CD343CA4822495D16DB6091AFB52FAB615 (void);
-// 0x00000BF4 System.Void easyar.SparseSpatialMapController::add_MapInfoAvailable(System.Action)
+// 0x00000BF6 System.Void easyar.SparseSpatialMapController::add_MapInfoAvailable(System.Action)
 extern void SparseSpatialMapController_add_MapInfoAvailable_m4DA391BAB852D8299684B3B0570E4919B02498CC (void);
-// 0x00000BF5 System.Void easyar.SparseSpatialMapController::remove_MapInfoAvailable(System.Action)
+// 0x00000BF7 System.Void easyar.SparseSpatialMapController::remove_MapInfoAvailable(System.Action)
 extern void SparseSpatialMapController_remove_MapInfoAvailable_m305DB8A58FDEFECDC54D548D69D69067E45A654D (void);
-// 0x00000BF6 System.Void easyar.SparseSpatialMapController::add_MapLocalized(System.Action)
+// 0x00000BF8 System.Void easyar.SparseSpatialMapController::add_MapLocalized(System.Action)
 extern void SparseSpatialMapController_add_MapLocalized_m9318C46989E352C77AF18A79CBCA2D0447528CDD (void);
-// 0x00000BF7 System.Void easyar.SparseSpatialMapController::remove_MapLocalized(System.Action)
+// 0x00000BF9 System.Void easyar.SparseSpatialMapController::remove_MapLocalized(System.Action)
 extern void SparseSpatialMapController_remove_MapLocalized_m5F5CBA12C0664F98807E1C85355B4313F999FB61 (void);
-// 0x00000BF8 System.Void easyar.SparseSpatialMapController::add_MapStopLocalize(System.Action)
+// 0x00000BFA System.Void easyar.SparseSpatialMapController::add_MapStopLocalize(System.Action)
 extern void SparseSpatialMapController_add_MapStopLocalize_m147D04B995ECAD68C5CB37481EDAFCB5189690DE (void);
-// 0x00000BF9 System.Void easyar.SparseSpatialMapController::remove_MapStopLocalize(System.Action)
+// 0x00000BFB System.Void easyar.SparseSpatialMapController::remove_MapStopLocalize(System.Action)
 extern void SparseSpatialMapController_remove_MapStopLocalize_m57102E64D4591F060A57FA1A9AD7E94344DB145F (void);
-// 0x00000BFA System.Void easyar.SparseSpatialMapController::add_MapLoad(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000BFC System.Void easyar.SparseSpatialMapController::add_MapLoad(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapController_add_MapLoad_m70FE53F79C3B9F08F182B0F768501AF09F932B62 (void);
-// 0x00000BFB System.Void easyar.SparseSpatialMapController::remove_MapLoad(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000BFD System.Void easyar.SparseSpatialMapController::remove_MapLoad(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapController_remove_MapLoad_mA238572B4A6BF3CA7CCA2BA4D63B6DFBD54FF7DD (void);
-// 0x00000BFC System.Void easyar.SparseSpatialMapController::add_MapUnload(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000BFE System.Void easyar.SparseSpatialMapController::add_MapUnload(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapController_add_MapUnload_m48D85FFBF2B3487474B143DD2359FFBB0D134D37 (void);
-// 0x00000BFD System.Void easyar.SparseSpatialMapController::remove_MapUnload(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000BFF System.Void easyar.SparseSpatialMapController::remove_MapUnload(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapController_remove_MapUnload_mFC90E04902BC0D63CD389BD7F79DCFC6D3C8B6E8 (void);
-// 0x00000BFE System.Void easyar.SparseSpatialMapController::add_MapHost(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C00 System.Void easyar.SparseSpatialMapController::add_MapHost(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapController_add_MapHost_mD5CF6935651E541C960C56F1263B1ECAA58913BE (void);
-// 0x00000BFF System.Void easyar.SparseSpatialMapController::remove_MapHost(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C01 System.Void easyar.SparseSpatialMapController::remove_MapHost(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapController_remove_MapHost_m436B3CE0FF5FFCA5DB463D17CDCC1C315B116CF2 (void);
-// 0x00000C00 easyar.SparseSpatialMapWorkerFrameFilter easyar.SparseSpatialMapController::get_MapWorker()
+// 0x00000C02 easyar.SparseSpatialMapWorkerFrameFilter easyar.SparseSpatialMapController::get_MapWorker()
 extern void SparseSpatialMapController_get_MapWorker_mC979D0EC95B4EE298E7D96D6BC484C29D4D69121 (void);
-// 0x00000C01 System.Void easyar.SparseSpatialMapController::set_MapWorker(easyar.SparseSpatialMapWorkerFrameFilter)
+// 0x00000C03 System.Void easyar.SparseSpatialMapController::set_MapWorker(easyar.SparseSpatialMapWorkerFrameFilter)
 extern void SparseSpatialMapController_set_MapWorker_m9DA2072453D035DC40E6830E0250D7269557C5D3 (void);
-// 0x00000C02 easyar.SparseSpatialMapController/ParticleParameter easyar.SparseSpatialMapController::get_PointCloudParticleParameter()
+// 0x00000C04 easyar.SparseSpatialMapController/ParticleParameter easyar.SparseSpatialMapController::get_PointCloudParticleParameter()
 extern void SparseSpatialMapController_get_PointCloudParticleParameter_mA7CBE56DA76344EBDB34499751E9A215ACEC1CDC (void);
-// 0x00000C03 System.Void easyar.SparseSpatialMapController::set_PointCloudParticleParameter(easyar.SparseSpatialMapController/ParticleParameter)
+// 0x00000C05 System.Void easyar.SparseSpatialMapController::set_PointCloudParticleParameter(easyar.SparseSpatialMapController/ParticleParameter)
 extern void SparseSpatialMapController_set_PointCloudParticleParameter_m170E033A6A7DA9236A404DB2F7CFB280361C3C53 (void);
-// 0x00000C04 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.SparseSpatialMapController::get_PointCloud()
+// 0x00000C06 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.SparseSpatialMapController::get_PointCloud()
 extern void SparseSpatialMapController_get_PointCloud_m0DC7A69DC293F62B25695EF2701A628653FD8A3D (void);
-// 0x00000C05 System.Void easyar.SparseSpatialMapController::set_PointCloud(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x00000C07 System.Void easyar.SparseSpatialMapController::set_PointCloud(System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void SparseSpatialMapController_set_PointCloud_m406A737D3C5C51390B9855C3C254342236904BD6 (void);
-// 0x00000C06 System.Boolean easyar.SparseSpatialMapController::get_ShowPointCloud()
+// 0x00000C08 System.Boolean easyar.SparseSpatialMapController::get_ShowPointCloud()
 extern void SparseSpatialMapController_get_ShowPointCloud_m937B55083182119C7C4741EB585CACB58694A02F (void);
-// 0x00000C07 System.Void easyar.SparseSpatialMapController::set_ShowPointCloud(System.Boolean)
+// 0x00000C09 System.Void easyar.SparseSpatialMapController::set_ShowPointCloud(System.Boolean)
 extern void SparseSpatialMapController_set_ShowPointCloud_mDFCD5BCCAB368683368861F63FF304918EC9432E (void);
-// 0x00000C08 System.Boolean easyar.SparseSpatialMapController::get_IsLocalizing()
+// 0x00000C0A System.Boolean easyar.SparseSpatialMapController::get_IsLocalizing()
 extern void SparseSpatialMapController_get_IsLocalizing_m1A18429FECD69065199E8775CA816E69F9D66E4E (void);
-// 0x00000C09 System.Void easyar.SparseSpatialMapController::set_IsLocalizing(System.Boolean)
+// 0x00000C0B System.Void easyar.SparseSpatialMapController::set_IsLocalizing(System.Boolean)
 extern void SparseSpatialMapController_set_IsLocalizing_mB7899EFB43DC0113535A9A5303FDD6A2F8A86116 (void);
-// 0x00000C0A System.Void easyar.SparseSpatialMapController::Awake()
+// 0x00000C0C System.Void easyar.SparseSpatialMapController::Awake()
 extern void SparseSpatialMapController_Awake_mF7842945B82E959B3FED909498C9A8BAC88AC55B (void);
-// 0x00000C0B System.Void easyar.SparseSpatialMapController::Start()
+// 0x00000C0D System.Void easyar.SparseSpatialMapController::Start()
 extern void SparseSpatialMapController_Start_m41A09AD40F5639B82AE0943891E4AF1C264DD57E (void);
-// 0x00000C0C System.Void easyar.SparseSpatialMapController::OnDestroy()
+// 0x00000C0E System.Void easyar.SparseSpatialMapController::OnDestroy()
 extern void SparseSpatialMapController_OnDestroy_mA8AC770CE8CEB8C948CFFFA3780318C60BF872AE (void);
-// 0x00000C0D System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.SparseSpatialMapController::HitTest(UnityEngine.Vector2)
+// 0x00000C0F System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.SparseSpatialMapController::HitTest(UnityEngine.Vector2)
 extern void SparseSpatialMapController_HitTest_mE7F5E6BFDD83142CA0DF8D37D0BF74A0C87A48E5 (void);
-// 0x00000C0E System.Void easyar.SparseSpatialMapController::Host(System.String,easyar.Optional`1<easyar.Image>)
+// 0x00000C10 System.Void easyar.SparseSpatialMapController::Host(System.String,easyar.Optional`1<easyar.Image>)
 extern void SparseSpatialMapController_Host_mA78374506F3153E547AE662CABEF0B63D3955B21 (void);
-// 0x00000C0F System.Void easyar.SparseSpatialMapController::OnLocalization(System.Boolean)
+// 0x00000C11 System.Void easyar.SparseSpatialMapController::OnLocalization(System.Boolean)
 extern void SparseSpatialMapController_OnLocalization_m45F0C0602FED5B40BCC0C0E73E85393F7CB2A90D (void);
-// 0x00000C10 System.Void easyar.SparseSpatialMapController::UpdatePointCloud(easyar.Buffer)
+// 0x00000C12 System.Void easyar.SparseSpatialMapController::UpdatePointCloud(easyar.Buffer)
 extern void SparseSpatialMapController_UpdatePointCloud_mDD8E48585AC7C19DD2DBC0D52F8ABBDC2A2F7B59 (void);
-// 0x00000C11 System.Void easyar.SparseSpatialMapController::UpdatePointCloud()
+// 0x00000C13 System.Void easyar.SparseSpatialMapController::UpdatePointCloud()
 extern void SparseSpatialMapController_UpdatePointCloud_m8208E6DED79A610F111332F066706983C71BD01A (void);
-// 0x00000C12 System.Void easyar.SparseSpatialMapController::LoadMapBuilderInfo()
+// 0x00000C14 System.Void easyar.SparseSpatialMapController::LoadMapBuilderInfo()
 extern void SparseSpatialMapController_LoadMapBuilderInfo_mAAD3F18583BFC952F388BE5F37E09B736BAF7185 (void);
-// 0x00000C13 System.Void easyar.SparseSpatialMapController::LoadMapManagerInfo(easyar.SparseSpatialMapController/MapManagerSourceData)
+// 0x00000C15 System.Void easyar.SparseSpatialMapController::LoadMapManagerInfo(easyar.SparseSpatialMapController/MapManagerSourceData)
 extern void SparseSpatialMapController_LoadMapManagerInfo_m9E8FF5FC1226E2EAB829084BA52913538C396043 (void);
-// 0x00000C14 System.Void easyar.SparseSpatialMapController::LoadMapInfo(easyar.SparseSpatialMapController/SparseSpatialMapInfo)
+// 0x00000C16 System.Void easyar.SparseSpatialMapController::LoadMapInfo(easyar.SparseSpatialMapController/SparseSpatialMapInfo)
 extern void SparseSpatialMapController_LoadMapInfo_m481A311B383CED8D98A4941572C5587E04E9A490 (void);
-// 0x00000C15 System.Void easyar.SparseSpatialMapController::UpdateMapInLocalizer()
+// 0x00000C17 System.Void easyar.SparseSpatialMapController::UpdateMapInLocalizer()
 extern void SparseSpatialMapController_UpdateMapInLocalizer_m2E2F0464B902C2C35792A248AE77CF75032F8B06 (void);
-// 0x00000C16 System.Void easyar.SparseSpatialMapController::.ctor()
+// 0x00000C18 System.Void easyar.SparseSpatialMapController::.ctor()
 extern void SparseSpatialMapController__ctor_mEA0ADC21731910B6B04B449AF84427F173A4C607 (void);
-// 0x00000C17 System.Void easyar.SparseSpatialMapController::<Host>b__56_0(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
+// 0x00000C19 System.Void easyar.SparseSpatialMapController::<Host>b__56_0(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
 extern void SparseSpatialMapController_U3CHostU3Eb__56_0_m4B9C3D58624055435890217D1BF1996F88C829FF (void);
-// 0x00000C18 UnityEngine.ParticleSystem/Particle easyar.SparseSpatialMapController::<UpdatePointCloud>b__59_0(UnityEngine.Vector3)
+// 0x00000C1A UnityEngine.ParticleSystem/Particle easyar.SparseSpatialMapController::<UpdatePointCloud>b__59_0(UnityEngine.Vector3)
 extern void SparseSpatialMapController_U3CUpdatePointCloudU3Eb__59_0_mC48BA651405025AB3EAF896A3515568BA7B4A7DF (void);
-// 0x00000C19 System.Void easyar.SparseSpatialMapController::<UpdateMapInLocalizer>b__63_0(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
+// 0x00000C1B System.Void easyar.SparseSpatialMapController::<UpdateMapInLocalizer>b__63_0(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
 extern void SparseSpatialMapController_U3CUpdateMapInLocalizerU3Eb__63_0_m64991E8E21B0D39637822FFE9207218A97A62675 (void);
-// 0x00000C1A System.Void easyar.SparseSpatialMapController/SparseSpatialMapInfo::.ctor()
+// 0x00000C1C System.Void easyar.SparseSpatialMapController/SparseSpatialMapInfo::.ctor()
 extern void SparseSpatialMapInfo__ctor_mAAA02B58C0C3BA1136DDF81E7D50522240F60FE3 (void);
-// 0x00000C1B System.Void easyar.SparseSpatialMapController/MapManagerSourceData::.ctor()
+// 0x00000C1D System.Void easyar.SparseSpatialMapController/MapManagerSourceData::.ctor()
 extern void MapManagerSourceData__ctor_mFF100EC397196912ADE3B6540258A26BDC8EBC73 (void);
-// 0x00000C1C System.Void easyar.SparseSpatialMapController/ParticleParameter::.ctor()
+// 0x00000C1E System.Void easyar.SparseSpatialMapController/ParticleParameter::.ctor()
 extern void ParticleParameter__ctor_m47EEC0EDA690CB3E463EDFED443352C0BD22418F (void);
-// 0x00000C1D System.Void easyar.SparseSpatialMapController/<>c__DisplayClass58_0::.ctor()
+// 0x00000C1F System.Void easyar.SparseSpatialMapController/<>c__DisplayClass58_0::.ctor()
 extern void U3CU3Ec__DisplayClass58_0__ctor_m5AD52797BB2733E48783FA86B12B82A3228599F7 (void);
-// 0x00000C1E UnityEngine.Vector3 easyar.SparseSpatialMapController/<>c__DisplayClass58_0::<UpdatePointCloud>b__0(System.Int32)
+// 0x00000C20 UnityEngine.Vector3 easyar.SparseSpatialMapController/<>c__DisplayClass58_0::<UpdatePointCloud>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass58_0_U3CUpdatePointCloudU3Eb__0_m8244F7E6B9C96F8138264FBDB12BCF0EB7FDE312 (void);
-// 0x00000C1F System.Void easyar.SparseSpatialMapController/<>c__DisplayClass63_0::.ctor()
+// 0x00000C21 System.Void easyar.SparseSpatialMapController/<>c__DisplayClass63_0::.ctor()
 extern void U3CU3Ec__DisplayClass63_0__ctor_mF8E30D32A51CF0B9EAF4D0247444131486D8D109 (void);
-// 0x00000C20 System.Void easyar.SparseSpatialMapController/<>c__DisplayClass63_0::<UpdateMapInLocalizer>b__1(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
+// 0x00000C22 System.Void easyar.SparseSpatialMapController/<>c__DisplayClass63_0::<UpdateMapInLocalizer>b__1(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
 extern void U3CU3Ec__DisplayClass63_0_U3CUpdateMapInLocalizerU3Eb__1_m77A39593F7EDEA5B38FFC2BB616D46AFE0CA1746 (void);
-// 0x00000C21 easyar.SparseSpatialMapRootController easyar.SparseSpatialMapHolder::get_MapRoot()
+// 0x00000C23 easyar.SparseSpatialMapRootController easyar.SparseSpatialMapHolder::get_MapRoot()
 extern void SparseSpatialMapHolder_get_MapRoot_mA4412E51D83E51B3F310069C22695CEB82A08B80 (void);
-// 0x00000C22 System.Void easyar.SparseSpatialMapHolder::set_MapRoot(easyar.SparseSpatialMapRootController)
+// 0x00000C24 System.Void easyar.SparseSpatialMapHolder::set_MapRoot(easyar.SparseSpatialMapRootController)
 extern void SparseSpatialMapHolder_set_MapRoot_mA25D06F11F3071770E79CA046C059C467FDBAFC5 (void);
-// 0x00000C23 System.Collections.Generic.List`1<easyar.SparseSpatialMapController> easyar.SparseSpatialMapHolder::get_Maps()
+// 0x00000C25 System.Collections.Generic.List`1<easyar.SparseSpatialMapController> easyar.SparseSpatialMapHolder::get_Maps()
 extern void SparseSpatialMapHolder_get_Maps_mEDE030EECAC979C628B72A228DD43AA35FE74329 (void);
-// 0x00000C24 System.Void easyar.SparseSpatialMapHolder::Awake()
+// 0x00000C26 System.Void easyar.SparseSpatialMapHolder::Awake()
 extern void SparseSpatialMapHolder_Awake_m03E93CF34C0B196155346A73D0DEF19223E3426E (void);
-// 0x00000C25 System.Void easyar.SparseSpatialMapHolder::OnDestroy()
+// 0x00000C27 System.Void easyar.SparseSpatialMapHolder::OnDestroy()
 extern void SparseSpatialMapHolder_OnDestroy_m2D279738107C39E0135DC1A9D39CA0A0FE892C1B (void);
-// 0x00000C26 easyar.SparseSpatialMapController easyar.SparseSpatialMapHolder::Hold(easyar.SparseSpatialMapController)
+// 0x00000C28 easyar.SparseSpatialMapController easyar.SparseSpatialMapHolder::Hold(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapHolder_Hold_m05DF1988CB2CF3B02012BC8DC2693A34E18C3E61 (void);
-// 0x00000C27 System.Boolean easyar.SparseSpatialMapHolder::Unhold(easyar.SparseSpatialMapController)
+// 0x00000C29 System.Boolean easyar.SparseSpatialMapHolder::Unhold(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapHolder_Unhold_mE5C35F9C083E2834E494BDFB84AA899EE2BF44FA (void);
-// 0x00000C28 System.Void easyar.SparseSpatialMapHolder::OnLocalize(easyar.SparseSpatialMapHolder/ResolvedMapInfo,System.Boolean)
+// 0x00000C2A System.Void easyar.SparseSpatialMapHolder::OnLocalize(easyar.SparseSpatialMapHolder/ResolvedMapInfo,System.Boolean)
 extern void SparseSpatialMapHolder_OnLocalize_mF2228810CC9E84DD1501B0EFEC6BFAD10F620BFF (void);
-// 0x00000C29 System.Boolean easyar.SparseSpatialMapHolder::Localized()
+// 0x00000C2B System.Boolean easyar.SparseSpatialMapHolder::Localized()
 extern void SparseSpatialMapHolder_Localized_m954B9BDFB0521354AD2B030A53A3861959112709 (void);
-// 0x00000C2A System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose> easyar.SparseSpatialMapHolder::TryGetCenter()
+// 0x00000C2C System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose> easyar.SparseSpatialMapHolder::TryGetCenter()
 extern void SparseSpatialMapHolder_TryGetCenter_mCB0D5A173F6352A26AC9E259A19DC2495F587DCA (void);
-// 0x00000C2B System.Void easyar.SparseSpatialMapHolder::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000C2D System.Void easyar.SparseSpatialMapHolder::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void SparseSpatialMapHolder_UpdateTransform_mA22C3A63E2E1AB95E557BC791DAB3156558A53EB (void);
-// 0x00000C2C System.Void easyar.SparseSpatialMapHolder::OnMapChange()
+// 0x00000C2E System.Void easyar.SparseSpatialMapHolder::OnMapChange()
 extern void SparseSpatialMapHolder_OnMapChange_m722F953AE0D44C2D04DAE3E841BB54DE9B040C7A (void);
-// 0x00000C2D System.Void easyar.SparseSpatialMapHolder::OnTrack()
+// 0x00000C2F System.Void easyar.SparseSpatialMapHolder::OnTrack()
 extern void SparseSpatialMapHolder_OnTrack_m029172B8E221249F0D80539A69466C4521188743 (void);
-// 0x00000C2E easyar.SparseSpatialMapController easyar.SparseSpatialMapHolder::TryGetMapController(System.String)
+// 0x00000C30 easyar.SparseSpatialMapController easyar.SparseSpatialMapHolder::TryGetMapController(System.String)
 extern void SparseSpatialMapHolder_TryGetMapController_m9BDC8980B7E991E1F925B72F81443C32939BBEA2 (void);
-// 0x00000C2F System.Void easyar.SparseSpatialMapHolder::.ctor()
+// 0x00000C31 System.Void easyar.SparseSpatialMapHolder::.ctor()
 extern void SparseSpatialMapHolder__ctor_mEF149CDD1EBC5372225BE9D0E3369AEC5864CB09 (void);
-// 0x00000C30 System.Void easyar.SparseSpatialMapHolder/ResolvedMapInfo::.ctor()
+// 0x00000C32 System.Void easyar.SparseSpatialMapHolder/ResolvedMapInfo::.ctor()
 extern void ResolvedMapInfo__ctor_m7D3C36E92CA39B55A1DE8552F008D90C1AC70923 (void);
-// 0x00000C31 System.Void easyar.SparseSpatialMapRootController::add_MapFound(System.Action)
+// 0x00000C33 System.Void easyar.SparseSpatialMapRootController::add_MapFound(System.Action)
 extern void SparseSpatialMapRootController_add_MapFound_m9FDB3D38E4168DF0C0BE818F557086FDB440CDCE (void);
-// 0x00000C32 System.Void easyar.SparseSpatialMapRootController::remove_MapFound(System.Action)
+// 0x00000C34 System.Void easyar.SparseSpatialMapRootController::remove_MapFound(System.Action)
 extern void SparseSpatialMapRootController_remove_MapFound_m5AB7AB7649310D78410717D12C93E321FB3115FF (void);
-// 0x00000C33 System.Void easyar.SparseSpatialMapRootController::OnFound()
+// 0x00000C35 System.Void easyar.SparseSpatialMapRootController::OnFound()
 extern void SparseSpatialMapRootController_OnFound_m49F22A86D2F937E9A8192236C07945CCA5D17E49 (void);
-// 0x00000C34 System.Void easyar.SparseSpatialMapRootController::.ctor()
+// 0x00000C36 System.Void easyar.SparseSpatialMapRootController::.ctor()
 extern void SparseSpatialMapRootController__ctor_m58C3425F79FD0EA73BD212299358FC5B512B622E (void);
-// 0x00000C35 easyar.SparseSpatialMap easyar.SparseSpatialMapWorkerFrameFilter::get_Builder()
+// 0x00000C37 easyar.SparseSpatialMap easyar.SparseSpatialMapWorkerFrameFilter::get_Builder()
 extern void SparseSpatialMapWorkerFrameFilter_get_Builder_m5C84CF457315950B75B15132EEDC8FF6A44BCB05 (void);
-// 0x00000C36 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Builder(easyar.SparseSpatialMap)
+// 0x00000C38 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Builder(easyar.SparseSpatialMap)
 extern void SparseSpatialMapWorkerFrameFilter_set_Builder_m28B20A5CC62DE16863580008BAE56AF90AFCEC37 (void);
-// 0x00000C37 easyar.SparseSpatialMap easyar.SparseSpatialMapWorkerFrameFilter::get_Localizer()
+// 0x00000C39 easyar.SparseSpatialMap easyar.SparseSpatialMapWorkerFrameFilter::get_Localizer()
 extern void SparseSpatialMapWorkerFrameFilter_get_Localizer_m04CB27384DCBF123CFF495F520AD847602700060 (void);
-// 0x00000C38 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Localizer(easyar.SparseSpatialMap)
+// 0x00000C3A System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Localizer(easyar.SparseSpatialMap)
 extern void SparseSpatialMapWorkerFrameFilter_set_Localizer_m7346003AA50BE377E04E4AC9F19D09330DE65F68 (void);
-// 0x00000C39 easyar.SparseSpatialMapManager easyar.SparseSpatialMapWorkerFrameFilter::get_Manager()
+// 0x00000C3B easyar.SparseSpatialMapManager easyar.SparseSpatialMapWorkerFrameFilter::get_Manager()
 extern void SparseSpatialMapWorkerFrameFilter_get_Manager_m594DACAD696BA60E365DF36DA78DD7956B0CEDCA (void);
-// 0x00000C3A System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Manager(easyar.SparseSpatialMapManager)
+// 0x00000C3C System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Manager(easyar.SparseSpatialMapManager)
 extern void SparseSpatialMapWorkerFrameFilter_set_Manager_mAE29FF0B6CA17915DC732D950B19FD201C72F918 (void);
-// 0x00000C3B System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapLoad(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C3D System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapLoad(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_add_MapLoad_mD884950D2A02FA426505444830403A13FF0C143A (void);
-// 0x00000C3C System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapLoad(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C3E System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapLoad(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_remove_MapLoad_mD7468FA7036FC89C2038423524480A85554D1576 (void);
-// 0x00000C3D System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapUnload(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C3F System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapUnload(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_add_MapUnload_mAF0D4BF8CA9D98A24CA6DF2FFC3419D87242FAD0 (void);
-// 0x00000C3E System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapUnload(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C40 System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapUnload(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_remove_MapUnload_mCDD7E3A0F2515CD67CFD737806EFCA208B72114A (void);
-// 0x00000C3F System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapHost(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C41 System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapHost(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_add_MapHost_m4200053B69CA8EDB9648F866CEA65538ED3D2440 (void);
-// 0x00000C40 System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapHost(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C42 System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapHost(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_remove_MapHost_mE4B1F4036A686615C4E8A8AFD8F3EE3E28F2D351 (void);
-// 0x00000C41 System.Int32 easyar.SparseSpatialMapWorkerFrameFilter::get_BufferRequirement()
+// 0x00000C43 System.Int32 easyar.SparseSpatialMapWorkerFrameFilter::get_BufferRequirement()
 extern void SparseSpatialMapWorkerFrameFilter_get_BufferRequirement_m6AC85AFA549C019EFC6F17C8460B29A6EE3A1A5C (void);
-// 0x00000C42 easyar.SparseSpatialMapWorkerFrameFilter/Mode easyar.SparseSpatialMapWorkerFrameFilter::get_WorkingMode()
+// 0x00000C44 easyar.SparseSpatialMapWorkerFrameFilter/Mode easyar.SparseSpatialMapWorkerFrameFilter::get_WorkingMode()
 extern void SparseSpatialMapWorkerFrameFilter_get_WorkingMode_m339D4D316CEED6F42C101A8E74045DC4AD65A540 (void);
-// 0x00000C43 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_WorkingMode(easyar.SparseSpatialMapWorkerFrameFilter/Mode)
+// 0x00000C45 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_WorkingMode(easyar.SparseSpatialMapWorkerFrameFilter/Mode)
 extern void SparseSpatialMapWorkerFrameFilter_set_WorkingMode_m9AF125FFB4F8EB784FF042FBDAA0B1F0D6CA3ED6 (void);
-// 0x00000C44 easyar.SparseSpatialMapController easyar.SparseSpatialMapWorkerFrameFilter::get_LocalizedMap()
+// 0x00000C46 easyar.SparseSpatialMapController easyar.SparseSpatialMapWorkerFrameFilter::get_LocalizedMap()
 extern void SparseSpatialMapWorkerFrameFilter_get_LocalizedMap_m0FB9646B5CD46EA9159F6DF1C6BE8355ABF97031 (void);
-// 0x00000C45 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_LocalizedMap(easyar.SparseSpatialMapController)
+// 0x00000C47 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_LocalizedMap(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapWorkerFrameFilter_set_LocalizedMap_mC1A616C1D1D314F22DA9A6B0FA58FDC9ECD1DDF9 (void);
-// 0x00000C46 easyar.SparseSpatialMapController easyar.SparseSpatialMapWorkerFrameFilter::get_BuilderMapController()
+// 0x00000C48 easyar.SparseSpatialMapController easyar.SparseSpatialMapWorkerFrameFilter::get_BuilderMapController()
 extern void SparseSpatialMapWorkerFrameFilter_get_BuilderMapController_m6F720BDBC32CF097E8BC061802555D132E4E38E3 (void);
-// 0x00000C47 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_BuilderMapController(easyar.SparseSpatialMapController)
+// 0x00000C49 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_BuilderMapController(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapWorkerFrameFilter_set_BuilderMapController_m732AE90F993EF8339A753B8784394077426C3165 (void);
-// 0x00000C48 easyar.SparseSpatialMapHolder easyar.SparseSpatialMapWorkerFrameFilter::get_MapHolder()
+// 0x00000C4A easyar.SparseSpatialMapHolder easyar.SparseSpatialMapWorkerFrameFilter::get_MapHolder()
 extern void SparseSpatialMapWorkerFrameFilter_get_MapHolder_mA8996F0C71193113A83C150F87F8D3EEE4B33620 (void);
-// 0x00000C49 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_MapHolder(easyar.SparseSpatialMapHolder)
+// 0x00000C4B System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_MapHolder(easyar.SparseSpatialMapHolder)
 extern void SparseSpatialMapWorkerFrameFilter_set_MapHolder_mE5A3A61AF8F87B44938CFA8EFE4E5610BDFEE708 (void);
-// 0x00000C4A System.Boolean easyar.SparseSpatialMapWorkerFrameFilter::get_EnablePoseStabilizer()
+// 0x00000C4C System.Boolean easyar.SparseSpatialMapWorkerFrameFilter::get_EnablePoseStabilizer()
 extern void SparseSpatialMapWorkerFrameFilter_get_EnablePoseStabilizer_mFDD8D0F65FEFB4EFD7190815DF3ABB9C247A0BC0 (void);
-// 0x00000C4B System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_EnablePoseStabilizer(System.Boolean)
+// 0x00000C4D System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_EnablePoseStabilizer(System.Boolean)
 extern void SparseSpatialMapWorkerFrameFilter_set_EnablePoseStabilizer_m7E0B319D21D125E4AAD7066573265C5CB5C1AD64 (void);
-// 0x00000C4C System.Void easyar.SparseSpatialMapWorkerFrameFilter::Awake()
+// 0x00000C4E System.Void easyar.SparseSpatialMapWorkerFrameFilter::Awake()
 extern void SparseSpatialMapWorkerFrameFilter_Awake_mD8B18294F2A5F1B2B39E9DF086066BBA6093FAC6 (void);
-// 0x00000C4D System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnEnable()
+// 0x00000C4F System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnEnable()
 extern void SparseSpatialMapWorkerFrameFilter_OnEnable_mD1BEF7EA614082F78A976CC05EEF93F0AD78302B (void);
-// 0x00000C4E System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnDisable()
+// 0x00000C50 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnDisable()
 extern void SparseSpatialMapWorkerFrameFilter_OnDisable_mBC5323BB7753308EB1C3FA9054C0F82870F56C6B (void);
-// 0x00000C4F System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnDestroy()
+// 0x00000C51 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnDestroy()
 extern void SparseSpatialMapWorkerFrameFilter_OnDestroy_mC309ECA995F3A4A97B8524CA28E43AD62CEFAEB7 (void);
-// 0x00000C50 System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadMap(easyar.SparseSpatialMapController)
+// 0x00000C52 System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadMap(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapWorkerFrameFilter_LoadMap_mA80A7F253AD33F0AF476E4473FA5B0D30BCAE364 (void);
-// 0x00000C51 System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadMap(easyar.SparseSpatialMapController)
+// 0x00000C53 System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadMap(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapWorkerFrameFilter_UnloadMap_m5A1D966E07D131C019B21056AE37291EC57F5E86 (void);
-// 0x00000C52 System.Void easyar.SparseSpatialMapWorkerFrameFilter::HostMap(easyar.SparseSpatialMapController,System.String,easyar.Optional`1<easyar.Image>)
+// 0x00000C54 System.Void easyar.SparseSpatialMapWorkerFrameFilter::HostMap(easyar.SparseSpatialMapController,System.String,easyar.Optional`1<easyar.Image>)
 extern void SparseSpatialMapWorkerFrameFilter_HostMap_m85F2E6F13F95BD941072F7437E57FDA92B89C4FC (void);
-// 0x00000C53 easyar.InputFrameSink easyar.SparseSpatialMapWorkerFrameFilter::InputFrameSink()
+// 0x00000C55 easyar.InputFrameSink easyar.SparseSpatialMapWorkerFrameFilter::InputFrameSink()
 extern void SparseSpatialMapWorkerFrameFilter_InputFrameSink_m34F389561B0FA17EFAD74FCDEA017CEF66FAAEFD (void);
-// 0x00000C54 easyar.OutputFrameSource easyar.SparseSpatialMapWorkerFrameFilter::OutputFrameSource()
+// 0x00000C56 easyar.OutputFrameSource easyar.SparseSpatialMapWorkerFrameFilter::OutputFrameSource()
 extern void SparseSpatialMapWorkerFrameFilter_OutputFrameSource_m9E7965CDC732F3459837856429EECD3ADF77180D (void);
-// 0x00000C55 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnAssemble(easyar.ARSession)
+// 0x00000C57 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnAssemble(easyar.ARSession)
 extern void SparseSpatialMapWorkerFrameFilter_OnAssemble_m518C6512B6A2E4908C836251564DBC0771A00FB7 (void);
-// 0x00000C56 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000C58 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
 extern void SparseSpatialMapWorkerFrameFilter_OnResult_m8385660E3DBFE973609304F3B39164D4C3C83ABB (void);
-// 0x00000C57 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.SparseSpatialMapWorkerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+// 0x00000C59 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.SparseSpatialMapWorkerFrameFilter::TryGetCenter(UnityEngine.GameObject)
 extern void SparseSpatialMapWorkerFrameFilter_TryGetCenter_m08459500DEEEA0EC0B595F0093DF28B0DB1A8DE3 (void);
-// 0x00000C58 System.Void easyar.SparseSpatialMapWorkerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000C5A System.Void easyar.SparseSpatialMapWorkerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void SparseSpatialMapWorkerFrameFilter_UpdateTransform_m1DBD707AE56817237452F5E93E64CC0A1D6C7E84 (void);
-// 0x00000C59 System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadSparseSpatialMap(easyar.SparseSpatialMapController,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C5B System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadSparseSpatialMap(easyar.SparseSpatialMapController,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_LoadSparseSpatialMap_mCC349A35473058F6EBBEAD6B6CAE9A1D8073611B (void);
-// 0x00000C5A System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadSparseSpatialMap(easyar.SparseSpatialMapController,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C5C System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadSparseSpatialMap(easyar.SparseSpatialMapController,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_UnloadSparseSpatialMap_m29810D1DFBA28F92B3399E0B13599B07AB51CCB9 (void);
-// 0x00000C5B System.Void easyar.SparseSpatialMapWorkerFrameFilter::HostSparseSpatialMap(easyar.SparseSpatialMapController,System.String,easyar.Optional`1<easyar.Image>,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+// 0x00000C5D System.Void easyar.SparseSpatialMapWorkerFrameFilter::HostSparseSpatialMap(easyar.SparseSpatialMapController,System.String,easyar.Optional`1<easyar.Image>,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
 extern void SparseSpatialMapWorkerFrameFilter_HostSparseSpatialMap_m96F74FF58B53904FC878E8AEAA9A5F9282DE18ED (void);
-// 0x00000C5C System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadSparseSpatialMapBuild(easyar.SparseSpatialMapController)
+// 0x00000C5E System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadSparseSpatialMapBuild(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapWorkerFrameFilter_LoadSparseSpatialMapBuild_mC2BEE6A1BB83844E49CD1CB5FCD6DD03CD1ACA51 (void);
-// 0x00000C5D System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadSparseSpatialMapBuild(easyar.SparseSpatialMapController)
+// 0x00000C5F System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadSparseSpatialMapBuild(easyar.SparseSpatialMapController)
 extern void SparseSpatialMapWorkerFrameFilter_UnloadSparseSpatialMapBuild_m9A7276698FBD9670D298EC4C9C092158C5B7D831 (void);
-// 0x00000C5E System.Void easyar.SparseSpatialMapWorkerFrameFilter::NotifyEmptyConfig(easyar.SparseSpatialMapWorkerFrameFilter/SpatialMapServiceConfig)
+// 0x00000C60 System.Void easyar.SparseSpatialMapWorkerFrameFilter::NotifyEmptyConfig(easyar.SparseSpatialMapWorkerFrameFilter/SpatialMapServiceConfig)
 extern void SparseSpatialMapWorkerFrameFilter_NotifyEmptyConfig_mEB25ACAE42DA1F4CB5C68A60B1C6F30CD4EBC500 (void);
-// 0x00000C5F System.Void easyar.SparseSpatialMapWorkerFrameFilter::.ctor()
+// 0x00000C61 System.Void easyar.SparseSpatialMapWorkerFrameFilter::.ctor()
 extern void SparseSpatialMapWorkerFrameFilter__ctor_m82105167B88503D86C2A0510BCD261325145B3CB (void);
-// 0x00000C60 System.Void easyar.SparseSpatialMapWorkerFrameFilter/MapLocalizerConfig::.ctor()
+// 0x00000C62 System.Void easyar.SparseSpatialMapWorkerFrameFilter/MapLocalizerConfig::.ctor()
 extern void MapLocalizerConfig__ctor_mF51E53093AFDC3CC8C8128E3738260878307B62B (void);
-// 0x00000C61 System.Void easyar.SparseSpatialMapWorkerFrameFilter/SpatialMapServiceConfig::.ctor()
+// 0x00000C63 System.Void easyar.SparseSpatialMapWorkerFrameFilter/SpatialMapServiceConfig::.ctor()
 extern void SpatialMapServiceConfig__ctor_m286884DDC610EC2931915C241E2A001A00408EBB (void);
-// 0x00000C62 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass66_0::.ctor()
+// 0x00000C64 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass66_0::.ctor()
 extern void U3CU3Ec__DisplayClass66_0__ctor_m9450EC4C78D584AB09DEA5138F70BC21456E1111 (void);
-// 0x00000C63 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass66_0::<LoadSparseSpatialMap>b__0(System.Boolean,System.String)
+// 0x00000C65 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass66_0::<LoadSparseSpatialMap>b__0(System.Boolean,System.String)
 extern void U3CU3Ec__DisplayClass66_0_U3CLoadSparseSpatialMapU3Eb__0_m6F33E6365DFFAD11E698EAEAF342F229DACF338A (void);
-// 0x00000C64 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass67_0::.ctor()
+// 0x00000C66 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass67_0::.ctor()
 extern void U3CU3Ec__DisplayClass67_0__ctor_m4D979588591A4B07A0974302231EC74AE2D57829 (void);
-// 0x00000C65 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass67_0::<UnloadSparseSpatialMap>b__0(System.Boolean)
+// 0x00000C67 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass67_0::<UnloadSparseSpatialMap>b__0(System.Boolean)
 extern void U3CU3Ec__DisplayClass67_0_U3CUnloadSparseSpatialMapU3Eb__0_m84F60502C71CD554083508F717B4F3377208657E (void);
-// 0x00000C66 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass68_0::.ctor()
+// 0x00000C68 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass68_0::.ctor()
 extern void U3CU3Ec__DisplayClass68_0__ctor_m9ABE7E0C14982734F6F5E239357B41B46A29C7C9 (void);
-// 0x00000C67 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass68_0::<HostSparseSpatialMap>b__0(System.Boolean,System.String,System.String)
+// 0x00000C69 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass68_0::<HostSparseSpatialMap>b__0(System.Boolean,System.String,System.String)
 extern void U3CU3Ec__DisplayClass68_0_U3CHostSparseSpatialMapU3Eb__0_m226B36202863ED3ECA0CC790EB18FB50AEB98513 (void);
-// 0x00000C68 System.Void easyar.SurfaceTargetController::OnTracking()
+// 0x00000C6A System.Void easyar.SurfaceTargetController::OnTracking()
 extern void SurfaceTargetController_OnTracking_m0E7E8874514A5A8E9806EFF2DA1DD3DFF5000158 (void);
-// 0x00000C69 System.Void easyar.SurfaceTargetController::Load()
+// 0x00000C6B System.Void easyar.SurfaceTargetController::Load()
 extern void SurfaceTargetController_Load_m36A8F7D0AA6B762C2F58D0C4D03A732250D312BF (void);
-// 0x00000C6A System.Void easyar.SurfaceTargetController::.ctor()
+// 0x00000C6C System.Void easyar.SurfaceTargetController::.ctor()
 extern void SurfaceTargetController__ctor_m2B0597B301A7D7C30E32326690FDF722CB73493C (void);
-// 0x00000C6B easyar.SurfaceTracker easyar.SurfaceTrackerFrameFilter::get_Tracker()
+// 0x00000C6D easyar.SurfaceTracker easyar.SurfaceTrackerFrameFilter::get_Tracker()
 extern void SurfaceTrackerFrameFilter_get_Tracker_m016864AB165082CE90DAC189CB1E8FEDA347A1E4 (void);
-// 0x00000C6C System.Void easyar.SurfaceTrackerFrameFilter::set_Tracker(easyar.SurfaceTracker)
+// 0x00000C6E System.Void easyar.SurfaceTrackerFrameFilter::set_Tracker(easyar.SurfaceTracker)
 extern void SurfaceTrackerFrameFilter_set_Tracker_m2C0AE9C5F57BB25F1FAD37479B63E72FD40D9E72 (void);
-// 0x00000C6D System.Int32 easyar.SurfaceTrackerFrameFilter::get_BufferRequirement()
+// 0x00000C6F System.Int32 easyar.SurfaceTrackerFrameFilter::get_BufferRequirement()
 extern void SurfaceTrackerFrameFilter_get_BufferRequirement_m10D8C10D81887A6A218CD41B8E24EA04CB6325F3 (void);
-// 0x00000C6E easyar.SurfaceTargetController easyar.SurfaceTrackerFrameFilter::get_Target()
+// 0x00000C70 easyar.SurfaceTargetController easyar.SurfaceTrackerFrameFilter::get_Target()
 extern void SurfaceTrackerFrameFilter_get_Target_m34CA11EC590A7EFA09D0ACF1636339397A512D2D (void);
-// 0x00000C6F System.Void easyar.SurfaceTrackerFrameFilter::set_Target(easyar.SurfaceTargetController)
+// 0x00000C71 System.Void easyar.SurfaceTrackerFrameFilter::set_Target(easyar.SurfaceTargetController)
 extern void SurfaceTrackerFrameFilter_set_Target_m0A6AE6AA893FF281EAC0F39107672873A4A62F1C (void);
-// 0x00000C70 System.Void easyar.SurfaceTrackerFrameFilter::Awake()
+// 0x00000C72 System.Void easyar.SurfaceTrackerFrameFilter::Awake()
 extern void SurfaceTrackerFrameFilter_Awake_mFA94942AAC942EDEC51CB36CDB5230822A63BA6D (void);
-// 0x00000C71 System.Void easyar.SurfaceTrackerFrameFilter::OnEnable()
+// 0x00000C73 System.Void easyar.SurfaceTrackerFrameFilter::OnEnable()
 extern void SurfaceTrackerFrameFilter_OnEnable_m93C356856D0A69C93D2D7E80B65E8B003979A8D5 (void);
-// 0x00000C72 System.Void easyar.SurfaceTrackerFrameFilter::OnDisable()
+// 0x00000C74 System.Void easyar.SurfaceTrackerFrameFilter::OnDisable()
 extern void SurfaceTrackerFrameFilter_OnDisable_mA89FC2C1689FAD751DC527359033AF2C19FA0246 (void);
-// 0x00000C73 System.Void easyar.SurfaceTrackerFrameFilter::OnDestroy()
+// 0x00000C75 System.Void easyar.SurfaceTrackerFrameFilter::OnDestroy()
 extern void SurfaceTrackerFrameFilter_OnDestroy_m2DDAAB21368FCFC4D657861B70A0A227825BF120 (void);
-// 0x00000C74 easyar.InputFrameSink easyar.SurfaceTrackerFrameFilter::InputFrameSink()
+// 0x00000C76 easyar.InputFrameSink easyar.SurfaceTrackerFrameFilter::InputFrameSink()
 extern void SurfaceTrackerFrameFilter_InputFrameSink_mA8369D1452F84F7B448A20416513933CE5E230A2 (void);
-// 0x00000C75 easyar.OutputFrameSource easyar.SurfaceTrackerFrameFilter::OutputFrameSource()
+// 0x00000C77 easyar.OutputFrameSource easyar.SurfaceTrackerFrameFilter::OutputFrameSource()
 extern void SurfaceTrackerFrameFilter_OutputFrameSource_m2EDF85B04F3F7535545539CCBD728DD07AB68A3C (void);
-// 0x00000C76 System.Void easyar.SurfaceTrackerFrameFilter::OnAssemble(easyar.ARSession)
+// 0x00000C78 System.Void easyar.SurfaceTrackerFrameFilter::OnAssemble(easyar.ARSession)
 extern void SurfaceTrackerFrameFilter_OnAssemble_m6399AF1D59B98ED874F0F6A89594B4EF256A9C34 (void);
-// 0x00000C77 System.Void easyar.SurfaceTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000C79 System.Void easyar.SurfaceTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
 extern void SurfaceTrackerFrameFilter_OnResult_m2BFC2E74DCF6ABE08B6A3F43502EB04A08672E48 (void);
-// 0x00000C78 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.SurfaceTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+// 0x00000C7A easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.SurfaceTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
 extern void SurfaceTrackerFrameFilter_TryGetCenter_mF304454E6636524BD64D410CD4226B7CB41DD5C2 (void);
-// 0x00000C79 System.Void easyar.SurfaceTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+// 0x00000C7B System.Void easyar.SurfaceTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
 extern void SurfaceTrackerFrameFilter_UpdateTransform_m1D167D3B2C83E01C4122BA3AD6121EF4DED449E0 (void);
-// 0x00000C7A System.Void easyar.SurfaceTrackerFrameFilter::.ctor()
+// 0x00000C7C System.Void easyar.SurfaceTrackerFrameFilter::.ctor()
 extern void SurfaceTrackerFrameFilter__ctor_m724C05CE8BD73735DECA35CB50EF5240CA058C48 (void);
-// 0x00000C7B System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String_from_utf8(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000C7D System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String_from_utf8(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_String_from_utf8_m1606735B34FA22AFE33B37B468A38E9F6AB9A546 (void);
-// 0x00000C7C System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String_from_utf8_begin(System.IntPtr,System.IntPtr&)
+// 0x00000C7E System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String_from_utf8_begin(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_String_from_utf8_begin_m4C4F0EA5C4971F6E8B2C3D3B8D7C16ABADC8EF40 (void);
-// 0x00000C7D System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_String_begin(System.IntPtr)
+// 0x00000C7F System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_String_begin(System.IntPtr)
 extern void Detail_easyar_arengineinterop_String_begin_mE513E5127F1BD4B460384EB6A485CBEEB674DA2A (void);
-// 0x00000C7E System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_String_end(System.IntPtr)
+// 0x00000C80 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_String_end(System.IntPtr)
 extern void Detail_easyar_arengineinterop_String_end_m9E9CF6F269CD1A6B3A1FC8873742F117FC7C3F25 (void);
-// 0x00000C7F System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String_copy(System.IntPtr,System.IntPtr&)
+// 0x00000C81 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String_copy(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_String_copy_mC725910EC89BB139378D1097B33D336388819A65 (void);
-// 0x00000C80 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String__dtor(System.IntPtr)
+// 0x00000C82 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_String__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_String__dtor_m4879A156A3BD8DA153FDA751C957C8E3F5C732A6 (void);
-// 0x00000C81 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__ctor(System.IntPtr&)
+// 0x00000C83 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__ctor(System.IntPtr&)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice__ctor_m1438AAC032159636D21A0B44BB2B4537FCA403E2 (void);
-// 0x00000C82 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_isAvailable()
+// 0x00000C84 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_isAvailable()
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_isAvailable_m3781E1D0C40987FCB3FA855F1D8B94A96F6E107C (void);
-// 0x00000C83 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_isDeviceSupported()
+// 0x00000C85 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_isDeviceSupported()
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_isDeviceSupported_m2BD6E62B00247564FE2007ECF50EB96C3F670B6E (void);
-// 0x00000C84 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_bufferCapacity(System.IntPtr)
+// 0x00000C86 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_bufferCapacity(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_bufferCapacity_m4AAC5958CA0B88BA05C6FEC87F3306C826AA2FAF (void);
-// 0x00000C85 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setBufferCapacity(System.IntPtr,System.Int32)
+// 0x00000C87 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setBufferCapacity(System.IntPtr,System.Int32)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_setBufferCapacity_m8E78052585631F4FB06BACB7ECDE32C331CA37D8 (void);
-// 0x00000C86 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setInputFrameHandler(System.IntPtr,easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame)
+// 0x00000C88 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setInputFrameHandler(System.IntPtr,easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_setInputFrameHandler_m6B909FD58FD840649418BD788E4F4F285C19F0B0 (void);
-// 0x00000C87 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setFocusMode(System.IntPtr,easyar.arengineinterop.AREngineCameraDeviceFocusMode)
+// 0x00000C89 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setFocusMode(System.IntPtr,easyar.arengineinterop.AREngineCameraDeviceFocusMode)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_setFocusMode_m93F6F0D49A0BC7E0E1198DD99BB7F0B0C61DB858 (void);
-// 0x00000C88 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setHighResMode(System.IntPtr,System.Boolean)
+// 0x00000C8A System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_setHighResMode(System.IntPtr,System.Boolean)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_setHighResMode_m9754F8C508364C3AFBA0CDF909C4AB2A445D06E4 (void);
-// 0x00000C89 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_start(System.IntPtr)
+// 0x00000C8B System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_start(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_start_mCF497DD1C7AE03A9CBB10C0EAFDBCC3CFF0C1D41 (void);
-// 0x00000C8A System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_stop(System.IntPtr)
+// 0x00000C8C System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_stop(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_stop_m4D4A462FDC258A9804BCD42EFCDEA3B79B5F9B64 (void);
-// 0x00000C8B System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_close(System.IntPtr)
+// 0x00000C8D System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_close(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_close_m54BF68131AAC333915B163E7D4C3040E6DA89032 (void);
-// 0x00000C8C System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_onPause(System.IntPtr)
+// 0x00000C8E System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_onPause(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_onPause_mFF5DBE193BCB992C02164C4751A4C5A7689B4DA2 (void);
-// 0x00000C8D System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_onResume(System.IntPtr)
+// 0x00000C8F System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice_onResume(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice_onResume_m106928C66DD52EE9533F94B0499BED389981AB80 (void);
-// 0x00000C8E System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__dtor(System.IntPtr)
+// 0x00000C90 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice__dtor_m770ABCEF482AF38AC5E6DE220E5A9A5E32AFFF1F (void);
-// 0x00000C8F System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__retain(System.IntPtr,System.IntPtr&)
+// 0x00000C91 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice__retain_m71F6657878A990AF3886ECE29314219A26FE89F9 (void);
-// 0x00000C90 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__typeName(System.IntPtr)
+// 0x00000C92 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineCameraDevice__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineCameraDevice__typeName_m5464FF0D3EE8B244B407B18E099CB4BAB99B8C9A (void);
-// 0x00000C91 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__ctor(System.IntPtr&)
+// 0x00000C93 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__ctor(System.IntPtr&)
 extern void Detail_easyar_arengineinterop_AREngineDeviceListDownloader__ctor_mD8E93C0E2ED5773DA80645E4D22DE876B134C18F (void);
-// 0x00000C92 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader_download(System.IntPtr,easyar.arengineinterop.Detail/OptionalOfInt,System.IntPtr,easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString)
+// 0x00000C94 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader_download(System.IntPtr,easyar.arengineinterop.Detail/OptionalOfInt,System.IntPtr,easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString)
 extern void Detail_easyar_arengineinterop_AREngineDeviceListDownloader_download_m8715B8EBB071A17F0FA70060FB103D37A443D78D (void);
-// 0x00000C93 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__dtor(System.IntPtr)
+// 0x00000C95 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineDeviceListDownloader__dtor_m43D065883E2229A2111FFDDE185764E348FE9630 (void);
-// 0x00000C94 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__retain(System.IntPtr,System.IntPtr&)
+// 0x00000C96 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_AREngineDeviceListDownloader__retain_m70BC8096693356F24638432089A56F542339DB57 (void);
-// 0x00000C95 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__typeName(System.IntPtr)
+// 0x00000C97 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_AREngineDeviceListDownloader__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_AREngineDeviceListDownloader__typeName_m865109A304F920842A618CBFB3334C79C5CAB9F1 (void);
-// 0x00000C96 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_wrap(System.IntPtr,System.Int32,easyar.arengineinterop.Detail/FunctorOfVoid,System.IntPtr&)
+// 0x00000C98 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_wrap(System.IntPtr,System.Int32,easyar.arengineinterop.Detail/FunctorOfVoid,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Buffer_wrap_mB7BCA464C9FD35F821DEFE2D090DF1AD74231626 (void);
-// 0x00000C97 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_create(System.Int32,System.IntPtr&)
+// 0x00000C99 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_create(System.Int32,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Buffer_create_m4E696EA1D438E12598D2F20ABB4F85A8B82882AD (void);
-// 0x00000C98 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_data(System.IntPtr)
+// 0x00000C9A System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_data(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Buffer_data_mADD1796A5B68246BC1883790B7B091F02799EBF6 (void);
-// 0x00000C99 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_size(System.IntPtr)
+// 0x00000C9B System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_size(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Buffer_size_m39C18F0CF50908029FB84767222713096CE3A489 (void);
-// 0x00000C9A System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_memoryCopy(System.IntPtr,System.IntPtr,System.Int32)
+// 0x00000C9C System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_memoryCopy(System.IntPtr,System.IntPtr,System.Int32)
 extern void Detail_easyar_arengineinterop_Buffer_memoryCopy_m8C251DBC4D316337B357E5313F5F2EC16B56C3AA (void);
-// 0x00000C9B System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_tryCopyFrom(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)
+// 0x00000C9D System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_tryCopyFrom(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)
 extern void Detail_easyar_arengineinterop_Buffer_tryCopyFrom_m66FA8C385B051A238E537F674EF6DDF0F0C86784 (void);
-// 0x00000C9C System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_tryCopyTo(System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.Int32)
+// 0x00000C9E System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_tryCopyTo(System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.Int32)
 extern void Detail_easyar_arengineinterop_Buffer_tryCopyTo_m29A740D733FAB6B5DA56550905654DEE4A88CFC3 (void);
-// 0x00000C9D System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_partition(System.IntPtr,System.Int32,System.Int32,System.IntPtr&)
+// 0x00000C9F System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer_partition(System.IntPtr,System.Int32,System.Int32,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Buffer_partition_mEC67889883AC8FA4DF88CDCFE6234CD8BC842B5D (void);
-// 0x00000C9E System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer__dtor(System.IntPtr)
+// 0x00000CA0 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Buffer__dtor_mACC3F77BBA4B3614AAE50768BC67027E46DE3103 (void);
-// 0x00000C9F System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CA1 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Buffer__retain_m69A25B7489DA563D90C06D84BECE33534D637323 (void);
-// 0x00000CA0 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer__typeName(System.IntPtr)
+// 0x00000CA2 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_Buffer__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Buffer__typeName_m840009C8BB7D8BA32286BF04BE76E0E400FC720D (void);
-// 0x00000CA1 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__ctor(System.IntPtr&)
+// 0x00000CA3 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__ctor(System.IntPtr&)
 extern void Detail_easyar_arengineinterop_BufferDictionary__ctor_m7143C9663C064B7CC932822A6BBE5486846FCA8B (void);
-// 0x00000CA2 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_count(System.IntPtr)
+// 0x00000CA4 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_count(System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary_count_m0037CBD30FD4F856BBE8626FEDB472DC697954F8 (void);
-// 0x00000CA3 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_contains(System.IntPtr,System.IntPtr)
+// 0x00000CA5 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_contains(System.IntPtr,System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary_contains_mA05E49F087442BF75EE745CB0EA4EA8612DB34AE (void);
-// 0x00000CA4 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_tryGet(System.IntPtr,System.IntPtr,easyar.arengineinterop.Detail/OptionalOfBuffer&)
+// 0x00000CA6 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_tryGet(System.IntPtr,System.IntPtr,easyar.arengineinterop.Detail/OptionalOfBuffer&)
 extern void Detail_easyar_arengineinterop_BufferDictionary_tryGet_m15309835B2DFC756ED221CDE8D6107140E5D94DD (void);
-// 0x00000CA5 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_set(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x00000CA7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_set(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary_set_m5D1623414E56DBE8AB12F13D59742C188DB78CBA (void);
-// 0x00000CA6 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_remove(System.IntPtr,System.IntPtr)
+// 0x00000CA8 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_remove(System.IntPtr,System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary_remove_m81BB1139315FC919F5C3066EAD5C9E6904BFEA50 (void);
-// 0x00000CA7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_clear(System.IntPtr)
+// 0x00000CA9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary_clear(System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary_clear_m1F023785C6229EC4C21E45C0807650A6052EDEB1 (void);
-// 0x00000CA8 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__dtor(System.IntPtr)
+// 0x00000CAA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary__dtor_m66959D82981597E32F55B10A60195176B1B9E080 (void);
-// 0x00000CA9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CAB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_BufferDictionary__retain_mED29687176F2F6BC186C69D87485469B04389834 (void);
-// 0x00000CAA System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__typeName(System.IntPtr)
+// 0x00000CAC System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_BufferDictionary__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_BufferDictionary__typeName_mCA0277871D4A0088B942AFE5155F963EEAB124EF (void);
-// 0x00000CAB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CallbackScheduler__dtor(System.IntPtr)
+// 0x00000CAD System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CallbackScheduler__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CallbackScheduler__dtor_m410B9C35A4024CB0DC779CCF67A74128BFEA365C (void);
-// 0x00000CAC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CallbackScheduler__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CAE System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CallbackScheduler__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_CallbackScheduler__retain_m517DCE5B379BF1E5668B62387F0FBDE7F73D7CB9 (void);
-// 0x00000CAD System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_CallbackScheduler__typeName(System.IntPtr)
+// 0x00000CAF System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_CallbackScheduler__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CallbackScheduler__typeName_mCA504FDCB6FC8CF82F05263EA0CDE021C790F577 (void);
-// 0x00000CAE System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__ctor(System.IntPtr&)
+// 0x00000CB0 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__ctor(System.IntPtr&)
 extern void Detail_easyar_arengineinterop_DelayedCallbackScheduler__ctor_mDA32C02D53A380608D933AD3CF7EBE3E33E4C057 (void);
-// 0x00000CAF System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler_runOne(System.IntPtr)
+// 0x00000CB1 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler_runOne(System.IntPtr)
 extern void Detail_easyar_arengineinterop_DelayedCallbackScheduler_runOne_mA1501AAD5633691F9D4A9A63FE2D2E9ED546CD7C (void);
-// 0x00000CB0 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__dtor(System.IntPtr)
+// 0x00000CB2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_DelayedCallbackScheduler__dtor_mD78DC24E4D91D02B0A4CB4B6BD80A2930796FEA5 (void);
-// 0x00000CB1 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CB3 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_DelayedCallbackScheduler__retain_m21621C31553D2E93D305A3057FE6CF9C1D8C212F (void);
-// 0x00000CB2 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__typeName(System.IntPtr)
+// 0x00000CB4 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_DelayedCallbackScheduler__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_DelayedCallbackScheduler__typeName_mA456EA1D45D4B77BD81E40D39E0A2171BB6AE751 (void);
-// 0x00000CB3 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_castDelayedCallbackSchedulerToCallbackScheduler(System.IntPtr,System.IntPtr&)
+// 0x00000CB5 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_castDelayedCallbackSchedulerToCallbackScheduler(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_castDelayedCallbackSchedulerToCallbackScheduler_mD5A006213137ABAB3CF803E0115E8F71EDEF7AE8 (void);
-// 0x00000CB4 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_tryCastCallbackSchedulerToDelayedCallbackScheduler(System.IntPtr,System.IntPtr&)
+// 0x00000CB6 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_tryCastCallbackSchedulerToDelayedCallbackScheduler(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_tryCastCallbackSchedulerToDelayedCallbackScheduler_m53671B7E0B67D500856C7052AF5939DF7CFA6773 (void);
-// 0x00000CB5 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler_getDefault(System.IntPtr&)
+// 0x00000CB7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler_getDefault(System.IntPtr&)
 extern void Detail_easyar_arengineinterop_ImmediateCallbackScheduler_getDefault_m87E7E876531835D12DFB7415A69E206DA24BF221 (void);
-// 0x00000CB6 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler__dtor(System.IntPtr)
+// 0x00000CB8 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_ImmediateCallbackScheduler__dtor_mD419D3549440FB9B8E1A72BD09208217D66BE4AB (void);
-// 0x00000CB7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CB9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_ImmediateCallbackScheduler__retain_m285CAF94CA6BD8C84F3C25D1CF4966A2A2D639CC (void);
-// 0x00000CB8 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler__typeName(System.IntPtr)
+// 0x00000CBA System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_ImmediateCallbackScheduler__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_ImmediateCallbackScheduler__typeName_m7C9BC197AE5BDEA783D6A2DB79B2CC9FCD524ABA (void);
-// 0x00000CB9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_castImmediateCallbackSchedulerToCallbackScheduler(System.IntPtr,System.IntPtr&)
+// 0x00000CBB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_castImmediateCallbackSchedulerToCallbackScheduler(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_castImmediateCallbackSchedulerToCallbackScheduler_mEFB82526B371680EF654911528EF0425152702AD (void);
-// 0x00000CBA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_tryCastCallbackSchedulerToImmediateCallbackScheduler(System.IntPtr,System.IntPtr&)
+// 0x00000CBC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_tryCastCallbackSchedulerToImmediateCallbackScheduler(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_tryCastCallbackSchedulerToImmediateCallbackScheduler_m57C12EC8B10D1914B82A5C907E8851B937408AE4 (void);
-// 0x00000CBB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__ctor(easyar.arengineinterop.Vec2I,easyar.arengineinterop.Vec2F,easyar.arengineinterop.Vec2F,easyar.arengineinterop.CameraDeviceType,System.Int32,System.IntPtr&)
+// 0x00000CBD System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__ctor(easyar.arengineinterop.Vec2I,easyar.arengineinterop.Vec2F,easyar.arengineinterop.Vec2F,easyar.arengineinterop.CameraDeviceType,System.Int32,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_CameraParameters__ctor_mF1C541CD98212CF5FC355CBF6F754589BC5A9668 (void);
-// 0x00000CBC easyar.arengineinterop.Vec2I easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_size(System.IntPtr)
+// 0x00000CBE easyar.arengineinterop.Vec2I easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_size(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters_size_m242A0AE541AB5054E1DC88A22331ACC9BB3CE570 (void);
-// 0x00000CBD easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_focalLength(System.IntPtr)
+// 0x00000CBF easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_focalLength(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters_focalLength_m6252B60FFE76215F7DC8D93D2AF8CCAAEF815BEE (void);
-// 0x00000CBE easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_principalPoint(System.IntPtr)
+// 0x00000CC0 easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_principalPoint(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters_principalPoint_mE7AB5E77B773A38C036AE05976314C242821FDF2 (void);
-// 0x00000CBF easyar.arengineinterop.CameraDeviceType easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_cameraDeviceType(System.IntPtr)
+// 0x00000CC1 easyar.arengineinterop.CameraDeviceType easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_cameraDeviceType(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters_cameraDeviceType_mF2FCA1691F01E40DB119A7AC290AC41F8D8F1014 (void);
-// 0x00000CC0 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_cameraOrientation(System.IntPtr)
+// 0x00000CC2 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_cameraOrientation(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters_cameraOrientation_mE3845A3FFDFF986D5828222B8EB7D208BA96F0B5 (void);
-// 0x00000CC1 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_createWithDefaultIntrinsics(easyar.arengineinterop.Vec2I,easyar.arengineinterop.CameraDeviceType,System.Int32,System.IntPtr&)
+// 0x00000CC3 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_createWithDefaultIntrinsics(easyar.arengineinterop.Vec2I,easyar.arengineinterop.CameraDeviceType,System.Int32,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_CameraParameters_createWithDefaultIntrinsics_m2D9E9E2E04FAFD42ABF08D7D912678EC6024E7E8 (void);
-// 0x00000CC2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_getResized(System.IntPtr,easyar.arengineinterop.Vec2I,System.IntPtr&)
+// 0x00000CC4 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_getResized(System.IntPtr,easyar.arengineinterop.Vec2I,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_CameraParameters_getResized_m58560BB7DA433AA9B4E53C9A71FFC4EEAFBBFF57 (void);
-// 0x00000CC3 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageOrientation(System.IntPtr,System.Int32)
+// 0x00000CC5 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageOrientation(System.IntPtr,System.Int32)
 extern void Detail_easyar_arengineinterop_CameraParameters_imageOrientation_m4172D220F6A8FD90796CC8D7D63AFC4A1865DC68 (void);
-// 0x00000CC4 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageHorizontalFlip(System.IntPtr,System.Boolean)
+// 0x00000CC6 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageHorizontalFlip(System.IntPtr,System.Boolean)
 extern void Detail_easyar_arengineinterop_CameraParameters_imageHorizontalFlip_m0EE7184B58150C357AF074F59B27C12223C0760E (void);
-// 0x00000CC5 easyar.arengineinterop.Matrix44F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_projection(System.IntPtr,System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean)
+// 0x00000CC7 easyar.arengineinterop.Matrix44F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_projection(System.IntPtr,System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean)
 extern void Detail_easyar_arengineinterop_CameraParameters_projection_m3858AE7AA1DDF25F6F2BB84D219C4D7D80F4DFFF (void);
-// 0x00000CC6 easyar.arengineinterop.Matrix44F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageProjection(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean)
+// 0x00000CC8 easyar.arengineinterop.Matrix44F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageProjection(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean)
 extern void Detail_easyar_arengineinterop_CameraParameters_imageProjection_m55F70485DF5C499F1139B16D146DEE488387EDAF (void);
-// 0x00000CC7 easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_screenCoordinatesFromImageCoordinates(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
+// 0x00000CC9 easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_screenCoordinatesFromImageCoordinates(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
 extern void Detail_easyar_arengineinterop_CameraParameters_screenCoordinatesFromImageCoordinates_m9EAEAAAC47C80D2A76D5784057C53D82049CC4C6 (void);
-// 0x00000CC8 easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageCoordinatesFromScreenCoordinates(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
+// 0x00000CCA easyar.arengineinterop.Vec2F easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_imageCoordinatesFromScreenCoordinates(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
 extern void Detail_easyar_arengineinterop_CameraParameters_imageCoordinatesFromScreenCoordinates_mAA22D9AE4049C2A99FE1C3E5B8A75CE28267803A (void);
-// 0x00000CC9 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_equalsTo(System.IntPtr,System.IntPtr)
+// 0x00000CCB System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters_equalsTo(System.IntPtr,System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters_equalsTo_mF317C41ABCCD78E16FBE3636DFDD76EB4F26AC36 (void);
-// 0x00000CCA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__dtor(System.IntPtr)
+// 0x00000CCC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters__dtor_mFE5C97887C93DAA331C56A49EED56D3A608D699D (void);
-// 0x00000CCB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CCD System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_CameraParameters__retain_m26185B36B555778254F5D1256DC8CEBD801078CE (void);
-// 0x00000CCC System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__typeName(System.IntPtr)
+// 0x00000CCE System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_CameraParameters__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_CameraParameters__typeName_m33307B329BDB3E75ED4B9A3849CCFDE5D4A6ABCC (void);
-// 0x00000CCD System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Engine_schemaHash()
+// 0x00000CCF System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Engine_schemaHash()
 extern void Detail_easyar_arengineinterop_Engine_schemaHash_mD33C275015E85CE90C8E0CAE3273DC4B6FD4A29F (void);
-// 0x00000CCE System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_Engine_initialize(System.IntPtr)
+// 0x00000CD0 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_Engine_initialize(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Engine_initialize_m9C1D45BDE9E5E8818E3320763F9B1EC4732D4B9F (void);
-// 0x00000CCF System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_index(System.IntPtr)
+// 0x00000CD1 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_index(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_index_m61888ED8B4C73E1771AB64FA1B8952BA3A22EE63 (void);
-// 0x00000CD0 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_image(System.IntPtr,System.IntPtr&)
+// 0x00000CD2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_image(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame_image_m9562B5EFA4C839FB1EFB12DAB55CC87D31136C3F (void);
-// 0x00000CD1 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_hasCameraParameters(System.IntPtr)
+// 0x00000CD3 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_hasCameraParameters(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_hasCameraParameters_mBA4C489E62A2035FEE28774483C95091BE6E2E53 (void);
-// 0x00000CD2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_cameraParameters(System.IntPtr,System.IntPtr&)
+// 0x00000CD4 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_cameraParameters(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame_cameraParameters_mE7643A9AB26D3411B4F6957DDF535DB7B49E7F73 (void);
-// 0x00000CD3 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_hasTemporalInformation(System.IntPtr)
+// 0x00000CD5 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_hasTemporalInformation(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_hasTemporalInformation_m77CC5F8AA69E05F99795F6BC49C02289A0D36139 (void);
-// 0x00000CD4 System.Double easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_timestamp(System.IntPtr)
+// 0x00000CD6 System.Double easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_timestamp(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_timestamp_mE552E1B9F9CE2D9E97C33D6213A2B541C550852A (void);
-// 0x00000CD5 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_hasSpatialInformation(System.IntPtr)
+// 0x00000CD7 System.Boolean easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_hasSpatialInformation(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_hasSpatialInformation_m5845CBAAE1AA371FCE94CFA1CFB94E7D7B9ADF1B (void);
-// 0x00000CD6 easyar.arengineinterop.Matrix44F easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_cameraTransform(System.IntPtr)
+// 0x00000CD8 easyar.arengineinterop.Matrix44F easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_cameraTransform(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_cameraTransform_m031F5960A70AF1DBFD389ECDB667AA70803E024B (void);
-// 0x00000CD7 easyar.arengineinterop.MotionTrackingStatus easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_trackingStatus(System.IntPtr)
+// 0x00000CD9 easyar.arengineinterop.MotionTrackingStatus easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_trackingStatus(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame_trackingStatus_m19AC915AE931BE8455E3F812819E50AA2A6594E2 (void);
-// 0x00000CD8 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_create(System.IntPtr,System.IntPtr,System.Double,easyar.arengineinterop.Matrix44F,easyar.arengineinterop.MotionTrackingStatus,System.IntPtr&)
+// 0x00000CDA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_create(System.IntPtr,System.IntPtr,System.Double,easyar.arengineinterop.Matrix44F,easyar.arengineinterop.MotionTrackingStatus,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame_create_mA84BD86E9CA691042B80317BA5F8B3B19D03600C (void);
-// 0x00000CD9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_createWithImageAndCameraParametersAndTemporal(System.IntPtr,System.IntPtr,System.Double,System.IntPtr&)
+// 0x00000CDB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_createWithImageAndCameraParametersAndTemporal(System.IntPtr,System.IntPtr,System.Double,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame_createWithImageAndCameraParametersAndTemporal_m1D8B1523D0F0FADF6D1BE5A4418E38A0D5B15A64 (void);
-// 0x00000CDA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_createWithImageAndCameraParameters(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000CDC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_createWithImageAndCameraParameters(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame_createWithImageAndCameraParameters_m7DB295C78F461B4178F199FBC856FCD7BD52E30A (void);
-// 0x00000CDB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_createWithImage(System.IntPtr,System.IntPtr&)
+// 0x00000CDD System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame_createWithImage(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame_createWithImage_m45808FFE8CA43D04292C04CEFA6EFD0997013A9E (void);
-// 0x00000CDC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame__dtor(System.IntPtr)
+// 0x00000CDE System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame__dtor_m5547D338E75116AA3DDFEAB2B7DBEC59B1E7553F (void);
-// 0x00000CDD System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CDF System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_InputFrame__retain_m7E07F4200E206D8ECCBF4A61C2B2FEEA345C69C4 (void);
-// 0x00000CDE System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame__typeName(System.IntPtr)
+// 0x00000CE0 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_InputFrame__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_InputFrame__typeName_m2E5EBC87B0857FD2BB25BE6D5F40D94E05D35843 (void);
-// 0x00000CDF System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FrameFilterResult__dtor(System.IntPtr)
+// 0x00000CE1 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FrameFilterResult__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_FrameFilterResult__dtor_m2CC03C83EFCA0B845F788545DB1133F718E9DF66 (void);
-// 0x00000CE0 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FrameFilterResult__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CE2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FrameFilterResult__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_FrameFilterResult__retain_m1241BC81122EA6A598407835AC486B0994D9E29C (void);
-// 0x00000CE1 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_FrameFilterResult__typeName(System.IntPtr)
+// 0x00000CE3 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_FrameFilterResult__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_FrameFilterResult__typeName_mA85916B2B0B11148A3A9CB049E12F799C1837232 (void);
-// 0x00000CE2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000CE4 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_OutputFrame__ctor_m6D116F7941790B4FDBEEF7DD98815944D0E9D47D (void);
-// 0x00000CE3 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame_index(System.IntPtr)
+// 0x00000CE5 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame_index(System.IntPtr)
 extern void Detail_easyar_arengineinterop_OutputFrame_index_mBAB53B940DCA099859CFE524F7022BBADED620EF (void);
-// 0x00000CE4 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame_inputFrame(System.IntPtr,System.IntPtr&)
+// 0x00000CE6 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame_inputFrame(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_OutputFrame_inputFrame_m74166BFEA72E4D0D62A59B7A5D2BC20C435B7081 (void);
-// 0x00000CE5 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame_results(System.IntPtr,System.IntPtr&)
+// 0x00000CE7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame_results(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_OutputFrame_results_mC4B2A188AE2EB4CE3E6AD76CC711B5105C597FD9 (void);
-// 0x00000CE6 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__dtor(System.IntPtr)
+// 0x00000CE8 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_OutputFrame__dtor_mCDB3AFBF6EFD66011D134057E912A54F4F30E618 (void);
-// 0x00000CE7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CE9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_OutputFrame__retain_m58CA1CE50D32DF38A30BEE5E91F355FC9341CA5E (void);
-// 0x00000CE8 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__typeName(System.IntPtr)
+// 0x00000CEA System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_OutputFrame__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_OutputFrame__typeName_mED5DC6AD2A8D370638F02378DC5BBE0F8643E063 (void);
-// 0x00000CE9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__ctor(System.IntPtr,easyar.arengineinterop.Detail/OptionalOfOutputFrame,System.IntPtr&)
+// 0x00000CEB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__ctor(System.IntPtr,easyar.arengineinterop.Detail/OptionalOfOutputFrame,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_FeedbackFrame__ctor_m39630394FA565F02B909C5D7A059B52BEFFE73B1 (void);
-// 0x00000CEA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame_inputFrame(System.IntPtr,System.IntPtr&)
+// 0x00000CEC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame_inputFrame(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_FeedbackFrame_inputFrame_m5EF576BFFE7FD1A56F72B9FE3054802F26462511 (void);
-// 0x00000CEB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame_previousOutputFrame(System.IntPtr,easyar.arengineinterop.Detail/OptionalOfOutputFrame&)
+// 0x00000CED System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame_previousOutputFrame(System.IntPtr,easyar.arengineinterop.Detail/OptionalOfOutputFrame&)
 extern void Detail_easyar_arengineinterop_FeedbackFrame_previousOutputFrame_m6B08796F2FC059A07549D61C865772D994129449 (void);
-// 0x00000CEC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__dtor(System.IntPtr)
+// 0x00000CEE System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_FeedbackFrame__dtor_mD35BC864A848045D5B8E7162756EB5A8B892A1E1 (void);
-// 0x00000CED System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CEF System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_FeedbackFrame__retain_m4CD5CE29718A1585A20D0AF96CBA7DD4BE990EA8 (void);
-// 0x00000CEE System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__typeName(System.IntPtr)
+// 0x00000CF0 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_FeedbackFrame__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_FeedbackFrame__typeName_m4C26F0F85AB4EA425F786BEBE958CEE9C3C45E9F (void);
-// 0x00000CEF System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image__ctor(System.IntPtr,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32,System.IntPtr&)
+// 0x00000CF1 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image__ctor(System.IntPtr,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Image__ctor_m92EA6E16E720C586FF7FAC0723E4D1C4FBEE43C2 (void);
-// 0x00000CF0 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image_buffer(System.IntPtr,System.IntPtr&)
+// 0x00000CF2 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image_buffer(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Image_buffer_mE1606C058B03BE16C868C8FE043BA490E260613A (void);
-// 0x00000CF1 easyar.arengineinterop.PixelFormat easyar.arengineinterop.Detail::easyar_arengineinterop_Image_format(System.IntPtr)
+// 0x00000CF3 easyar.arengineinterop.PixelFormat easyar.arengineinterop.Detail::easyar_arengineinterop_Image_format(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image_format_m6CB2578C933B8E70766539FE45821E202689DDBC (void);
-// 0x00000CF2 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_width(System.IntPtr)
+// 0x00000CF4 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_width(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image_width_m9E0C7E08BF4F19C50A254DB3321FEC0623B5BD26 (void);
-// 0x00000CF3 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_height(System.IntPtr)
+// 0x00000CF5 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_height(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image_height_m5AB5300AC8B1EA6DB1034029F1BE9490B23E3E0B (void);
-// 0x00000CF4 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_pixelWidth(System.IntPtr)
+// 0x00000CF6 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_pixelWidth(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image_pixelWidth_mBF079E77FA003508EF2CB7805066CB50B1289A02 (void);
-// 0x00000CF5 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_pixelHeight(System.IntPtr)
+// 0x00000CF7 System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_Image_pixelHeight(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image_pixelHeight_m3A791126159E78EF618B5F638B79874C8C856087 (void);
-// 0x00000CF6 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image_create(System.IntPtr,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
+// 0x00000CF8 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image_create(System.IntPtr,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Image_create_m6008436DB937C24DB1C1F9A93DB2D17061A02E1D (void);
-// 0x00000CF7 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image__dtor(System.IntPtr)
+// 0x00000CF9 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image__dtor_m060A12BDC8A5C99FA368826B8AB5380620F6D1EC (void);
-// 0x00000CF8 System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image__retain(System.IntPtr,System.IntPtr&)
+// 0x00000CFA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_Image__retain(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_Image__retain_m6EE4BF7C853DB9161FFF8615B2883912F2700C21 (void);
-// 0x00000CF9 System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_Image__typeName(System.IntPtr)
+// 0x00000CFB System.IntPtr easyar.arengineinterop.Detail::easyar_arengineinterop_Image__typeName(System.IntPtr)
 extern void Detail_easyar_arengineinterop_Image__typeName_mDE9BAFB728BAEA4F5B12A08DE032E5F6F06ACA59 (void);
-// 0x00000CFA System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000CFC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_ListOfOptionalOfFrameFilterResult__ctor_m78CE8CAD84A0D0823826C2656BE748E1B18B8FCF (void);
-// 0x00000CFB System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult__dtor(System.IntPtr)
+// 0x00000CFD System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult__dtor(System.IntPtr)
 extern void Detail_easyar_arengineinterop_ListOfOptionalOfFrameFilterResult__dtor_m4CEDCD87CEE2758BB16D0C34916F0D56239053C1 (void);
-// 0x00000CFC System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_copy(System.IntPtr,System.IntPtr&)
+// 0x00000CFE System.Void easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_copy(System.IntPtr,System.IntPtr&)
 extern void Detail_easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_copy_m99160B5C03EDFAA5865B400110C8B4724236327A (void);
-// 0x00000CFD System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_size(System.IntPtr)
+// 0x00000CFF System.Int32 easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_size(System.IntPtr)
 extern void Detail_easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_size_m23C0F77EE1F38F8541DB494AA6424DEE43B26437 (void);
-// 0x00000CFE easyar.arengineinterop.Detail/OptionalOfFrameFilterResult easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_at(System.IntPtr,System.Int32)
+// 0x00000D00 easyar.arengineinterop.Detail/OptionalOfFrameFilterResult easyar.arengineinterop.Detail::easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_at(System.IntPtr,System.Int32)
 extern void Detail_easyar_arengineinterop_ListOfOptionalOfFrameFilterResult_at_m97C23D8DAA05F566CE6F90873589F17B895EEFC3 (void);
-// 0x00000CFF System.IntPtr easyar.arengineinterop.Detail::String_to_c(easyar.arengineinterop.Detail/AutoRelease,System.String)
+// 0x00000D01 System.IntPtr easyar.arengineinterop.Detail::String_to_c(easyar.arengineinterop.Detail/AutoRelease,System.String)
 extern void Detail_String_to_c_m856A19409F7727E08FB174F7F9944B8E1BABF10D (void);
-// 0x00000D00 System.IntPtr easyar.arengineinterop.Detail::String_to_c_inner(System.String)
+// 0x00000D02 System.IntPtr easyar.arengineinterop.Detail::String_to_c_inner(System.String)
 extern void Detail_String_to_c_inner_m97609926E083450D99D1C91F6772F97456F54D1B (void);
-// 0x00000D01 System.String easyar.arengineinterop.Detail::String_from_c(easyar.arengineinterop.Detail/AutoRelease,System.IntPtr)
+// 0x00000D03 System.String easyar.arengineinterop.Detail::String_from_c(easyar.arengineinterop.Detail/AutoRelease,System.IntPtr)
 extern void Detail_String_from_c_mBACF2463CD6063004C44056143560EA1F2B106BA (void);
-// 0x00000D02 System.String easyar.arengineinterop.Detail::String_from_cstring(System.IntPtr)
+// 0x00000D04 System.String easyar.arengineinterop.Detail::String_from_cstring(System.IntPtr)
 extern void Detail_String_from_cstring_mF401C71D4BC809F9E53E9E6D094C306123F3D1A4 (void);
-// 0x00000D03 T easyar.arengineinterop.Detail::Object_from_c(System.IntPtr,System.Func`2<System.IntPtr,System.IntPtr>)
-// 0x00000D04 TValue easyar.arengineinterop.Detail::map(TKey,System.Func`2<TKey,TValue>)
-// 0x00000D05 System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromInputFrame_func(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000D05 T easyar.arengineinterop.Detail::Object_from_c(System.IntPtr,System.Func`2<System.IntPtr,System.IntPtr>)
+// 0x00000D06 TValue easyar.arengineinterop.Detail::map(TKey,System.Func`2<TKey,TValue>)
+// 0x00000D07 System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromInputFrame_func(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void Detail_FunctorOfVoidFromInputFrame_func_m9B1061ACFF4E94710B919B3693A9838284C07B9D (void);
-// 0x00000D06 System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromInputFrame_destroy(System.IntPtr)
+// 0x00000D08 System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromInputFrame_destroy(System.IntPtr)
 extern void Detail_FunctorOfVoidFromInputFrame_destroy_m2AFB13B5E9DE26F935F4A3007813D01DB360DF08 (void);
-// 0x00000D07 easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame easyar.arengineinterop.Detail::FunctorOfVoidFromInputFrame_to_c(System.Action`1<easyar.arengineinterop.InputFrame>)
+// 0x00000D09 easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame easyar.arengineinterop.Detail::FunctorOfVoidFromInputFrame_to_c(System.Action`1<easyar.arengineinterop.InputFrame>)
 extern void Detail_FunctorOfVoidFromInputFrame_to_c_m472A8032ACAC4A852D8A37459DF32E9420966E6C (void);
-// 0x00000D08 System.Void easyar.arengineinterop.Detail::FunctorOfVoid_func(System.IntPtr,System.IntPtr&)
+// 0x00000D0A System.Void easyar.arengineinterop.Detail::FunctorOfVoid_func(System.IntPtr,System.IntPtr&)
 extern void Detail_FunctorOfVoid_func_mA7A49C06B6A4FFA931F6FFD9FD5032C2B5CF02C8 (void);
-// 0x00000D09 System.Void easyar.arengineinterop.Detail::FunctorOfVoid_destroy(System.IntPtr)
+// 0x00000D0B System.Void easyar.arengineinterop.Detail::FunctorOfVoid_destroy(System.IntPtr)
 extern void Detail_FunctorOfVoid_destroy_m4C8088C05AB93AA336AEB6B9D9BCF7E4C0BE6EEF (void);
-// 0x00000D0A easyar.arengineinterop.Detail/FunctorOfVoid easyar.arengineinterop.Detail::FunctorOfVoid_to_c(System.Action)
+// 0x00000D0C easyar.arengineinterop.Detail/FunctorOfVoid easyar.arengineinterop.Detail::FunctorOfVoid_to_c(System.Action)
 extern void Detail_FunctorOfVoid_to_c_m2B66CB7EC62BB4B0158FA3E130EF005CAF5823B1 (void);
-// 0x00000D0B System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func(System.IntPtr,easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.arengineinterop.Detail/OptionalOfString,System.IntPtr&)
+// 0x00000D0D System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func(System.IntPtr,easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.arengineinterop.Detail/OptionalOfString,System.IntPtr&)
 extern void Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func_m13662B0AD2547446795E345D241EB2B3E30DD6B2 (void);
-// 0x00000D0C System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_destroy(System.IntPtr)
+// 0x00000D0E System.Void easyar.arengineinterop.Detail::FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_destroy(System.IntPtr)
 extern void Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_destroy_m81F62B66CD4421FA273D94D26D5CC392356C3127 (void);
-// 0x00000D0D easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString easyar.arengineinterop.Detail::FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_to_c(System.Action`2<easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.Optional`1<System.String>>)
+// 0x00000D0F easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString easyar.arengineinterop.Detail::FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_to_c(System.Action`2<easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.Optional`1<System.String>>)
 extern void Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_to_c_m16325C66A161781A3D61180A1C47FC4EA28C538D (void);
-// 0x00000D0E System.IntPtr easyar.arengineinterop.Detail::ListOfOptionalOfFrameFilterResult_to_c(easyar.arengineinterop.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>>)
+// 0x00000D10 System.IntPtr easyar.arengineinterop.Detail::ListOfOptionalOfFrameFilterResult_to_c(easyar.arengineinterop.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>>)
 extern void Detail_ListOfOptionalOfFrameFilterResult_to_c_m08F4A12E27AAEEAE4FCB3B7469C75B0DCE62C62F (void);
-// 0x00000D0F System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>> easyar.arengineinterop.Detail::ListOfOptionalOfFrameFilterResult_from_c(easyar.arengineinterop.Detail/AutoRelease,System.IntPtr)
+// 0x00000D11 System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>> easyar.arengineinterop.Detail::ListOfOptionalOfFrameFilterResult_from_c(easyar.arengineinterop.Detail/AutoRelease,System.IntPtr)
 extern void Detail_ListOfOptionalOfFrameFilterResult_from_c_mC4643A66F0018DEE583D1496A05429B67B0854EA (void);
-// 0x00000D10 System.Void easyar.arengineinterop.Detail::.cctor()
+// 0x00000D12 System.Void easyar.arengineinterop.Detail::.cctor()
 extern void Detail__cctor_mC24FD397185B67B3C610078613B63668FF6E5936 (void);
-// 0x00000D11 System.Void easyar.arengineinterop.Detail/AutoRelease::Add(System.Action)
+// 0x00000D13 System.Void easyar.arengineinterop.Detail/AutoRelease::Add(System.Action)
 extern void AutoRelease_Add_mB10DFCC993E0211076432CB5666AB3BB515C68A2 (void);
-// 0x00000D12 T easyar.arengineinterop.Detail/AutoRelease::Add(T,System.Action`1<T>)
-// 0x00000D13 System.Void easyar.arengineinterop.Detail/AutoRelease::Dispose()
+// 0x00000D14 T easyar.arengineinterop.Detail/AutoRelease::Add(T,System.Action`1<T>)
+// 0x00000D15 System.Void easyar.arengineinterop.Detail/AutoRelease::Dispose()
 extern void AutoRelease_Dispose_mFC5F61490EE3EE9382C135AB9EAA162A86015717 (void);
-// 0x00000D14 System.Void easyar.arengineinterop.Detail/AutoRelease::.ctor()
+// 0x00000D16 System.Void easyar.arengineinterop.Detail/AutoRelease::.ctor()
 extern void AutoRelease__ctor_m532516B29304167AB419BC936A2682BB056EA941 (void);
-// 0x00000D15 System.Void easyar.arengineinterop.Detail/AutoRelease/<>c__DisplayClass2_0`1::.ctor()
-// 0x00000D16 System.Void easyar.arengineinterop.Detail/AutoRelease/<>c__DisplayClass2_0`1::<Add>b__0()
-// 0x00000D17 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000D17 System.Void easyar.arengineinterop.Detail/AutoRelease/<>c__DisplayClass2_0`1::.ctor()
+// 0x00000D18 System.Void easyar.arengineinterop.Detail/AutoRelease/<>c__DisplayClass2_0`1::<Add>b__0()
+// 0x00000D19 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::.ctor(System.Object,System.IntPtr)
 extern void FunctionDelegate__ctor_mC9B3F895DC8B20B42CF82047165E3976453B2C0A (void);
-// 0x00000D18 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000D1A System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void FunctionDelegate_Invoke_m55056427CC6D92AA364601EF660AAADDEAED6FD2 (void);
-// 0x00000D19 System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+// 0x00000D1B System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
 extern void FunctionDelegate_BeginInvoke_m141E3E81043761363596E1BE477DFACC49518324 (void);
-// 0x00000D1A System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+// 0x00000D1C System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
 extern void FunctionDelegate_EndInvoke_mD4B18E6CEAB2C9F7159FBA13BA62E6A4CF9BF804 (void);
-// 0x00000D1B System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000D1D System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::.ctor(System.Object,System.IntPtr)
 extern void DestroyDelegate__ctor_m049C787B8C3AA13CB4D0BC1C08955A7C2EA798F5 (void);
-// 0x00000D1C System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::Invoke(System.IntPtr)
+// 0x00000D1E System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::Invoke(System.IntPtr)
 extern void DestroyDelegate_Invoke_mCBA973F12D52F4AB382F5AEB3CDF2B2D6573DE5E (void);
-// 0x00000D1D System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+// 0x00000D1F System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
 extern void DestroyDelegate_BeginInvoke_mCB097AA3C4597FDC067BD784870395D3FB804556 (void);
-// 0x00000D1E System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::EndInvoke(System.IAsyncResult)
+// 0x00000D20 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::EndInvoke(System.IAsyncResult)
 extern void DestroyDelegate_EndInvoke_mC2E8124DCE48D6F93C53EDA1A07CE8C15CD4CB4B (void);
-// 0x00000D1F System.Void easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000D21 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::.ctor(System.Object,System.IntPtr)
 extern void FunctionDelegate__ctor_m00F24E1DC17A5B40C700311C52A4E142C587D389 (void);
-// 0x00000D20 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr&)
+// 0x00000D22 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr&)
 extern void FunctionDelegate_Invoke_m170CC02FCB605C0EF7D31E6E5DA5CA82040A9A5E (void);
-// 0x00000D21 System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+// 0x00000D23 System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
 extern void FunctionDelegate_BeginInvoke_mD0BF9CA13F53F72EDE13838B0F70A1851954C216 (void);
-// 0x00000D22 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+// 0x00000D24 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
 extern void FunctionDelegate_EndInvoke_m45D7E348C952183C8BE5A258303AB36AB3714D8E (void);
-// 0x00000D23 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000D25 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::.ctor(System.Object,System.IntPtr)
 extern void DestroyDelegate__ctor_mD7A4ECD97496A8CD6AD9221CA0E51816D0B3CB0C (void);
-// 0x00000D24 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::Invoke(System.IntPtr)
+// 0x00000D26 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::Invoke(System.IntPtr)
 extern void DestroyDelegate_Invoke_m35B9FA49EB93690D57BFD5C18CC7F90F5CCC6CEB (void);
-// 0x00000D25 System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+// 0x00000D27 System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
 extern void DestroyDelegate_BeginInvoke_m368B3AAD169600659287636AB4F938E8B6802DCA (void);
-// 0x00000D26 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::EndInvoke(System.IAsyncResult)
+// 0x00000D28 System.Void easyar.arengineinterop.Detail/FunctorOfVoid/DestroyDelegate::EndInvoke(System.IAsyncResult)
 extern void DestroyDelegate_EndInvoke_m43EC9C9453E49697EE7D50A08F00929A462D7EF4 (void);
-// 0x00000D27 System.Boolean easyar.arengineinterop.Detail/OptionalOfInt::get_has_value()
+// 0x00000D29 System.Boolean easyar.arengineinterop.Detail/OptionalOfInt::get_has_value()
 extern void OptionalOfInt_get_has_value_mC1DD5048BB030A9130B8C0CBC4329C5A0C796924 (void);
-// 0x00000D28 System.Void easyar.arengineinterop.Detail/OptionalOfInt::set_has_value(System.Boolean)
+// 0x00000D2A System.Void easyar.arengineinterop.Detail/OptionalOfInt::set_has_value(System.Boolean)
 extern void OptionalOfInt_set_has_value_m9A5D61C80953FC15C9218FD4501EF658CF845023 (void);
-// 0x00000D29 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000D2B System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
 extern void FunctionDelegate__ctor_mF622F88BFFE73EE8D92CBC59FB3D4665F42F54AA (void);
-// 0x00000D2A System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::Invoke(System.IntPtr,easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.arengineinterop.Detail/OptionalOfString,System.IntPtr&)
+// 0x00000D2C System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::Invoke(System.IntPtr,easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.arengineinterop.Detail/OptionalOfString,System.IntPtr&)
 extern void FunctionDelegate_Invoke_m9D2FC7F837CD773427731E14DAF3C6913358CC52 (void);
-// 0x00000D2B System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.arengineinterop.Detail/OptionalOfString,System.IntPtr&,System.AsyncCallback,System.Object)
+// 0x00000D2D System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.arengineinterop.Detail/OptionalOfString,System.IntPtr&,System.AsyncCallback,System.Object)
 extern void FunctionDelegate_BeginInvoke_mE1637C33AE16037C0FAE05ED8BE45CE49132F01F (void);
-// 0x00000D2C System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+// 0x00000D2E System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
 extern void FunctionDelegate_EndInvoke_mBFFDAE22376833921B6ED2AD18D465D546714F30 (void);
-// 0x00000D2D System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000D2F System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
 extern void DestroyDelegate__ctor_m507FE471EEAFBD15F04C58E132FE57F72CBAA0AC (void);
-// 0x00000D2E System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::Invoke(System.IntPtr)
+// 0x00000D30 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::Invoke(System.IntPtr)
 extern void DestroyDelegate_Invoke_m372B55B9655FF240731D92A9837AC70D656B6653 (void);
-// 0x00000D2F System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+// 0x00000D31 System.IAsyncResult easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
 extern void DestroyDelegate_BeginInvoke_mE257AAD9A2A948F68490426C183A746EAB784DCC (void);
-// 0x00000D30 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+// 0x00000D32 System.Void easyar.arengineinterop.Detail/FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString/DestroyDelegate::EndInvoke(System.IAsyncResult)
 extern void DestroyDelegate_EndInvoke_m68C57C3F75D12E0FDA7A316F8F79B3E9BE84E6BE (void);
-// 0x00000D31 System.Boolean easyar.arengineinterop.Detail/OptionalOfString::get_has_value()
+// 0x00000D33 System.Boolean easyar.arengineinterop.Detail/OptionalOfString::get_has_value()
 extern void OptionalOfString_get_has_value_m60AA6EAE910351A7CF3136D99A62900E35CBC40F (void);
-// 0x00000D32 System.Void easyar.arengineinterop.Detail/OptionalOfString::set_has_value(System.Boolean)
+// 0x00000D34 System.Void easyar.arengineinterop.Detail/OptionalOfString::set_has_value(System.Boolean)
 extern void OptionalOfString_set_has_value_m2F053A86DC2F4F0A95CA5534F3B5E4EFCD6F2531 (void);
-// 0x00000D33 System.Boolean easyar.arengineinterop.Detail/OptionalOfBuffer::get_has_value()
+// 0x00000D35 System.Boolean easyar.arengineinterop.Detail/OptionalOfBuffer::get_has_value()
 extern void OptionalOfBuffer_get_has_value_mC12EFE3DE099D26C9720476D3DEFDD99640301D0 (void);
-// 0x00000D34 System.Void easyar.arengineinterop.Detail/OptionalOfBuffer::set_has_value(System.Boolean)
+// 0x00000D36 System.Void easyar.arengineinterop.Detail/OptionalOfBuffer::set_has_value(System.Boolean)
 extern void OptionalOfBuffer_set_has_value_mAB8B8E4DE21E6B44CFAAF769DD92858EABDDAE39 (void);
-// 0x00000D35 System.Boolean easyar.arengineinterop.Detail/OptionalOfFrameFilterResult::get_has_value()
+// 0x00000D37 System.Boolean easyar.arengineinterop.Detail/OptionalOfFrameFilterResult::get_has_value()
 extern void OptionalOfFrameFilterResult_get_has_value_m9D3EF19A239B92486C4B41132C2350D799742D84 (void);
-// 0x00000D36 System.Void easyar.arengineinterop.Detail/OptionalOfFrameFilterResult::set_has_value(System.Boolean)
+// 0x00000D38 System.Void easyar.arengineinterop.Detail/OptionalOfFrameFilterResult::set_has_value(System.Boolean)
 extern void OptionalOfFrameFilterResult_set_has_value_m5F33AFBA3BC85E53BD6B7A1C9DFEE03276451E38 (void);
-// 0x00000D37 System.Boolean easyar.arengineinterop.Detail/OptionalOfOutputFrame::get_has_value()
+// 0x00000D39 System.Boolean easyar.arengineinterop.Detail/OptionalOfOutputFrame::get_has_value()
 extern void OptionalOfOutputFrame_get_has_value_m1272887CB9DF82290BC29DC68C4A8462D56153EB (void);
-// 0x00000D38 System.Void easyar.arengineinterop.Detail/OptionalOfOutputFrame::set_has_value(System.Boolean)
+// 0x00000D3A System.Void easyar.arengineinterop.Detail/OptionalOfOutputFrame::set_has_value(System.Boolean)
 extern void OptionalOfOutputFrame_set_has_value_m63B422A5D9A3223D7AAFF137F549EB424F5F84C9 (void);
-// 0x00000D39 System.Void easyar.arengineinterop.Detail/<>c__DisplayClass142_0::.ctor()
+// 0x00000D3B System.Void easyar.arengineinterop.Detail/<>c__DisplayClass142_0::.ctor()
 extern void U3CU3Ec__DisplayClass142_0__ctor_mC276F915C7221C5E61F4E16CCD6B4423493834E3 (void);
-// 0x00000D3A System.Void easyar.arengineinterop.Detail/<>c__DisplayClass142_0::<FunctorOfVoidFromInputFrame_func>b__0()
+// 0x00000D3C System.Void easyar.arengineinterop.Detail/<>c__DisplayClass142_0::<FunctorOfVoidFromInputFrame_func>b__0()
 extern void U3CU3Ec__DisplayClass142_0_U3CFunctorOfVoidFromInputFrame_funcU3Eb__0_m34042138E900982CB930BB4BBE7E6CC10DC01125 (void);
-// 0x00000D3B System.Void easyar.arengineinterop.Detail/<>c__DisplayClass151_0::.ctor()
+// 0x00000D3D System.Void easyar.arengineinterop.Detail/<>c__DisplayClass151_0::.ctor()
 extern void U3CU3Ec__DisplayClass151_0__ctor_m241942113B9EFF8585E898C274B1AB257F4D57AC (void);
-// 0x00000D3C easyar.Optional`1<System.String> easyar.arengineinterop.Detail/<>c__DisplayClass151_0::<FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func>b__0(easyar.arengineinterop.Detail/OptionalOfString)
+// 0x00000D3E easyar.Optional`1<System.String> easyar.arengineinterop.Detail/<>c__DisplayClass151_0::<FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func>b__0(easyar.arengineinterop.Detail/OptionalOfString)
 extern void U3CU3Ec__DisplayClass151_0_U3CFunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_funcU3Eb__0_m77E2895E20A2D9A0E816D45F9DE7325118898AD9 (void);
-// 0x00000D3D System.Void easyar.arengineinterop.Detail/<>c::.cctor()
+// 0x00000D3F System.Void easyar.arengineinterop.Detail/<>c::.cctor()
 extern void U3CU3Ec__cctor_mE73D1C4D3089253ABE1C3962CB9714C9EF9A3BC1 (void);
-// 0x00000D3E System.Void easyar.arengineinterop.Detail/<>c::.ctor()
+// 0x00000D40 System.Void easyar.arengineinterop.Detail/<>c::.ctor()
 extern void U3CU3Ec__ctor_m02D120524400D1574BED0E5828596FB848787F4C (void);
-// 0x00000D3F easyar.arengineinterop.Detail/OptionalOfFrameFilterResult easyar.arengineinterop.Detail/<>c::<ListOfOptionalOfFrameFilterResult_to_c>b__156_0(easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>)
+// 0x00000D41 easyar.arengineinterop.Detail/OptionalOfFrameFilterResult easyar.arengineinterop.Detail/<>c::<ListOfOptionalOfFrameFilterResult_to_c>b__156_0(easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>)
 extern void U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_to_cU3Eb__156_0_mDA70B9CC4992E4CE12352298EF23030FFBF15CEA (void);
-// 0x00000D40 easyar.arengineinterop.Detail/OptionalOfFrameFilterResult easyar.arengineinterop.Detail/<>c::<ListOfOptionalOfFrameFilterResult_to_c>b__156_1(easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>)
+// 0x00000D42 easyar.arengineinterop.Detail/OptionalOfFrameFilterResult easyar.arengineinterop.Detail/<>c::<ListOfOptionalOfFrameFilterResult_to_c>b__156_1(easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>)
 extern void U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_to_cU3Eb__156_1_m1437E29AA720A8F2AF12124E596EAF2EC7720649 (void);
-// 0x00000D41 easyar.Optional`1<easyar.arengineinterop.FrameFilterResult> easyar.arengineinterop.Detail/<>c::<ListOfOptionalOfFrameFilterResult_from_c>b__157_0(easyar.arengineinterop.Detail/OptionalOfFrameFilterResult)
+// 0x00000D43 easyar.Optional`1<easyar.arengineinterop.FrameFilterResult> easyar.arengineinterop.Detail/<>c::<ListOfOptionalOfFrameFilterResult_from_c>b__157_0(easyar.arengineinterop.Detail/OptionalOfFrameFilterResult)
 extern void U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_from_cU3Eb__157_0_m1E18C259799DF661CDB096CC8D020F20F42F3E2C (void);
-// 0x00000D42 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_0(System.IntPtr)
+// 0x00000D44 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_0(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_0_m27A8AC5FDF1895FE7242B7DA1350996FAE7FFE4F (void);
-// 0x00000D43 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_1(System.IntPtr)
+// 0x00000D45 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_1(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_1_mB94DE090F3C9D2D07988EDC0A19F9A57C145A47D (void);
-// 0x00000D44 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_2(System.IntPtr)
+// 0x00000D46 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_2(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_2_m5ECF7C308A8935FA0A818B8623F5FC305A0D6209 (void);
-// 0x00000D45 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_3(System.IntPtr)
+// 0x00000D47 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_3(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_3_m9194F933E424B35CDB6C68B05751E964BB106642 (void);
-// 0x00000D46 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_4(System.IntPtr)
+// 0x00000D48 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_4(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_4_m09E7F3D8E564CD89AE08BE8BCE9EA3AA646AF349 (void);
-// 0x00000D47 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_5(System.IntPtr)
+// 0x00000D49 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_5(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_5_m929DB7C767039F94387334A90564E9FD97986376 (void);
-// 0x00000D48 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_6(System.IntPtr)
+// 0x00000D4A easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_6(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_6_m710682891BD037D1388FD9161B458146861CE66B (void);
-// 0x00000D49 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_7(System.IntPtr)
+// 0x00000D4B easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_7(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_7_m9F41A7B175F4219EBA8C267642C7C81A0CC2D24F (void);
-// 0x00000D4A easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_8(System.IntPtr)
+// 0x00000D4C easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_8(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_8_mB88518B494D7FFD71D61C340C696F19FD45F0D44 (void);
-// 0x00000D4B easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_9(System.IntPtr)
+// 0x00000D4D easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_9(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_9_mBCE0C717706ADEB01FAECE5EA142EF230D234676 (void);
-// 0x00000D4C easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_10(System.IntPtr)
+// 0x00000D4E easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_10(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_10_mF6A17EABFEB6DDCC752CC80D85D9A11E62C59CC1 (void);
-// 0x00000D4D easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_11(System.IntPtr)
+// 0x00000D4F easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_11(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_11_m5EB7C37AA5C7CA84A4C5908A1469019CF37CA2D6 (void);
-// 0x00000D4E easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_12(System.IntPtr)
+// 0x00000D50 easyar.arengineinterop.RefBase easyar.arengineinterop.Detail/<>c::<.cctor>b__160_12(System.IntPtr)
 extern void U3CU3Ec_U3C_cctorU3Eb__160_12_m0E803B453AEFA41448B096F88DB7F474C588A2C7 (void);
-// 0x00000D4F System.Void easyar.arengineinterop.RefBase::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D51 System.Void easyar.arengineinterop.RefBase::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void RefBase__ctor_m993A273C39CF74208BB74C9111ED2E10539ACAF9 (void);
-// 0x00000D50 System.IntPtr easyar.arengineinterop.RefBase::get_cdata()
+// 0x00000D52 System.IntPtr easyar.arengineinterop.RefBase::get_cdata()
 extern void RefBase_get_cdata_m254AA894E484A5F5861C020A197F2315EC9AB5AC (void);
-// 0x00000D51 System.Void easyar.arengineinterop.RefBase::Finalize()
+// 0x00000D53 System.Void easyar.arengineinterop.RefBase::Finalize()
 extern void RefBase_Finalize_m5C0A47890DC5792FB210458912777C8A6B4E3185 (void);
-// 0x00000D52 System.Void easyar.arengineinterop.RefBase::Dispose()
+// 0x00000D54 System.Void easyar.arengineinterop.RefBase::Dispose()
 extern void RefBase_Dispose_m8A3CC034F791196BD5ADCF7B4F1A71A0A2B0BCCC (void);
-// 0x00000D53 System.Object easyar.arengineinterop.RefBase::CloneObject()
-// 0x00000D54 easyar.arengineinterop.RefBase easyar.arengineinterop.RefBase::Clone()
+// 0x00000D55 System.Object easyar.arengineinterop.RefBase::CloneObject()
+// 0x00000D56 easyar.arengineinterop.RefBase easyar.arengineinterop.RefBase::Clone()
 extern void RefBase_Clone_m484F10C3337D86A84D07EA97575CD6B948BF22AB (void);
-// 0x00000D55 System.Void easyar.arengineinterop.RefBase/Retainer::.ctor(System.Object,System.IntPtr)
+// 0x00000D57 System.Void easyar.arengineinterop.RefBase/Retainer::.ctor(System.Object,System.IntPtr)
 extern void Retainer__ctor_m480E22F827A714D7F4E3238D5DB0B0C6117C6108 (void);
-// 0x00000D56 System.Void easyar.arengineinterop.RefBase/Retainer::Invoke(System.IntPtr,System.IntPtr&)
+// 0x00000D58 System.Void easyar.arengineinterop.RefBase/Retainer::Invoke(System.IntPtr,System.IntPtr&)
 extern void Retainer_Invoke_m97B4D481743ACBAEB48ADA08F866D4F89A6A7405 (void);
-// 0x00000D57 System.IAsyncResult easyar.arengineinterop.RefBase/Retainer::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+// 0x00000D59 System.IAsyncResult easyar.arengineinterop.RefBase/Retainer::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
 extern void Retainer_BeginInvoke_m49D356B86A1C1AE67D0E103DD3904D131D3E3802 (void);
-// 0x00000D58 System.Void easyar.arengineinterop.RefBase/Retainer::EndInvoke(System.IntPtr&,System.IAsyncResult)
+// 0x00000D5A System.Void easyar.arengineinterop.RefBase/Retainer::EndInvoke(System.IntPtr&,System.IAsyncResult)
 extern void Retainer_EndInvoke_m71FCCE4C1B666FFB06654AB6D4B26564720720B8 (void);
-// 0x00000D59 System.Void easyar.arengineinterop.AREngineCameraDevice::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D5B System.Void easyar.arengineinterop.AREngineCameraDevice::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void AREngineCameraDevice__ctor_m834BC98D76609E0B2A330C056079F1EC68D77A32 (void);
-// 0x00000D5A System.Object easyar.arengineinterop.AREngineCameraDevice::CloneObject()
+// 0x00000D5C System.Object easyar.arengineinterop.AREngineCameraDevice::CloneObject()
 extern void AREngineCameraDevice_CloneObject_mB70861BF9C788A30AB57120D939D16B2A21A5927 (void);
-// 0x00000D5B easyar.arengineinterop.AREngineCameraDevice easyar.arengineinterop.AREngineCameraDevice::Clone()
+// 0x00000D5D easyar.arengineinterop.AREngineCameraDevice easyar.arengineinterop.AREngineCameraDevice::Clone()
 extern void AREngineCameraDevice_Clone_mC02B27470E03FD26AE832AB2B41D0A8095B6A7BE (void);
-// 0x00000D5C System.Void easyar.arengineinterop.AREngineCameraDevice::.ctor()
+// 0x00000D5E System.Void easyar.arengineinterop.AREngineCameraDevice::.ctor()
 extern void AREngineCameraDevice__ctor_m9E6993FC25D8515524461224C6A72CF12BA1D8DE (void);
-// 0x00000D5D System.Boolean easyar.arengineinterop.AREngineCameraDevice::isAvailable()
+// 0x00000D5F System.Boolean easyar.arengineinterop.AREngineCameraDevice::isAvailable()
 extern void AREngineCameraDevice_isAvailable_mE6590A653580A1EA1B27B3EB5B8EDE220A668FCB (void);
-// 0x00000D5E System.Boolean easyar.arengineinterop.AREngineCameraDevice::isDeviceSupported()
+// 0x00000D60 System.Boolean easyar.arengineinterop.AREngineCameraDevice::isDeviceSupported()
 extern void AREngineCameraDevice_isDeviceSupported_m728C8F08D65AB851F5263D21F97654D7011DADA9 (void);
-// 0x00000D5F System.Int32 easyar.arengineinterop.AREngineCameraDevice::bufferCapacity()
+// 0x00000D61 System.Int32 easyar.arengineinterop.AREngineCameraDevice::bufferCapacity()
 extern void AREngineCameraDevice_bufferCapacity_m0D2D6CC1F2D130EA56EBFED269BE3647955E1C89 (void);
-// 0x00000D60 System.Void easyar.arengineinterop.AREngineCameraDevice::setBufferCapacity(System.Int32)
+// 0x00000D62 System.Void easyar.arengineinterop.AREngineCameraDevice::setBufferCapacity(System.Int32)
 extern void AREngineCameraDevice_setBufferCapacity_m77563C32632C5FA44BB8714334EBDD771FA6FAB0 (void);
-// 0x00000D61 System.Void easyar.arengineinterop.AREngineCameraDevice::setInputFrameHandler(System.Action`1<easyar.arengineinterop.InputFrame>)
+// 0x00000D63 System.Void easyar.arengineinterop.AREngineCameraDevice::setInputFrameHandler(System.Action`1<easyar.arengineinterop.InputFrame>)
 extern void AREngineCameraDevice_setInputFrameHandler_mE7FED68EDB9AA41696F5889296D6BB4E485DEA2D (void);
-// 0x00000D62 System.Void easyar.arengineinterop.AREngineCameraDevice::setFocusMode(easyar.arengineinterop.AREngineCameraDeviceFocusMode)
+// 0x00000D64 System.Void easyar.arengineinterop.AREngineCameraDevice::setFocusMode(easyar.arengineinterop.AREngineCameraDeviceFocusMode)
 extern void AREngineCameraDevice_setFocusMode_mDAD271DE83F54341028B7F5CA183220A88857D84 (void);
-// 0x00000D63 System.Void easyar.arengineinterop.AREngineCameraDevice::setHighResMode(System.Boolean)
+// 0x00000D65 System.Void easyar.arengineinterop.AREngineCameraDevice::setHighResMode(System.Boolean)
 extern void AREngineCameraDevice_setHighResMode_m7296006573DBD4B4C80F655779D809594100F2CC (void);
-// 0x00000D64 System.Boolean easyar.arengineinterop.AREngineCameraDevice::start()
+// 0x00000D66 System.Boolean easyar.arengineinterop.AREngineCameraDevice::start()
 extern void AREngineCameraDevice_start_m72D9140C409A2CC5AFC96DF1BDD80365A6102BF3 (void);
-// 0x00000D65 System.Void easyar.arengineinterop.AREngineCameraDevice::stop()
+// 0x00000D67 System.Void easyar.arengineinterop.AREngineCameraDevice::stop()
 extern void AREngineCameraDevice_stop_m8481D9DC835F3B13E009B00DAD0E4A65921B76D8 (void);
-// 0x00000D66 System.Void easyar.arengineinterop.AREngineCameraDevice::close()
+// 0x00000D68 System.Void easyar.arengineinterop.AREngineCameraDevice::close()
 extern void AREngineCameraDevice_close_m64DD7D6BFDE5F536DFF1D1EBD7B77C1B686C6C1E (void);
-// 0x00000D67 System.Void easyar.arengineinterop.AREngineCameraDevice::onPause()
+// 0x00000D69 System.Void easyar.arengineinterop.AREngineCameraDevice::onPause()
 extern void AREngineCameraDevice_onPause_m652D359C75819749B7A380325AE877FF6A77EAA9 (void);
-// 0x00000D68 System.Boolean easyar.arengineinterop.AREngineCameraDevice::onResume()
+// 0x00000D6A System.Boolean easyar.arengineinterop.AREngineCameraDevice::onResume()
 extern void AREngineCameraDevice_onResume_mD47E1FF142DD44F4AB8F596302AC774BB529F69A (void);
-// 0x00000D69 System.Void easyar.arengineinterop.AREngineDeviceListDownloader::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D6B System.Void easyar.arengineinterop.AREngineDeviceListDownloader::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void AREngineDeviceListDownloader__ctor_m6DA0567AB10EC72F0273B99B09D52874663777F8 (void);
-// 0x00000D6A System.Object easyar.arengineinterop.AREngineDeviceListDownloader::CloneObject()
+// 0x00000D6C System.Object easyar.arengineinterop.AREngineDeviceListDownloader::CloneObject()
 extern void AREngineDeviceListDownloader_CloneObject_mE0086C7BAD682249EDD7AAC6C60847268C661454 (void);
-// 0x00000D6B easyar.arengineinterop.AREngineDeviceListDownloader easyar.arengineinterop.AREngineDeviceListDownloader::Clone()
+// 0x00000D6D easyar.arengineinterop.AREngineDeviceListDownloader easyar.arengineinterop.AREngineDeviceListDownloader::Clone()
 extern void AREngineDeviceListDownloader_Clone_m5CC49D84E209CD9894D29EE662E4BBF9E489C0CD (void);
-// 0x00000D6C System.Void easyar.arengineinterop.AREngineDeviceListDownloader::.ctor()
+// 0x00000D6E System.Void easyar.arengineinterop.AREngineDeviceListDownloader::.ctor()
 extern void AREngineDeviceListDownloader__ctor_m5E550813D15A19898E22A82D063EE67B5307F2A8 (void);
-// 0x00000D6D System.Void easyar.arengineinterop.AREngineDeviceListDownloader::download(easyar.Optional`1<System.Int32>,easyar.arengineinterop.CallbackScheduler,System.Action`2<easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.Optional`1<System.String>>)
+// 0x00000D6F System.Void easyar.arengineinterop.AREngineDeviceListDownloader::download(easyar.Optional`1<System.Int32>,easyar.arengineinterop.CallbackScheduler,System.Action`2<easyar.arengineinterop.AREngineDeviceListDownloadStatus,easyar.Optional`1<System.String>>)
 extern void AREngineDeviceListDownloader_download_m91ED0369B4C185F86636399DC451BCD59334B1F2 (void);
-// 0x00000D6E System.Void easyar.arengineinterop.AREngineDeviceListDownloader/<>c::.cctor()
+// 0x00000D70 System.Void easyar.arengineinterop.AREngineDeviceListDownloader/<>c::.cctor()
 extern void U3CU3Ec__cctor_m57CE2A4D84AAC53CC021E22041FA79E0B058319D (void);
-// 0x00000D6F System.Void easyar.arengineinterop.AREngineDeviceListDownloader/<>c::.ctor()
+// 0x00000D71 System.Void easyar.arengineinterop.AREngineDeviceListDownloader/<>c::.ctor()
 extern void U3CU3Ec__ctor_mD86533FC00C2069FAE201C5F4DC61BED4E76D5B0 (void);
-// 0x00000D70 easyar.arengineinterop.Detail/OptionalOfInt easyar.arengineinterop.AREngineDeviceListDownloader/<>c::<download>b__4_0(easyar.Optional`1<System.Int32>)
+// 0x00000D72 easyar.arengineinterop.Detail/OptionalOfInt easyar.arengineinterop.AREngineDeviceListDownloader/<>c::<download>b__4_0(easyar.Optional`1<System.Int32>)
 extern void U3CU3Ec_U3CdownloadU3Eb__4_0_m8025A671CF85E8A9BD17600135558D5A34547AF8 (void);
-// 0x00000D71 System.Void easyar.arengineinterop.Buffer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D73 System.Void easyar.arengineinterop.Buffer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void Buffer__ctor_m851FAB42F960EC6CFA852D02F1D8012B6E6B95DF (void);
-// 0x00000D72 System.Object easyar.arengineinterop.Buffer::CloneObject()
+// 0x00000D74 System.Object easyar.arengineinterop.Buffer::CloneObject()
 extern void Buffer_CloneObject_mB358E80E8AFFBDF10734439A5A3C6C78D777626A (void);
-// 0x00000D73 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::Clone()
+// 0x00000D75 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::Clone()
 extern void Buffer_Clone_m1E194CCB464B46A02F0E0BEBFA5C529BE8AC0713 (void);
-// 0x00000D74 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrap(System.IntPtr,System.Int32,System.Action)
+// 0x00000D76 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrap(System.IntPtr,System.Int32,System.Action)
 extern void Buffer_wrap_m37D982A62D2B61270D3D5578FE9C52B194D09216 (void);
-// 0x00000D75 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::create(System.Int32)
+// 0x00000D77 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::create(System.Int32)
 extern void Buffer_create_m7DC19D88AEA9C07A6DA1656A24A24F89857B8776 (void);
-// 0x00000D76 System.IntPtr easyar.arengineinterop.Buffer::data()
+// 0x00000D78 System.IntPtr easyar.arengineinterop.Buffer::data()
 extern void Buffer_data_m028172132E0CE18E13C32AE4A20D255CDE6A0473 (void);
-// 0x00000D77 System.Int32 easyar.arengineinterop.Buffer::size()
+// 0x00000D79 System.Int32 easyar.arengineinterop.Buffer::size()
 extern void Buffer_size_m3287D8807F789DEF5110739893BC9CE01064C624 (void);
-// 0x00000D78 System.Void easyar.arengineinterop.Buffer::memoryCopy(System.IntPtr,System.IntPtr,System.Int32)
+// 0x00000D7A System.Void easyar.arengineinterop.Buffer::memoryCopy(System.IntPtr,System.IntPtr,System.Int32)
 extern void Buffer_memoryCopy_m1528578583146D1F9D768B89713A3F32F8143F80 (void);
-// 0x00000D79 System.Boolean easyar.arengineinterop.Buffer::tryCopyFrom(System.IntPtr,System.Int32,System.Int32,System.Int32)
+// 0x00000D7B System.Boolean easyar.arengineinterop.Buffer::tryCopyFrom(System.IntPtr,System.Int32,System.Int32,System.Int32)
 extern void Buffer_tryCopyFrom_mE97D01A73C81992E5B83D20D7171A3F329B4A9BB (void);
-// 0x00000D7A System.Boolean easyar.arengineinterop.Buffer::tryCopyTo(System.Int32,System.IntPtr,System.Int32,System.Int32)
+// 0x00000D7C System.Boolean easyar.arengineinterop.Buffer::tryCopyTo(System.Int32,System.IntPtr,System.Int32,System.Int32)
 extern void Buffer_tryCopyTo_mB0132CF7AD1CB9E66374B5D2813E8197E38B2322 (void);
-// 0x00000D7B easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::partition(System.Int32,System.Int32)
+// 0x00000D7D easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::partition(System.Int32,System.Int32)
 extern void Buffer_partition_m491BCD09D8B7FBC462A6EC405093506F2E21BCD8 (void);
-// 0x00000D7C easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrapByteArray(System.Byte[])
+// 0x00000D7E easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrapByteArray(System.Byte[])
 extern void Buffer_wrapByteArray_m930199844096F12409A107D56053D7A643409EBB (void);
-// 0x00000D7D easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrapByteArray(System.Byte[],System.Int32,System.Int32)
+// 0x00000D7F easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrapByteArray(System.Byte[],System.Int32,System.Int32)
 extern void Buffer_wrapByteArray_m151ADBD1BD73D94DE173855752BCF03BC2C4F59A (void);
-// 0x00000D7E easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrapByteArray(System.Byte[],System.Int32,System.Int32,System.Action)
+// 0x00000D80 easyar.arengineinterop.Buffer easyar.arengineinterop.Buffer::wrapByteArray(System.Byte[],System.Int32,System.Int32,System.Action)
 extern void Buffer_wrapByteArray_m5ADADE104F8087131079127EF9ADE918B6A34971 (void);
-// 0x00000D7F System.Void easyar.arengineinterop.Buffer::copyFromByteArray(System.Byte[])
+// 0x00000D81 System.Void easyar.arengineinterop.Buffer::copyFromByteArray(System.Byte[])
 extern void Buffer_copyFromByteArray_m89508C7DF2209B0C804E93E9A85F8F4C4F268F66 (void);
-// 0x00000D80 System.Void easyar.arengineinterop.Buffer::copyFromByteArray(System.Byte[],System.Int32,System.Int32,System.Int32)
+// 0x00000D82 System.Void easyar.arengineinterop.Buffer::copyFromByteArray(System.Byte[],System.Int32,System.Int32,System.Int32)
 extern void Buffer_copyFromByteArray_mF9A430631F3E20AE70B9B6E54989549B320FCB4F (void);
-// 0x00000D81 System.Void easyar.arengineinterop.Buffer::copyToByteArray(System.Byte[])
+// 0x00000D83 System.Void easyar.arengineinterop.Buffer::copyToByteArray(System.Byte[])
 extern void Buffer_copyToByteArray_m0FEC8611D6D8C10BA8437A140A9F96B79944EFA9 (void);
-// 0x00000D82 System.Void easyar.arengineinterop.Buffer::copyToByteArray(System.Int32,System.Byte[],System.Int32,System.Int32)
+// 0x00000D84 System.Void easyar.arengineinterop.Buffer::copyToByteArray(System.Int32,System.Byte[],System.Int32,System.Int32)
 extern void Buffer_copyToByteArray_mAA7B241EEC51D24C9041B7DC6E3CF659A9D5C5FB (void);
-// 0x00000D83 System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass11_0::.ctor()
+// 0x00000D85 System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass11_0::.ctor()
 extern void U3CU3Ec__DisplayClass11_0__ctor_m3F63008B45FF4796ED92037C0E39B2C1E75DC9A6 (void);
-// 0x00000D84 System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass11_0::<wrapByteArray>b__0()
+// 0x00000D86 System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass11_0::<wrapByteArray>b__0()
 extern void U3CU3Ec__DisplayClass11_0_U3CwrapByteArrayU3Eb__0_m023200A6BD2B72535282BF9D55D96FA557032CD1 (void);
-// 0x00000D85 System.Void easyar.arengineinterop.Buffer/<>c::.cctor()
+// 0x00000D87 System.Void easyar.arengineinterop.Buffer/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB3336B853D1D15CB41C852309B40959577A49930 (void);
-// 0x00000D86 System.Void easyar.arengineinterop.Buffer/<>c::.ctor()
+// 0x00000D88 System.Void easyar.arengineinterop.Buffer/<>c::.ctor()
 extern void U3CU3Ec__ctor_mF6A7525265CE2EE75FBCD8A02FE12F7BAF634DE2 (void);
-// 0x00000D87 System.Void easyar.arengineinterop.Buffer/<>c::<wrapByteArray>b__12_0()
+// 0x00000D89 System.Void easyar.arengineinterop.Buffer/<>c::<wrapByteArray>b__12_0()
 extern void U3CU3Ec_U3CwrapByteArrayU3Eb__12_0_m1514074FB0A0F41881B09E010D101C8C8E1D50C0 (void);
-// 0x00000D88 System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass13_0::.ctor()
+// 0x00000D8A System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass13_0::.ctor()
 extern void U3CU3Ec__DisplayClass13_0__ctor_m5B6DCE1BD57041510F1F4F1745835C474EFDFE7B (void);
-// 0x00000D89 System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass13_0::<wrapByteArray>b__0()
+// 0x00000D8B System.Void easyar.arengineinterop.Buffer/<>c__DisplayClass13_0::<wrapByteArray>b__0()
 extern void U3CU3Ec__DisplayClass13_0_U3CwrapByteArrayU3Eb__0_m11D5F30A58BF81D9F413B9950E58D6897B8A5FDF (void);
-// 0x00000D8A System.Void easyar.arengineinterop.BufferDictionary::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D8C System.Void easyar.arengineinterop.BufferDictionary::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void BufferDictionary__ctor_mAA4219EC4DBE7CEE5A5A5844EF9ACEF9F1E4D9B5 (void);
-// 0x00000D8B System.Object easyar.arengineinterop.BufferDictionary::CloneObject()
+// 0x00000D8D System.Object easyar.arengineinterop.BufferDictionary::CloneObject()
 extern void BufferDictionary_CloneObject_m5BE6929BCC2C47045AEBD20592454BFD6278E473 (void);
-// 0x00000D8C easyar.arengineinterop.BufferDictionary easyar.arengineinterop.BufferDictionary::Clone()
+// 0x00000D8E easyar.arengineinterop.BufferDictionary easyar.arengineinterop.BufferDictionary::Clone()
 extern void BufferDictionary_Clone_mA98FEE1BC6EC827B71E85C1299701C7B44DCD778 (void);
-// 0x00000D8D System.Void easyar.arengineinterop.BufferDictionary::.ctor()
+// 0x00000D8F System.Void easyar.arengineinterop.BufferDictionary::.ctor()
 extern void BufferDictionary__ctor_m45D5FC1354C333AA3F29FCEE9C7B0D3ACBA0CCFD (void);
-// 0x00000D8E System.Int32 easyar.arengineinterop.BufferDictionary::count()
+// 0x00000D90 System.Int32 easyar.arengineinterop.BufferDictionary::count()
 extern void BufferDictionary_count_m4343734D1DA5DF786A8AD83392614F4C1F512376 (void);
-// 0x00000D8F System.Boolean easyar.arengineinterop.BufferDictionary::contains(System.String)
+// 0x00000D91 System.Boolean easyar.arengineinterop.BufferDictionary::contains(System.String)
 extern void BufferDictionary_contains_m5AE2A3405329C88EB18B300C981A916C432C319C (void);
-// 0x00000D90 easyar.Optional`1<easyar.arengineinterop.Buffer> easyar.arengineinterop.BufferDictionary::tryGet(System.String)
+// 0x00000D92 easyar.Optional`1<easyar.arengineinterop.Buffer> easyar.arengineinterop.BufferDictionary::tryGet(System.String)
 extern void BufferDictionary_tryGet_m2446497A3F26AD476B2EC33C90642DD7202ACEFA (void);
-// 0x00000D91 System.Void easyar.arengineinterop.BufferDictionary::set(System.String,easyar.arengineinterop.Buffer)
+// 0x00000D93 System.Void easyar.arengineinterop.BufferDictionary::set(System.String,easyar.arengineinterop.Buffer)
 extern void BufferDictionary_set_m983CE12A46C8932F01444B4723EFB268AD47C8BC (void);
-// 0x00000D92 System.Boolean easyar.arengineinterop.BufferDictionary::remove(System.String)
+// 0x00000D94 System.Boolean easyar.arengineinterop.BufferDictionary::remove(System.String)
 extern void BufferDictionary_remove_m602613E8ED29D0C0208BD9C6B251735A4D8723D1 (void);
-// 0x00000D93 System.Void easyar.arengineinterop.BufferDictionary::clear()
+// 0x00000D95 System.Void easyar.arengineinterop.BufferDictionary::clear()
 extern void BufferDictionary_clear_m1DE5FA666AD981ACB728E9350FC9836EAE7148BF (void);
-// 0x00000D94 System.Void easyar.arengineinterop.BufferDictionary/<>c::.cctor()
+// 0x00000D96 System.Void easyar.arengineinterop.BufferDictionary/<>c::.cctor()
 extern void U3CU3Ec__cctor_m0F9FCE795FE821A412EC8D6FB4D4B2102DA9BA1F (void);
-// 0x00000D95 System.Void easyar.arengineinterop.BufferDictionary/<>c::.ctor()
+// 0x00000D97 System.Void easyar.arengineinterop.BufferDictionary/<>c::.ctor()
 extern void U3CU3Ec__ctor_m3E65D3CDEFF4B4EEDD300CB8EE919FD3C5BAC912 (void);
-// 0x00000D96 easyar.Optional`1<easyar.arengineinterop.Buffer> easyar.arengineinterop.BufferDictionary/<>c::<tryGet>b__6_0(easyar.arengineinterop.Detail/OptionalOfBuffer)
+// 0x00000D98 easyar.Optional`1<easyar.arengineinterop.Buffer> easyar.arengineinterop.BufferDictionary/<>c::<tryGet>b__6_0(easyar.arengineinterop.Detail/OptionalOfBuffer)
 extern void U3CU3Ec_U3CtryGetU3Eb__6_0_m27B1B76A9A9EDF7EBF30C67EB049FA0954D838CA (void);
-// 0x00000D97 System.Void easyar.arengineinterop.CallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D99 System.Void easyar.arengineinterop.CallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void CallbackScheduler__ctor_m88139E543F87D2412614D0AF98CC52BBED5A67D7 (void);
-// 0x00000D98 System.Object easyar.arengineinterop.CallbackScheduler::CloneObject()
+// 0x00000D9A System.Object easyar.arengineinterop.CallbackScheduler::CloneObject()
 extern void CallbackScheduler_CloneObject_mC59AE5787AD6C2695AE1B6B68C365A7A1794A88B (void);
-// 0x00000D99 easyar.arengineinterop.CallbackScheduler easyar.arengineinterop.CallbackScheduler::Clone()
+// 0x00000D9B easyar.arengineinterop.CallbackScheduler easyar.arengineinterop.CallbackScheduler::Clone()
 extern void CallbackScheduler_Clone_m95346CD0EC4F3873076D605DEE700CECE5ACE096 (void);
-// 0x00000D9A System.Void easyar.arengineinterop.DelayedCallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000D9C System.Void easyar.arengineinterop.DelayedCallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void DelayedCallbackScheduler__ctor_m3C8DDAF88087433E9D7285FFF9DD165EE782BC54 (void);
-// 0x00000D9B System.Object easyar.arengineinterop.DelayedCallbackScheduler::CloneObject()
+// 0x00000D9D System.Object easyar.arengineinterop.DelayedCallbackScheduler::CloneObject()
 extern void DelayedCallbackScheduler_CloneObject_mFEFB9E717456FF02C011AB750B4A15AD0D720FB7 (void);
-// 0x00000D9C easyar.arengineinterop.DelayedCallbackScheduler easyar.arengineinterop.DelayedCallbackScheduler::Clone()
+// 0x00000D9E easyar.arengineinterop.DelayedCallbackScheduler easyar.arengineinterop.DelayedCallbackScheduler::Clone()
 extern void DelayedCallbackScheduler_Clone_mAA1C387D583028348A03831E51845BCBB97127B1 (void);
-// 0x00000D9D System.Void easyar.arengineinterop.DelayedCallbackScheduler::.ctor()
+// 0x00000D9F System.Void easyar.arengineinterop.DelayedCallbackScheduler::.ctor()
 extern void DelayedCallbackScheduler__ctor_m8EBCAD3F14A4484FD2C3CE8B51FA6DFB71498558 (void);
-// 0x00000D9E System.Boolean easyar.arengineinterop.DelayedCallbackScheduler::runOne()
+// 0x00000DA0 System.Boolean easyar.arengineinterop.DelayedCallbackScheduler::runOne()
 extern void DelayedCallbackScheduler_runOne_m92068AE374DFABFE93BF2481EF29A6F1AA5BD12C (void);
-// 0x00000D9F System.Void easyar.arengineinterop.ImmediateCallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DA1 System.Void easyar.arengineinterop.ImmediateCallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void ImmediateCallbackScheduler__ctor_m69AB844F528AA099B185A0032A1F6B65511CEDC5 (void);
-// 0x00000DA0 System.Object easyar.arengineinterop.ImmediateCallbackScheduler::CloneObject()
+// 0x00000DA2 System.Object easyar.arengineinterop.ImmediateCallbackScheduler::CloneObject()
 extern void ImmediateCallbackScheduler_CloneObject_m7FC3935F3B13C3CAF83D68C93B610D0DF9D81A5C (void);
-// 0x00000DA1 easyar.arengineinterop.ImmediateCallbackScheduler easyar.arengineinterop.ImmediateCallbackScheduler::Clone()
+// 0x00000DA3 easyar.arengineinterop.ImmediateCallbackScheduler easyar.arengineinterop.ImmediateCallbackScheduler::Clone()
 extern void ImmediateCallbackScheduler_Clone_m5490BA052759A89C749C2A24639A1E58F6E718F8 (void);
-// 0x00000DA2 easyar.arengineinterop.ImmediateCallbackScheduler easyar.arengineinterop.ImmediateCallbackScheduler::getDefault()
+// 0x00000DA4 easyar.arengineinterop.ImmediateCallbackScheduler easyar.arengineinterop.ImmediateCallbackScheduler::getDefault()
 extern void ImmediateCallbackScheduler_getDefault_m389366F77C546208FE4942DE896D0AD283C9455B (void);
-// 0x00000DA3 System.Void easyar.arengineinterop.CameraParameters::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DA5 System.Void easyar.arengineinterop.CameraParameters::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void CameraParameters__ctor_mACDF43417D7A9A6CD4F1D8D28B258209FDF2A8AB (void);
-// 0x00000DA4 System.Object easyar.arengineinterop.CameraParameters::CloneObject()
+// 0x00000DA6 System.Object easyar.arengineinterop.CameraParameters::CloneObject()
 extern void CameraParameters_CloneObject_mB85B39C9B0772AE6BC31F84074D94C7DF17F69E0 (void);
-// 0x00000DA5 easyar.arengineinterop.CameraParameters easyar.arengineinterop.CameraParameters::Clone()
+// 0x00000DA7 easyar.arengineinterop.CameraParameters easyar.arengineinterop.CameraParameters::Clone()
 extern void CameraParameters_Clone_m19BF47AE752548202737A760E908D8D7D7B7C0FA (void);
-// 0x00000DA6 System.Void easyar.arengineinterop.CameraParameters::.ctor(easyar.arengineinterop.Vec2I,easyar.arengineinterop.Vec2F,easyar.arengineinterop.Vec2F,easyar.arengineinterop.CameraDeviceType,System.Int32)
+// 0x00000DA8 System.Void easyar.arengineinterop.CameraParameters::.ctor(easyar.arengineinterop.Vec2I,easyar.arengineinterop.Vec2F,easyar.arengineinterop.Vec2F,easyar.arengineinterop.CameraDeviceType,System.Int32)
 extern void CameraParameters__ctor_m8CB7187F1651740F378D60FC9B8D90EB0E99A97D (void);
-// 0x00000DA7 easyar.arengineinterop.Vec2I easyar.arengineinterop.CameraParameters::size()
+// 0x00000DA9 easyar.arengineinterop.Vec2I easyar.arengineinterop.CameraParameters::size()
 extern void CameraParameters_size_m37D25413054BEA18FC0961534A209CF2023A30C6 (void);
-// 0x00000DA8 easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::focalLength()
+// 0x00000DAA easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::focalLength()
 extern void CameraParameters_focalLength_m432D81035E50489C6DB1C8FA1F637915B72ACAB6 (void);
-// 0x00000DA9 easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::principalPoint()
+// 0x00000DAB easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::principalPoint()
 extern void CameraParameters_principalPoint_m17A9D0B99C8A3EDE9D576840BDBCC91DF5C16DC5 (void);
-// 0x00000DAA easyar.arengineinterop.CameraDeviceType easyar.arengineinterop.CameraParameters::cameraDeviceType()
+// 0x00000DAC easyar.arengineinterop.CameraDeviceType easyar.arengineinterop.CameraParameters::cameraDeviceType()
 extern void CameraParameters_cameraDeviceType_mF2C8FFC208E21C63C88D3EAD3864D13D501456BF (void);
-// 0x00000DAB System.Int32 easyar.arengineinterop.CameraParameters::cameraOrientation()
+// 0x00000DAD System.Int32 easyar.arengineinterop.CameraParameters::cameraOrientation()
 extern void CameraParameters_cameraOrientation_m29D6AD56585A7B2E211171AE90A74101D1246E8B (void);
-// 0x00000DAC easyar.arengineinterop.CameraParameters easyar.arengineinterop.CameraParameters::createWithDefaultIntrinsics(easyar.arengineinterop.Vec2I,easyar.arengineinterop.CameraDeviceType,System.Int32)
+// 0x00000DAE easyar.arengineinterop.CameraParameters easyar.arengineinterop.CameraParameters::createWithDefaultIntrinsics(easyar.arengineinterop.Vec2I,easyar.arengineinterop.CameraDeviceType,System.Int32)
 extern void CameraParameters_createWithDefaultIntrinsics_m3EDBF2ED562237242A93C84CCE35C073D8105BFE (void);
-// 0x00000DAD easyar.arengineinterop.CameraParameters easyar.arengineinterop.CameraParameters::getResized(easyar.arengineinterop.Vec2I)
+// 0x00000DAF easyar.arengineinterop.CameraParameters easyar.arengineinterop.CameraParameters::getResized(easyar.arengineinterop.Vec2I)
 extern void CameraParameters_getResized_mD96C535A0B7812A69437AA8D905D3DBDCB0C7E7E (void);
-// 0x00000DAE System.Int32 easyar.arengineinterop.CameraParameters::imageOrientation(System.Int32)
+// 0x00000DB0 System.Int32 easyar.arengineinterop.CameraParameters::imageOrientation(System.Int32)
 extern void CameraParameters_imageOrientation_mB3D60456CA4EADB266CE6F14F74723713EC2290D (void);
-// 0x00000DAF System.Boolean easyar.arengineinterop.CameraParameters::imageHorizontalFlip(System.Boolean)
+// 0x00000DB1 System.Boolean easyar.arengineinterop.CameraParameters::imageHorizontalFlip(System.Boolean)
 extern void CameraParameters_imageHorizontalFlip_mC3CE69AF8EC196563933EFFFB23D391538474AF3 (void);
-// 0x00000DB0 easyar.arengineinterop.Matrix44F easyar.arengineinterop.CameraParameters::projection(System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean)
+// 0x00000DB2 easyar.arengineinterop.Matrix44F easyar.arengineinterop.CameraParameters::projection(System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean)
 extern void CameraParameters_projection_mD3DE9E91AB1887F63A63E2F5E07C620682EE340E (void);
-// 0x00000DB1 easyar.arengineinterop.Matrix44F easyar.arengineinterop.CameraParameters::imageProjection(System.Single,System.Int32,System.Boolean,System.Boolean)
+// 0x00000DB3 easyar.arengineinterop.Matrix44F easyar.arengineinterop.CameraParameters::imageProjection(System.Single,System.Int32,System.Boolean,System.Boolean)
 extern void CameraParameters_imageProjection_m15DE35A7F4D5715BAB5800F46D455332A8052C1A (void);
-// 0x00000DB2 easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::screenCoordinatesFromImageCoordinates(System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
+// 0x00000DB4 easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::screenCoordinatesFromImageCoordinates(System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
 extern void CameraParameters_screenCoordinatesFromImageCoordinates_mD696B091DB1BC5BB20664A84FB47B5F19FAE2EDA (void);
-// 0x00000DB3 easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::imageCoordinatesFromScreenCoordinates(System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
+// 0x00000DB5 easyar.arengineinterop.Vec2F easyar.arengineinterop.CameraParameters::imageCoordinatesFromScreenCoordinates(System.Single,System.Int32,System.Boolean,System.Boolean,easyar.arengineinterop.Vec2F)
 extern void CameraParameters_imageCoordinatesFromScreenCoordinates_m6F86C2DDFF207BBC19F62661CF8B02217F288C58 (void);
-// 0x00000DB4 System.Boolean easyar.arengineinterop.CameraParameters::equalsTo(easyar.arengineinterop.CameraParameters)
+// 0x00000DB6 System.Boolean easyar.arengineinterop.CameraParameters::equalsTo(easyar.arengineinterop.CameraParameters)
 extern void CameraParameters_equalsTo_m69FA52EF93DFA3194B9B7BB42D771F2C8A0CD8F0 (void);
-// 0x00000DB5 System.Int32 easyar.arengineinterop.Engine::schemaHash()
+// 0x00000DB7 System.Int32 easyar.arengineinterop.Engine::schemaHash()
 extern void Engine_schemaHash_mDEEDE370938A567300B9377FB3FB7DD04A268AFA (void);
-// 0x00000DB6 System.Boolean easyar.arengineinterop.Engine::initialize(System.String)
+// 0x00000DB8 System.Boolean easyar.arengineinterop.Engine::initialize(System.String)
 extern void Engine_initialize_m4642651C4E38B3CBEF16EDC617D747666C282F3F (void);
-// 0x00000DB7 System.Void easyar.arengineinterop.Engine::.ctor()
+// 0x00000DB9 System.Void easyar.arengineinterop.Engine::.ctor()
 extern void Engine__ctor_m6B6064E8F8DCA2565D4722DE0FCA6F5A7593134D (void);
-// 0x00000DB8 System.Void easyar.arengineinterop.InputFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DBA System.Void easyar.arengineinterop.InputFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void InputFrame__ctor_m8024A82E86D9E94BF6EC12767552C6756D1B282E (void);
-// 0x00000DB9 System.Object easyar.arengineinterop.InputFrame::CloneObject()
+// 0x00000DBB System.Object easyar.arengineinterop.InputFrame::CloneObject()
 extern void InputFrame_CloneObject_mA4FBD16B11E369A289A48698984C737FE241AD82 (void);
-// 0x00000DBA easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::Clone()
+// 0x00000DBC easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::Clone()
 extern void InputFrame_Clone_mBA5D00BBB24F345D2D4427CA69B7D3A65B679D68 (void);
-// 0x00000DBB System.Int32 easyar.arengineinterop.InputFrame::index()
+// 0x00000DBD System.Int32 easyar.arengineinterop.InputFrame::index()
 extern void InputFrame_index_m3B3ABB7C2A4B9D7CEE042DFD03508002CD6DB425 (void);
-// 0x00000DBC easyar.arengineinterop.Image easyar.arengineinterop.InputFrame::image()
+// 0x00000DBE easyar.arengineinterop.Image easyar.arengineinterop.InputFrame::image()
 extern void InputFrame_image_mCF2FC9E6CA1FFC357A1BE71760256D6DFDF9EB84 (void);
-// 0x00000DBD System.Boolean easyar.arengineinterop.InputFrame::hasCameraParameters()
+// 0x00000DBF System.Boolean easyar.arengineinterop.InputFrame::hasCameraParameters()
 extern void InputFrame_hasCameraParameters_m0E3E43CC0E3ED427B9F3193BDFE5C98A17BA4763 (void);
-// 0x00000DBE easyar.arengineinterop.CameraParameters easyar.arengineinterop.InputFrame::cameraParameters()
+// 0x00000DC0 easyar.arengineinterop.CameraParameters easyar.arengineinterop.InputFrame::cameraParameters()
 extern void InputFrame_cameraParameters_m0FF752376A613E9FEFFA087E87A1CBA30F2083B6 (void);
-// 0x00000DBF System.Boolean easyar.arengineinterop.InputFrame::hasTemporalInformation()
+// 0x00000DC1 System.Boolean easyar.arengineinterop.InputFrame::hasTemporalInformation()
 extern void InputFrame_hasTemporalInformation_m23A82AF5A3BA3B21527A3D6AB0319C782A98DDA6 (void);
-// 0x00000DC0 System.Double easyar.arengineinterop.InputFrame::timestamp()
+// 0x00000DC2 System.Double easyar.arengineinterop.InputFrame::timestamp()
 extern void InputFrame_timestamp_mD1AAFEC6930DBD32DFE04533133193534FACC11E (void);
-// 0x00000DC1 System.Boolean easyar.arengineinterop.InputFrame::hasSpatialInformation()
+// 0x00000DC3 System.Boolean easyar.arengineinterop.InputFrame::hasSpatialInformation()
 extern void InputFrame_hasSpatialInformation_m8511D6DC760C959F9012F012C02EF2CEB64A1D12 (void);
-// 0x00000DC2 easyar.arengineinterop.Matrix44F easyar.arengineinterop.InputFrame::cameraTransform()
+// 0x00000DC4 easyar.arengineinterop.Matrix44F easyar.arengineinterop.InputFrame::cameraTransform()
 extern void InputFrame_cameraTransform_m81AA4A57A78098EE85B57EB575A3861779EB6174 (void);
-// 0x00000DC3 easyar.arengineinterop.MotionTrackingStatus easyar.arengineinterop.InputFrame::trackingStatus()
+// 0x00000DC5 easyar.arengineinterop.MotionTrackingStatus easyar.arengineinterop.InputFrame::trackingStatus()
 extern void InputFrame_trackingStatus_m23C9CFEF648DBEE537B46B57157D4E4AF637E6F1 (void);
-// 0x00000DC4 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::create(easyar.arengineinterop.Image,easyar.arengineinterop.CameraParameters,System.Double,easyar.arengineinterop.Matrix44F,easyar.arengineinterop.MotionTrackingStatus)
+// 0x00000DC6 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::create(easyar.arengineinterop.Image,easyar.arengineinterop.CameraParameters,System.Double,easyar.arengineinterop.Matrix44F,easyar.arengineinterop.MotionTrackingStatus)
 extern void InputFrame_create_m21A6CF908F9DBB0D908CACD0CB6AFAD3821573AD (void);
-// 0x00000DC5 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::createWithImageAndCameraParametersAndTemporal(easyar.arengineinterop.Image,easyar.arengineinterop.CameraParameters,System.Double)
+// 0x00000DC7 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::createWithImageAndCameraParametersAndTemporal(easyar.arengineinterop.Image,easyar.arengineinterop.CameraParameters,System.Double)
 extern void InputFrame_createWithImageAndCameraParametersAndTemporal_m704C6E71F1B672B8DEB254AA607D0D0D45152CC7 (void);
-// 0x00000DC6 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::createWithImageAndCameraParameters(easyar.arengineinterop.Image,easyar.arengineinterop.CameraParameters)
+// 0x00000DC8 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::createWithImageAndCameraParameters(easyar.arengineinterop.Image,easyar.arengineinterop.CameraParameters)
 extern void InputFrame_createWithImageAndCameraParameters_mEEB8F45A1380217E4D27A6FC6141FAD35C9C1C81 (void);
-// 0x00000DC7 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::createWithImage(easyar.arengineinterop.Image)
+// 0x00000DC9 easyar.arengineinterop.InputFrame easyar.arengineinterop.InputFrame::createWithImage(easyar.arengineinterop.Image)
 extern void InputFrame_createWithImage_m0B76C5DEC720D95F1B0FF569A6A732AF741C32C7 (void);
-// 0x00000DC8 System.Void easyar.arengineinterop.FrameFilterResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DCA System.Void easyar.arengineinterop.FrameFilterResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void FrameFilterResult__ctor_mD86C6E1A3B63A4623ED29FF202F69065C469CFE7 (void);
-// 0x00000DC9 System.Object easyar.arengineinterop.FrameFilterResult::CloneObject()
+// 0x00000DCB System.Object easyar.arengineinterop.FrameFilterResult::CloneObject()
 extern void FrameFilterResult_CloneObject_mA2F94F7D4D523AA38EF63479DE09206468FCCE8F (void);
-// 0x00000DCA easyar.arengineinterop.FrameFilterResult easyar.arengineinterop.FrameFilterResult::Clone()
+// 0x00000DCC easyar.arengineinterop.FrameFilterResult easyar.arengineinterop.FrameFilterResult::Clone()
 extern void FrameFilterResult_Clone_mD8EB0A7906242E895E78DD93C9BB108D29814F04 (void);
-// 0x00000DCB System.Void easyar.arengineinterop.OutputFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DCD System.Void easyar.arengineinterop.OutputFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void OutputFrame__ctor_mFDABA6E2CD17BDE2C905D86902D80C02E9E233EA (void);
-// 0x00000DCC System.Object easyar.arengineinterop.OutputFrame::CloneObject()
+// 0x00000DCE System.Object easyar.arengineinterop.OutputFrame::CloneObject()
 extern void OutputFrame_CloneObject_m587789074524B15C4EFBD029A9A13C68C58CB08E (void);
-// 0x00000DCD easyar.arengineinterop.OutputFrame easyar.arengineinterop.OutputFrame::Clone()
+// 0x00000DCF easyar.arengineinterop.OutputFrame easyar.arengineinterop.OutputFrame::Clone()
 extern void OutputFrame_Clone_m685F7E1DA7E9FBEA67BB73848651D90C7A264BEF (void);
-// 0x00000DCE System.Void easyar.arengineinterop.OutputFrame::.ctor(easyar.arengineinterop.InputFrame,System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>>)
+// 0x00000DD0 System.Void easyar.arengineinterop.OutputFrame::.ctor(easyar.arengineinterop.InputFrame,System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>>)
 extern void OutputFrame__ctor_mEFE601D3DA588F94155AAB51356781D3336D40D3 (void);
-// 0x00000DCF System.Int32 easyar.arengineinterop.OutputFrame::index()
+// 0x00000DD1 System.Int32 easyar.arengineinterop.OutputFrame::index()
 extern void OutputFrame_index_mC777158A5209051A19935B52911B3A2F82962D5C (void);
-// 0x00000DD0 easyar.arengineinterop.InputFrame easyar.arengineinterop.OutputFrame::inputFrame()
+// 0x00000DD2 easyar.arengineinterop.InputFrame easyar.arengineinterop.OutputFrame::inputFrame()
 extern void OutputFrame_inputFrame_m101F0752EC53D6C1918B3C6A9EB9F27E2B178AD9 (void);
-// 0x00000DD1 System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>> easyar.arengineinterop.OutputFrame::results()
+// 0x00000DD3 System.Collections.Generic.List`1<easyar.Optional`1<easyar.arengineinterop.FrameFilterResult>> easyar.arengineinterop.OutputFrame::results()
 extern void OutputFrame_results_mE073E3D495058F0967345A8D7380D45660C83F5A (void);
-// 0x00000DD2 System.Void easyar.arengineinterop.FeedbackFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DD4 System.Void easyar.arengineinterop.FeedbackFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void FeedbackFrame__ctor_mDA586F54BB1FD1CADCE3DA895045D8149AEB3A6E (void);
-// 0x00000DD3 System.Object easyar.arengineinterop.FeedbackFrame::CloneObject()
+// 0x00000DD5 System.Object easyar.arengineinterop.FeedbackFrame::CloneObject()
 extern void FeedbackFrame_CloneObject_mDAB37B1622714742CD6C9EDD0AE4757BD77C3651 (void);
-// 0x00000DD4 easyar.arengineinterop.FeedbackFrame easyar.arengineinterop.FeedbackFrame::Clone()
+// 0x00000DD6 easyar.arengineinterop.FeedbackFrame easyar.arengineinterop.FeedbackFrame::Clone()
 extern void FeedbackFrame_Clone_m270B4BA4EC09902F574D7433235534C802E69A63 (void);
-// 0x00000DD5 System.Void easyar.arengineinterop.FeedbackFrame::.ctor(easyar.arengineinterop.InputFrame,easyar.Optional`1<easyar.arengineinterop.OutputFrame>)
+// 0x00000DD7 System.Void easyar.arengineinterop.FeedbackFrame::.ctor(easyar.arengineinterop.InputFrame,easyar.Optional`1<easyar.arengineinterop.OutputFrame>)
 extern void FeedbackFrame__ctor_m9C5FBFCAC0060D3BBC8771D8BEFDB0854D8036B3 (void);
-// 0x00000DD6 easyar.arengineinterop.InputFrame easyar.arengineinterop.FeedbackFrame::inputFrame()
+// 0x00000DD8 easyar.arengineinterop.InputFrame easyar.arengineinterop.FeedbackFrame::inputFrame()
 extern void FeedbackFrame_inputFrame_m29F619FE132DC4CE37AAA82156021874085508CB (void);
-// 0x00000DD7 easyar.Optional`1<easyar.arengineinterop.OutputFrame> easyar.arengineinterop.FeedbackFrame::previousOutputFrame()
+// 0x00000DD9 easyar.Optional`1<easyar.arengineinterop.OutputFrame> easyar.arengineinterop.FeedbackFrame::previousOutputFrame()
 extern void FeedbackFrame_previousOutputFrame_m6898019CEE0592E40E4738019151FF209B84C512 (void);
-// 0x00000DD8 System.Void easyar.arengineinterop.FeedbackFrame/<>c::.cctor()
+// 0x00000DDA System.Void easyar.arengineinterop.FeedbackFrame/<>c::.cctor()
 extern void U3CU3Ec__cctor_m26964F9D23475F91B379C89ECF8B17F58A563148 (void);
-// 0x00000DD9 System.Void easyar.arengineinterop.FeedbackFrame/<>c::.ctor()
+// 0x00000DDB System.Void easyar.arengineinterop.FeedbackFrame/<>c::.ctor()
 extern void U3CU3Ec__ctor_mF48AB9BDBA89C07FE3C4305D34ECEB4D6AE75010 (void);
-// 0x00000DDA easyar.arengineinterop.Detail/OptionalOfOutputFrame easyar.arengineinterop.FeedbackFrame/<>c::<.ctor>b__3_0(easyar.Optional`1<easyar.arengineinterop.OutputFrame>)
+// 0x00000DDC easyar.arengineinterop.Detail/OptionalOfOutputFrame easyar.arengineinterop.FeedbackFrame/<>c::<.ctor>b__3_0(easyar.Optional`1<easyar.arengineinterop.OutputFrame>)
 extern void U3CU3Ec_U3C_ctorU3Eb__3_0_m583BE3783332F21A81BB43B3A0DDA2D6745B25DC (void);
-// 0x00000DDB easyar.Optional`1<easyar.arengineinterop.OutputFrame> easyar.arengineinterop.FeedbackFrame/<>c::<previousOutputFrame>b__5_0(easyar.arengineinterop.Detail/OptionalOfOutputFrame)
+// 0x00000DDD easyar.Optional`1<easyar.arengineinterop.OutputFrame> easyar.arengineinterop.FeedbackFrame/<>c::<previousOutputFrame>b__5_0(easyar.arengineinterop.Detail/OptionalOfOutputFrame)
 extern void U3CU3Ec_U3CpreviousOutputFrameU3Eb__5_0_mB2377A403B7710FE3D802AE8DF8F9334DBEF3879 (void);
-// 0x00000DDC System.Void easyar.arengineinterop.Image::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
+// 0x00000DDE System.Void easyar.arengineinterop.Image::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.arengineinterop.RefBase/Retainer)
 extern void Image__ctor_mC7AF7A638417D097C78477967CD710CA732DDCAC (void);
-// 0x00000DDD System.Object easyar.arengineinterop.Image::CloneObject()
+// 0x00000DDF System.Object easyar.arengineinterop.Image::CloneObject()
 extern void Image_CloneObject_mFE2B704078F971CB39E7AF75DC72DE2CE380C428 (void);
-// 0x00000DDE easyar.arengineinterop.Image easyar.arengineinterop.Image::Clone()
+// 0x00000DE0 easyar.arengineinterop.Image easyar.arengineinterop.Image::Clone()
 extern void Image_Clone_m923A7CC1AD84C15D91ACB30CB4A7C7A842B26494 (void);
-// 0x00000DDF System.Void easyar.arengineinterop.Image::.ctor(easyar.arengineinterop.Buffer,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32)
+// 0x00000DE1 System.Void easyar.arengineinterop.Image::.ctor(easyar.arengineinterop.Buffer,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32)
 extern void Image__ctor_mD8A8DFF437D3F5CF80D1728AE56A2C0E80526E79 (void);
-// 0x00000DE0 easyar.arengineinterop.Buffer easyar.arengineinterop.Image::buffer()
+// 0x00000DE2 easyar.arengineinterop.Buffer easyar.arengineinterop.Image::buffer()
 extern void Image_buffer_mDFF53238044EC98CFA2B17156BBE0EF7A22CE2F6 (void);
-// 0x00000DE1 easyar.arengineinterop.PixelFormat easyar.arengineinterop.Image::format()
+// 0x00000DE3 easyar.arengineinterop.PixelFormat easyar.arengineinterop.Image::format()
 extern void Image_format_m5151DB477FA1CAD6B14D19ABBAAAB58BE49E76FB (void);
-// 0x00000DE2 System.Int32 easyar.arengineinterop.Image::width()
+// 0x00000DE4 System.Int32 easyar.arengineinterop.Image::width()
 extern void Image_width_m4837E1375DBC2CD55C25E68F400563394D2978D0 (void);
-// 0x00000DE3 System.Int32 easyar.arengineinterop.Image::height()
+// 0x00000DE5 System.Int32 easyar.arengineinterop.Image::height()
 extern void Image_height_mD68E544F2ACC8747BEC14283B44EF97D00425B92 (void);
-// 0x00000DE4 System.Int32 easyar.arengineinterop.Image::pixelWidth()
+// 0x00000DE6 System.Int32 easyar.arengineinterop.Image::pixelWidth()
 extern void Image_pixelWidth_mAEAE71C236A6EFBD2D7BE76539E9A723DFD96498 (void);
-// 0x00000DE5 System.Int32 easyar.arengineinterop.Image::pixelHeight()
+// 0x00000DE7 System.Int32 easyar.arengineinterop.Image::pixelHeight()
 extern void Image_pixelHeight_mB73C0CB5AAC37C40757DAB03F437E1CE44785FB1 (void);
-// 0x00000DE6 easyar.arengineinterop.Image easyar.arengineinterop.Image::create(easyar.arengineinterop.Buffer,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000DE8 easyar.arengineinterop.Image easyar.arengineinterop.Image::create(easyar.arengineinterop.Buffer,easyar.arengineinterop.PixelFormat,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Image_create_m302FF08310FB0AE0C402DE22836FF4B5C6DAFAD8 (void);
-// 0x00000DE7 System.Single[] easyar.arengineinterop.Matrix44F::get_data()
+// 0x00000DE9 System.Single[] easyar.arengineinterop.Matrix44F::get_data()
 extern void Matrix44F_get_data_m2CB45958FF2BCEFB1F270BEA44DC61874D5246D3 (void);
-// 0x00000DE8 System.Void easyar.arengineinterop.Matrix44F::set_data(System.Single[])
+// 0x00000DEA System.Void easyar.arengineinterop.Matrix44F::set_data(System.Single[])
 extern void Matrix44F_set_data_m1F7BEE7E4208ABD412CB71BC44E87E90216B6646 (void);
-// 0x00000DE9 System.Void easyar.arengineinterop.Matrix44F::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x00000DEB System.Void easyar.arengineinterop.Matrix44F::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void Matrix44F__ctor_m7F2277AA68B0E8A4202416FC480364356530C60D (void);
-// 0x00000DEA System.Single[] easyar.arengineinterop.Matrix33F::get_data()
+// 0x00000DEC System.Single[] easyar.arengineinterop.Matrix33F::get_data()
 extern void Matrix33F_get_data_mB90DCF470EF7F48841210DCD243272195A57EB97 (void);
-// 0x00000DEB System.Void easyar.arengineinterop.Matrix33F::set_data(System.Single[])
+// 0x00000DED System.Void easyar.arengineinterop.Matrix33F::set_data(System.Single[])
 extern void Matrix33F_set_data_mA022ABBC2B4A74DD4111BE62A923B56CA9F96B26 (void);
-// 0x00000DEC System.Void easyar.arengineinterop.Matrix33F::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x00000DEE System.Void easyar.arengineinterop.Matrix33F::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void Matrix33F__ctor_m5BBC2A2E67E756CAE077663CA61D19BFA5661C12 (void);
-// 0x00000DED System.Double[] easyar.arengineinterop.Vec3D::get_data()
+// 0x00000DEF System.Double[] easyar.arengineinterop.Vec3D::get_data()
 extern void Vec3D_get_data_m1D5BE17F5D58A66B160C18DFF613B8050FC7F988 (void);
-// 0x00000DEE System.Void easyar.arengineinterop.Vec3D::set_data(System.Double[])
+// 0x00000DF0 System.Void easyar.arengineinterop.Vec3D::set_data(System.Double[])
 extern void Vec3D_set_data_m31F86B636A684EBCE2C62EC525F09F27BE46193B (void);
-// 0x00000DEF System.Void easyar.arengineinterop.Vec3D::.ctor(System.Double,System.Double,System.Double)
+// 0x00000DF1 System.Void easyar.arengineinterop.Vec3D::.ctor(System.Double,System.Double,System.Double)
 extern void Vec3D__ctor_m0FA73DB1545AE2CCAA28D188FC0375D6C2E5EEE6 (void);
-// 0x00000DF0 System.Single[] easyar.arengineinterop.Vec4F::get_data()
+// 0x00000DF2 System.Single[] easyar.arengineinterop.Vec4F::get_data()
 extern void Vec4F_get_data_m7A81B36E5ECB9726C32546240037DA0504F91320 (void);
-// 0x00000DF1 System.Void easyar.arengineinterop.Vec4F::set_data(System.Single[])
+// 0x00000DF3 System.Void easyar.arengineinterop.Vec4F::set_data(System.Single[])
 extern void Vec4F_set_data_m7AAC34354DD070B1D1D9EBD336809B788DA1DF9E (void);
-// 0x00000DF2 System.Void easyar.arengineinterop.Vec4F::.ctor(System.Single,System.Single,System.Single,System.Single)
+// 0x00000DF4 System.Void easyar.arengineinterop.Vec4F::.ctor(System.Single,System.Single,System.Single,System.Single)
 extern void Vec4F__ctor_m0FCC462BA7D5E746EDAB8A44BEBE1EEFBCCC38D0 (void);
-// 0x00000DF3 System.Single[] easyar.arengineinterop.Vec3F::get_data()
+// 0x00000DF5 System.Single[] easyar.arengineinterop.Vec3F::get_data()
 extern void Vec3F_get_data_m31AF1ABE5A2E3028CDF47260B0A3AE71E19E4709 (void);
-// 0x00000DF4 System.Void easyar.arengineinterop.Vec3F::set_data(System.Single[])
+// 0x00000DF6 System.Void easyar.arengineinterop.Vec3F::set_data(System.Single[])
 extern void Vec3F_set_data_mEDDE41A43E2E1808901F3FDD5E7F0BB9DE880F80 (void);
-// 0x00000DF5 System.Void easyar.arengineinterop.Vec3F::.ctor(System.Single,System.Single,System.Single)
+// 0x00000DF7 System.Void easyar.arengineinterop.Vec3F::.ctor(System.Single,System.Single,System.Single)
 extern void Vec3F__ctor_m2F57EAF80E531D710DED6855C076A00CE6C1EE0A (void);
-// 0x00000DF6 System.Single[] easyar.arengineinterop.Vec2F::get_data()
+// 0x00000DF8 System.Single[] easyar.arengineinterop.Vec2F::get_data()
 extern void Vec2F_get_data_m54CE66C18232901D538FD7239762F654FB99E633 (void);
-// 0x00000DF7 System.Void easyar.arengineinterop.Vec2F::set_data(System.Single[])
+// 0x00000DF9 System.Void easyar.arengineinterop.Vec2F::set_data(System.Single[])
 extern void Vec2F_set_data_mF93C085EF0FD73A219F17867806371B55B988547 (void);
-// 0x00000DF8 System.Void easyar.arengineinterop.Vec2F::.ctor(System.Single,System.Single)
+// 0x00000DFA System.Void easyar.arengineinterop.Vec2F::.ctor(System.Single,System.Single)
 extern void Vec2F__ctor_mE261CA950BC685F8AB7D5E8F4F96D9C750BA5646 (void);
-// 0x00000DF9 System.Int32[] easyar.arengineinterop.Vec4I::get_data()
+// 0x00000DFB System.Int32[] easyar.arengineinterop.Vec4I::get_data()
 extern void Vec4I_get_data_m450F2BF61F6D4D138FEB5A7FC57D16EB65A50E5D (void);
-// 0x00000DFA System.Void easyar.arengineinterop.Vec4I::set_data(System.Int32[])
+// 0x00000DFC System.Void easyar.arengineinterop.Vec4I::set_data(System.Int32[])
 extern void Vec4I_set_data_m7772EF75EC5C92174152A949FF746CD73B883CEC (void);
-// 0x00000DFB System.Void easyar.arengineinterop.Vec4I::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000DFD System.Void easyar.arengineinterop.Vec4I::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Vec4I__ctor_mD3F54154A1AA5FE32A43208EB041BD34C4BB3C65 (void);
-// 0x00000DFC System.Int32[] easyar.arengineinterop.Vec2I::get_data()
+// 0x00000DFE System.Int32[] easyar.arengineinterop.Vec2I::get_data()
 extern void Vec2I_get_data_m80ECBBC2086D697056701D49CF5FEA861A5485F4 (void);
-// 0x00000DFD System.Void easyar.arengineinterop.Vec2I::set_data(System.Int32[])
+// 0x00000DFF System.Void easyar.arengineinterop.Vec2I::set_data(System.Int32[])
 extern void Vec2I_set_data_mEE55FDA1BBAAB70A8A574E0CC7D0E086C5E6FAB0 (void);
-// 0x00000DFE System.Void easyar.arengineinterop.Vec2I::.ctor(System.Int32,System.Int32)
+// 0x00000E00 System.Void easyar.arengineinterop.Vec2I::.ctor(System.Int32,System.Int32)
 extern void Vec2I__ctor_m9C2559B4380AFF93029A25F70741197DA4F58EA6 (void);
-static Il2CppMethodPointer s_methodPointers[3582] = 
+static Il2CppMethodPointer s_methodPointers[3584] = 
 {
 	Detail_easyar_String_from_utf8_m245B08EF9583DE8567F2A213289322424ACF35CB,
 	Detail_easyar_String_from_utf8_begin_mF245B95BD61E15556769EA70E369CBDD02E5F723,
@@ -9529,18 +9533,20 @@ static Il2CppMethodPointer s_methodPointers[3582] =
 	CameraDeviceFrameSource_OnDestroy_m3F5EB9EDCE96E44115E5176B9D3513654C219BCF,
 	CameraDeviceFrameSource_OnAssemble_mD223E238E402A9DB083151D808907836E65A1D8C,
 	CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64,
+	CameraDeviceFrameSource_changeFocusMode_mF8FCBA15E122C2592DB2E46B567AEBC947BE5CF4,
+	CameraDeviceFrameSource_focusMode_m57AA1A08CE66F423E2859056FD86BE059EC646B4,
 	CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F,
 	CameraDeviceFrameSource_Connect_m8819CE4AB52E5C836A04149DB902095260A0967E,
 	CameraDeviceFrameSource_AutoOpen_m3E902B9365FB5F95FA37E6EBDA50821E9BFE7ED0,
 	CameraDeviceFrameSource__ctor_mE6C35B41B398AB3F11D55A95EE4B1C300335A22F,
 	CameraDeviceFrameSource__cctor_m1517ABF90FB016BF7F4540518F2D54B7E8ABD9E1,
 	CameraDeviceFrameSource_U3COpenU3Eb__43_0_m04972F64C887C8DD6D8B0C26F582F88D11128D97,
-	U3CAutoOpenU3Ed__46__ctor_m4865DC8AB9B534D562D64980B1B027B53C7763A2,
-	U3CAutoOpenU3Ed__46_System_IDisposable_Dispose_mCFAB319CD4DB4EC88C3C41EB58883A455DDD8E96,
-	U3CAutoOpenU3Ed__46_MoveNext_m61FA881F27F5060A9B5A96A7FEDF266E1F1784BA,
-	U3CAutoOpenU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCDC611B70AB9D41A3A3879B78F0C7A7221DF102D,
-	U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_Reset_m12814D082C8FED2B3102E05FDC2749DDE7E620A8,
-	U3CAutoOpenU3Ed__46_System_Collections_IEnumerator_get_Current_m49D9E70978B3636063BA3F406BCE6582F6ABC306,
+	U3CAutoOpenU3Ed__48__ctor_mC4BF7855A7573ADDCEF570BEB3EA6F5B77280D02,
+	U3CAutoOpenU3Ed__48_System_IDisposable_Dispose_mA3D90A68574C4CEB1F94079522E9CD81A5C59186,
+	U3CAutoOpenU3Ed__48_MoveNext_mBDE213B0C489C2AB74214453D0FB7DBB3333D1B6,
+	U3CAutoOpenU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC2C35C07D630FB542A8E94CE8A6DA7F05902F04E,
+	U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_Reset_m693F969B667498AA84C7BEECAAA5448362608FEC,
+	U3CAutoOpenU3Ed__48_System_Collections_IEnumerator_get_Current_m92DD2F5270AC79E24B61B88A6CA174F8F750E750,
 	MotionTrackerFrameSource_get_Device_mC0E3FFC702FE8394DBEE46E8E26DFD9BD5D61518,
 	MotionTrackerFrameSource_set_Device_m1C93C53A2C9FAF376ED68836300E941B440091A4,
 	MotionTrackerFrameSource_add_DeviceCreated_m21D3F63B4F97BC1EC3B051283189AD81B1B92273,
@@ -10974,965 +10980,965 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[121] =
 	{ 0x06000625, Vec2I__ctor_m19B1C050F928300518B9D0F4DEA02800F98EDAD3_AdjustorThunk },
 	{ 0x06000632, BlockInfo__ctor_m26EDDEE23D9260B5FCC87110BB87940C97C9988F_AdjustorThunk },
 	{ 0x06000696, MagnetometerResult__ctor_mD0948B897C36EF739B9B9ED9686B854CAEBD9954_AdjustorThunk },
-	{ 0x06000D27, OptionalOfInt_get_has_value_mC1DD5048BB030A9130B8C0CBC4329C5A0C796924_AdjustorThunk },
-	{ 0x06000D28, OptionalOfInt_set_has_value_m9A5D61C80953FC15C9218FD4501EF658CF845023_AdjustorThunk },
-	{ 0x06000D31, OptionalOfString_get_has_value_m60AA6EAE910351A7CF3136D99A62900E35CBC40F_AdjustorThunk },
-	{ 0x06000D32, OptionalOfString_set_has_value_m2F053A86DC2F4F0A95CA5534F3B5E4EFCD6F2531_AdjustorThunk },
-	{ 0x06000D33, OptionalOfBuffer_get_has_value_mC12EFE3DE099D26C9720476D3DEFDD99640301D0_AdjustorThunk },
-	{ 0x06000D34, OptionalOfBuffer_set_has_value_mAB8B8E4DE21E6B44CFAAF769DD92858EABDDAE39_AdjustorThunk },
-	{ 0x06000D35, OptionalOfFrameFilterResult_get_has_value_m9D3EF19A239B92486C4B41132C2350D799742D84_AdjustorThunk },
-	{ 0x06000D36, OptionalOfFrameFilterResult_set_has_value_m5F33AFBA3BC85E53BD6B7A1C9DFEE03276451E38_AdjustorThunk },
-	{ 0x06000D37, OptionalOfOutputFrame_get_has_value_m1272887CB9DF82290BC29DC68C4A8462D56153EB_AdjustorThunk },
-	{ 0x06000D38, OptionalOfOutputFrame_set_has_value_m63B422A5D9A3223D7AAFF137F549EB424F5F84C9_AdjustorThunk },
-	{ 0x06000DE7, Matrix44F_get_data_m2CB45958FF2BCEFB1F270BEA44DC61874D5246D3_AdjustorThunk },
-	{ 0x06000DE8, Matrix44F_set_data_m1F7BEE7E4208ABD412CB71BC44E87E90216B6646_AdjustorThunk },
-	{ 0x06000DE9, Matrix44F__ctor_m7F2277AA68B0E8A4202416FC480364356530C60D_AdjustorThunk },
-	{ 0x06000DEA, Matrix33F_get_data_mB90DCF470EF7F48841210DCD243272195A57EB97_AdjustorThunk },
-	{ 0x06000DEB, Matrix33F_set_data_mA022ABBC2B4A74DD4111BE62A923B56CA9F96B26_AdjustorThunk },
-	{ 0x06000DEC, Matrix33F__ctor_m5BBC2A2E67E756CAE077663CA61D19BFA5661C12_AdjustorThunk },
-	{ 0x06000DED, Vec3D_get_data_m1D5BE17F5D58A66B160C18DFF613B8050FC7F988_AdjustorThunk },
-	{ 0x06000DEE, Vec3D_set_data_m31F86B636A684EBCE2C62EC525F09F27BE46193B_AdjustorThunk },
-	{ 0x06000DEF, Vec3D__ctor_m0FA73DB1545AE2CCAA28D188FC0375D6C2E5EEE6_AdjustorThunk },
-	{ 0x06000DF0, Vec4F_get_data_m7A81B36E5ECB9726C32546240037DA0504F91320_AdjustorThunk },
-	{ 0x06000DF1, Vec4F_set_data_m7AAC34354DD070B1D1D9EBD336809B788DA1DF9E_AdjustorThunk },
-	{ 0x06000DF2, Vec4F__ctor_m0FCC462BA7D5E746EDAB8A44BEBE1EEFBCCC38D0_AdjustorThunk },
-	{ 0x06000DF3, Vec3F_get_data_m31AF1ABE5A2E3028CDF47260B0A3AE71E19E4709_AdjustorThunk },
-	{ 0x06000DF4, Vec3F_set_data_mEDDE41A43E2E1808901F3FDD5E7F0BB9DE880F80_AdjustorThunk },
-	{ 0x06000DF5, Vec3F__ctor_m2F57EAF80E531D710DED6855C076A00CE6C1EE0A_AdjustorThunk },
-	{ 0x06000DF6, Vec2F_get_data_m54CE66C18232901D538FD7239762F654FB99E633_AdjustorThunk },
-	{ 0x06000DF7, Vec2F_set_data_mF93C085EF0FD73A219F17867806371B55B988547_AdjustorThunk },
-	{ 0x06000DF8, Vec2F__ctor_mE261CA950BC685F8AB7D5E8F4F96D9C750BA5646_AdjustorThunk },
-	{ 0x06000DF9, Vec4I_get_data_m450F2BF61F6D4D138FEB5A7FC57D16EB65A50E5D_AdjustorThunk },
-	{ 0x06000DFA, Vec4I_set_data_m7772EF75EC5C92174152A949FF746CD73B883CEC_AdjustorThunk },
-	{ 0x06000DFB, Vec4I__ctor_mD3F54154A1AA5FE32A43208EB041BD34C4BB3C65_AdjustorThunk },
-	{ 0x06000DFC, Vec2I_get_data_m80ECBBC2086D697056701D49CF5FEA861A5485F4_AdjustorThunk },
-	{ 0x06000DFD, Vec2I_set_data_mEE55FDA1BBAAB70A8A574E0CC7D0E086C5E6FAB0_AdjustorThunk },
-	{ 0x06000DFE, Vec2I__ctor_m9C2559B4380AFF93029A25F70741197DA4F58EA6_AdjustorThunk },
+	{ 0x06000D29, OptionalOfInt_get_has_value_mC1DD5048BB030A9130B8C0CBC4329C5A0C796924_AdjustorThunk },
+	{ 0x06000D2A, OptionalOfInt_set_has_value_m9A5D61C80953FC15C9218FD4501EF658CF845023_AdjustorThunk },
+	{ 0x06000D33, OptionalOfString_get_has_value_m60AA6EAE910351A7CF3136D99A62900E35CBC40F_AdjustorThunk },
+	{ 0x06000D34, OptionalOfString_set_has_value_m2F053A86DC2F4F0A95CA5534F3B5E4EFCD6F2531_AdjustorThunk },
+	{ 0x06000D35, OptionalOfBuffer_get_has_value_mC12EFE3DE099D26C9720476D3DEFDD99640301D0_AdjustorThunk },
+	{ 0x06000D36, OptionalOfBuffer_set_has_value_mAB8B8E4DE21E6B44CFAAF769DD92858EABDDAE39_AdjustorThunk },
+	{ 0x06000D37, OptionalOfFrameFilterResult_get_has_value_m9D3EF19A239B92486C4B41132C2350D799742D84_AdjustorThunk },
+	{ 0x06000D38, OptionalOfFrameFilterResult_set_has_value_m5F33AFBA3BC85E53BD6B7A1C9DFEE03276451E38_AdjustorThunk },
+	{ 0x06000D39, OptionalOfOutputFrame_get_has_value_m1272887CB9DF82290BC29DC68C4A8462D56153EB_AdjustorThunk },
+	{ 0x06000D3A, OptionalOfOutputFrame_set_has_value_m63B422A5D9A3223D7AAFF137F549EB424F5F84C9_AdjustorThunk },
+	{ 0x06000DE9, Matrix44F_get_data_m2CB45958FF2BCEFB1F270BEA44DC61874D5246D3_AdjustorThunk },
+	{ 0x06000DEA, Matrix44F_set_data_m1F7BEE7E4208ABD412CB71BC44E87E90216B6646_AdjustorThunk },
+	{ 0x06000DEB, Matrix44F__ctor_m7F2277AA68B0E8A4202416FC480364356530C60D_AdjustorThunk },
+	{ 0x06000DEC, Matrix33F_get_data_mB90DCF470EF7F48841210DCD243272195A57EB97_AdjustorThunk },
+	{ 0x06000DED, Matrix33F_set_data_mA022ABBC2B4A74DD4111BE62A923B56CA9F96B26_AdjustorThunk },
+	{ 0x06000DEE, Matrix33F__ctor_m5BBC2A2E67E756CAE077663CA61D19BFA5661C12_AdjustorThunk },
+	{ 0x06000DEF, Vec3D_get_data_m1D5BE17F5D58A66B160C18DFF613B8050FC7F988_AdjustorThunk },
+	{ 0x06000DF0, Vec3D_set_data_m31F86B636A684EBCE2C62EC525F09F27BE46193B_AdjustorThunk },
+	{ 0x06000DF1, Vec3D__ctor_m0FA73DB1545AE2CCAA28D188FC0375D6C2E5EEE6_AdjustorThunk },
+	{ 0x06000DF2, Vec4F_get_data_m7A81B36E5ECB9726C32546240037DA0504F91320_AdjustorThunk },
+	{ 0x06000DF3, Vec4F_set_data_m7AAC34354DD070B1D1D9EBD336809B788DA1DF9E_AdjustorThunk },
+	{ 0x06000DF4, Vec4F__ctor_m0FCC462BA7D5E746EDAB8A44BEBE1EEFBCCC38D0_AdjustorThunk },
+	{ 0x06000DF5, Vec3F_get_data_m31AF1ABE5A2E3028CDF47260B0A3AE71E19E4709_AdjustorThunk },
+	{ 0x06000DF6, Vec3F_set_data_mEDDE41A43E2E1808901F3FDD5E7F0BB9DE880F80_AdjustorThunk },
+	{ 0x06000DF7, Vec3F__ctor_m2F57EAF80E531D710DED6855C076A00CE6C1EE0A_AdjustorThunk },
+	{ 0x06000DF8, Vec2F_get_data_m54CE66C18232901D538FD7239762F654FB99E633_AdjustorThunk },
+	{ 0x06000DF9, Vec2F_set_data_mF93C085EF0FD73A219F17867806371B55B988547_AdjustorThunk },
+	{ 0x06000DFA, Vec2F__ctor_mE261CA950BC685F8AB7D5E8F4F96D9C750BA5646_AdjustorThunk },
+	{ 0x06000DFB, Vec4I_get_data_m450F2BF61F6D4D138FEB5A7FC57D16EB65A50E5D_AdjustorThunk },
+	{ 0x06000DFC, Vec4I_set_data_m7772EF75EC5C92174152A949FF746CD73B883CEC_AdjustorThunk },
+	{ 0x06000DFD, Vec4I__ctor_mD3F54154A1AA5FE32A43208EB041BD34C4BB3C65_AdjustorThunk },
+	{ 0x06000DFE, Vec2I_get_data_m80ECBBC2086D697056701D49CF5FEA861A5485F4_AdjustorThunk },
+	{ 0x06000DFF, Vec2I_set_data_mEE55FDA1BBAAB70A8A574E0CC7D0E086C5E6FAB0_AdjustorThunk },
+	{ 0x06000E00, Vec2I__ctor_m9C2559B4380AFF93029A25F70741197DA4F58EA6_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[3582] = 
+static const int32_t s_InvokerIndices[3584] = 
 {
-	4821,
-	5310,
-	5616,
-	5616,
-	5310,
-	5829,
-	5823,
-	5310,
-	5314,
-	5310,
-	5314,
-	5310,
-	5314,
-	5310,
-	5314,
-	5310,
-	5314,
-	5727,
-	5318,
-	5829,
-	5310,
-	5616,
-	5823,
-	5310,
-	3928,
-	5727,
-	5310,
-	5010,
-	5590,
-	5310,
-	5310,
-	5314,
-	5310,
-	5314,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5310,
-	5314,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5310,
-	5310,
-	5945,
-	5310,
-	5590,
-	5310,
-	5823,
-	4809,
-	5508,
-	5829,
-	5829,
-	4456,
-	4456,
-	5310,
-	5008,
-	5590,
-	5829,
-	5310,
-	5616,
-	5823,
-	4462,
-	5829,
-	5310,
-	5616,
-	5823,
-	4463,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5627,
-	5829,
-	5310,
-	5616,
-	5590,
-	5310,
-	5310,
-	5310,
-	5866,
-	5866,
-	5829,
-	5310,
-	5616,
-	5823,
-	5311,
-	5315,
-	5317,
-	4810,
-	5829,
-	5310,
-	5616,
-	5945,
-	4176,
-	3929,
-	5829,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5627,
-	5829,
-	5310,
-	5616,
-	5310,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5310,
-	5865,
-	5867,
-	5590,
-	5310,
-	5866,
-	5866,
-	5310,
-	5310,
-	5829,
-	5310,
-	5616,
-	5945,
-	5310,
-	5313,
-	5310,
-	5310,
-	5310,
-	5590,
-	5310,
-	4176,
-	4842,
-	4809,
-	5314,
-	4834,
-	5508,
-	5829,
-	5829,
-	5829,
-	5829,
-	5310,
-	5616,
-	5590,
-	5310,
-	5310,
-	5829,
-	5310,
-	5616,
-	5945,
-	4176,
-	4455,
-	4177,
-	5829,
-	5829,
-	5310,
-	5616,
-	4447,
-	5302,
-	5616,
-	5590,
-	4825,
-	4033,
-	4032,
-	4444,
-	5829,
-	5310,
-	5616,
-	5823,
-	5590,
-	5009,
-	4821,
-	4827,
-	5009,
-	5829,
-	5829,
-	5310,
-	5616,
-	4799,
-	5590,
-	5590,
-	5590,
-	5310,
-	5829,
-	5310,
-	5616,
-	4010,
-	5802,
-	5799,
-	5799,
-	5590,
-	5590,
-	4495,
-	4839,
-	5115,
-	5007,
-	3913,
-	4119,
-	3978,
-	3978,
-	5009,
-	5829,
-	5310,
-	5616,
-	4172,
-	5310,
-	5590,
-	5590,
-	5590,
-	5590,
-	5590,
-	3927,
-	5829,
-	5310,
-	5616,
-	5945,
-	5310,
-	5590,
-	5823,
-	5508,
-	5829,
-	5829,
-	5310,
-	5007,
-	5829,
-	5310,
-	5616,
-	5590,
-	5590,
-	5310,
-	5310,
-	5310,
-	5590,
-	5590,
-	5310,
-	5310,
-	5310,
-	5310,
-	5727,
-	5829,
-	5310,
-	5616,
-	5823,
-	5508,
-	5310,
-	5508,
-	5008,
-	5829,
-	5865,
-	5829,
-	5310,
-	5616,
-	5823,
-	5945,
-	5945,
-	5590,
-	5313,
-	5310,
-	5590,
-	5313,
-	5508,
-	5829,
-	5829,
-	5829,
-	5310,
-	5616,
-	5823,
-	5945,
-	5590,
-	5313,
-	5310,
-	5590,
-	5313,
-	5508,
-	5829,
-	5829,
-	5829,
-	5310,
-	5616,
-	5823,
-	5945,
-	5590,
-	5313,
-	5590,
-	5313,
-	5310,
-	5590,
-	4833,
-	5327,
-	5958,
-	5008,
-	5008,
-	5008,
-	5508,
-	5829,
-	5829,
-	5590,
-	5590,
-	5310,
-	5314,
-	5802,
-	5590,
-	5258,
-	5011,
-	5590,
-	5222,
-	5222,
-	5590,
-	5008,
-	5007,
-	5008,
-	5508,
-	5829,
-	5310,
-	5616,
-	5588,
-	5302,
-	5588,
-	5627,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5945,
-	5310,
-	5590,
-	5310,
-	5823,
-	5508,
-	5829,
-	5829,
-	5319,
-	5829,
-	5310,
-	5616,
-	5823,
-	5945,
-	5958,
-	5008,
-	5008,
-	5008,
-	5008,
-	5313,
-	5590,
-	5310,
-	5590,
-	5508,
-	5829,
-	5829,
-	4838,
-	4838,
-	5310,
-	5829,
-	5310,
-	5616,
-	5310,
-	5590,
-	5310,
-	5823,
-	4543,
-	5829,
-	5829,
-	5310,
-	5616,
-	5310,
-	5823,
-	5009,
-	5829,
-	5829,
-	5508,
-	5553,
-	5553,
-	5590,
-	5508,
-	5829,
-	5310,
-	5616,
-	5829,
-	5310,
-	5616,
-	5823,
-	5508,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5823,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	4443,
-	4841,
-	5616,
-	5840,
-	5320,
-	5990,
-	5829,
-	5823,
-	5310,
-	5314,
-	5310,
-	5314,
-	5310,
-	5314,
-	5310,
-	5314,
-	5727,
-	5318,
-	5829,
-	5310,
-	5616,
-	5823,
-	5310,
-	4811,
-	5310,
-	5009,
-	3928,
-	5727,
-	5727,
-	5010,
-	5310,
-	5590,
-	5310,
-	5310,
-	5314,
-	5310,
-	5314,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5310,
-	5314,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5310,
-	5310,
-	5945,
-	5310,
-	5590,
-	5310,
-	5823,
-	5302,
-	4809,
-	5508,
-	5829,
-	5829,
-	4456,
-	4456,
-	5310,
-	5008,
-	5590,
-	5829,
-	5310,
-	5616,
-	5823,
-	5313,
-	5590,
-	4228,
-	4351,
-	5829,
-	5310,
-	5616,
-	5945,
-	5327,
-	4458,
-	5829,
-	4454,
-	5508,
-	5829,
-	5310,
-	5616,
-	5823,
-	5314,
-	5008,
-	5313,
-	5313,
-	5313,
-	5313,
-	5313,
-	5313,
-	5313,
-	5829,
-	5310,
-	5616,
-	5590,
-	5868,
-	5868,
-	5508,
-	5310,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5823,
-	5590,
-	5627,
-	5727,
-	5727,
-	5829,
-	5310,
-	5616,
-	5823,
-	5313,
-	5590,
-	5829,
-	5310,
-	5616,
-	5945,
-	5310,
-	5590,
-	5310,
-	5823,
+	4822,
 	5312,
-	5508,
-	5829,
-	5829,
-	5310,
-	5310,
-	4838,
-	4838,
-	5823,
+	5618,
+	5618,
+	5312,
+	5831,
+	5825,
+	5312,
+	5316,
+	5312,
+	5316,
+	5312,
+	5316,
+	5312,
+	5316,
+	5312,
+	5316,
+	5729,
+	5320,
+	5831,
+	5312,
+	5618,
+	5825,
+	5312,
+	3929,
+	5729,
+	5312,
+	5011,
+	5592,
+	5312,
+	5312,
+	5316,
+	5312,
+	5316,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5312,
+	5316,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5312,
+	5312,
+	5948,
+	5312,
+	5592,
+	5312,
+	5825,
+	4810,
+	5510,
+	5831,
+	5831,
 	4457,
-	5314,
-	5310,
-	5508,
-	5829,
-	5829,
-	5310,
-	5616,
-	5945,
-	5823,
-	3863,
-	3876,
-	5829,
-	5829,
-	5310,
-	5616,
-	5958,
-	5508,
-	5990,
-	5990,
-	5823,
-	5823,
-	5823,
-	5823,
-	4229,
-	5823,
-	5945,
+	4457,
+	5312,
+	5009,
+	5592,
+	5831,
+	5312,
+	5618,
+	5825,
+	4463,
+	5831,
+	5312,
+	5618,
+	5825,
+	4464,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5629,
+	5831,
+	5312,
+	5618,
+	5592,
+	5312,
+	5312,
+	5312,
+	5868,
+	5868,
+	5831,
+	5312,
+	5618,
+	5825,
 	5313,
-	5314,
-	4175,
-	5829,
-	5508,
-	5829,
-	5829,
-	5508,
-	5829,
-	5590,
-	5590,
-	5008,
-	5802,
-	5727,
-	5010,
-	5829,
-	5310,
-	5616,
-	5310,
-	5829,
-	5829,
-	5310,
-	5616,
-	5321,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
-	5311,
-	5829,
-	5310,
-	5616,
-	5322,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
-	5315,
-	5829,
-	5310,
-	5616,
-	5325,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
 	5317,
-	5829,
-	5310,
-	5616,
-	5328,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
-	5314,
-	5829,
-	5310,
-	5616,
-	5324,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
-	5314,
-	5829,
-	5310,
-	5616,
-	5326,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
-	5314,
-	5829,
-	5310,
-	5616,
-	5323,
-	5314,
-	5829,
-	5829,
-	5310,
-	5616,
-	5310,
+	5319,
 	4811,
-	5590,
-	5302,
-	5829,
-	5310,
-	5616,
-	5310,
-	4811,
-	5590,
-	5302,
-	5829,
-	5310,
-	5616,
-	4811,
-	5310,
-	5590,
-	5302,
-	4805,
-	5829,
-	5310,
-	5616,
-	5310,
-	4811,
-	5590,
-	5302,
-	5829,
-	5310,
-	5616,
-	5310,
-	5590,
-	5310,
-	5310,
-	5823,
-	5829,
-	5310,
-	5616,
-	5310,
-	5590,
-	5310,
-	5310,
-	5823,
-	5829,
-	5829,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5823,
-	5829,
-	5310,
-	5616,
-	5310,
-	5590,
-	5310,
-	5310,
-	5823,
-	5829,
-	5310,
-	5616,
-	5590,
-	5310,
-	5508,
-	5310,
-	5508,
-	5553,
-	5508,
-	5627,
-	5590,
-	3997,
-	4453,
-	4821,
-	5310,
-	5829,
-	5310,
-	5616,
-	5829,
-	5310,
-	5616,
-	4821,
-	5590,
-	5310,
-	5310,
-	5829,
-	5310,
-	5616,
+	5831,
+	5312,
+	5618,
+	5948,
+	4177,
+	3930,
+	5831,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5629,
+	5831,
+	5312,
+	5618,
+	5312,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5312,
+	5867,
+	5869,
+	5592,
+	5312,
+	5868,
+	5868,
+	5312,
+	5312,
+	5831,
+	5312,
+	5618,
+	5948,
+	5312,
+	5315,
+	5312,
+	5312,
+	5312,
+	5592,
+	5312,
+	4177,
 	4843,
-	5310,
-	5310,
-	5829,
-	5310,
-	5616,
-	5590,
-	5310,
-	5310,
-	5314,
-	5310,
-	5314,
-	5829,
-	5310,
-	5616,
-	5590,
-	5310,
-	5627,
-	5829,
-	5310,
-	5616,
-	5310,
-	5314,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5590,
-	5616,
-	5302,
-	5310,
-	5829,
-	5310,
-	5616,
-	4821,
-	5829,
-	5310,
-	5590,
-	5259,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	4821,
-	5829,
-	5310,
-	5590,
-	5362,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	4821,
-	5829,
-	5310,
-	5590,
-	4912,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	4821,
-	5829,
-	5310,
-	5590,
-	5141,
-	5146,
-	5617,
-	5176,
-	5674,
-	0,
-	0,
-	5310,
-	5829,
-	5844,
-	5146,
-	5176,
-	5146,
-	5176,
-	5146,
-	5176,
-	4821,
-	5829,
-	5859,
-	4452,
-	5829,
-	5863,
-	5146,
-	5176,
-	4448,
-	5829,
-	5845,
-	4448,
-	5829,
-	5850,
-	5146,
-	5176,
-	4821,
-	5829,
-	5852,
-	5146,
-	5176,
-	4821,
-	5829,
-	5858,
-	5146,
-	5176,
-	4821,
-	5829,
-	5853,
-	5146,
-	5176,
-	4807,
-	5829,
-	5846,
-	4821,
-	5829,
-	5855,
-	4811,
-	5829,
-	5851,
-	4445,
-	5829,
-	5860,
-	4445,
-	5829,
-	5857,
-	4445,
-	5829,
-	5862,
-	5146,
-	5176,
-	4808,
-	5829,
-	5847,
-	4171,
-	5829,
-	5849,
-	4442,
-	5829,
-	5848,
-	4811,
-	5829,
-	5864,
+	4810,
+	5316,
 	4835,
-	5829,
-	5856,
-	4837,
-	5829,
+	5510,
+	5831,
+	5831,
+	5831,
+	5831,
+	5312,
+	5618,
+	5592,
+	5312,
+	5312,
+	5831,
+	5312,
+	5618,
+	5948,
+	4177,
+	4456,
+	4178,
+	5831,
+	5831,
+	5312,
+	5618,
+	4448,
+	5304,
+	5618,
+	5592,
+	4826,
+	4034,
+	4033,
+	4445,
+	5831,
+	5312,
+	5618,
+	5825,
+	5592,
+	5010,
+	4822,
+	4828,
+	5010,
+	5831,
+	5831,
+	5312,
+	5618,
+	4800,
+	5592,
+	5592,
+	5592,
+	5312,
+	5831,
+	5312,
+	5618,
+	4011,
+	5804,
+	5801,
+	5801,
+	5592,
+	5592,
+	4496,
+	4840,
+	5116,
+	5008,
+	3914,
+	4120,
+	3979,
+	3979,
+	5010,
+	5831,
+	5312,
+	5618,
+	4173,
+	5312,
+	5592,
+	5592,
+	5592,
+	5592,
+	5592,
+	3928,
+	5831,
+	5312,
+	5618,
+	5948,
+	5312,
+	5592,
+	5825,
+	5510,
+	5831,
+	5831,
+	5312,
+	5008,
+	5831,
+	5312,
+	5618,
+	5592,
+	5592,
+	5312,
+	5312,
+	5312,
+	5592,
+	5592,
+	5312,
+	5312,
+	5312,
+	5312,
+	5729,
+	5831,
+	5312,
+	5618,
+	5825,
+	5510,
+	5312,
+	5510,
+	5009,
+	5831,
+	5867,
+	5831,
+	5312,
+	5618,
+	5825,
+	5948,
+	5948,
+	5592,
+	5315,
+	5312,
+	5592,
+	5315,
+	5510,
+	5831,
+	5831,
+	5831,
+	5312,
+	5618,
+	5825,
+	5948,
+	5592,
+	5315,
+	5312,
+	5592,
+	5315,
+	5510,
+	5831,
+	5831,
+	5831,
+	5312,
+	5618,
+	5825,
+	5948,
+	5592,
+	5315,
+	5592,
+	5315,
+	5312,
+	5592,
+	4834,
+	5329,
+	5961,
+	5009,
+	5009,
+	5009,
+	5510,
+	5831,
+	5831,
+	5592,
+	5592,
+	5312,
+	5316,
+	5804,
+	5592,
+	5260,
+	5012,
+	5592,
+	5224,
+	5224,
+	5592,
+	5009,
+	5008,
+	5009,
+	5510,
+	5831,
+	5312,
+	5618,
+	5590,
+	5304,
+	5590,
+	5629,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5948,
+	5312,
+	5592,
+	5312,
+	5825,
+	5510,
+	5831,
+	5831,
+	5321,
+	5831,
+	5312,
+	5618,
+	5825,
+	5948,
+	5961,
+	5009,
+	5009,
+	5009,
+	5009,
+	5315,
+	5592,
+	5312,
+	5592,
+	5510,
+	5831,
+	5831,
+	4839,
+	4839,
+	5312,
+	5831,
+	5312,
+	5618,
+	5312,
+	5592,
+	5312,
+	5825,
+	4544,
+	5831,
+	5831,
+	5312,
+	5618,
+	5312,
+	5825,
+	5010,
+	5831,
+	5831,
+	5510,
+	5555,
+	5555,
+	5592,
+	5510,
+	5831,
+	5312,
+	5618,
+	5831,
+	5312,
+	5618,
+	5825,
+	5510,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5825,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	4444,
+	4842,
+	5618,
+	5842,
+	5322,
+	5993,
+	5831,
+	5825,
+	5312,
+	5316,
+	5312,
+	5316,
+	5312,
+	5316,
+	5312,
+	5316,
+	5729,
+	5320,
+	5831,
+	5312,
+	5618,
+	5825,
+	5312,
+	4812,
+	5312,
+	5010,
+	3929,
+	5729,
+	5729,
+	5011,
+	5312,
+	5592,
+	5312,
+	5312,
+	5316,
+	5312,
+	5316,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5312,
+	5316,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5312,
+	5312,
+	5948,
+	5312,
+	5592,
+	5312,
+	5825,
+	5304,
+	4810,
+	5510,
+	5831,
+	5831,
+	4457,
+	4457,
+	5312,
+	5009,
+	5592,
+	5831,
+	5312,
+	5618,
+	5825,
+	5315,
+	5592,
+	4229,
+	4352,
+	5831,
+	5312,
+	5618,
+	5948,
+	5329,
+	4459,
+	5831,
+	4455,
+	5510,
+	5831,
+	5312,
+	5618,
+	5825,
+	5316,
+	5009,
+	5315,
+	5315,
+	5315,
+	5315,
+	5315,
+	5315,
+	5315,
+	5831,
+	5312,
+	5618,
+	5592,
+	5870,
+	5870,
+	5510,
+	5312,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5825,
+	5592,
+	5629,
+	5729,
+	5729,
+	5831,
+	5312,
+	5618,
+	5825,
+	5315,
+	5592,
+	5831,
+	5312,
+	5618,
+	5948,
+	5312,
+	5592,
+	5312,
+	5825,
+	5314,
+	5510,
+	5831,
+	5831,
+	5312,
+	5312,
+	4839,
+	4839,
+	5825,
+	4458,
+	5316,
+	5312,
+	5510,
+	5831,
+	5831,
+	5312,
+	5618,
+	5948,
+	5825,
+	3864,
+	3877,
+	5831,
+	5831,
+	5312,
+	5618,
+	5961,
+	5510,
+	5993,
+	5993,
+	5825,
+	5825,
+	5825,
+	5825,
+	4230,
+	5825,
+	5948,
+	5315,
+	5316,
+	4176,
+	5831,
+	5510,
+	5831,
+	5831,
+	5510,
+	5831,
+	5592,
+	5592,
+	5009,
+	5804,
+	5729,
+	5011,
+	5831,
+	5312,
+	5618,
+	5312,
+	5831,
+	5831,
+	5312,
+	5618,
+	5323,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5313,
+	5831,
+	5312,
+	5618,
+	5324,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5317,
+	5831,
+	5312,
+	5618,
+	5327,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5319,
+	5831,
+	5312,
+	5618,
+	5330,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5316,
+	5831,
+	5312,
+	5618,
+	5326,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5316,
+	5831,
+	5312,
+	5618,
+	5328,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5316,
+	5831,
+	5312,
+	5618,
+	5325,
+	5316,
+	5831,
+	5831,
+	5312,
+	5618,
+	5312,
+	4812,
+	5592,
+	5304,
+	5831,
+	5312,
+	5618,
+	5312,
+	4812,
+	5592,
+	5304,
+	5831,
+	5312,
+	5618,
+	4812,
+	5312,
+	5592,
+	5304,
+	4806,
+	5831,
+	5312,
+	5618,
+	5312,
+	4812,
+	5592,
+	5304,
+	5831,
+	5312,
+	5618,
+	5312,
+	5592,
+	5312,
+	5312,
+	5825,
+	5831,
+	5312,
+	5618,
+	5312,
+	5592,
+	5312,
+	5312,
+	5825,
+	5831,
+	5831,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5825,
+	5831,
+	5312,
+	5618,
+	5312,
+	5592,
+	5312,
+	5312,
+	5825,
+	5831,
+	5312,
+	5618,
+	5592,
+	5312,
+	5510,
+	5312,
+	5510,
+	5555,
+	5510,
+	5629,
+	5592,
+	3998,
+	4454,
+	4822,
+	5312,
+	5831,
+	5312,
+	5618,
+	5831,
+	5312,
+	5618,
+	4822,
+	5592,
+	5312,
+	5312,
+	5831,
+	5312,
+	5618,
+	4844,
+	5312,
+	5312,
+	5831,
+	5312,
+	5618,
+	5592,
+	5312,
+	5312,
+	5316,
+	5312,
+	5316,
+	5831,
+	5312,
+	5618,
+	5592,
+	5312,
+	5629,
+	5831,
+	5312,
+	5618,
+	5312,
+	5316,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5592,
+	5618,
+	5304,
+	5312,
+	5831,
+	5312,
+	5618,
+	4822,
+	5831,
+	5312,
+	5592,
+	5261,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	4822,
+	5831,
+	5312,
+	5592,
+	5364,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	4822,
+	5831,
+	5312,
+	5592,
+	4913,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	4822,
+	5831,
+	5312,
+	5592,
+	5142,
+	5147,
+	5619,
+	5177,
+	5676,
+	0,
+	0,
+	5312,
+	5831,
+	5846,
+	5147,
+	5177,
+	5147,
+	5177,
+	5147,
+	5177,
+	4822,
+	5831,
 	5861,
-	4821,
-	5829,
+	4453,
+	5831,
+	5865,
+	5147,
+	5177,
+	4449,
+	5831,
+	5847,
+	4449,
+	5831,
+	5852,
+	5147,
+	5177,
+	4822,
+	5831,
 	5854,
-	4451,
-	5829,
-	5843,
-	5146,
-	5176,
-	5990,
+	5147,
+	5177,
+	4822,
+	5831,
+	5860,
+	5147,
+	5177,
+	4822,
+	5831,
+	5855,
+	5147,
+	5177,
+	4808,
+	5831,
+	5848,
+	4822,
+	5831,
+	5857,
+	4812,
+	5831,
+	5853,
+	4446,
+	5831,
+	5862,
+	4446,
+	5831,
+	5859,
+	4446,
+	5831,
+	5864,
+	5147,
+	5177,
+	4809,
+	5831,
+	5849,
+	4172,
+	5831,
+	5851,
+	4443,
+	5831,
+	5850,
+	4812,
+	5831,
+	5866,
+	4836,
+	5831,
+	5858,
+	4838,
+	5831,
+	5863,
+	4822,
+	5831,
+	5856,
+	4452,
+	5831,
+	5845,
+	5147,
+	5177,
+	5993,
 	3038,
 	0,
-	3776,
-	3776,
+	3777,
+	3777,
 	0,
 	0,
 	3627,
@@ -12161,8 +12167,8 @@ static const int32_t s_InvokerIndices[3582] =
 	3022,
 	777,
 	3038,
-	5990,
-	3776,
+	5993,
+	3777,
 	2786,
 	2644,
 	3187,
@@ -12253,32 +12259,32 @@ static const int32_t s_InvokerIndices[3582] =
 	2674,
 	2674,
 	2674,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	1874,
-	3776,
+	3777,
 	1874,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	895,
 	3667,
-	3776,
-	3776,
+	3777,
+	3777,
 	0,
 	3687,
 	1692,
@@ -12288,7 +12294,7 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3687,
 	3038,
 	3687,
@@ -12304,9 +12310,9 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
-	5429,
-	3940,
+	3777,
+	5431,
+	3941,
 	3724,
 	3687,
 	2207,
@@ -12316,8 +12322,8 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3038,
-	5990,
-	3776,
+	5993,
+	3777,
 	1871,
 	1871,
 	895,
@@ -12328,15 +12334,15 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	5945,
+	5948,
 	3687,
 	3665,
 	3687,
-	5965,
+	5968,
 	1393,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	932,
 	932,
 	3687,
@@ -12345,18 +12351,18 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	821,
-	5990,
-	3776,
+	5993,
+	3777,
 	3218,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	821,
-	5990,
-	3776,
+	5993,
+	3777,
 	3218,
 	895,
 	3687,
@@ -12373,14 +12379,14 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3552,
 	3552,
-	5990,
-	3776,
+	5993,
+	3777,
 	1851,
 	1851,
 	895,
 	3687,
 	3687,
-	5965,
+	5968,
 	2973,
 	3031,
 	3050,
@@ -12388,12 +12394,12 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	5945,
-	4381,
+	5948,
+	4382,
 	185,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3218,
 	895,
 	3687,
@@ -12417,18 +12423,18 @@ static const int32_t s_InvokerIndices[3582] =
 	3552,
 	3566,
 	3687,
-	5990,
-	3776,
+	5993,
+	3777,
 	1846,
 	1856,
 	1851,
 	1851,
-	3776,
+	3777,
 	1874,
 	895,
 	3687,
 	3687,
-	5945,
+	5948,
 	3687,
 	3020,
 	3687,
@@ -12436,17 +12442,17 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3665,
 	3687,
-	4381,
+	4382,
 	1363,
 	1393,
 	3038,
 	1676,
 	3627,
-	3776,
-	3776,
-	3776,
-	5990,
-	3776,
+	3777,
+	3777,
+	3777,
+	5993,
+	3777,
 	3218,
 	3204,
 	895,
@@ -12455,59 +12461,59 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3553,
 	3566,
-	5990,
-	3776,
+	5993,
+	3777,
 	1855,
-	3776,
+	3777,
 	1874,
 	895,
 	3687,
 	3687,
-	5945,
-	4381,
-	4682,
+	5948,
+	4382,
+	4683,
 	598,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3218,
 	895,
 	3687,
 	3687,
-	4665,
-	5672,
+	4666,
+	5674,
 	3667,
 	3665,
-	4825,
+	4826,
 	357,
 	356,
 	1312,
-	5675,
-	4674,
-	4372,
+	5677,
+	4675,
+	4373,
 	3038,
 	631,
 	3038,
 	589,
-	3776,
-	3776,
-	5990,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	5993,
+	3777,
+	3777,
+	3777,
+	3777,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3665,
 	2175,
 	1847,
 	1695,
 	2175,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	1848,
 	895,
 	3687,
@@ -12517,19 +12523,19 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3665,
 	3549,
-	5990,
-	3776,
+	5993,
+	3777,
 	1848,
 	895,
 	3687,
 	3687,
 	343,
-	3764,
-	3762,
-	3762,
+	3765,
+	3763,
+	3763,
 	3665,
 	3665,
-	4697,
+	4698,
 	2685,
 	2520,
 	2118,
@@ -12548,7 +12554,7 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3665,
 	3665,
-	3969,
+	3970,
 	3687,
 	3038,
 	3,
@@ -12587,13 +12593,13 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	5945,
+	5948,
 	3687,
 	3665,
-	5965,
+	5968,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3687,
 	2118,
 	57,
@@ -12615,48 +12621,48 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3627,
 	3687,
 	3627,
 	2156,
-	3776,
+	3777,
 	3547,
-	5990,
-	3776,
+	5993,
+	3777,
 	1846,
 	895,
 	3687,
 	3687,
-	3776,
-	5945,
-	5945,
+	3777,
+	5948,
+	5948,
 	3665,
 	3020,
 	3687,
 	3665,
 	3020,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	895,
 	3687,
 	3687,
-	3776,
-	5945,
+	3777,
+	5948,
 	3665,
 	3020,
 	3687,
 	3665,
 	3020,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	895,
 	3687,
 	3687,
-	3776,
-	5945,
+	3777,
+	5948,
 	3665,
 	3020,
 	3665,
@@ -12664,19 +12670,19 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3665,
 	1675,
-	5331,
-	5958,
+	5333,
+	5961,
 	2156,
 	2156,
 	2156,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3665,
 	3665,
 	3687,
 	3038,
-	3764,
+	3765,
 	3665,
 	2783,
 	2252,
@@ -12688,14 +12694,14 @@ static const int32_t s_InvokerIndices[3582] =
 	2118,
 	2156,
 	3627,
-	5990,
-	3776,
+	5993,
+	3777,
 	3196,
 	3208,
-	5588,
-	5672,
-	5588,
-	3776,
+	5590,
+	5674,
+	5590,
+	3777,
 	669,
 	895,
 	3687,
@@ -12704,21 +12710,21 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	5945,
+	5948,
 	3687,
 	3665,
 	3687,
-	5965,
+	5968,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3105,
 	895,
 	3687,
 	3687,
-	3776,
-	5945,
-	5958,
+	3777,
+	5948,
+	5961,
 	2156,
 	2156,
 	2156,
@@ -12728,8 +12734,8 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3665,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	2684,
 	2684,
 	3687,
@@ -12739,17 +12745,17 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3665,
 	3687,
-	5965,
+	5968,
 	1049,
-	3776,
+	3777,
 	895,
 	3687,
 	3687,
 	3687,
-	5965,
+	5968,
 	2175,
-	3776,
-	3776,
+	3777,
+	3777,
 	3627,
 	3643,
 	3643,
@@ -12761,26 +12767,26 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3627,
 	895,
 	3687,
 	3687,
-	5965,
-	4663,
-	5169,
-	5616,
-	3776,
-	5831,
-	5339,
-	5990,
-	3776,
-	5831,
-	3776,
+	5968,
+	4664,
+	5170,
+	5618,
+	3777,
+	5833,
+	5341,
+	5993,
+	3777,
+	5833,
+	3777,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3687,
 	3038,
 	3687,
@@ -12794,12 +12800,12 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
-	5423,
-	4886,
-	5423,
+	3777,
+	5425,
+	4887,
+	5425,
 	2175,
-	3939,
+	3940,
 	3724,
 	3724,
 	2207,
@@ -12810,8 +12816,8 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3038,
-	5990,
-	3776,
+	5993,
+	3777,
 	1855,
 	1855,
 	1855,
@@ -12824,16 +12830,16 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	5945,
+	5948,
 	3687,
 	3665,
 	3687,
-	5965,
-	5672,
+	5968,
+	5674,
 	1393,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	932,
 	932,
 	3687,
@@ -12842,7 +12848,7 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3020,
 	3665,
 	690,
@@ -12850,20 +12856,20 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	5945,
-	5331,
-	4677,
-	3776,
+	5948,
+	5333,
+	4678,
+	3777,
 	912,
 	3627,
-	5990,
-	3776,
+	5993,
+	3777,
 	3208,
 	3212,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3038,
 	2156,
 	3020,
@@ -12881,14 +12887,14 @@ static const int32_t s_InvokerIndices[3582] =
 	3558,
 	3627,
 	3687,
-	5990,
-	3776,
+	5993,
+	3777,
 	1857,
 	1857,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3665,
 	3681,
 	3724,
@@ -12896,97 +12902,97 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3020,
 	3665,
 	895,
 	3687,
 	3687,
-	5945,
+	5948,
 	3687,
 	3665,
 	3687,
-	5965,
+	5968,
 	2980,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3687,
 	3687,
 	2684,
 	2684,
-	5965,
+	5968,
 	926,
 	3038,
 	3687,
 	3627,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3194,
 	895,
 	3687,
 	3687,
-	5945,
-	5965,
+	5948,
+	5968,
 	19,
 	67,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3216,
 	3218,
 	3218,
-	5958,
-	5509,
-	5990,
-	5990,
-	5965,
-	5965,
-	5965,
-	5965,
-	4239,
-	3776,
+	5961,
+	5511,
+	5993,
+	5993,
+	5968,
+	5968,
+	5968,
+	5968,
+	4240,
+	3777,
 	895,
 	3687,
 	3687,
-	3776,
-	5945,
+	3777,
+	5948,
 	3020,
 	3038,
 	633,
-	3776,
+	3777,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3627,
-	3776,
+	3777,
 	3665,
 	3665,
 	2156,
-	3764,
+	3765,
 	3724,
 	2207,
-	5990,
-	3776,
+	5993,
+	3777,
 	3214,
-	5422,
-	3776,
-	5990,
-	3776,
+	5424,
+	3777,
+	5993,
+	3777,
 	1854,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	895,
 	3687,
 	3687,
 	2901,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3190,
 	895,
 	3687,
@@ -12997,9 +13003,9 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2894,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3192,
 	895,
 	3687,
@@ -13010,9 +13016,9 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2897,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3202,
 	895,
 	3687,
@@ -13023,9 +13029,9 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2899,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3210,
 	895,
 	3687,
@@ -13036,9 +13042,9 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2896,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3200,
 	895,
 	3687,
@@ -13049,9 +13055,9 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2898,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3206,
 	895,
 	3687,
@@ -13062,9 +13068,9 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2895,
 	3038,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	3198,
 	895,
 	3687,
@@ -13072,29 +13078,29 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	2672,
 	3665,
-	5672,
+	5674,
 	895,
 	3687,
 	3687,
 	3687,
 	2672,
 	3665,
-	5672,
+	5674,
 	895,
 	3687,
 	3687,
 	2672,
 	3687,
 	3665,
-	5672,
-	5166,
+	5674,
+	5167,
 	895,
 	3687,
 	3687,
 	3687,
 	2672,
 	3665,
-	5672,
+	5674,
 	895,
 	3687,
 	3687,
@@ -13102,7 +13108,7 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3687,
 	3687,
-	5965,
+	5968,
 	895,
 	3687,
 	3687,
@@ -13110,18 +13116,18 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3687,
 	3561,
-	5965,
-	3776,
-	3776,
-	5990,
-	3776,
+	5968,
+	3777,
+	3777,
+	5993,
+	3777,
 	1872,
 	895,
 	3687,
 	3687,
 	3687,
 	3687,
-	5965,
+	5968,
 	895,
 	3687,
 	3687,
@@ -13129,7 +13135,7 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3687,
 	3687,
-	5965,
+	5968,
 	895,
 	3687,
 	3687,
@@ -13142,10 +13148,10 @@ static const int32_t s_InvokerIndices[3582] =
 	3627,
 	3681,
 	3665,
-	4133,
-	4680,
-	5177,
-	5675,
+	4134,
+	4681,
+	5179,
+	5677,
 	895,
 	3687,
 	3687,
@@ -13162,8 +13168,8 @@ static const int32_t s_InvokerIndices[3582] =
 	1678,
 	3687,
 	3561,
-	5990,
-	3776,
+	5993,
+	3777,
 	3220,
 	1872,
 	895,
@@ -13191,14 +13197,14 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3665,
 	3667,
-	5672,
 	5674,
-	3776,
-	3776,
-	3776,
+	5676,
+	3777,
+	3777,
+	3777,
 	2675,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	3038,
 	3038,
@@ -13208,41 +13214,41 @@ static const int32_t s_InvokerIndices[3582] =
 	2913,
 	3627,
 	2980,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3038,
 	3038,
 	2980,
 	1697,
-	5675,
+	5677,
 	3038,
-	4352,
+	4353,
 	929,
 	3038,
-	3776,
-	5990,
-	3776,
-	3776,
+	3777,
+	5993,
+	3777,
+	3777,
 	365,
 	929,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	0,
-	3776,
-	3776,
+	3777,
+	3777,
 	3665,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3665,
 	3020,
 	3020,
-	3776,
+	3777,
 	3687,
 	3038,
 	3038,
@@ -13258,23 +13264,23 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3038,
 	3687,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	3687,
-	3776,
-	3776,
+	3777,
+	3777,
 	1559,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3548,
 	3665,
@@ -13283,26 +13289,26 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3038,
 	3687,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	2980,
-	3776,
+	3777,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3687,
-	3776,
-	3776,
+	3777,
+	3777,
 	1559,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3687,
 	3038,
@@ -13319,23 +13325,23 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3038,
 	3687,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	3687,
-	3776,
-	3776,
+	3777,
+	3777,
 	1559,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3687,
 	3038,
@@ -13354,22 +13360,24 @@ static const int32_t s_InvokerIndices[3582] =
 	3020,
 	3687,
 	3038,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3687,
-	3776,
-	5990,
+	3777,
+	5993,
 	1559,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3687,
 	3038,
@@ -13386,86 +13394,86 @@ static const int32_t s_InvokerIndices[3582] =
 	3687,
 	3038,
 	3687,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3687,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	2687,
 	2687,
 	3687,
-	3776,
-	3776,
+	3777,
+	3777,
 	1559,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	2175,
-	3776,
+	3777,
 	1481,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3038,
 	3038,
 	3627,
 	2980,
-	3776,
-	3776,
+	3777,
+	3777,
 	3627,
 	2175,
 	3627,
 	2175,
-	3776,
+	3777,
 	1559,
 	1559,
 	3038,
 	3038,
-	5965,
-	5831,
-	5945,
-	5824,
-	5965,
-	5831,
+	5968,
+	5833,
+	5948,
+	5826,
+	5968,
+	5833,
 	3687,
 	3038,
 	3687,
 	3038,
-	5945,
-	5509,
-	5990,
-	5990,
-	3776,
-	3776,
+	5948,
+	5511,
+	5993,
+	5993,
+	3777,
+	3777,
 	2980,
-	3776,
-	5339,
-	3776,
-	3776,
-	5990,
-	5965,
-	5831,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	5341,
+	3777,
+	3777,
+	5993,
+	5968,
+	5833,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3665,
-	3776,
+	3777,
 	3038,
 	1695,
 	3038,
@@ -13473,23 +13481,23 @@ static const int32_t s_InvokerIndices[3582] =
 	2675,
 	3038,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3687,
 	3038,
@@ -13501,48 +13509,48 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3038,
-	3767,
+	3768,
 	3107,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3038,
 	3038,
 	1322,
 	2675,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	1682,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3038,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	3687,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	1682,
 	3687,
 	3038,
@@ -13559,10 +13567,10 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3038,
 	3687,
@@ -13575,11 +13583,11 @@ static const int32_t s_InvokerIndices[3582] =
 	1695,
 	2980,
 	2672,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	1682,
-	3776,
+	3777,
 	1682,
 	3687,
 	3038,
@@ -13593,33 +13601,33 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3038,
 	2675,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	1682,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3038,
-	3776,
+	3777,
 	3038,
 	3020,
-	3776,
+	3777,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3687,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	1682,
 	3687,
 	3038,
@@ -13636,10 +13644,10 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3038,
 	3687,
@@ -13652,17 +13660,17 @@ static const int32_t s_InvokerIndices[3582] =
 	1695,
 	2980,
 	2672,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	1682,
-	3776,
+	3777,
 	1682,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	0,
 	0,
 	0,
@@ -13681,79 +13689,79 @@ static const int32_t s_InvokerIndices[3582] =
 	0,
 	0,
 	0,
-	3776,
+	3777,
+	5633,
+	5630,
+	5692,
 	5631,
-	5628,
-	5690,
-	5629,
-	5800,
-	5804,
-	5808,
-	5815,
-	5691,
-	5203,
-	5166,
-	4682,
-	5672,
-	5672,
+	5802,
+	5806,
+	5810,
+	5817,
+	5693,
+	5205,
+	5167,
+	4683,
+	5674,
+	5674,
 	0,
 	0,
-	5675,
-	5675,
-	5965,
+	5677,
+	5677,
+	5968,
 	0,
-	5335,
-	5335,
-	5335,
+	5337,
+	5337,
+	5337,
 	0,
-	5675,
-	5509,
-	5965,
-	5965,
+	5677,
+	5511,
+	5968,
+	5968,
 	0,
-	3776,
-	5332,
-	3776,
+	3777,
+	5334,
+	3777,
 	3687,
 	3687,
-	4675,
-	4374,
-	5675,
-	5990,
-	3776,
+	4676,
+	4375,
+	5677,
+	5993,
+	3777,
 	3038,
 	3020,
-	3776,
+	3777,
 	3627,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	3687,
-	3776,
-	3776,
-	4867,
-	5831,
+	3777,
+	3777,
+	4868,
+	5833,
 	3687,
-	3776,
+	3777,
 	2917,
 	3038,
-	3776,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	1701,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3687,
 	3038,
 	3687,
@@ -13768,18 +13776,18 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3020,
 	3687,
-	3776,
+	3777,
 	1695,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3665,
 	0,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	2675,
 	3687,
 	0,
@@ -13790,27 +13798,27 @@ static const int32_t s_InvokerIndices[3582] =
 	2675,
 	2675,
 	0,
-	3776,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	3038,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
-	3776,
+	3777,
 	3687,
-	3776,
+	3777,
 	3687,
 	3038,
 	3038,
@@ -13831,21 +13839,21 @@ static const int32_t s_InvokerIndices[3582] =
 	3559,
 	3665,
 	3020,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	1876,
 	933,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
-	5823,
+	5825,
 	1692,
 	1697,
 	547,
 	3038,
-	5990,
-	3776,
+	5993,
+	3777,
 	2043,
 	2175,
 	2175,
@@ -13858,14 +13866,14 @@ static const int32_t s_InvokerIndices[3582] =
 	2980,
 	1845,
 	1696,
-	3776,
+	3777,
 	0,
 	0,
 	0,
 	0,
-	3776,
+	3777,
 	2175,
-	3776,
+	3777,
 	2175,
 	3038,
 	3038,
@@ -13879,71 +13887,71 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3687,
 	3687,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	2980,
-	3776,
+	3777,
 	3038,
 	3627,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	2675,
-	3776,
+	3777,
 	3687,
-	3776,
-	3776,
-	5990,
+	3777,
+	3777,
+	5993,
 	3724,
 	3038,
 	3038,
 	3038,
 	3038,
 	3665,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	1695,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	2980,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	5990,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	5993,
+	3777,
 	2175,
-	3776,
-	3776,
+	3777,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
 	3665,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3687,
 	3687,
-	3776,
+	3777,
 	0,
 	0,
 	3687,
@@ -13954,27 +13962,27 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3627,
 	3687,
-	3776,
-	3776,
-	3776,
-	5509,
+	3777,
+	3777,
+	3777,
+	5511,
 	3038,
 	3038,
 	3687,
 	3687,
 	3020,
 	2175,
-	3776,
-	5990,
-	3776,
-	3776,
-	3776,
+	3777,
+	5993,
+	3777,
+	3777,
+	3777,
 	3038,
 	2980,
 	2980,
 	1697,
 	3038,
-	3776,
+	3777,
 	3038,
 	3038,
 	3038,
@@ -13983,25 +13991,25 @@ static const int32_t s_InvokerIndices[3582] =
 	2980,
 	3627,
 	2980,
-	3776,
+	3777,
 	2980,
 	0,
-	3776,
+	3777,
 	3038,
 	3038,
 	3665,
 	3020,
-	3776,
+	3777,
 	3020,
-	3776,
+	3777,
 	3625,
 	2979,
-	3776,
-	3776,
+	3777,
+	3777,
 	1391,
-	3776,
+	3777,
 	3038,
-	3776,
+	3777,
 	3687,
 	3038,
 	3038,
@@ -14014,23 +14022,23 @@ static const int32_t s_InvokerIndices[3582] =
 	3629,
 	2983,
 	3687,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3687,
 	3038,
-	3776,
+	3777,
 	3687,
 	3038,
 	3687,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3687,
 	3038,
 	3687,
@@ -14044,30 +14052,30 @@ static const int32_t s_InvokerIndices[3582] =
 	2912,
 	3687,
 	3038,
-	3776,
+	3777,
 	3687,
 	3687,
 	3038,
 	2906,
-	3776,
+	3777,
 	3050,
 	3687,
-	5831,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
-	3776,
+	5833,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
+	3777,
 	3020,
-	3776,
+	3777,
 	3627,
 	3687,
-	3776,
+	3777,
 	3687,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3687,
 	3038,
 	3038,
@@ -14081,60 +14089,60 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3038,
 	3038,
-	3038,
-	3687,
 	3038,
 	3687,
 	3038,
 	3687,
 	3038,
-	3627,
-	2980,
+	3687,
+	3038,
 	3627,
 	2980,
-	3776,
-	3776,
-	3776,
+	3627,
+	2980,
+	3777,
+	3777,
+	3777,
 	2687,
 	1677,
 	2980,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	905,
 	3239,
 	905,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	2790,
-	3776,
+	3777,
 	905,
 	3687,
 	3038,
 	3687,
-	3776,
-	3776,
+	3777,
+	3777,
 	2675,
 	2175,
 	1682,
 	3627,
 	3687,
 	1696,
-	3776,
-	3776,
+	3777,
+	3777,
 	2675,
-	3776,
-	3776,
+	3777,
+	3777,
 	3038,
 	3038,
-	3776,
-	3776,
+	3777,
+	3777,
 	3687,
 	3038,
 	3687,
@@ -14158,10 +14166,10 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3627,
 	2980,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3038,
 	3038,
 	927,
@@ -14177,188 +14185,188 @@ static const int32_t s_InvokerIndices[3582] =
 	3038,
 	3038,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	1395,
-	3776,
+	3777,
 	2980,
-	3776,
+	3777,
 	835,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3687,
 	3038,
 	3665,
 	3687,
 	3038,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
+	3777,
 	3687,
 	3687,
 	3038,
 	2906,
 	1845,
 	1696,
-	3776,
-	4821,
-	5310,
-	5616,
-	5616,
-	5310,
-	5829,
-	5823,
-	5945,
-	5945,
-	5590,
-	5313,
-	5329,
-	5313,
+	3777,
+	4822,
 	5312,
-	5508,
-	5829,
-	5829,
-	5829,
-	5508,
-	5829,
-	5310,
-	5616,
-	5823,
-	4464,
-	5829,
-	5310,
-	5616,
-	4449,
-	5302,
-	5616,
-	5590,
-	4825,
-	4033,
-	4032,
-	4444,
-	5829,
-	5310,
-	5616,
-	5823,
-	5590,
-	5009,
-	4821,
-	4827,
-	5009,
-	5829,
-	5829,
-	5310,
-	5616,
-	5829,
-	5310,
-	5616,
-	5823,
-	5508,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	5823,
-	5829,
-	5310,
-	5616,
-	5310,
-	5310,
-	4011,
-	5803,
-	5801,
-	5801,
-	5590,
-	5590,
-	4496,
-	4840,
-	5115,
-	5007,
-	3914,
-	4120,
-	3979,
-	3979,
-	5009,
-	5829,
-	5310,
-	5616,
-	5958,
-	5508,
-	5590,
-	5310,
-	5508,
-	5310,
-	5508,
-	5553,
-	5508,
-	5630,
-	5590,
-	3998,
-	4453,
-	4821,
-	5310,
-	5829,
-	5310,
-	5616,
-	5829,
-	5310,
-	5616,
-	4821,
-	5590,
-	5310,
-	5310,
-	5829,
-	5310,
-	5616,
-	4844,
-	5310,
-	5310,
-	5829,
-	5310,
-	5616,
-	4172,
-	5310,
-	5590,
-	5590,
-	5590,
-	5590,
-	5590,
-	3927,
-	5829,
-	5310,
-	5616,
-	4821,
-	5829,
-	5310,
-	5590,
-	5380,
-	5146,
-	5617,
-	5176,
-	5674,
-	0,
-	0,
-	4821,
-	5829,
-	5871,
-	5310,
-	5829,
-	5869,
+	5618,
+	5618,
+	5312,
+	5831,
+	5825,
+	5948,
+	5948,
+	5592,
+	5315,
+	5331,
+	5315,
+	5314,
+	5510,
+	5831,
+	5831,
+	5831,
+	5510,
+	5831,
+	5312,
+	5618,
+	5825,
+	4465,
+	5831,
+	5312,
+	5618,
 	4450,
-	5829,
-	5870,
-	5146,
-	5176,
-	5990,
+	5304,
+	5618,
+	5592,
+	4826,
+	4034,
+	4033,
+	4445,
+	5831,
+	5312,
+	5618,
+	5825,
+	5592,
+	5010,
+	4822,
+	4828,
+	5010,
+	5831,
+	5831,
+	5312,
+	5618,
+	5831,
+	5312,
+	5618,
+	5825,
+	5510,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	5825,
+	5831,
+	5312,
+	5618,
+	5312,
+	5312,
+	4012,
+	5805,
+	5803,
+	5803,
+	5592,
+	5592,
+	4497,
+	4841,
+	5116,
+	5008,
+	3915,
+	4121,
+	3980,
+	3980,
+	5010,
+	5831,
+	5312,
+	5618,
+	5961,
+	5510,
+	5592,
+	5312,
+	5510,
+	5312,
+	5510,
+	5555,
+	5510,
+	5632,
+	5592,
+	3999,
+	4454,
+	4822,
+	5312,
+	5831,
+	5312,
+	5618,
+	5831,
+	5312,
+	5618,
+	4822,
+	5592,
+	5312,
+	5312,
+	5831,
+	5312,
+	5618,
+	4845,
+	5312,
+	5312,
+	5831,
+	5312,
+	5618,
+	4173,
+	5312,
+	5592,
+	5592,
+	5592,
+	5592,
+	5592,
+	3928,
+	5831,
+	5312,
+	5618,
+	4822,
+	5831,
+	5312,
+	5592,
+	5382,
+	5147,
+	5619,
+	5177,
+	5676,
+	0,
+	0,
+	4822,
+	5831,
+	5873,
+	5312,
+	5831,
+	5871,
+	4451,
+	5831,
+	5872,
+	5147,
+	5177,
+	5993,
 	3038,
 	0,
-	3776,
-	3776,
+	3777,
+	3777,
 	0,
 	0,
 	1692,
@@ -14395,12 +14403,12 @@ static const int32_t s_InvokerIndices[3582] =
 	2980,
 	3627,
 	2980,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	1875,
-	5990,
-	3776,
+	5993,
+	3777,
 	3221,
 	3221,
 	1853,
@@ -14419,8 +14427,8 @@ static const int32_t s_InvokerIndices[3582] =
 	2674,
 	895,
 	3667,
-	3776,
-	3776,
+	3777,
+	3777,
 	0,
 	3687,
 	1692,
@@ -14430,64 +14438,64 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
-	5945,
-	5945,
+	3777,
+	5948,
+	5948,
 	3665,
 	3020,
 	3038,
 	3020,
 	2980,
 	3627,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	3777,
 	3627,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	821,
-	5990,
-	3776,
+	5993,
+	3777,
 	3224,
 	895,
 	3687,
 	3687,
-	4665,
-	5672,
+	4666,
+	5674,
 	3667,
 	3665,
-	4825,
+	4826,
 	357,
 	356,
 	1312,
-	5675,
-	4674,
-	4372,
+	5677,
+	4675,
+	4373,
 	3038,
 	631,
 	3038,
 	589,
-	3776,
-	3776,
-	5990,
-	3776,
-	3776,
-	3776,
-	3776,
+	3777,
+	3777,
+	5993,
+	3777,
+	3777,
+	3777,
+	3777,
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3665,
 	2175,
 	1849,
 	1695,
 	2175,
-	3776,
-	5990,
-	3776,
+	3777,
+	5993,
+	3777,
 	1850,
 	895,
 	3687,
@@ -14495,22 +14503,22 @@ static const int32_t s_InvokerIndices[3582] =
 	895,
 	3687,
 	3687,
-	3776,
+	3777,
 	3627,
 	895,
 	3687,
 	3687,
-	5965,
+	5968,
 	895,
 	3687,
 	3687,
 	344,
-	3765,
-	3763,
-	3763,
+	3766,
+	3764,
+	3764,
 	3665,
 	3665,
-	4698,
+	4699,
 	2686,
 	2520,
 	2118,
@@ -14519,9 +14527,9 @@ static const int32_t s_InvokerIndices[3582] =
 	292,
 	292,
 	2175,
-	5958,
-	5509,
-	3776,
+	5961,
+	5511,
+	3777,
 	895,
 	3687,
 	3687,
@@ -14534,10 +14542,10 @@ static const int32_t s_InvokerIndices[3582] =
 	3627,
 	3682,
 	3665,
-	4134,
-	4680,
-	5177,
-	5675,
+	4135,
+	4681,
+	5179,
+	5677,
 	895,
 	3687,
 	3687,
@@ -14554,8 +14562,8 @@ static const int32_t s_InvokerIndices[3582] =
 	1679,
 	3687,
 	3562,
-	5990,
-	3776,
+	5993,
+	3777,
 	3226,
 	1873,
 	895,
@@ -14568,7 +14576,7 @@ static const int32_t s_InvokerIndices[3582] =
 	3665,
 	3665,
 	3665,
-	3969,
+	3970,
 	3687,
 	3038,
 	3,
@@ -14640,12 +14648,12 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[50] =
 	{ 0x0600038F, 21,  (void**)&Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE_RuntimeMethod_var, 0 },
 	{ 0x06000391, 2,  (void**)&Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C_RuntimeMethod_var, 0 },
 	{ 0x06000392, 1,  (void**)&Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E_RuntimeMethod_var, 0 },
-	{ 0x06000D05, 48,  (void**)&Detail_FunctorOfVoidFromInputFrame_func_m9B1061ACFF4E94710B919B3693A9838284C07B9D_RuntimeMethod_var, 0 },
-	{ 0x06000D06, 47,  (void**)&Detail_FunctorOfVoidFromInputFrame_destroy_m2AFB13B5E9DE26F935F4A3007813D01DB360DF08_RuntimeMethod_var, 0 },
-	{ 0x06000D08, 50,  (void**)&Detail_FunctorOfVoid_func_mA7A49C06B6A4FFA931F6FFD9FD5032C2B5CF02C8_RuntimeMethod_var, 0 },
-	{ 0x06000D09, 49,  (void**)&Detail_FunctorOfVoid_destroy_m4C8088C05AB93AA336AEB6B9D9BCF7E4C0BE6EEF_RuntimeMethod_var, 0 },
-	{ 0x06000D0B, 46,  (void**)&Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func_m13662B0AD2547446795E345D241EB2B3E30DD6B2_RuntimeMethod_var, 0 },
-	{ 0x06000D0C, 45,  (void**)&Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_destroy_m81F62B66CD4421FA273D94D26D5CC392356C3127_RuntimeMethod_var, 0 },
+	{ 0x06000D07, 48,  (void**)&Detail_FunctorOfVoidFromInputFrame_func_m9B1061ACFF4E94710B919B3693A9838284C07B9D_RuntimeMethod_var, 0 },
+	{ 0x06000D08, 47,  (void**)&Detail_FunctorOfVoidFromInputFrame_destroy_m2AFB13B5E9DE26F935F4A3007813D01DB360DF08_RuntimeMethod_var, 0 },
+	{ 0x06000D0A, 50,  (void**)&Detail_FunctorOfVoid_func_mA7A49C06B6A4FFA931F6FFD9FD5032C2B5CF02C8_RuntimeMethod_var, 0 },
+	{ 0x06000D0B, 49,  (void**)&Detail_FunctorOfVoid_destroy_m4C8088C05AB93AA336AEB6B9D9BCF7E4C0BE6EEF_RuntimeMethod_var, 0 },
+	{ 0x06000D0D, 46,  (void**)&Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_func_m13662B0AD2547446795E345D241EB2B3E30DD6B2_RuntimeMethod_var, 0 },
+	{ 0x06000D0E, 45,  (void**)&Detail_FunctorOfVoidFromAREngineDeviceListDownloadStatusAndOptionalOfString_destroy_m81F62B66CD4421FA273D94D26D5CC392356C3127_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[17] = 
 {
@@ -14655,17 +14663,17 @@ static const Il2CppTokenRangePair s_rgctxIndices[17] =
 	{ 0x0600033E, { 0, 1 } },
 	{ 0x0600033F, { 1, 2 } },
 	{ 0x06000398, { 3, 5 } },
-	{ 0x06000A7E, { 27, 2 } },
-	{ 0x06000A7F, { 29, 2 } },
-	{ 0x06000A83, { 31, 2 } },
-	{ 0x06000A87, { 33, 1 } },
-	{ 0x06000A8C, { 34, 2 } },
-	{ 0x06000ACD, { 36, 1 } },
-	{ 0x06000AD4, { 37, 3 } },
-	{ 0x06000ADB, { 40, 4 } },
-	{ 0x06000D03, { 44, 1 } },
-	{ 0x06000D04, { 45, 2 } },
-	{ 0x06000D12, { 47, 5 } },
+	{ 0x06000A80, { 27, 2 } },
+	{ 0x06000A81, { 29, 2 } },
+	{ 0x06000A85, { 31, 2 } },
+	{ 0x06000A89, { 33, 1 } },
+	{ 0x06000A8E, { 34, 2 } },
+	{ 0x06000ACF, { 36, 1 } },
+	{ 0x06000AD6, { 37, 3 } },
+	{ 0x06000ADD, { 40, 4 } },
+	{ 0x06000D05, { 44, 1 } },
+	{ 0x06000D06, { 45, 2 } },
+	{ 0x06000D14, { 47, 5 } },
 };
 extern const uint32_t g_rgctx_T_tDA323C8035076591F6EF8BE0A9CE26087B1C82F4;
 extern const uint32_t g_rgctx_Func_2_tD1B940516EEA2149973C6FB155382D2DBEC7ABCE;
@@ -14782,7 +14790,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_CodeGenModule;
 const Il2CppCodeGenModule g_EasyAR_Sense_CodeGenModule = 
 {
 	"EasyAR.Sense.dll",
-	3582,
+	3584,
 	s_methodPointers,
 	121,
 	s_adjustorThunks,

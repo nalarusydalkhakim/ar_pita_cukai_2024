@@ -97,7 +97,7 @@ public class TouchController : MonoBehaviour
                             curGesture = GestureControl.TwoMove;
                             if (isTwoFingerDraggable)
                             {
-                                StartCoroutine(OnTwoMove());
+                                // StartCoroutine(OnTwoMove());
                             }
                         }
                     }
@@ -133,7 +133,7 @@ public class TouchController : MonoBehaviour
                 if (isOneFingerDraggable)
                 {
                     StopAllCoroutines();
-                    StartCoroutine(OnOneMove());
+                    // StartCoroutine(OnOneMove());
                 }
             }
             else if (Input.touchCount == 2)
